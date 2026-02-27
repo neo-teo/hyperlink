@@ -18,16 +18,16 @@
 	<Canvas>
 		{#each walk.visits as visit (visit.id)}
 			{@const page = walk.pages[visit.url]}
-			{#if page}
-				<div
-					class="page-container"
-					style:left="{visit.position.x}px"
-					style:top="{visit.position.y}px"
-					style:z-index={visit.id === walk.activeVisitId ? 10 : 1}
-				>
-					<Page {page} isActive={visit.id === walk.activeVisitId} />
-				</div>
-			{/if}
+			{@const isLoading = walk.loadingUrl === visit.url}
+			{@const isActive = visit.id === walk.activeVisitId}
+			<div
+				class="page-container"
+				style:left="{visit.position.x}px"
+				style:top="{visit.position.y}px"
+				style:z-index={isActive ? 10 : 1}
+			>
+				<Page {page} {isActive} {isLoading} />
+			</div>
 		{/each}
 	</Canvas>
 {/if}

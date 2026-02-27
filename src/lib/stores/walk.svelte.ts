@@ -7,7 +7,8 @@ export const walk = $state({
     pages: {} as Record<string, Page>,
     visits: [] as Visit[],
     currentPage: null as Page | null,
-    activeVisitId: null as string | null
+    activeVisitId: null as string | null,
+    loadingUrl: null as string | null
 });
 
 type LinkContext = {
@@ -41,6 +42,15 @@ function calculateNewPagePosition(linkContext?: LinkContext): { x: number; y: nu
     };
 }
 
+export function activateVisit(visitId: string) {
+    walk.activeVisitId = visitId;
+    const visit = walk.visits.find(v => v.id === visitId);
+    if (visit) {
+        camera.centerOn(visit.position.x, visit.position.y);
+        walk.currentPage = walk.pages[visit.url];
+    }
+}
+
 export async function loadPage(url: string, via?: string, linkContext?: LinkContext) {
     const id = crypto.randomUUID();
     const isFirstVisit = walk.visits.length === 0;
@@ -53,11 +63,17 @@ export async function loadPage(url: string, via?: string, linkContext?: LinkCont
     // Move camera to new page (immediately for first visit, animated otherwise)
     camera.centerOn(position.x, position.y, isFirstVisit);
 
-    // Fetch page data if not already cached
+    // If cached, return immediately (no loading)
     if (walk.pages[url]) {
         walk.currentPage = walk.pages[url];
         return;
     }
+
+    // Only if fetching new data:
+    walk.loadingUrl = url;
+
+    // Artificial 2-second delay
+    await new Promise(resolve => setTimeout(resolve, 2000));
 
     const encoded = encodeURIComponent(url);
     const res = await fetch(`/api/pages/${encoded}`);
@@ -65,4 +81,5 @@ export async function loadPage(url: string, via?: string, linkContext?: LinkCont
 
     walk.pages[url] = data;
     walk.currentPage = data;
+    walk.loadingUrl = null;
 }

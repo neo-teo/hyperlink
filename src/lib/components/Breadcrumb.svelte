@@ -1,18 +1,42 @@
 <script lang="ts">
-	import { walk } from '$lib/stores/walk.svelte';
+	import { walk, activateVisit } from '$lib/stores/walk.svelte';
 </script>
 
 <div class="fixed bottom-4 left-4 z-50">
-	<div class="flex flex-wrap gap-x-4">
-		{#each walk.visits as visit, i}
+	<div class="flex flex-wrap gap-x-2">
+		{#each walk.visits as visit, i (visit.id)}
 			{#if i > 0}
 				>
 				<!-- <span> —({visit.via})→ </span> -->
 			{/if}
-			<span>{walk.pages[visit.url]?.title ?? visit.url}</span>
+			<button
+				class="breadcrumb-button"
+				class:active={visit.id === walk.activeVisitId}
+				onclick={() => activateVisit(visit.id)}
+			>
+				{walk.pages[visit.url]?.title ?? visit.url}
+			</button>
 		{/each}
 	</div>
 </div>
 
 <style>
+	.breadcrumb-button {
+		background: none;
+		border: none;
+		padding: 0;
+		cursor: pointer;
+		color: inherit;
+		font: inherit;
+	}
+
+	.breadcrumb-button:hover:not(.active) {
+		text-decoration: underline;
+	}
+
+	.breadcrumb-button.active {
+		background: black;
+		color: white;
+		padding: 2px 6px;
+	}
 </style>
