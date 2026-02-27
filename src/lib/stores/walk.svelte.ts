@@ -1,6 +1,7 @@
 // walk.svelte.ts
 import type { Page, Visit } from '$lib/types';
 import { camera } from './camera.svelte';
+import { calculateRadialPosition } from '$lib/constants';
 
 export const walk = $state({
     pages: {} as Record<string, Page>,
@@ -28,14 +29,15 @@ function calculateNewPagePosition(linkContext?: LinkContext): { x: number; y: nu
     }
 
     // Calculate the clicked link's position relative to source page
-    const angleStep = (2 * Math.PI) / linkContext.totalLinks;
-    const angle = linkContext.linkIndex * angleStep;
-    const offsetX = Math.cos(angle) * linkContext.radius;
-    const offsetY = Math.sin(angle) * linkContext.radius;
+    const offset = calculateRadialPosition(
+        linkContext.linkIndex,
+        linkContext.totalLinks,
+        linkContext.radius
+    );
 
     return {
-        x: sourceVisit.position.x + offsetX,
-        y: sourceVisit.position.y + offsetY
+        x: sourceVisit.position.x + offset.x,
+        y: sourceVisit.position.y + offset.y
     };
 }
 

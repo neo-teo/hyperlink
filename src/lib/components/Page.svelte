@@ -1,20 +1,42 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import Link from './Link.svelte';
-
-	const INTERNAL_LINK_RADIUS = 150;
-	const EXTERNAL_LINK_RADIUS = 240;
+	import LoadingLinks from './LoadingLinks.svelte';
+	import {
+		INTERNAL_LINK_RADIUS,
+		EXTERNAL_LINK_RADIUS,
+		REVEAL_BASE_DELAY,
+		REVEAL_STAGGER_DELAY,
+		REVEAL_ANIMATION_DURATION
+	} from '$lib/constants';
 
 	const { page, isActive = true } = $props();
 
 	let isLoading = $state(true);
+	let isTransitioning = $state(false);
 
 	onMount(() => {
-		const timer = setTimeout(() => {
+		// Simulate loading delay (in reality, this is when data arrives)
+		const loadingTimer = setTimeout(() => {
 			isLoading = false;
-		}, 1000);
+			isTransitioning = true;
 
-		return () => clearTimeout(timer);
+			// Calculate transition duration based on actual link count
+			const totalLinks = page.links.internal.length + page.links.external.length;
+			const transitionDuration =
+				REVEAL_BASE_DELAY +
+				(totalLinks - 1) * REVEAL_STAGGER_DELAY +
+				REVEAL_ANIMATION_DURATION +
+				100; // +100ms buffer
+
+			setTimeout(() => {
+				isTransitioning = false;
+			}, transitionDuration);
+		}, 2000);
+
+		return () => {
+			clearTimeout(loadingTimer);
+		};
 	});
 </script>
 
@@ -25,14 +47,41 @@
 		</div>
 	</div>
 
-	{#if isActive && !isLoading}
-		{#each page.links.internal as link, i}
-			<Link {link} index={i} total={page.links.internal.length} radius={INTERNAL_LINK_RADIUS} />
-		{/each}
+	{#if isActive}
+		{#if isLoading}
+			<LoadingLinks />
+		{:else}
+			<!-- Real links (styled as skeletons initially during transition) -->
+			{#each page.links.internal as link, i}
+				<Link
+					{link}
+					index={i}
+					total={page.links.internal.length}
+					radius={INTERNAL_LINK_RADIUS}
+					isLoading={isTransitioning}
+					isRevealing={isTransitioning}
+					staggerIndex={i}
+					baseDelay={REVEAL_BASE_DELAY}
+					staggerDelay={REVEAL_STAGGER_DELAY}
+					animationDuration={REVEAL_ANIMATION_DURATION}
+				/>
+			{/each}
 
-		{#each page.links.external as link, i}
-			<Link {link} index={i} total={page.links.external.length} radius={EXTERNAL_LINK_RADIUS} />
-		{/each}
+			{#each page.links.external as link, i}
+				<Link
+					{link}
+					index={i}
+					total={page.links.external.length}
+					radius={EXTERNAL_LINK_RADIUS}
+					isLoading={isTransitioning}
+					isRevealing={isTransitioning}
+					staggerIndex={i + page.links.internal.length}
+					baseDelay={REVEAL_BASE_DELAY}
+					staggerDelay={REVEAL_STAGGER_DELAY}
+					animationDuration={REVEAL_ANIMATION_DURATION}
+				/>
+			{/each}
+		{/if}
 	{/if}
 </div>
 
