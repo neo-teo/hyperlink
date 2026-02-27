@@ -2,22 +2,43 @@
 	import { onMount } from 'svelte';
 	import { walk, loadPage } from '$lib/stores/walk.svelte';
 	import Page from '$lib/components/Page.svelte';
+	import Canvas from '$lib/components/Canvas.svelte';
 	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 
-	const seedUrl = 'https://mysite.com';
+	const SEED_URL = 'https://mysite.com';
 
 	onMount(() => {
-		if (!walk.currentPage) loadPage(seedUrl);
+		if (walk.visits.length === 0) {
+			loadPage(SEED_URL);
+		}
 	});
 </script>
 
-{#if walk.currentPage}
-	<div class="h-screen w-full">
-		<Page page={walk.currentPage} />
-	</div>
+{#if walk.visits.length > 0}
+	<Canvas>
+		{#each walk.visits as visit (visit.id)}
+			{@const page = walk.pages[visit.url]}
+			{#if page}
+				<div
+					class="page-container"
+					style:left="{visit.position.x}px"
+					style:top="{visit.position.y}px"
+					style:z-index={visit.id === walk.activeVisitId ? 10 : 1}
+				>
+					<Page {page} isActive={visit.id === walk.activeVisitId} />
+				</div>
+			{/if}
+		{/each}
+	</Canvas>
 {/if}
 
 <Breadcrumb />
 
 <style>
+	.page-container {
+		position: absolute;
+		width: 600px;
+		height: 600px;
+		transform: translate(-50%, -50%);
+	}
 </style>

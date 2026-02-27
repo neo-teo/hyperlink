@@ -1,67 +1,52 @@
 <script lang="ts">
-	import { loadPage } from '$lib/stores/walk.svelte';
+	import { onMount } from 'svelte';
+	import Link from './Link.svelte';
 
-	const { page } = $props();
+	const INTERNAL_LINK_RADIUS = 150;
+	const EXTERNAL_LINK_RADIUS = 240;
 
-	const numInternal = $derived(page.links.internal.length);
-	const numExternal = $derived(page.links.external.length);
+	const { page, isActive = true } = $props();
 
-	function positionFor(index: number, total: number, radius: number) {
-		const angleStep = (2 * Math.PI) / total;
-		const angle = index * angleStep;
+	let isLoading = $state(true);
 
-		const x = Math.cos(angle) * radius;
-		const y = Math.sin(angle) * radius;
+	onMount(() => {
+		const timer = setTimeout(() => {
+			isLoading = false;
+		}, 1000);
 
-		return { x, y };
-	}
+		return () => clearTimeout(timer);
+	});
 </script>
 
-<div class="relative h-full w-full">
+<div class="relative h-full w-full" class:inactive={!isActive}>
 	<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-		<div class="border">
+		<div class="page-title border" class:inactive-title={!isActive}>
 			{page.title}
 		</div>
 	</div>
 
-	{#each page.links.internal as link, i}
-		{@const pos = positionFor(i, numInternal, 150)}
-		<button
-			class="link-internal link"
-			style={`--x:${pos.x}px; --y:${pos.y}px;`}
-			onclick={() => loadPage(link.url, link.label)}
-		>
-			{link.label}
-		</button>
-	{/each}
+	{#if isActive && !isLoading}
+		{#each page.links.internal as link, i}
+			<Link {link} index={i} total={page.links.internal.length} radius={INTERNAL_LINK_RADIUS} />
+		{/each}
 
-	{#each page.links.external as link, i}
-		{@const pos = positionFor(i, numExternal, 240)}
-		<button
-			class="link-external link"
-			style={`--x:${pos.x}px; --y:${pos.y}px;`}
-			onclick={() => loadPage(link.url, link.label)}
-		>
-			{link.label}
-		</button>
-	{/each}
+		{#each page.links.external as link, i}
+			<Link {link} index={i} total={page.links.external.length} radius={EXTERNAL_LINK_RADIUS} />
+		{/each}
+	{/if}
 </div>
 
 <style>
-	.link {
-		padding: 5px;
-		border: 1px solid blue;
-		border-radius: 50% / 50%;
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%) translate(var(--x), var(--y));
-		white-space: nowrap;
-		color: blue;
+	.inactive {
+		opacity: 0.5;
 	}
 
-	.link:hover {
-		background-color: blue;
-		color: white;
+	.inactive-title {
+		border-color: #888;
+		color: #666;
+	}
+
+	.page-title {
+		padding: 10px;
 	}
 </style>

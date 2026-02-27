@@ -18,10 +18,8 @@ export type Visit = {
     id: string;
     url: string;
     via?: string;
-
-    // TODO: when canvas comes into play, we will want to add position info here
-    // position: {
-    //     x: number;
-    //     y: number;
-    // };
+    position: {
+        x: number;
+        y: number;
+    };
 };
