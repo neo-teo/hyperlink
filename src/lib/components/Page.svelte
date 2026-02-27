@@ -108,17 +108,13 @@
 		transition: all 0.4s ease;
 	}
 
-	.inactive {
-		opacity: 0.5;
-	}
-
 	.loading-title {
 		min-width: 60px;
 		text-align: center;
 	}
 
 	.inactive-title {
-		border-color: #888;
-		color: #666;
+		border-color: #9e9e9e;
+		color: #9e9e9e;
 	}
 </style>

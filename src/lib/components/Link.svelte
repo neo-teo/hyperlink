@@ -62,7 +62,7 @@
 
 <style>
 	.link {
-		padding: 5px;
+		padding: 8px;
 		border: 1px solid blue;
 		border-radius: 50%;
 		position: absolute;
