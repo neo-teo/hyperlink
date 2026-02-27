@@ -133,7 +133,7 @@
 			width: auto;
 			border-color: blue;
 			background: white;
-			transform: translate(-50%, -50%) translate(var(--x), var(--y)) scale(1.2);
+			transform: translate(-50%, -50%) translate(var(--x), var(--y)) scale(1.05);
 		}
 		100% {
 			/* Settle back to 100% */

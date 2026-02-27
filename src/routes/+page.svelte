@@ -4,6 +4,7 @@
 	import Page from '$lib/components/Page.svelte';
 	import Canvas from '$lib/components/Canvas.svelte';
 	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
+	import PathConnections from '$lib/components/PathConnections.svelte';
 
 	const SEED_URL = 'https://mysite.com';
 
@@ -16,6 +17,9 @@
 
 {#if walk.visits.length > 0}
 	<Canvas>
+		<!-- Draw path connections behind everything -->
+		<PathConnections />
+
 		{#each walk.visits as visit (visit.id)}
 			{@const page = walk.pages[visit.url]}
 			{@const isLoading = walk.loadingUrl === visit.url}
