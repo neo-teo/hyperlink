@@ -6,7 +6,7 @@
 	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 	import PathConnections from '$lib/components/PathConnections.svelte';
 
-	const SEED_URL = 'https://mysite.com';
+	const SEED_URL = 'https://en.wikipedia.org/wiki/Pokémon';
 
 	onMount(() => {
 		if (walk.visits.length === 0) {

@@ -9,6 +9,7 @@
 		index,
 		total,
 		radius,
+		isInternal = false,
 		isLoading = false,
 		isRevealing = false,
 		staggerIndex = 0,
@@ -20,6 +21,7 @@
 		index: number;
 		total: number;
 		radius: number;
+		isInternal?: boolean;
 		isLoading?: boolean;
 		isRevealing?: boolean;
 		staggerIndex?: number;
@@ -29,6 +31,38 @@
 	}>();
 
 	const pos = $derived(calculateRadialPosition(index, total, radius));
+
+	// Format the link label for display
+	const displayLabel = $derived.by(() => {
+		let label = link.label;
+
+		// Check if label is just a URL (no real title extracted)
+		const isUrlLabel =
+			label.startsWith('http://') || label.startsWith('https://') || label === link.url;
+
+		if (isUrlLabel) {
+			try {
+				const url = new URL(link.url);
+
+				if (isInternal) {
+					// For internal links, show just the pathname (e.g., "/pin/123123124124")
+					label = url.pathname;
+				} else {
+					// For external links, remove protocol (e.g., "www.example.com/path")
+					label = url.hostname + url.pathname;
+				}
+			} catch {
+				// If URL parsing fails, use the original label
+			}
+		}
+
+		// Truncate to 30 characters
+		if (label.length > 30) {
+			label = label.substring(0, 30) + '...';
+		}
+
+		return label;
+	});
 
 	function handleClick() {
 		if (!isLoading) {
@@ -56,7 +90,7 @@
 	{#if isLoading && !isRevealing}
 		<span class="invisible">Loading</span>
 	{:else}
-		<span class="link-text">{link.label}</span>
+		<span class="link-text">{displayLabel}</span>
 	{/if}
 </button>
 
@@ -64,7 +98,7 @@
 	.link {
 		padding: 8px;
 		border: 1px solid blue;
-		border-radius: 50%;
+		border-radius: 30%;
 		position: absolute;
 		left: 50%;
 		top: 50%;
@@ -72,6 +106,7 @@
 		white-space: nowrap;
 		color: blue;
 		background: white;
+		background-color: rgb(236, 236, 255);
 		width: auto;
 	}
 

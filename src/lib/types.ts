@@ -12,6 +12,7 @@ export type Page = {
         internal: Link[];
         external: Link[];
     };
+    images: string[];
 };
 
 export type Visit = {

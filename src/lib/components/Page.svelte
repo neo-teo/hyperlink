@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import Link from './Link.svelte';
 	import LoadingLinks from './LoadingLinks.svelte';
+	import PageImages from './PageImages.svelte';
 	import {
 		INTERNAL_LINK_RADIUS,
 		EXTERNAL_LINK_RADIUS,
@@ -54,7 +55,7 @@
 <div class="page-root relative h-full w-full" class:inactive={!isActive}>
 	{#if isLoading || !page}
 		<!-- Loading state: animated dots + LoadingLinks -->
-		<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+		<div class="page-title-wrapper absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
 			<div class="loading-title border bg-white p-2">{'.'.repeat(dotCount)}</div>
 		</div>
 		{#if isActive}
@@ -62,11 +63,16 @@
 		{/if}
 	{:else}
 		<!-- Loaded state: real title + links -->
-		<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+		<div
+			class="page-title-wrapper absolute top-1/2 left-1/2 z-10 -translate-x-1/2 -translate-y-1/2"
+		>
 			<div class="border bg-white p-2" class:inactive-title={!isActive}>
 				{page.title}
 			</div>
 		</div>
+
+		<!-- Images scattered around the page (always visible) -->
+		<PageImages images={page.images} isRevealing={isTransitioning} />
 
 		{#if isActive}
 			<!-- Real links (styled as skeletons initially during transition) -->
@@ -76,6 +82,7 @@
 					index={i}
 					total={page.links.internal.length}
 					radius={INTERNAL_LINK_RADIUS}
+					isInternal={true}
 					isLoading={isTransitioning}
 					isRevealing={isTransitioning}
 					staggerIndex={i}
@@ -85,12 +92,13 @@
 				/>
 			{/each}
 
-			{#each page.links.external as link, i (link.url)}
+			<!-- {#each page.links.external as link, i (link.url)}
 				<Link
 					{link}
 					index={i}
 					total={page.links.external.length}
 					radius={EXTERNAL_LINK_RADIUS}
+					isInternal={false}
 					isLoading={isTransitioning}
 					isRevealing={isTransitioning}
 					staggerIndex={i + page.links.internal.length}
@@ -98,7 +106,7 @@
 					staggerDelay={REVEAL_STAGGER_DELAY}
 					animationDuration={REVEAL_ANIMATION_DURATION}
 				/>
-			{/each}
+			{/each} -->
 		{/if}
 	{/if}
 </div>
