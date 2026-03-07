@@ -15,8 +15,8 @@
 		isRevealing = false,
 		staggerIndex = 0,
 		baseDelay = 200,
-		staggerDelay = 40,
-		animationDuration = 500
+		staggerDelay = 0,
+		animationDuration = 2000
 	} = $props<{
 		link: LinkType;
 		index: number;
@@ -33,13 +33,11 @@
 
 	const pos = $derived(calculateRadialPosition(index, total, radius));
 
-	import { onMount } from 'svelte';
-
 	const displayLabel = $derived(formatLinkLabel(link.url, link.label, isInternal));
 
 	let animationComplete = $state(false);
 
-	onMount(() => {
+	$effect(() => {
 		if (isRevealing) {
 			// Calculate when this specific link's animation will complete
 			const delay = baseDelay + staggerIndex * staggerDelay + animationDuration;
@@ -95,7 +93,7 @@
 		pointer-events: auto;
 	}
 
-	.link:not(.revealing):hover {
+	.link:not(.revealing):not(.skeleton):hover {
 		background-color: blue;
 		color: white;
 	}
@@ -120,46 +118,22 @@
 
 	@keyframes reveal {
 		0% {
-			/* Skeleton at full size */
+			/* Skeleton state */
 			width: 75px;
 			border-color: transparent;
 			background: #f0f0f0;
-			transform: translate(-50%, -50%) translate(var(--x), var(--y)) scale(1);
 		}
-		49% {
-			/* Skeleton scales down */
+		95% {
+			/* Stay as skeleton for 2 seconds */
 			width: 75px;
 			border-color: transparent;
 			background: #f0f0f0;
-			transform: translate(-50%, -50%) translate(var(--x), var(--y)) scale(0);
-		}
-		50% {
-			/* At scale 0, still skeleton styling */
-			width: 75px;
-			border-color: transparent;
-			background: #f0f0f0;
-			transform: translate(-50%, -50%) translate(var(--x), var(--y)) scale(0);
-		}
-		51% {
-			/* Snap to real styling as scale-up begins */
-			width: auto;
-			border-color: blue;
-			background: white;
-			transform: translate(-50%, -50%) translate(var(--x), var(--y)) scale(0.02);
-		}
-		90% {
-			/* Overshoot to 110% */
-			width: auto;
-			border-color: blue;
-			background: white;
-			transform: translate(-50%, -50%) translate(var(--x), var(--y)) scale(1.05);
 		}
 		100% {
-			/* Settle back to 100% */
+			/* Quickly become real link */
 			width: auto;
 			border-color: blue;
 			background: white;
-			transform: translate(-50%, -50%) translate(var(--x), var(--y)) scale(1);
 		}
 	}
 
@@ -167,11 +141,8 @@
 		0% {
 			opacity: 0;
 		}
-		50% {
+		95% {
 			opacity: 0;
-		}
-		51% {
-			opacity: 1;
 		}
 		100% {
 			opacity: 1;

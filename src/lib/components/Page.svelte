@@ -60,9 +60,9 @@
 	<!-- Page title (unified for loading and loaded states) -->
 	<button
 		class="page-title-wrapper absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-		class:clickable={!isActive && onclick}
-		onclick={!isActive ? onclick : undefined}
-		disabled={isActive || !onclick}
+		class:clickable={onclick}
+		onclick={onclick}
+		disabled={!onclick}
 		type="button"
 	>
 		{#if isLoading || !page}

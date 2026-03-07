@@ -2,7 +2,7 @@
 	import { walk, activateVisit } from '$lib/stores/walk.svelte';
 </script>
 
-<div class="fixed bottom-4 left-4 z-50">
+<div class="bg-opacity-90 fixed bottom-0 left-0 z-50 bg-[#222222] p-2 text-white">
 	<div class="flex flex-wrap gap-x-2">
 		{#each walk.visits as visit, i (visit.id)}
 			{#if i > 0}
@@ -35,8 +35,8 @@
 	}
 
 	.breadcrumb-button.active {
-		background: black;
-		color: white;
+		background: white;
+		color: black;
 		padding: 2px 6px;
 	}
 </style>

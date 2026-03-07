@@ -8,10 +8,13 @@
 	import URLInput from '$lib/components/URLInput.svelte';
 	import ImageOverlay from '$lib/components/ImageOverlay.svelte';
 
-
 	function handlePageClick(visitId: string) {
-		// Check if already active (look up fresh, not from closure)
-		if (visitId === walk.activeVisitId) return;
+		// Toggle: if already active, deactivate it
+		if (visitId === walk.activeVisitId) {
+			walk.activeVisitId = null;
+			walk.currentPage = null;
+			return;
+		}
 
 		activateVisit(visitId);
 	}
@@ -36,7 +39,7 @@
 	{/each}
 </Canvas>
 
-<Breadcrumb />
+<!-- <Breadcrumb /> -->
 <URLInput />
 <ImageOverlay />
 
