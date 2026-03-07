@@ -80,6 +80,7 @@ export function generateDummyPage(url: string): Page {
     return {
         url,
         title: titleForUrl(url),
-        links: generateLinks(url)
+        links: generateLinks(url),
+        images: []
     };
 }

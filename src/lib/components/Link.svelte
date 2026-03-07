@@ -3,6 +3,7 @@
 	import { loadPage } from '$lib/stores/walk.svelte';
 
 	import { calculateRadialPosition } from '$lib/constants';
+	import { formatLinkLabel } from '$lib/utils/format-link';
 
 	const {
 		link,
@@ -32,60 +33,43 @@
 
 	const pos = $derived(calculateRadialPosition(index, total, radius));
 
-	// Format the link label for display
-	const displayLabel = $derived.by(() => {
-		let label = link.label;
+	import { onMount } from 'svelte';
 
-		// Check if label is just a URL (no real title extracted)
-		const isUrlLabel =
-			label.startsWith('http://') || label.startsWith('https://') || label === link.url;
+	const displayLabel = $derived(formatLinkLabel(link.url, link.label, isInternal));
 
-		if (isUrlLabel) {
-			try {
-				const url = new URL(link.url);
+	let animationComplete = $state(false);
 
-				if (isInternal) {
-					// For internal links, show just the pathname (e.g., "/pin/123123124124")
-					label = url.pathname;
-				} else {
-					// For external links, remove protocol (e.g., "www.example.com/path")
-					label = url.hostname + url.pathname;
-				}
-			} catch {
-				// If URL parsing fails, use the original label
-			}
+	onMount(() => {
+		if (isRevealing) {
+			// Calculate when this specific link's animation will complete
+			const delay = baseDelay + staggerIndex * staggerDelay + animationDuration;
+			const timer = setTimeout(() => {
+				animationComplete = true;
+			}, delay);
+			return () => clearTimeout(timer);
 		}
-
-		// Truncate to 30 characters
-		if (label.length > 30) {
-			label = label.substring(0, 30) + '...';
-		}
-
-		return label;
 	});
 
-	function handleClick() {
-		if (!isLoading) {
-			loadPage(link.url, link.label, {
-				linkIndex: index,
-				totalLinks: total,
-				radius
-			});
-		}
+	function handleClick(e: MouseEvent) {
+		e.stopPropagation(); // Prevent event from bubbling to page container
+		loadPage(link.url, link.label, {
+			linkIndex: index,
+			totalLinks: total,
+			radius
+		});
 	}
 </script>
 
 <button
 	class="link"
-	class:skeleton={isLoading}
-	class:revealing={isRevealing}
+	class:skeleton={isLoading && !animationComplete}
+	class:revealing={isRevealing && !animationComplete}
 	style:--x="{pos.x}px"
 	style:--y="{pos.y}px"
 	style:--base-delay="{baseDelay}ms"
 	style:--stagger-delay="{staggerIndex * staggerDelay}ms"
 	style:--animation-duration="{animationDuration}ms"
 	onclick={handleClick}
-	disabled={isLoading}
 >
 	{#if isLoading && !isRevealing}
 		<span class="invisible">Loading</span>
@@ -98,19 +82,20 @@
 	.link {
 		padding: 8px;
 		border: 1px solid blue;
-		border-radius: 30%;
+		border-radius: 0px;
 		position: absolute;
 		left: 50%;
 		top: 50%;
+		font-size: 12px;
 		transform: translate(-50%, -50%) translate(var(--x), var(--y));
 		white-space: nowrap;
 		color: blue;
 		background: white;
-		background-color: rgb(236, 236, 255);
 		width: auto;
+		pointer-events: auto;
 	}
 
-	.link:hover:not(:disabled) {
+	.link:not(.revealing):hover {
 		background-color: blue;
 		color: white;
 	}
@@ -119,7 +104,6 @@
 		width: 75px;
 		border-color: transparent;
 		background: #f0f0f0;
-		cursor: default;
 	}
 
 	/* Real links revealing from skeleton state */

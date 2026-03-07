@@ -1,42 +1,44 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { walk, loadPage } from '$lib/stores/walk.svelte';
+	import { walk, loadPage, activateVisit } from '$lib/stores/walk.svelte';
+	import { camera } from '$lib/stores/camera.svelte';
 	import Page from '$lib/components/Page.svelte';
 	import Canvas from '$lib/components/Canvas.svelte';
 	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 	import PathConnections from '$lib/components/PathConnections.svelte';
+	import URLInput from '$lib/components/URLInput.svelte';
+	import ImageOverlay from '$lib/components/ImageOverlay.svelte';
 
-	const SEED_URL = 'https://en.wikipedia.org/wiki/Pokémon';
 
-	onMount(() => {
-		if (walk.visits.length === 0) {
-			loadPage(SEED_URL);
-		}
-	});
+	function handlePageClick(visitId: string) {
+		// Check if already active (look up fresh, not from closure)
+		if (visitId === walk.activeVisitId) return;
+
+		activateVisit(visitId);
+	}
 </script>
 
-{#if walk.visits.length > 0}
-	<Canvas>
-		<!-- Draw path connections behind everything -->
-		<PathConnections />
+<Canvas>
+	<!-- Draw path connections behind everything -->
+	<PathConnections />
 
-		{#each walk.visits as visit (visit.id)}
-			{@const page = walk.pages[visit.url]}
-			{@const isLoading = walk.loadingUrl === visit.url}
-			{@const isActive = visit.id === walk.activeVisitId}
-			<div
-				class="page-container"
-				style:left="{visit.position.x}px"
-				style:top="{visit.position.y}px"
-				style:z-index={isActive ? 10 : 1}
-			>
-				<Page {page} {isActive} {isLoading} />
-			</div>
-		{/each}
-	</Canvas>
-{/if}
+	{#each walk.visits as visit (visit.id)}
+		{@const page = walk.pages[visit.id]}
+		{@const isLoading = walk.loadingVisitId === visit.id}
+		{@const isActive = visit.id === walk.activeVisitId}
+		<div
+			class="page-container"
+			style:left="{visit.position.x}px"
+			style:top="{visit.position.y}px"
+			style:z-index={isActive ? 10 : 1}
+		>
+			<Page {page} {isActive} {isLoading} onclick={() => handlePageClick(visit.id)} />
+		</div>
+	{/each}
+</Canvas>
 
 <Breadcrumb />
+<URLInput />
+<ImageOverlay />
 
 <style>
 	.page-container {
@@ -44,5 +46,6 @@
 		width: 600px;
 		height: 600px;
 		transform: translate(-50%, -50%);
+		pointer-events: none;
 	}
 </style>

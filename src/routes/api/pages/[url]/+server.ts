@@ -1,7 +1,6 @@
 import { json } from '@sveltejs/kit';
 import type { Page } from '$lib/types';
-import { fetchHtml } from '$lib/server/fetcher';
-import { parsePage } from '$lib/server/parser';
+import { fetchPage } from '$lib/server/fetcher';
 import { sampleLinks } from '$lib/server/sampler';
 
 export async function GET({ params }) {
@@ -9,18 +8,14 @@ export async function GET({ params }) {
     const url = decodeURIComponent(encodedUrl);
 
     try {
-        // Fetch HTML from the URL
-        const html = await fetchHtml(url);
+        // Fetch and parse the page (tries simple fetch, falls back to Playwright if blocked)
+        const parsed = await fetchPage(url);
 
-        // Parse the HTML to extract title, links, and images
-        const parsed = parsePage(html, url);
-
-        // Sample links using URL as seed for consistent results
+        // Sample links randomly
         const sampled = sampleLinks(
             parsed.links.internal,
             parsed.links.external,
-            parsed.images,
-            url
+            parsed.images
         );
 
         // Construct the Page object

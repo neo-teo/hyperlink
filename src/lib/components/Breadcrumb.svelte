@@ -14,7 +14,7 @@
 				class:active={visit.id === walk.activeVisitId}
 				onclick={() => activateVisit(visit.id)}
 			>
-				{walk.pages[visit.url]?.title ?? visit.url}
+				{walk.pages[visit.id]?.title ?? visit.url}
 			</button>
 		{/each}
 	</div>

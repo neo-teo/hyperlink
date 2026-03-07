@@ -5,15 +5,15 @@ import type { Link } from '$lib/types';
 /**
  * Simple hash function to convert string to number for seeding
  */
-function hashString(str: string): number {
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-        const char = str.charCodeAt(i);
-        hash = ((hash << 5) - hash) + char;
-        hash = hash & hash; // Convert to 32-bit integer
-    }
-    return Math.abs(hash);
-}
+// function hashString(str: string): number {
+//     let hash = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         const char = str.charCodeAt(i);
+//         hash = ((hash << 5) - hash) + char;
+//         hash = hash & hash; // Convert to 32-bit integer
+//     }
+//     return Math.abs(hash);
+// }
 
 /**
  * Seeded random number generator (LCG)
@@ -48,30 +48,25 @@ function shuffle<T>(array: T[], seed?: number): T[] {
 }
 
 /**
- * Samples links randomly, using URL as seed for deterministic results
+ * Samples links randomly - truly random each time (not deterministic)
  * @param internal - Array of internal links
  * @param external - Array of external links
- * @param images - Array of image URLs (first 10, not randomized)
- * @param seedUrl - URL to use as random seed for consistent sampling
+ * @param images - Array of image URLs
  * @returns Sampled links and images
  */
 export function sampleLinks(
     internal: Link[],
     external: Link[],
-    images: string[],
-    seedUrl: string
+    images: string[]
 ): {
     internal: Link[];
     external: Link[];
     images: string[];
 } {
-    const seed = hashString(seedUrl);
+    const maxLinks = 10;
+    const sampledInternal = shuffle(internal).slice(0, 10);
+    const sampledExternal = shuffle(external).slice(0, maxLinks - sampledInternal.length);
 
-    // Sample up to 10 internal and external links (randomized)
-    const sampledInternal = shuffle(internal, seed).slice(0, 10);
-    const sampledExternal = shuffle(external, seed + 1).slice(0, 6); // Different seed for external
-
-    // Images are NOT randomized - just take first 10
     const sampledImages = images.slice(0, 4);
 
     return {

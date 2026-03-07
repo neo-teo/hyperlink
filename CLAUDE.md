@@ -21,3 +21,19 @@ You MUST use this tool whenever writing Svelte code before sending it to the use
 
 Generates a Svelte Playground link with the provided code.
 After completing the code, ask the user if they want a playground link. Only call this tool after user confirmation and NEVER if code was written to files in their project.
+
+---
+
+# Planning & Problem Solving Approach
+
+When discussing implementation approaches, especially during planning:
+
+- **Question proposed solutions** - Even if the user suggests a specific approach (e.g., "use WASD"), consider if there are simpler or more appropriate alternatives. Don't just execute what's proposed - think critically about whether it's the best solution.
+
+- **Evaluate alternatives** - Compare multiple solutions during planning, not just after implementation. Present trade-offs: "We could do X as you suggested, but Y would be simpler because..."
+
+- **Prioritize simplicity** - A 73-line solution is better than a 136-line solution if they achieve the same goal. Always look for the simplest approach that meets the requirements.
+
+- **Consider UX patterns** - Think about what's standard and intuitive for users. For example, trackpad/wheel navigation is more natural for canvas interfaces than keyboard controls for most users.
+
+- **Explore the problem space** - Before committing to an approach, ask: "What are we really trying to achieve?" Sometimes the best solution isn't the first one mentioned.

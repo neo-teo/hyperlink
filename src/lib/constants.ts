@@ -1,8 +1,8 @@
 // Shared constants for the infinite canvas
 
 // Link positioning
-export const INTERNAL_LINK_RADIUS = 170;
-export const EXTERNAL_LINK_RADIUS = 200;
+export const INTERNAL_LINK_RADIUS = 200;
+export const EXTERNAL_LINK_RADIUS = 300;
 
 // Link reveal animation timing (in milliseconds)
 export const REVEAL_BASE_DELAY = 200;

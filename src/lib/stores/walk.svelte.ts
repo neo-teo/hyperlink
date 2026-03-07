@@ -8,7 +8,7 @@ export const walk = $state({
     visits: [] as Visit[],
     currentPage: null as Page | null,
     activeVisitId: null as string | null,
-    loadingUrl: null as string | null
+    loadingVisitId: null as string | null
 });
 
 type LinkContext = {
@@ -47,7 +47,7 @@ export function activateVisit(visitId: string) {
     const visit = walk.visits.find(v => v.id === visitId);
     if (visit) {
         camera.centerOn(visit.position.x, visit.position.y);
-        walk.currentPage = walk.pages[visit.url];
+        walk.currentPage = walk.pages[visitId]; // Look up by visit ID
     }
 }
 
@@ -63,23 +63,41 @@ export async function loadPage(url: string, via?: string, linkContext?: LinkCont
     // Move camera to new page (immediately for first visit, animated otherwise)
     camera.centerOn(position.x, position.y, isFirstVisit);
 
-    // If cached, return immediately (no loading)
-    if (walk.pages[url]) {
-        walk.currentPage = walk.pages[url];
-        return;
+    // Each visit gets its own page data (keyed by visit ID, not URL)
+    walk.loadingVisitId = id;
+
+    try {
+        // Artificial 2-second delay
+        await new Promise(resolve => setTimeout(resolve, 2000));
+
+        const encoded = encodeURIComponent(url);
+        const res = await fetch(`/api/pages/${encoded}`);
+
+        if (!res.ok) {
+            throw new Error(`Failed to load page: ${res.statusText}`);
+        }
+
+        const data: Page = await res.json();
+
+        walk.pages[id] = data; // Store by visit ID, not URL
+        walk.currentPage = data;
+    } catch (error) {
+        console.error(`Error loading page ${url}:`, error);
+
+        // Create a fallback error page
+        const errorPage: Page = {
+            url,
+            title: 'Failed to load page',
+            links: {
+                internal: [],
+                external: []
+            },
+            images: []
+        };
+
+        walk.pages[id] = errorPage; // Store by visit ID, not URL
+        walk.currentPage = errorPage;
+    } finally {
+        walk.loadingVisitId = null;
     }
-
-    // Only if fetching new data:
-    walk.loadingUrl = url;
-
-    // Artificial 2-second delay
-    await new Promise(resolve => setTimeout(resolve, 2000));
-
-    const encoded = encodeURIComponent(url);
-    const res = await fetch(`/api/pages/${encoded}`);
-    const data: Page = await res.json();
-
-    walk.pages[url] = data;
-    walk.currentPage = data;
-    walk.loadingUrl = null;
 }

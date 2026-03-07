@@ -2,6 +2,7 @@
 
 import { parseHTML } from 'linkedom';
 import type { Link } from '$lib/types';
+import { isImageBlocked, MIN_IMAGE_SIZE } from './image-blocklist';
 
 export type ParsedPage = {
     title: string;
@@ -80,30 +81,6 @@ export function parsePage(html: string, baseUrl: string): ParsedPage {
         }
     }
 
-    // Blocklist for UI images and common Wikipedia icons
-    const imageBlocklist = [
-        '/static/images/icons/',  // Wikipedia icon directory
-        '/static/images/footer/',  // Wikipedia footer images
-        '/w/resources/assets/',  // MediaWiki resource assets
-        'wikipedia-tagline',
-        'wikipedia-wordmark',
-        'magnify-clip',
-        'Symbol_support_vote',
-        'Symbol_oppose_vote',
-        'Semi-protection',
-        'protection-shackle',
-        'Commons-logo',
-        'Wikimedia-logo',
-        'Wiki_letter_w.svg',
-        'mediawiki_compact.svg',
-        'enwiki-',  // Wikipedia project icons
-        'Edit-clear.svg',
-        'Folder_Hexagonal_Icon.svg',
-        'Nuvola',  // Nuvola icon set
-        'OOjs_UI',  // OOjs UI icons
-        'Icon-'  // Generic icons
-    ];
-
     // Check if image URL indicates it's too small (< 32px for icons)
     function isSmallImage(url: string): boolean {
         // Match patterns like "20px-", "16px-", etc. in thumbnails
@@ -111,7 +88,7 @@ export function parsePage(html: string, baseUrl: string): ParsedPage {
         if (sizeMatch) {
             const size = parseInt(sizeMatch[1], 10);
             // Only filter out very small images (likely icons)
-            return size < 32;
+            return size < MIN_IMAGE_SIZE;
         }
         return false;
     }
@@ -129,10 +106,7 @@ export function parsePage(html: string, baseUrl: string): ParsedPage {
             const absoluteUrl = new URL(src, baseUrl).href;
 
             // Skip blocklisted images
-            const isBlocked = imageBlocklist.some(pattern =>
-                absoluteUrl.toLowerCase().includes(pattern.toLowerCase())
-            );
-            if (isBlocked) continue;
+            if (isImageBlocked(absoluteUrl)) continue;
 
             // Skip small images (< 24px based on URL)
             if (isSmallImage(absoluteUrl)) continue;

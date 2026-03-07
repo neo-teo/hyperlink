@@ -1,22 +1,26 @@
 <script lang="ts">
-	// Session-wide hidden images array
-	let hiddenImages = $state<string[]>([]);
+	import { expandedImageStore, expandImage, closeExpandedImage } from '$lib/stores/expandedImage.svelte';
 
-	const { images = [], isRevealing = false } = $props<{
+	const { images = [], isRevealing = false, isActive = true } = $props<{
 		images: string[];
 		isRevealing?: boolean;
+		isActive?: boolean;
 	}>();
+
+	// Image positioning constants
+	const IMAGE_SPACING = 50; // Pixels between images in collage
+	const IMAGE_Y_BASELINE = -20; // Distance above page title
 
 	// Generate positions for ALL images - clustered above page like a collage
 	const allImageData = $derived(
 		images.map((src: string, i: number) => {
 			// Spread horizontally with slight overlap
-			const spacing = 50; // Base spacing between images
-			const totalWidth = (images.length - 1) * spacing;
-			const xOffset = i * spacing - totalWidth / 2 + ((i * 17) % 20) - 10; // Center horizontally with small random offset
+			const totalWidth = (images.length - 1) * IMAGE_SPACING;
+			const xOffset =
+				i * IMAGE_SPACING - totalWidth / 2 + ((i * 17) % 20) - 10; // Center horizontally with small random offset
 
 			// All images sit on same baseline, close to the page title
-			const yOffset = -20 + ((i * 7) % 10) - 5; // -70 to -60 (same baseline)
+			const yOffset = IMAGE_Y_BASELINE + ((i * 7) % 10) - 5;
 
 			const x = xOffset;
 			const y = yOffset;
@@ -29,21 +33,31 @@
 				index: i,
 				x,
 				y,
-				rotation,
-				isVisible: !hiddenImages.includes(`${i}-${src}`)
+				rotation
 			};
 		})
 	);
 
-	// Filter to only visible images
-	const visibleImageData = $derived(allImageData.filter((img: any) => img.isVisible));
+	function handleImageClick(src: string, index: number, e: MouseEvent) {
+		e.stopPropagation();
+		if (!isActive) return;
 
-	function hideImage(index: number, src: string) {
-		hiddenImages = [...hiddenImages, `${index}-${src}`];
+		expandImage(src, index);
 	}
+
+	// Close expanded image when page becomes inactive, but only if it's from this page
+	$effect(() => {
+		if (!isActive && expandedImageStore.current) {
+			// Only close if the expanded image belongs to this page
+			const imageFromThisPage = images.includes(expandedImageStore.current.src);
+			if (imageFromThisPage) {
+				closeExpandedImage();
+			}
+		}
+	});
 </script>
 
-{#each visibleImageData as imgData (imgData.index)}
+{#each allImageData as imgData (imgData.index)}
 	<button
 		class="page-image"
 		class:revealing={isRevealing}
@@ -56,8 +70,10 @@
 		style:--final-x="{imgData.x}px"
 		style:--final-y="{imgData.y}px"
 		style:--final-rotation="{imgData.rotation}deg"
-		onclick={() => hideImage(imgData.index, imgData.src)}
+		onclick={(e) => handleImageClick(imgData.src, imgData.index, e)}
 		type="button"
+		disabled={!isActive}
+		style:pointer-events={isActive ? 'auto' : 'none'}
 	>
 		<img src={imgData.src} alt="" />
 	</button>
@@ -71,8 +87,8 @@
 		background: none;
 		border: none;
 		padding: 0;
-		transition: opacity 0.2s;
 		display: block;
+		pointer-events: auto;
 	}
 
 	.page-image:hover {
@@ -101,10 +117,8 @@
 	}
 
 	.page-image img {
-		width: 80px;
-		/* height: auto; */
-		max-height: 80px;
-		object-fit: contain;
 		display: block;
+		max-width: 80px;
+		max-height: 80px;
 	}
 </style>

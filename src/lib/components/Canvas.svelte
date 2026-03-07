@@ -2,9 +2,18 @@
 	import { camera } from '$lib/stores/camera.svelte';
 
 	const { children, gridSize = 40 } = $props();
+
+	function handleWheel(e: WheelEvent) {
+		// Prevent browser scroll behavior
+		e.preventDefault();
+
+		// Use wheel delta to pan the camera
+		// Note: wheel deltaX/Y represent scroll direction, so we use them directly
+		camera.pan(e.deltaX, e.deltaY);
+	}
 </script>
 
-<div class="canvas-viewport">
+<div class="canvas-viewport" onwheel={handleWheel}>
 	<svg
 		class="grid-background"
 		class:animate={camera.shouldAnimate}
@@ -34,14 +43,17 @@
 		width: 100vw;
 		height: 100vh;
 		overflow: hidden;
+		cursor: default;
+		user-select: none;
+		-webkit-user-select: none;
 	}
 
 	.grid-background {
 		position: absolute;
-		top: -100vh;
-		left: -100vw;
-		width: 300vw;
-		height: 300vh;
+		top: -450vh;
+		left: -450vw;
+		width: 1000vw;
+		height: 1000vh;
 		pointer-events: none;
 	}
 

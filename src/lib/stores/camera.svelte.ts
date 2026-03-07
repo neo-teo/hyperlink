@@ -15,6 +15,13 @@ export const camera = {
         return shouldAnimate;
     },
 
+    pan(deltaX: number, deltaY: number) {
+        // Direct position update without animation
+        shouldAnimate = false;
+        posX += deltaX;
+        posY += deltaY;
+    },
+
     centerOn(worldX: number, worldY: number, immediate = false) {
         // Center the camera on the given world coordinates
         const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : 0;
