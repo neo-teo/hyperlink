@@ -13,11 +13,6 @@
 </script>
 
 <div class="breadcrumb-container">
-	<!-- Step counter button (always visible) -->
-	<button class="step-counter" onclick={toggleBreadcrumb}>
-		{stepNumber}
-	</button>
-
 	<!-- Breadcrumb trail (toggleable) -->
 	{#if isExpanded}
 		<div class="breadcrumb-trail">
@@ -40,6 +35,11 @@
 			</div>
 		</div>
 	{/if}
+
+	<!-- Step counter button (always visible) -->
+	<button class="step-counter" onclick={toggleBreadcrumb}>
+		{stepNumber}
+	</button>
 </div>
 
 <style>

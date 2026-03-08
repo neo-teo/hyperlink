@@ -17,7 +17,7 @@
 	<svg
 		class="grid-background"
 		class:animate={camera.shouldAnimate}
-		style="transform: translate({-camera.x}px, {-camera.y}px)"
+		style="transform: translate({-camera.x}px, {-camera.y}px); left: {camera.gridBounds.minX}px; top: {camera.gridBounds.minY}px; width: {camera.gridBounds.width}px; height: {camera.gridBounds.height}px;"
 	>
 		<defs>
 			<pattern id="grid" width={gridSize} height={gridSize} patternUnits="userSpaceOnUse">
@@ -50,10 +50,6 @@
 
 	.grid-background {
 		position: absolute;
-		top: -450vh;
-		left: -450vw;
-		width: 1000vw;
-		height: 1000vh;
 		pointer-events: none;
 	}
 
