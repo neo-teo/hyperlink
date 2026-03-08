@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { walk, loadPage, activateVisit } from '$lib/stores/walk.svelte';
+	import { walk, loadPage, activateVisit, stopAutoWalk } from '$lib/stores/walk.svelte';
 	import { camera } from '$lib/stores/camera.svelte';
 	import Page from '$lib/components/Page.svelte';
 	import Canvas from '$lib/components/Canvas.svelte';
@@ -9,6 +9,8 @@
 	import ImageOverlay from '$lib/components/ImageOverlay.svelte';
 
 	function handlePageClick(visitId: string) {
+		stopAutoWalk(); // Stop auto-walk when user manually clicks a page
+
 		// Toggle: if already active, deactivate it
 		if (visitId === walk.activeVisitId) {
 			walk.activeVisitId = null;
@@ -32,14 +34,13 @@
 			class="page-container"
 			style:left="{visit.position.x}px"
 			style:top="{visit.position.y}px"
-			style:z-index={isActive ? 10 : 1}
 		>
 			<Page {page} {isActive} {isLoading} onclick={() => handlePageClick(visit.id)} />
 		</div>
 	{/each}
 </Canvas>
 
-<!-- <Breadcrumb /> -->
+<Breadcrumb />
 <URLInput />
 <ImageOverlay />
 

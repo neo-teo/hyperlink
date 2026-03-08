@@ -2,7 +2,8 @@
 	import Link from './Link.svelte';
 	import LoadingLinks from './LoadingLinks.svelte';
 	import PageImages from './PageImages.svelte';
-	import { INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS } from '$lib/constants';
+	import { INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS, calculateRadialPosition } from '$lib/constants';
+	import { walk, startAutoWalk } from '$lib/stores/walk.svelte';
 
 	const {
 		page = null,
@@ -16,30 +17,88 @@
 		onclick?: () => void;
 	}>();
 
+	// Proximity threshold - don't render links that would place pages within this distance of existing pages
+	const PROXIMITY_THRESHOLD = 150; // pixels
+
+	/**
+	 * Check if a potential position would be too close to existing pages
+	 */
+	function isPositionOccupied(x: number, y: number): boolean {
+		return walk.visits.some(visit => {
+			const dx = visit.position.x - x;
+			const dy = visit.position.y - y;
+			const distance = Math.sqrt(dx * dx + dy * dy);
+			return distance < PROXIMITY_THRESHOLD;
+		});
+	}
+
+	/**
+	 * Calculate where a link would position a new page
+	 */
+	function calculatePotentialPosition(linkIndex: number, totalLinks: number, radius: number): { x: number; y: number } {
+		const sourceVisit = walk.visits.find(v => v.id === walk.activeVisitId);
+		if (!sourceVisit) {
+			return { x: 0, y: 0 };
+		}
+
+		const offset = calculateRadialPosition(linkIndex, totalLinks, radius);
+		return {
+			x: sourceVisit.position.x + offset.x,
+			y: sourceVisit.position.y + offset.y
+		};
+	}
+
 	const truncatedTitle = $derived(
 		page?.title && page.title.length > 50 ? page.title.substring(0, 50) + '...' : page?.title
 	);
 
-	// Combine internal and external links into a single array with metadata
+	// Filter links to exclude those that would place pages in occupied areas
+	const filteredInternalLinks = $derived(
+		page && isActive
+			? page.links.internal.filter((link: any, i: number) => {
+					const potentialPos = calculatePotentialPosition(i, page.links.internal.length, INTERNAL_LINK_RADIUS);
+					return !isPositionOccupied(potentialPos.x, potentialPos.y);
+				})
+			: page?.links.internal ?? []
+	);
+
+	const filteredExternalLinks = $derived(
+		page && isActive
+			? page.links.external.filter((link: any, i: number) => {
+					const potentialPos = calculatePotentialPosition(i, page.links.external.length, EXTERNAL_LINK_RADIUS);
+					return !isPositionOccupied(potentialPos.x, potentialPos.y);
+				})
+			: page?.links.external ?? []
+	);
+
+	// Combine filtered internal and external links into a single array with metadata
+	// Need to recalculate indices after filtering
 	const links = $derived(
 		page
 			? [
-					...page.links.internal.map((link: any, i: number) => ({
-						link,
-						index: i,
-						total: page.links.internal.length,
-						radius: INTERNAL_LINK_RADIUS,
-						isInternal: true,
-						staggerIndex: i
-					})),
-					...page.links.external.map((link: any, i: number) => ({
-						link,
-						index: i,
-						total: page.links.external.length,
-						radius: EXTERNAL_LINK_RADIUS,
-						isInternal: false,
-						staggerIndex: i + page.links.internal.length
-					}))
+					...filteredInternalLinks.map((link: any, filteredIndex: number) => {
+						// Find original index in unfiltered array to maintain correct positioning
+						const originalIndex = page.links.internal.findIndex((l: any) => l.url === link.url);
+						return {
+							link,
+							index: originalIndex,
+							total: page.links.internal.length,
+							radius: INTERNAL_LINK_RADIUS,
+							isInternal: true,
+							staggerIndex: filteredIndex
+						};
+					}),
+					...filteredExternalLinks.map((link: any, filteredIndex: number) => {
+						const originalIndex = page.links.external.findIndex((l: any) => l.url === link.url);
+						return {
+							link,
+							index: originalIndex,
+							total: page.links.external.length,
+							radius: EXTERNAL_LINK_RADIUS,
+							isInternal: false,
+							staggerIndex: filteredIndex + filteredInternalLinks.length
+						};
+					})
 				]
 			: []
 	);
@@ -47,11 +106,25 @@
 	let shouldReveal = $state(false);
 	let hasRevealed = $state(false);
 
+	// Calculate when reveal animation completes
+	// baseDelay(200ms) + animationDuration(2000ms) = 2200ms total
+	const REVEAL_COMPLETE_TIME = 2200;
+
 	// Watch for when loading completes and trigger reveal animation
 	$effect(() => {
 		if (!isLoading && page && !hasRevealed) {
 			hasRevealed = true;
 			shouldReveal = true;
+		}
+	});
+
+	// Start auto-walk when reveal completes and page is active
+	$effect(() => {
+		if (shouldReveal && isActive && walk.autoWalk.enabled) {
+			const timer = setTimeout(() => {
+				startAutoWalk();
+			}, REVEAL_COMPLETE_TIME);
+			return () => clearTimeout(timer);
 		}
 	});
 </script>
@@ -108,6 +181,12 @@
 					isLoading={shouldReveal}
 					isRevealing={shouldReveal}
 					{staggerIndex}
+					isFocused={
+						index === walk.autoWalk.focusedLinkIndex &&
+						(isInternal
+							? walk.autoWalk.focusedLinkType === 'internal'
+							: walk.autoWalk.focusedLinkType === 'external')
+					}
 				/>
 			{/each}
 		{/if}

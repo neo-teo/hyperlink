@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { expandedImageStore, expandImage, closeExpandedImage } from '$lib/stores/expandedImage.svelte';
+	import { stopAutoWalk } from '$lib/stores/walk.svelte';
 
 	const { images = [], isRevealing = false, isActive = true } = $props<{
 		images: string[];
@@ -40,8 +41,7 @@
 
 	function handleImageClick(src: string, index: number, e: MouseEvent) {
 		e.stopPropagation();
-		if (!isActive) return;
-
+		stopAutoWalk(); // Stop auto-walk when user manually clicks an image
 		expandImage(src, index);
 	}
 
@@ -72,8 +72,6 @@
 		style:--final-rotation="{imgData.rotation}deg"
 		onclick={(e) => handleImageClick(imgData.src, imgData.index, e)}
 		type="button"
-		disabled={!isActive}
-		style:pointer-events={isActive ? 'auto' : 'none'}
 	>
 		<img src={imgData.src} alt="" />
 	</button>
@@ -89,6 +87,7 @@
 		padding: 0;
 		display: block;
 		pointer-events: auto;
+		z-index: 100;
 	}
 
 	.page-image:hover {

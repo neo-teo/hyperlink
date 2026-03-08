@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { walk, loadPage } from '$lib/stores/walk.svelte';
+	import { walk, loadPage, toggleAutoWalk } from '$lib/stores/walk.svelte';
 
 	let inputValue = $state('');
 	let error = $state('');
@@ -52,6 +52,9 @@
 		/>
 		<button type="submit" class="url-submit">Go</button>
 	</form>
+	<button type="button" class="auto-walk-toggle" onclick={toggleAutoWalk}>
+		{walk.autoWalk.enabled ? 'Pause' : 'Walk'}
+	</button>
 	{#if error}
 		<div class="error-message">{error}</div>
 	{/if}
@@ -65,7 +68,7 @@
 		transform: translateX(-50%);
 		z-index: 100;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		align-items: center;
 		gap: 8px;
 	}
@@ -95,6 +98,18 @@
 	}
 
 	.url-submit:hover {
+		background: black;
+		color: white;
+	}
+
+	.auto-walk-toggle {
+		padding: 8px 8px;
+		background: white;
+		border: 1px solid black;
+		cursor: pointer;
+	}
+
+	.auto-walk-toggle:hover {
 		background: black;
 		color: white;
 	}

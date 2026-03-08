@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Link as LinkType } from '$lib/types';
-	import { loadPage } from '$lib/stores/walk.svelte';
+	import { loadPage, stopAutoWalk } from '$lib/stores/walk.svelte';
 
 	import { calculateRadialPosition } from '$lib/constants';
 	import { formatLinkLabel } from '$lib/utils/format-link';
@@ -16,7 +16,8 @@
 		staggerIndex = 0,
 		baseDelay = 200,
 		staggerDelay = 0,
-		animationDuration = 2000
+		animationDuration = 1000,
+		isFocused = false
 	} = $props<{
 		link: LinkType;
 		index: number;
@@ -29,6 +30,7 @@
 		baseDelay?: number;
 		staggerDelay?: number;
 		animationDuration?: number;
+		isFocused?: boolean;
 	}>();
 
 	const pos = $derived(calculateRadialPosition(index, total, radius));
@@ -50,6 +52,10 @@
 
 	function handleClick(e: MouseEvent) {
 		e.stopPropagation(); // Prevent event from bubbling to page container
+
+		// Cancel auto-walk when user manually clicks
+		stopAutoWalk();
+
 		loadPage(link.url, link.label, {
 			linkIndex: index,
 			totalLinks: total,
@@ -62,6 +68,7 @@
 	class="link"
 	class:skeleton={isLoading && !animationComplete}
 	class:revealing={isRevealing && !animationComplete}
+	class:focused={isFocused}
 	style:--x="{pos.x}px"
 	style:--y="{pos.y}px"
 	style:--base-delay="{baseDelay}ms"
@@ -93,7 +100,14 @@
 		pointer-events: auto;
 	}
 
-	.link:not(.revealing):not(.skeleton):hover {
+	/* Focused link (auto-walk) */
+	.link.focused {
+		background-color: blue;
+		color: white;
+	}
+
+	/* Hover only when not focused, revealing, or skeleton */
+	.link:not(.revealing):not(.skeleton):not(.focused):hover {
 		background-color: blue;
 		color: white;
 	}

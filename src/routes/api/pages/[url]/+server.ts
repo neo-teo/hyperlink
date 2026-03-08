@@ -11,8 +11,9 @@ export async function GET({ params }) {
         // Fetch and parse the page (tries simple fetch, falls back to Playwright if blocked)
         const parsed = await fetchPage(url);
 
-        // Sample links randomly
+        // Sample links randomly (Wikipedia gets only internal /wiki links)
         const sampled = sampleLinks(
+            url,
             parsed.links.internal,
             parsed.links.external,
             parsed.images

@@ -32,7 +32,11 @@ export const IMAGE_BLOCKLIST = [
 	'Folder_Hexagonal_Icon.svg',
 	'Nuvola',
 	'OOjs_UI',
-	'Icon-'
+	'Icon-',
+
+	// Wayback Machine / Internet Archive UI elements
+	'wayback-toolbar-logo',
+	'web-static.archive.org/_static/images/loading.gif'
 ] as const;
 
 /** Minimum image size threshold (in pixels) */
