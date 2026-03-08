@@ -4,7 +4,7 @@
 
 	import { calculateRadialPosition } from '$lib/constants';
 	import { formatLinkLabel } from '$lib/utils/format-link';
-	import { playPentatonicNote } from '$lib/utils/audio';
+	import { playNoteSequence } from '$lib/utils/audio';
 
 	const {
 		link,
@@ -55,7 +55,7 @@
 		e.stopPropagation(); // Prevent event from bubbling to page container
 
 		// Play click sound immediately
-		playPentatonicNote();
+		playNoteSequence();
 
 		// Cancel auto-walk when user manually clicks
 		stopAutoWalk();

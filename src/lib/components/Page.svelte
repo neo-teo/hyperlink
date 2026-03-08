@@ -4,6 +4,7 @@
 	import PageImages from './PageImages.svelte';
 	import { INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS, calculateRadialPosition } from '$lib/constants';
 	import { walk, startAutoWalk } from '$lib/stores/walk.svelte';
+	import { playNoteSequence } from '$lib/utils/audio';
 
 	const {
 		page = null,
@@ -115,6 +116,13 @@
 		if (!isLoading && page && !hasRevealed) {
 			hasRevealed = true;
 			shouldReveal = true;
+		}
+	});
+
+	// Play response sequence when reveal starts
+	$effect(() => {
+		if (shouldReveal && isActive) {
+			playNoteSequence();
 		}
 	});
 
