@@ -2,6 +2,7 @@
 import type { Page, Visit } from '$lib/types';
 import { camera } from './camera.svelte';
 import { calculateRadialPosition, INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS } from '$lib/constants';
+import { playPentatonicNote } from '$lib/utils/audio';
 
 export const walk = $state({
     pages: {} as Record<string, Page>,
@@ -251,6 +252,9 @@ function clickFocusedLink() {
     // Clear focus state before navigating
     walk.autoWalk.focusedLinkIndex = null;
     walk.autoWalk.focusedLinkType = null;
+
+    // Play click sound
+    playPentatonicNote();
 
     // Navigate (auto-walk will restart when new page reveals)
     loadPage(link.url, link.label, {
