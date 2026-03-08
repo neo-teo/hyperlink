@@ -141,10 +141,10 @@ export function startAutoWalk() {
 
     clearAutoWalkTimers(); // Clear any existing timers (but don't disable)
 
-    // Wait 1 second, then focus random link
+    // Wait 0.75 seconds, then focus random link
     walk.autoWalk.timerId = setTimeout(() => {
         focusRandomLink();
-    }, 1000) as any;
+    }, 750) as any;
 }
 
 /**
@@ -207,7 +207,7 @@ function focusRandomLink() {
                 // Restart auto-walk on the new page after a brief delay
                 walk.autoWalk.timerId = setTimeout(() => {
                     startAutoWalk();
-                }, 1000) as any;
+                }, 750) as any;
                 return;
             }
         }
@@ -226,10 +226,10 @@ function focusRandomLink() {
     walk.autoWalk.focusedLinkIndex = originalIndex;
     walk.autoWalk.focusedLinkType = linkType;
 
-    // Wait 1 second, then click the focused link
+    // Wait 0.75 seconds, then click the focused link
     walk.autoWalk.timerId = setTimeout(() => {
         clickFocusedLink();
-    }, 1000) as any;
+    }, 750) as any;
 }
 
 function clickFocusedLink() {

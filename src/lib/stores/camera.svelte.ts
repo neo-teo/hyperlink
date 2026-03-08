@@ -2,7 +2,7 @@
 
 let posX = $state(0);
 let posY = $state(0);
-let shouldAnimate = $state(true);
+let shouldAnimate = $state(false); // Start false to prevent animation on initial load
 
 // Grid bounds - will expand dynamically as camera approaches edges
 const gridBounds = $state({
@@ -82,14 +82,11 @@ export const camera = {
         const targetY = worldY - viewportHeight / 2;
 
         if (immediate) {
-            // Disable animation, set position, then re-enable
+            // Set position immediately without animation
             shouldAnimate = false;
             posX = targetX;
             posY = targetY;
-            // Re-enable animation on next frame
-            requestAnimationFrame(() => {
-                shouldAnimate = true;
-            });
+            // Don't re-enable animation - let the next animated movement handle it
         } else {
             shouldAnimate = true;
             posX = targetX;

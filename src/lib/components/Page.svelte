@@ -108,8 +108,8 @@
 	let hasRevealed = $state(false);
 
 	// Calculate when reveal animation completes
-	// baseDelay(200ms) + animationDuration(2000ms) = 2200ms total
-	const REVEAL_COMPLETE_TIME = 2200;
+	// baseDelay(200ms) + animationDuration(500ms) = 700ms total
+	const REVEAL_COMPLETE_TIME = 700;
 
 	// Watch for when loading completes and trigger reveal animation
 	$effect(() => {

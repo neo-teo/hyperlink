@@ -17,7 +17,7 @@
 		staggerIndex = 0,
 		baseDelay = 200,
 		staggerDelay = 0,
-		animationDuration = 1000,
+		animationDuration = 500,
 		isFocused = false
 	} = $props<{
 		link: LinkType;
