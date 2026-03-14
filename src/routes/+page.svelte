@@ -14,9 +14,76 @@
 
 	// import frogGif from '$lib/assets/sprites/frog.gif';
 
+	let printing = $state(false);
+
+	function printCanvas() {
+		if (printing || walk.visits.length === 0) return;
+		printing = true;
+
+		const PAD = 400;
+		const HALF_PAGE = 300;
+
+		const xs = walk.visits.map((v) => v.position.x);
+		const ys = walk.visits.map((v) => v.position.y);
+		const minX = Math.min(...xs) - HALF_PAGE - PAD;
+		const maxX = Math.max(...xs) + HALF_PAGE + PAD;
+		const minY = Math.min(...ys) - HALF_PAGE - PAD;
+		const maxY = Math.max(...ys) + HALF_PAGE + PAD;
+		const w = maxX - minX;
+		const h = maxY - minY;
+
+		const viewport = document.querySelector('.canvas-viewport') as HTMLElement | null;
+		const grid = document.querySelector('.grid-background') as HTMLElement | null;
+		const content = document.querySelector('.canvas-content') as HTMLElement | null;
+
+		if (!viewport || !grid || !content) {
+			printing = false;
+			return;
+		}
+
+		// Save original inline styles
+		const origViewport = viewport.getAttribute('style') ?? '';
+		const origGrid = grid.getAttribute('style') ?? '';
+		const origContent = content.getAttribute('style') ?? '';
+
+		// Set CSS custom properties for print media query
+		document.documentElement.style.setProperty('--print-w', `${w}px`);
+		document.documentElement.style.setProperty('--print-h', `${h}px`);
+
+		// Override styles to un-clip and shift bounding box to origin
+		viewport.style.cssText = `position: static !important; overflow: visible !important; width: ${w}px !important; height: ${h}px !important;`;
+		grid.style.cssText = `transform: translate(${-minX}px, ${-minY}px); left: 0; top: 0; width: ${w}px; height: ${h}px;`;
+		content.style.cssText = `transform: translate(${-minX}px, ${-minY}px);`;
+
+		window.addEventListener(
+			'afterprint',
+			() => {
+				viewport.setAttribute('style', origViewport);
+				grid.setAttribute('style', origGrid);
+				content.setAttribute('style', origContent);
+				document.documentElement.style.removeProperty('--print-w');
+				document.documentElement.style.removeProperty('--print-h');
+				printing = false;
+			},
+			{ once: true }
+		);
+
+		window.print();
+	}
+
 	// Initialize camera centered on origin (runs only in browser, before first paint)
 	onMount(() => {
 		camera.centerOn(0, 0, true);
+
+		function handleKeydown(e: KeyboardEvent) {
+			if (e.key === 'e' && (e.metaKey || e.ctrlKey)) {
+				e.preventDefault();
+				if (!printing && walk.visits.length > 0) printCanvas();
+			}
+		}
+
+		window.addEventListener('keydown', handleKeydown);
+		return () => window.removeEventListener('keydown', handleKeydown);
 	});
 
 	// Single frog - spawns at origin where first page will be
@@ -89,6 +156,10 @@
 <URLInput />
 <ImageOverlay />
 
+{#if printing}
+	<div class="print-badge">Preparing print…</div>
+{/if}
+
 <style>
 	.page-container {
 		position: absolute;
@@ -97,5 +168,40 @@
 		transform: translate(-50%, -50%);
 		pointer-events: none;
 		z-index: 10;
+	}
+
+	.print-badge {
+		position: fixed;
+		bottom: 1rem;
+		left: 50%;
+		transform: translateX(-50%);
+		background: #000;
+		color: #fff;
+		padding: 0.4rem 1rem;
+		border-radius: 999px;
+		font-size: 0.85rem;
+		z-index: 99999;
+		pointer-events: none;
+	}
+
+	@media print {
+		:global(.breadcrumb-container),
+		:global(.url-input-container),
+		:global(.image-backdrop),
+		.print-badge {
+			display: none !important;
+		}
+
+		:global(.canvas-viewport) {
+			position: static !important;
+			overflow: visible !important;
+			width: var(--print-w) !important;
+			height: var(--print-h) !important;
+		}
+	}
+
+	@page {
+		size: auto;
+		margin: 0;
 	}
 </style>
