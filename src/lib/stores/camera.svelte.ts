@@ -2,6 +2,7 @@
 
 let posX = $state(0);
 let posY = $state(0);
+let scale = $state(1);
 let shouldAnimate = $state(false); // Start false to prevent animation on initial load
 
 // Grid bounds - will expand dynamically as camera approaches edges
@@ -49,6 +50,9 @@ export const camera = {
     get y() {
         return posY;
     },
+    get scale() {
+        return scale;
+    },
     get shouldAnimate() {
         return shouldAnimate;
     },
@@ -63,11 +67,22 @@ export const camera = {
         };
     },
 
+    zoom(factor: number, screenX: number, screenY: number, minScale = 0.1) {
+        shouldAnimate = false;
+        const newScale = Math.max(minScale, Math.min(5, scale * factor));
+        // Adjust position so the point under the cursor stays fixed
+        posX = posX + screenX * (1 / scale - 1 / newScale);
+        posY = posY + screenY * (1 / scale - 1 / newScale);
+        scale = newScale;
+        checkAndExpandGrid();
+    },
+
     pan(deltaX: number, deltaY: number) {
         // Direct position update without animation
+        // Divide by scale so panning feels consistent at any zoom level
         shouldAnimate = false;
-        posX += deltaX;
-        posY += deltaY;
+        posX += deltaX / scale;
+        posY += deltaY / scale;
 
         // Check if we need to expand the grid
         checkAndExpandGrid();
@@ -78,8 +93,8 @@ export const camera = {
         const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : 0;
         const viewportHeight = typeof window !== 'undefined' ? window.innerHeight : 0;
 
-        const targetX = worldX - viewportWidth / 2;
-        const targetY = worldY - viewportHeight / 2;
+        const targetX = worldX - viewportWidth / (2 * scale);
+        const targetY = worldY - viewportHeight / (2 * scale);
 
         if (immediate) {
             // Set position immediately without animation

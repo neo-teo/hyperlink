@@ -4,12 +4,15 @@
 	const { children, gridSize = 40 } = $props();
 
 	function handleWheel(e: WheelEvent) {
-		// Prevent browser scroll behavior
 		e.preventDefault();
 
-		// Use wheel delta to pan the camera
-		// Note: wheel deltaX/Y represent scroll direction, so we use them directly
-		camera.pan(e.deltaX, e.deltaY);
+		if (e.ctrlKey) {
+			// Pinch-to-zoom (trackpad) or Ctrl+scroll
+			const factor = Math.pow(0.995, e.deltaY);
+			camera.zoom(factor, e.clientX, e.clientY, 20 / gridSize);
+		} else {
+			camera.pan(e.deltaX, e.deltaY);
+		}
 	}
 </script>
 
@@ -17,7 +20,7 @@
 	<svg
 		class="grid-background"
 		class:animate={camera.shouldAnimate}
-		style="transform: translate({-camera.x}px, {-camera.y}px); left: {camera.gridBounds.minX}px; top: {camera.gridBounds.minY}px; width: {camera.gridBounds.width}px; height: {camera.gridBounds.height}px;"
+		style="transform: scale({camera.scale}) translate({-camera.x}px, {-camera.y}px); transform-origin: {-camera.gridBounds.minX}px {-camera.gridBounds.minY}px; left: {camera.gridBounds.minX}px; top: {camera.gridBounds.minY}px; width: {camera.gridBounds.width}px; height: {camera.gridBounds.height}px;"
 	>
 		<defs>
 			<pattern id="grid" width={gridSize} height={gridSize} patternUnits="userSpaceOnUse">
@@ -29,7 +32,7 @@
 	<div
 		class="canvas-content"
 		class:animate={camera.shouldAnimate}
-		style="transform: translate({-camera.x}px, {-camera.y}px)"
+		style="transform: scale({camera.scale}) translate({-camera.x}px, {-camera.y}px); transform-origin: 0 0;"
 	>
 		{@render children()}
 	</div>
