@@ -59,7 +59,7 @@ export function activateVisit(visitId: string) {
 }
 
 export async function loadPage(url: string, via?: string, linkContext?: LinkContext) {
-    const id = crypto.randomUUID();
+    const id = crypto.randomUUID?.() ?? Math.random().toString(36).slice(2) + Date.now().toString(36);
     const isFirstVisit = walk.visits.length === 0;
     const position = calculateNewPagePosition(linkContext);
 
