@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [tailwindcss(), sveltekit()],
   server: {
     host: true,
-    allowedHosts: ['mulberry.local', 'blueberry.local']
+    allowedHosts: ['mulberry.local', 'blueberry.local', 'strawberry.local']
   }
 });
