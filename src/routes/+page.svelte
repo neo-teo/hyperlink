@@ -9,10 +9,10 @@
 	import URLInput from '$lib/components/URLInput.svelte';
 	import ImageOverlay from '$lib/components/ImageOverlay.svelte';
 	import Sprite from '$lib/components/Sprite.svelte';
-	import Grass from '$lib/components/Grass.svelte';
+	// import Grass from '$lib/components/Grass.svelte';
 	import { AnimatedSprite } from '$lib/classes/AnimatedSprite.svelte';
 
-	// import frogGif from '$lib/assets/sprites/frog.gif';
+	import frogGif from '$lib/assets/sprites/frog.gif';
 
 	let printing = $state(false);
 
@@ -88,23 +88,23 @@
 
 	// Single frog - spawns at origin where first page will be
 	let sprites: AnimatedSprite[] = $state([
-		// new AnimatedSprite({
-		// 	id: 'frog',
-		// 	imageSrc: frogGif,
-		// 	speed: 2.5,
-		// 	seedDirection: 'right' as const,
-		// 	biasToCamera: true,
-		// 	startX: 0,
-		// 	startY: 0,
-		// 	maxWidth: 100,
-		// 	maxHeight: 100,
-		// 	cameraGetter: () => ({
-		// 		x: camera.x,
-		// 		y: camera.y,
-		// 		width: typeof window !== 'undefined' ? window.innerWidth : 0,
-		// 		height: typeof window !== 'undefined' ? window.innerHeight : 0
-		// 	})
-		// })
+		new AnimatedSprite({
+			id: 'frog',
+			imageSrc: frogGif,
+			speed: 2.5,
+			seedDirection: 'right' as const,
+			biasToCamera: true,
+			startX: 0,
+			startY: 0,
+			maxWidth: 100,
+			maxHeight: 100,
+			cameraGetter: () => ({
+				x: camera.x,
+				y: camera.y,
+				width: typeof window !== 'undefined' ? window.innerWidth : 0,
+				height: typeof window !== 'undefined' ? window.innerHeight : 0
+			})
+		})
 	]);
 
 	// Update sprites periodically
@@ -135,7 +135,7 @@
 	<PathConnections />
 
 	<!-- Render ASCII grass scattered around -->
-	<Grass />
+	<!-- <Grass /> -->
 
 	<!-- Render sprites between connections and pages -->
 	{#each sprites as sprite (sprite.currentConfig.id)}

@@ -5,6 +5,7 @@ import { calculateRadialPosition, INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS } f
 import { playNoteSequence } from '$lib/utils/audio';
 
 export const walk = $state({
+    walkId: null as string | null,
     pages: {} as Record<string, Page>,
     visits: [] as Visit[],
     currentPage: null as Page | null,
@@ -49,6 +50,24 @@ function calculateNewPagePosition(linkContext?: LinkContext): { x: number; y: nu
     };
 }
 
+export async function resumeWalk(walkId: string) {
+    const res = await fetch(`/api/walks/${walkId}`);
+    if (!res.ok) return;
+    const session = await res.json();
+    if (!session.visits?.length) return;
+
+    const lastVisit = session.visits[session.visits.length - 1];
+
+    walk.walkId = walkId;
+    walk.visits = session.visits;
+    walk.pages = session.pages ?? {};
+    walk.currentPage = session.pages?.[lastVisit.id] ?? null;
+    walk.activeVisitId = lastVisit.id;
+    walk.loadingVisitId = null;
+
+    camera.centerOn(lastVisit.position.x, lastVisit.position.y, true);
+}
+
 export function activateVisit(visitId: string) {
     walk.activeVisitId = visitId;
     const visit = walk.visits.find(v => v.id === visitId);
@@ -78,7 +97,11 @@ export async function loadPage(url: string, via?: string, linkContext?: LinkCont
         await new Promise(resolve => setTimeout(resolve, 2000));
 
         const encoded = encodeURIComponent(url);
-        const res = await fetch(`/api/pages/${encoded}`);
+        const res = await fetch(`/api/pages/${encoded}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ walkId: walk.walkId ?? undefined, visitId: id, position, via })
+        });
 
         if (!res.ok) {
             throw new Error(`Failed to load page: ${res.statusText}`);

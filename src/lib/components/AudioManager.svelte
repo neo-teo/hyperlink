@@ -44,15 +44,15 @@
 			}
 
 			// Start background music
-			if (backgroundMusic) {
-				backgroundMusic.play()
-					.then(() => {
-						console.log('Background music started');
-					})
-					.catch((err) => {
-						console.error('Failed to start background music:', err);
-					});
-			}
+			// if (backgroundMusic) {
+			// 	backgroundMusic.play()
+			// 		.then(() => {
+			// 			console.log('Background music started');
+			// 		})
+			// 		.catch((err) => {
+			// 			console.error('Failed to start background music:', err);
+			// 		});
+			// }
 		};
 
 		// Listen for any user interaction

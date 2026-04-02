@@ -147,8 +147,8 @@ export async function fetchPage(url: string): Promise<ParsedPage> {
 	try {
 		return await fetchAndParseSimple(url);
 	} catch (error) {
-		// Fall back to Playwright if blocked (403) or other fetch errors
-		if (error instanceof Error && error.message.includes('403')) {
+		// Fall back to Playwright if blocked (403) or page is SPA-routed (404 from bare fetch)
+		if (error instanceof Error && (error.message.includes('403') || error.message.includes('404'))) {
 			console.log(`Fetch blocked for ${url}, trying Playwright...`);
 			try {
 				return await fetchAndParseWithPlaywright(url);

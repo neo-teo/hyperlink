@@ -1,0 +1,150 @@
+{
+  "id": "4a5f95",
+  "createdAt": "2026-04-02T03:45:43.227Z",
+  "updatedAt": "2026-04-02T03:45:52.064Z",
+  "visits": [
+    {
+      "id": "f3c5ca35-9f74-41c8-b75b-b99325f7383b",
+      "url": "https://html.energy",
+      "title": "HTML Energy",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "timestamp": "2026-04-02T03:45:43.226Z"
+    },
+    {
+      "id": "d7554822-fae1-48d3-916f-55dbdd16682b",
+      "url": "https://html.energy/join.html",
+      "title": "HTML Energy",
+      "position": {
+        "x": 61.80339887498945,
+        "y": -190.21130325903073
+      },
+      "via": "❇️ Join",
+      "timestamp": "2026-04-02T03:45:47.622Z"
+    },
+    {
+      "id": "1d052515-bdd7-433b-b81c-18243c3d365e",
+      "url": "https://html.energy/goals.html",
+      "title": "HTML Energy",
+      "position": {
+        "x": 123.6067977499789,
+        "y": -380.42260651806146
+      },
+      "via": "💫 Goals",
+      "timestamp": "2026-04-02T03:45:52.064Z"
+    }
+  ],
+  "pages": {
+    "f3c5ca35-9f74-41c8-b75b-b99325f7383b": {
+      "url": "https://html.energy",
+      "title": "HTML Energy",
+      "links": {
+        "internal": [
+          {
+            "url": "https://html.energy/events.html",
+            "label": "🌎 Events"
+          },
+          {
+            "url": "https://html.energy/memes.html",
+            "label": "♻️ Memes"
+          },
+          {
+            "url": "https://html.energy/goals.html",
+            "label": "💫 Goals"
+          },
+          {
+            "url": "https://html.energy/podcast.html",
+            "label": "🎵 Podcast"
+          },
+          {
+            "url": "https://html.energy/join.html",
+            "label": "❇️ Join"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://html.energy/images/star.png"
+      ]
+    },
+    "d7554822-fae1-48d3-916f-55dbdd16682b": {
+      "url": "https://html.energy/join.html",
+      "title": "HTML Energy",
+      "links": {
+        "internal": [
+          {
+            "url": "https://html.energy/events.html",
+            "label": "🌎 Events"
+          },
+          {
+            "url": "https://html.energy/memes.html",
+            "label": "♻️ Memes"
+          },
+          {
+            "url": "https://html.energy/index.html",
+            "label": "HTML Energy"
+          },
+          {
+            "url": "https://html.energy/podcast.html",
+            "label": "🎵 Podcast"
+          },
+          {
+            "url": "https://html.energy/goals.html",
+            "label": "💫 Goals"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://buy.stripe.com/14kaFsbvWe5Y5iw14c",
+            "label": "Become our 🍃 Angel - $50"
+          },
+          {
+            "url": "http://are.na/html-energy",
+            "label": "are.na/html-energy"
+          },
+          {
+            "url": "http://instagram.com/htmlenergy",
+            "label": "instagram.com/htmlenergy"
+          },
+          {
+            "url": "https://buttondown.com/refer/htmlenergy",
+            "label": "Buttondown"
+          },
+          {
+            "url": "https://bsky.app/profile/htmlenergy.bsky.social",
+            "label": "htmlenergy.bsky.social"
+          }
+        ]
+      },
+      "images": []
+    },
+    "1d052515-bdd7-433b-b81c-18243c3d365e": {
+      "url": "https://html.energy/goals.html",
+      "title": "HTML Energy",
+      "links": {
+        "internal": [
+          {
+            "url": "https://html.energy/events.html",
+            "label": "🌎 Events"
+          },
+          {
+            "url": "https://html.energy/index.html",
+            "label": "HTML Energy"
+          },
+          {
+            "url": "https://html.energy/podcast.html",
+            "label": "🎵 Podcast"
+          },
+          {
+            "url": "https://html.energy/memes.html",
+            "label": "♻️ Memes"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    }
+  }
+}

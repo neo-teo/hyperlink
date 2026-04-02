@@ -1,8 +1,20 @@
 <script lang="ts">
-	import { walk, loadPage, toggleAutoWalk } from '$lib/stores/walk.svelte';
+	import { walk, loadPage, toggleAutoWalk, resumeWalk } from '$lib/stores/walk.svelte';
+
+	type WalkSummary = { id: string; title: string; createdAt: string };
 
 	let inputValue = $state('');
 	let error = $state('');
+	let savedWalks = $state<WalkSummary[]>([]);
+
+	async function refreshWalks() {
+		const res = await fetch('/api/walks');
+		if (res.ok) savedWalks = await res.json();
+	}
+
+	$effect(() => {
+		refreshWalks();
+	});
 
 	function isValidUrl(urlString: string): boolean {
 		try {
@@ -30,6 +42,7 @@
 		}
 
 		// Reset walk state for new exploration
+		walk.walkId = crypto.randomUUID().slice(0, 6);
 		walk.visits = [];
 		walk.pages = {};
 		walk.currentPage = null;
@@ -38,6 +51,18 @@
 
 		// Load new seed page at origin
 		await loadPage(url);
+		await refreshWalks();
+	}
+
+	let selectedWalkId = $state('');
+
+	async function handleWalkSelect() {
+		if (!selectedWalkId) return;
+		try {
+			await resumeWalk(selectedWalkId);
+		} catch (e) {
+			error = e instanceof Error ? e.message : 'Failed to load walk';
+		}
 	}
 </script>
 
@@ -55,6 +80,14 @@
 	<button type="button" class="auto-walk-toggle" onclick={toggleAutoWalk}>
 		{walk.autoWalk.enabled ? 'Pause' : 'Walk'}
 	</button>
+	{#if savedWalks.length > 0}
+		<select class="walks-select" bind:value={selectedWalkId} onchange={handleWalkSelect}>
+			<option value="">({savedWalks.length})</option>
+			{#each savedWalks as w (w.id)}
+				<option value={w.id}>{w.id} — {w.title}</option>
+			{/each}
+		</select>
+	{/if}
 	{#if error}
 		<div class="error-message">{error}</div>
 	{/if}
@@ -83,7 +116,6 @@
 	.url-input {
 		width: 400px;
 		padding: 8px 12px;
-		/* border: 1px solid black; */
 	}
 
 	.url-input:focus {
@@ -93,7 +125,6 @@
 	.url-submit {
 		padding: 0px 8px;
 		background: white;
-		/* border: 1px solid black; */
 		cursor: pointer;
 	}
 
@@ -112,6 +143,14 @@
 	.auto-walk-toggle:hover {
 		background: black;
 		color: white;
+	}
+
+	.walks-select {
+		padding: 9px 2px;
+		background: white;
+		border: 1px solid black;
+		cursor: pointer;
+		max-width: 50px;
 	}
 
 	.error-message {
