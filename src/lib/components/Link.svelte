@@ -90,7 +90,7 @@
 <style>
 	.link {
 		padding: 8px;
-		border: 1px solid blue;
+		border: 1px solid var(--link);
 		border-radius: 0px;
 		position: absolute;
 		left: 50%;
@@ -98,28 +98,28 @@
 		font-size: 12px;
 		transform: translate(-50%, -50%) translate(var(--x), var(--y));
 		white-space: nowrap;
-		color: blue;
-		background: white;
+		color: var(--link);
+		background: var(--bg);
 		width: auto;
 		pointer-events: auto;
 	}
 
 	/* Focused link (auto-walk) */
 	.link.focused {
-		background-color: blue;
-		color: white;
+		background-color: var(--link);
+		color: var(--bg);
 	}
 
 	/* Hover only when not focused, revealing, or skeleton */
 	.link:not(.revealing):not(.skeleton):not(.focused):hover {
-		background-color: blue;
-		color: white;
+		background-color: var(--link);
+		color: var(--bg);
 	}
 
 	.link.skeleton {
 		width: 75px;
 		border-color: transparent;
-		background: #f0f0f0;
+		background: var(--muted);
 	}
 
 	/* Real links revealing from skeleton state */
@@ -136,22 +136,19 @@
 
 	@keyframes reveal {
 		0% {
-			/* Skeleton state */
 			width: 75px;
 			border-color: transparent;
-			background: #f0f0f0;
+			background: var(--muted);
 		}
 		95% {
-			/* Stay as skeleton for 2 seconds */
 			width: 75px;
 			border-color: transparent;
-			background: #f0f0f0;
+			background: var(--muted);
 		}
 		100% {
-			/* Quickly become real link */
 			width: auto;
-			border-color: blue;
-			background: white;
+			border-color: var(--link);
+			background: var(--bg);
 		}
 	}
 

@@ -1,7 +1,7 @@
 {
   "id": "88d4a4",
   "createdAt": "2026-04-02T03:42:35.396Z",
-  "updatedAt": "2026-04-02T03:58:55.960Z",
+  "updatedAt": "2026-04-02T06:04:12.240Z",
   "visits": [
     {
       "id": "2810b0b5-baf0-4b72-82d2-d6bf9792608c",
@@ -78,6 +78,94 @@
       },
       "via": "oats",
       "timestamp": "2026-04-02T03:58:55.959Z"
+    },
+    {
+      "id": "62f5aaa8-21fd-45ab-bd4f-f95c4b06df0f",
+      "url": "https://en.wikipedia.org/wiki/Heritability",
+      "title": "Heritability",
+      "position": {
+        "x": 100.00000000000001,
+        "y": 307.7683537175254
+      },
+      "via": "Heritability",
+      "timestamp": "2026-04-02T06:03:40.349Z"
+    },
+    {
+      "id": "a68446df-9f71-43f3-a092-fc9b7db865bc",
+      "url": "https://en.wikipedia.org/wiki/Morphogen",
+      "title": "Morphogen",
+      "position": {
+        "x": -61.80339887498944,
+        "y": 425.32540417602
+      },
+      "via": "Morphogen",
+      "timestamp": "2026-04-02T06:03:44.798Z"
+    },
+    {
+      "id": "876e3f9c-7e9d-4a8d-a666-37e6e556485f",
+      "url": "https://en.wikipedia.org/wiki/Evolvability",
+      "title": "Evolvability",
+      "position": {
+        "x": -223.60679774997897,
+        "y": 307.76835371752543
+      },
+      "via": "Evolvability",
+      "timestamp": "2026-04-02T06:03:49.360Z"
+    },
+    {
+      "id": "0d616968-bcbb-4193-8926-3ab291abaa46",
+      "url": "https://en.wikipedia.org/wiki/Genetic_drift",
+      "title": "Genetic drift",
+      "position": {
+        "x": -385.4101966249685,
+        "y": 190.21130325903084
+      },
+      "via": "genetic drift",
+      "timestamp": "2026-04-02T06:03:53.963Z"
+    },
+    {
+      "id": "bd52fae2-aa76-470d-9ddf-e2d87acf6891",
+      "url": "https://en.wikipedia.org/wiki/Cat_gap",
+      "title": "Cat gap",
+      "position": {
+        "x": -323.606797749979,
+        "y": 1.1368683772161603e-13
+      },
+      "via": "cats",
+      "timestamp": "2026-04-02T06:03:58.518Z"
+    },
+    {
+      "id": "389f60e4-77a3-4ee6-a852-fafde30a8d49",
+      "url": "https://en.wikipedia.org/wiki/Fisher's_principle",
+      "title": "Fisher's principle",
+      "position": {
+        "x": -385.41019662496853,
+        "y": -190.2113032590306
+      },
+      "via": "Fisher's principle",
+      "timestamp": "2026-04-02T06:04:03.165Z"
+    },
+    {
+      "id": "b29884f1-68bd-4e31-8c31-804ea38f26fd",
+      "url": "https://en.wikipedia.org/wiki/Sexology",
+      "title": "Sexology",
+      "position": {
+        "x": -323.6067977499791,
+        "y": -380.42260651806134
+      },
+      "via": "Sex",
+      "timestamp": "2026-04-02T06:04:07.719Z"
+    },
+    {
+      "id": "0856016e-3b7a-488e-b364-0478feb28267",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Fliess",
+      "title": "Wilhelm Fliess",
+      "position": {
+        "x": -161.8033988749896,
+        "y": -262.8655560595667
+      },
+      "via": "Wilhelm Fliess",
+      "timestamp": "2026-04-02T06:04:12.240Z"
     }
   ],
   "pages": {
@@ -464,6 +552,447 @@
         "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Avena-sativa.jpg/250px-Avena-sativa.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Avena_sativa_MHNT.BOT.2015.2.33.jpg/250px-Avena_sativa_MHNT.BOT.2015.2.33.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Memoir_%2818277049629%29_%28cropped%29.jpg/250px-Memoir_%2818277049629%29_%28cropped%29.jpg"
+      ]
+    },
+    "62f5aaa8-21fd-45ab-bd4f-f95c4b06df0f": {
+      "url": "https://en.wikipedia.org/wiki/Heritability",
+      "title": "Heritability",
+      "anchorText": "Heritability",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/David_S._Moore_(psychologist)",
+            "label": "David Moore"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Polyphenism",
+            "label": "Polyphenism"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Evolution",
+            "label": "Evolution"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pleiotropy",
+            "label": "Pleiotropy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Morphogen",
+            "label": "Morphogen"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mendelian_inheritance",
+            "label": "Mendelian inheritance"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Joseph_Stalin",
+            "label": "Joseph Stalin"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Allele",
+            "label": "alleles"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Quantitative_trait_locus",
+            "label": "Quantitative trait locus"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/J._B._S._Haldane",
+            "label": "J. B. S. Haldane"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Critique_of_the_Theory_of_Evolution_Fig_076.jpg/250px-Critique_of_the_Theory_of_Evolution_Fig_076.jpg",
+        "https://wikimedia.org/api/rest_v1/media/math/render/svg/dd48070c64ac225a925024eb9cf2b16135c81d05",
+        "https://wikimedia.org/api/rest_v1/media/math/render/svg/8cde8b845913645a027bec0bde9111f2ba586815",
+        "https://wikimedia.org/api/rest_v1/media/math/render/svg/84ffb39d6dbf22c323638cbdbf2c7007719a27d9"
+      ]
+    },
+    "a68446df-9f71-43f3-a092-fc9b7db865bc": {
+      "url": "https://en.wikipedia.org/wiki/Morphogen",
+      "title": "Morphogen",
+      "anchorText": "Morphogen",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Epistasis",
+            "label": "Epistasis"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Maternal_effect",
+            "label": "Maternal effect"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Genomic_imprinting",
+            "label": "Genomic imprinting"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physiology_and_Medicine",
+            "label": "Nobel Prize in Physiology and Medicine"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Posterior_(anatomy)",
+            "label": "posterior"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Transgressive_segregation",
+            "label": "Transgressive segregation"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Evolvability",
+            "label": "Evolvability"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Gene_regulatory_network",
+            "label": "Gene regulatory network"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Retinol",
+            "label": "retinol"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lewis_Wolpert",
+            "label": "Lewis Wolpert"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Postscript-viewer-blue.svg/60px-Postscript-viewer-blue.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Drosophila_melanogaster_laboratory_culture-vial.jpg/250px-Drosophila_melanogaster_laboratory_culture-vial.jpg"
+      ]
+    },
+    "876e3f9c-7e9d-4a8d-a666-37e6e556485f": {
+      "url": "https://en.wikipedia.org/wiki/Evolvability",
+      "title": "Evolvability",
+      "anchorText": "Evolvability",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/JSTOR_(identifier)",
+            "label": "JSTOR"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Genetic_hitchhiking",
+            "label": "hitchhike"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Operon",
+            "label": "Operon"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Richard_Lewontin",
+            "label": "Richard Lewontin"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Protein_superfamilies",
+            "label": "protein superfamilies"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Doi_(identifier)",
+            "label": "doi"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Genetic_drift",
+            "label": "genetic drift"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Gene_regulatory_network",
+            "label": "Gene regulatory network"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Non-coding_DNA",
+            "label": "DNA sequences with no function"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Biological_dispersal",
+            "label": "dispersal"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "0d616968-bcbb-4193-8926-3ab291abaa46": {
+      "url": "https://en.wikipedia.org/wiki/Genetic_drift",
+      "title": "Genetic drift",
+      "anchorText": "genetic drift",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Death",
+            "label": "Death"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Genetic_hitchhiking",
+            "label": "genetic draft"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_H._Gillespie",
+            "label": "John H. Gillespie"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Peripatric_speciation",
+            "label": "Peripatric speciation"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Greater_prairie_chicken",
+            "label": "greater prairie chickens"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/History_of_paleontology",
+            "label": "History of paleontology"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Current_research_in_evolutionary_biology",
+            "label": "Current research"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Climate_change_(general_concept)",
+            "label": "climatic change"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cat_gap",
+            "label": "cats"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Carl_Zimmer",
+            "label": "Zimmer C"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Darwin%27s_finches_by_Gould.jpg/250px-Darwin%27s_finches_by_Gould.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Random_sampling_genetic_drift.svg/960px-Random_sampling_genetic_drift.svg.png",
+        "https://wikimedia.org/api/rest_v1/media/math/render/svg/a462e3cb043f14265aad1de31e2a01a48a5135d4",
+        "https://wikimedia.org/api/rest_v1/media/math/render/svg/8be5e3897b3f1affd021ac77e104abda915d170a"
+      ]
+    },
+    "bd52fae2-aa76-470d-9ddf-e2d87acf6891": {
+      "url": "https://en.wikipedia.org/wiki/Cat_gap",
+      "title": "Cat gap",
+      "anchorText": "cats",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Nimravids",
+            "label": "nimravids"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Common_descent",
+            "label": "Common descent"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vitalism",
+            "label": "Vitalism"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/History_of_life",
+            "label": "History of life"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Orthogenesis",
+            "label": "Orthogenesis"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fish_Canyon_eruption",
+            "label": "Fish Canyon eruption"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Arikareean",
+            "label": "Arikareean"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fisher%27s_principle",
+            "label": "Fisher's principle"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Feliformia",
+            "label": "cats or cat-like species"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hyaenodont",
+            "label": "hyaenodont"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Feliform_Timeline.svg/500px-Feliform_Timeline.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Leopard_on_the_tree.jpg/250px-Leopard_on_the_tree.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Ysengrinia.jpg/250px-Ysengrinia.jpg",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "389f60e4-77a3-4ee6-a852-fafde30a8d49": {
+      "url": "https://en.wikipedia.org/wiki/Fisher's_principle",
+      "title": "Fisher's principle",
+      "anchorText": "Fisher's principle",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Offspring",
+            "label": "offspring"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Functionalism_(philosophy_of_mind)",
+            "label": "Functionalism"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Oxford_University_Press",
+            "label": "Oxford University Press"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Biology_of_romantic_love",
+            "label": "Romantic love"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sex_ratio",
+            "label": "sex ratio"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Variability_hypothesis",
+            "label": "Variability hypothesis"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Astrobiology",
+            "label": "Astrobiology"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Evolutionary_musicology",
+            "label": "Musicology"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sexology",
+            "label": "Sex"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Biocultural_anthropology",
+            "label": "Biocultural anthropology"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "b29884f1-68bd-4e31-8c31-804ea38f26fd": {
+      "url": "https://en.wikipedia.org/wiki/Sexology",
+      "title": "Sexology",
+      "anchorText": "Sex",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Kinsey_Reports",
+            "label": "Kinsey studies"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wilhelm_Fliess",
+            "label": "Wilhelm Fliess"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Gang_bang",
+            "label": "Gang bang"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fight-or-flight_response",
+            "label": "Fight-or-flight response"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Clerical_celibacy_in_the_Catholic_Church",
+            "label": "Catholic Church"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Karl_Friedrich_Otto_Westphal",
+            "label": "Karl Friedrich Otto Westphal"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sexuality_in_China",
+            "label": "China"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ray_Blanchard",
+            "label": "Ray Blanchard"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sexuality_in_ancient_Rome",
+            "label": "Ancient Rome"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wilhelm_Reich",
+            "label": "Wilhelm Reich"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Gender_symbols_%284_colors%29.svg/250px-Gender_symbols_%284_colors%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Havelock_Ellis_cph.3b08675.jpg/250px-Havelock_Ellis_cph.3b08675.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/1933-may-10-berlin-book-burning.JPG/250px-1933-may-10-berlin-book-burning.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/250px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg"
+      ]
+    },
+    "0856016e-3b7a-488e-b364-0478feb28267": {
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Fliess",
+      "title": "Wilhelm Fliess",
+      "anchorText": "Wilhelm Fliess",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Martin_Gardner_Mathematical_Games_columns",
+            "label": "Mathematical Games column"
+          },
+          {
+            "url": "https://en.wikipedia.org/w/index.php",
+            "label": "Create account"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Turbinate_bone",
+            "label": "turbinate bone"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Choszczno",
+            "label": "Arnswalde"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Kepler",
+            "label": "Kepler"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ernest_Jones",
+            "label": "Ernest Jones"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISBN_(identifier)",
+            "label": "ISBN"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Berlin",
+            "label": "Berlin"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sebastian_Faulks",
+            "label": "Sebastian Faulks"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Emma_Eckstein",
+            "label": "Emma Eckstein"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/FreudFliess1890.jpg/250px-FreudFliess1890.jpg",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
       ]
     }
   }

@@ -24,7 +24,7 @@
 	>
 		<defs>
 			<pattern id="grid" width={gridSize} height={gridSize} patternUnits="userSpaceOnUse">
-				<path d="M {gridSize} 0 L 0 0 0 {gridSize}" fill="none" stroke="#ddd" stroke-width="0.5" />
+				<path d="M {gridSize} 0 L 0 0 0 {gridSize}" fill="none" stroke="var(--muted)" stroke-width="0.5" />
 			</pattern>
 		</defs>
 		<rect width="100%" height="100%" fill="url(#grid)" />

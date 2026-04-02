@@ -141,10 +141,10 @@
 		}
 	});
 
-	// Play response sequence when reveal starts
+	// Play response sequence when reveal starts, note count scales with images
 	$effect(() => {
 		if (shouldReveal && isActive) {
-			playNoteSequence();
+			playNoteSequence(undefined, page?.images?.length ?? 0);
 		}
 	});
 
@@ -169,11 +169,11 @@
 		type="button"
 	>
 		{#if isLoading || !page}
-			<div class="loading-title border bg-white p-2">
+			<div class="loading-title p-2">
 				<span class="loading-dots"></span>
 			</div>
 		{:else}
-			<div class="page-title relative z-10 flex flex-col items-center border bg-white p-2">
+			<div class="page-title relative z-10 flex flex-col items-center p-2">
 				<div class="flex items-center gap-2">
 					<span>{truncatedTitle}</span>
 					{#if isActive}
@@ -234,6 +234,15 @@
 	.loading-title {
 		min-width: 60px;
 		text-align: center;
+		background: var(--bg);
+		border: 1px solid var(--fg);
+		color: var(--fg);
+	}
+
+	.page-title {
+		background: var(--bg);
+		border: 1px solid var(--fg);
+		color: var(--fg);
 	}
 
 	.loading-dots::after {

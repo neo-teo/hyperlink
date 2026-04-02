@@ -54,28 +54,28 @@
 	}
 
 	.step-counter {
-		background: white;
-		border: 1px solid black;
+		background: var(--bg);
+		border: 1px solid var(--fg);
 		padding: 8px 12px;
 		cursor: pointer;
 		font-size: 14px;
 		font-weight: normal;
-		color: black;
+		color: var(--fg);
 		margin: 8px;
 	}
 
 	.step-counter:hover {
-		background: black;
-		color: white;
+		background: var(--fg);
+		color: var(--bg);
 	}
 
 	.breadcrumb-trail {
-		background-color: rgba(34, 34, 34, 0.9);
+		background-color: var(--pop);
 		padding: 8px;
-		color: white;
+		color: var(--pop-fg);
 		margin-left: 8px;
 		margin-bottom: 8px;
-		border: 1px solid black;
+		border: 1px solid var(--fg);
 		max-width: 600px;
 	}
 
@@ -93,8 +93,8 @@
 	}
 
 	.breadcrumb-button.active {
-		background: white;
-		color: black;
+		background: var(--bg);
+		color: var(--fg);
 		padding: 2px 6px;
 	}
 </style>

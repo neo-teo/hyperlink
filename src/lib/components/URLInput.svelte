@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { walk, loadPage, toggleAutoWalk, resumeWalk } from '$lib/stores/walk.svelte';
+	import { themeStore, type Theme } from '$lib/stores/theme.svelte';
 
 	type WalkSummary = { id: string; title: string; createdAt: string };
 
@@ -64,6 +65,10 @@
 			error = e instanceof Error ? e.message : 'Failed to load walk';
 		}
 	}
+
+	function handleThemeChange(e: Event) {
+		themeStore.current = (e.target as HTMLSelectElement).value as Theme;
+	}
 </script>
 
 <div class="url-input-container">
@@ -82,12 +87,18 @@
 	</button>
 	{#if savedWalks.length > 0}
 		<select class="walks-select" bind:value={selectedWalkId} onchange={handleWalkSelect}>
-			<option value="">({savedWalks.length})</option>
+			<option value="">walks</option>
 			{#each savedWalks as w (w.id)}
-				<option value={w.id}>{w.id} — {w.title}</option>
+				<option value={w.id}>{w.title} - {w.id}</option>
 			{/each}
 		</select>
 	{/if}
+	<select class="theme-select" value={themeStore.current} onchange={handleThemeChange}>
+		<option value="light">light</option>
+		<option value="natural">natural</option>
+		<option value="cave">cave</option>
+		<option value="pond">pond</option>
+	</select>
 	{#if error}
 		<div class="error-message">{error}</div>
 	{/if}
@@ -109,13 +120,15 @@
 	.url-form {
 		display: flex;
 		gap: 8px;
-		background: white;
-		border: 1px solid black;
+		background: var(--bg);
+		border: 1px solid var(--fg);
 	}
 
 	.url-input {
 		width: 400px;
 		padding: 8px 12px;
+		background: var(--bg);
+		color: var(--fg);
 	}
 
 	.url-input:focus {
@@ -124,39 +137,52 @@
 
 	.url-submit {
 		padding: 0px 8px;
-		background: white;
+		background: var(--bg);
+		color: var(--fg);
 		cursor: pointer;
 	}
 
 	.url-submit:hover {
-		background: black;
-		color: white;
+		background: var(--fg);
+		color: var(--bg);
 	}
 
 	.auto-walk-toggle {
 		padding: 8px 8px;
-		background: white;
-		border: 1px solid black;
+		background: var(--bg);
+		color: var(--fg);
+		border: 1px solid var(--fg);
 		cursor: pointer;
 	}
 
 	.auto-walk-toggle:hover {
-		background: black;
-		color: white;
+		background: var(--fg);
+		color: var(--bg);
 	}
 
 	.walks-select {
 		padding: 9px 2px;
-		background: white;
-		border: 1px solid black;
+		background: var(--bg);
+		color: var(--fg);
+		border: 1px solid var(--fg);
 		cursor: pointer;
-		max-width: 50px;
+		max-width: 80px;
+	}
+
+	.theme-select {
+		padding: 9px 2px;
+		background: var(--bg);
+		color: var(--fg);
+		border: 1px solid var(--fg);
+		cursor: pointer;
+		width: fit-content;
 	}
 
 	.error-message {
 		color: #e74c3c;
 		font-size: 12px;
-		background: white;
+		background: var(--bg);
+		color: var(--fg);
 		padding: 4px 8px;
 		border-radius: 4px;
 		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);

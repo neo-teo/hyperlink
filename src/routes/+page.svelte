@@ -165,9 +165,12 @@
 		position: absolute;
 		width: 300px;
 		height: 600px;
-		transform: translate(-50%, -50%);
+		margin-left: -150px;
+		margin-top: -300px;
 		pointer-events: none;
-		z-index: 10;
+		/* No transform or z-index — avoids creating a stacking context,
+		   so child z-indexes (page titles z-10, images z-100) participate
+		   directly in canvas space alongside the frog (z-50). */
 	}
 
 	.print-badge {

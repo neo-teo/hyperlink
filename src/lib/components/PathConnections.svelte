@@ -68,7 +68,7 @@
 
 	.connection-line {
 		fill: none;
-		stroke: #888;
+		stroke: var(--link);
 		stroke-width: 0.5;
 		stroke-dasharray: 1, 4;
 		stroke-linecap: round;
@@ -76,7 +76,7 @@
 
 	.connection-label {
 		font-size: 9px;
-		fill: #999;
+		fill: var(--muted);
 		font-style: italic;
 	}
 </style>

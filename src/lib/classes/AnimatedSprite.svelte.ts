@@ -16,12 +16,14 @@ export class AnimatedSprite {
 	x = $state(0);
 	y = $state(0);
 	facingRight = $state(true);
+	isStopped = $state(false);
 
 	// Configuration
 	private config: SpriteConfig;
 	private startTime: number;
 	private noiseSeedX: number;
 	private noiseSeedY: number;
+	private stopUntil: number = 0;
 
 	constructor(config: SpriteConfig) {
 		this.config = config;
@@ -38,8 +40,25 @@ export class AnimatedSprite {
 	}
 
 	update() {
+		const now = Date.now();
+
+		// Sit still until stop duration expires
+		if (now < this.stopUntil) {
+			if (!this.isStopped) this.isStopped = true;
+			return;
+		}
+
+		if (this.isStopped) this.isStopped = false;
+
+		// ~0.3% chance per update (50ms interval) → stops roughly every ~17s
+		if (Math.random() < 0.003) {
+			this.stopUntil = now + 1500 + Math.random() * 3500; // 1.5–5s pause
+			this.isStopped = true;
+			return;
+		}
+
 		// Calculate elapsed time in seconds
-		const elapsed = (Date.now() - this.startTime) / 1000;
+		const elapsed = (now - this.startTime) / 1000;
 
 		// Generate smooth noise values using trigonometric functions
 		const noiseX = Math.sin(elapsed * 0.5 + this.noiseSeedX);

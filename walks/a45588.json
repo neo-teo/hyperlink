@@ -1,7 +1,7 @@
 {
   "id": "a45588",
   "createdAt": "2026-04-02T03:41:31.497Z",
-  "updatedAt": "2026-04-02T03:43:13.863Z",
+  "updatedAt": "2026-04-02T05:30:11.796Z",
   "visits": [
     {
       "id": "b5a6556d-d69e-44c1-81cd-47306978d2eb",
@@ -122,6 +122,677 @@
       },
       "via": "ND",
       "timestamp": "2026-04-02T03:43:13.862Z"
+    },
+    {
+      "id": "f1fb2478-3bb9-4f81-88a0-31518e96d200",
+      "url": "https://en.wikipedia.org/wiki/United_States_Virgin_Islands",
+      "title": "United States Virgin Islands",
+      "position": {
+        "x": 809.0169943749474,
+        "y": 497.979656976556
+      },
+      "via": "U.S. Virgin Islands",
+      "timestamp": "2026-04-02T05:25:29.494Z"
+    },
+    {
+      "id": "2cdd8bb9-2613-4823-97ad-c4b646640d72",
+      "url": "https://en.wikipedia.org/wiki/Buck_Island_Reef_National_Monument",
+      "title": "Buck Island Reef National Monument",
+      "position": {
+        "x": 970.820393249937,
+        "y": 615.5367074350506
+      },
+      "via": "Buck Island Reef National Monument",
+      "timestamp": "2026-04-02T05:25:34.147Z"
+    },
+    {
+      "id": "76e44d0a-f917-44d3-9a72-4c6f86520c64",
+      "url": "https://en.wikipedia.org/wiki/Newberry_National_Volcanic_Monument",
+      "title": "Newberry National Volcanic Monument",
+      "position": {
+        "x": 1032.6237921249265,
+        "y": 805.7480106940814
+      },
+      "via": "Newberry",
+      "timestamp": "2026-04-02T05:25:38.849Z"
+    },
+    {
+      "id": "740a8298-f023-4d61-9393-3941935525ff",
+      "url": "https://en.wikipedia.org/wiki/Fort_Pulaski_National_Monument",
+      "title": "Fort Pulaski National Monument",
+      "position": {
+        "x": 1232.6237921249265,
+        "y": 805.7480106940814
+      },
+      "via": "Fort Pulaski",
+      "timestamp": "2026-04-02T05:25:43.544Z"
+    },
+    {
+      "id": "f6f313fd-9770-4467-8170-4a2bc18d951d",
+      "url": "https://en.wikipedia.org/wiki/Agua_Fria_National_Monument",
+      "title": "Agua Fria National Monument",
+      "position": {
+        "x": 1394.4271909999159,
+        "y": 688.1909602355867
+      },
+      "via": "Agua Fria",
+      "timestamp": "2026-04-02T05:25:48.274Z"
+    },
+    {
+      "id": "042c01f1-f42c-4b5f-8cd5-5494fe0c9ed1",
+      "url": "https://en.wikipedia.org/wiki/Medgar_and_Myrlie_Evers_Home_National_Monument",
+      "title": "Medgar and Myrlie Evers Home National Monument",
+      "position": {
+        "x": 1332.6237921249262,
+        "y": 497.97965697655593
+      },
+      "via": "Medgar and Myrlie Evers Home",
+      "timestamp": "2026-04-02T05:25:53.003Z"
+    },
+    {
+      "id": "6fdca4fd-ffe1-49bd-8403-60ccb0910bfc",
+      "url": "https://en.wikipedia.org/wiki/Claude_Black_(minister)",
+      "title": "Claude Black (minister)",
+      "position": {
+        "x": 1270.8203932499368,
+        "y": 307.7683537175252
+      },
+      "via": "Claude Black",
+      "timestamp": "2026-04-02T05:25:57.459Z"
+    },
+    {
+      "id": "177f0e36-0276-4b41-808d-84e4782d2e5b",
+      "url": "https://en.wikipedia.org/wiki/Oh,_Freedom",
+      "title": "Oh, Freedom",
+      "position": {
+        "x": 1109.0169943749474,
+        "y": 425.32540417601984
+      },
+      "via": "\"Oh, Freedom\"",
+      "timestamp": "2026-04-02T05:26:01.985Z"
+    },
+    {
+      "id": "8e1f0650-755f-46c4-a0f8-2f2859a64b48",
+      "url": "https://en.wikipedia.org/wiki/Joseph_Ellwanger",
+      "title": "Joseph Ellwanger",
+      "position": {
+        "x": 947.2135954999579,
+        "y": 307.76835371752526
+      },
+      "via": "Joseph Ellwanger",
+      "timestamp": "2026-04-02T05:26:06.893Z"
+    },
+    {
+      "id": "30438b85-7935-4284-a8f0-7054513d87a7",
+      "url": "https://en.wikipedia.org/wiki/King_assassination_riots",
+      "title": "King assassination riots",
+      "position": {
+        "x": 1009.0169943749473,
+        "y": 117.55705045849453
+      },
+      "via": "riots",
+      "timestamp": "2026-04-02T05:26:11.436Z"
+    },
+    {
+      "id": "fa868dd4-130f-49a6-8e2f-5335c9038eea",
+      "url": "https://en.wikipedia.org/wiki/Hough_riots",
+      "title": "Hough riots",
+      "position": {
+        "x": 847.2135954999578,
+        "y": -7.105427357601002e-14
+      },
+      "via": "Hough riots",
+      "timestamp": "2026-04-02T05:26:16.084Z"
+    },
+    {
+      "id": "71ca8f9c-cae1-4c6c-9a3e-45b82c0da433",
+      "url": "https://en.wikipedia.org/wiki/Jim_Rhodes",
+      "title": "Jim Rhodes",
+      "position": {
+        "x": 1009.0169943749472,
+        "y": -117.55705045849474
+      },
+      "via": "James A. Rhodes",
+      "timestamp": "2026-04-02T05:26:20.539Z"
+    },
+    {
+      "id": "58b73656-0807-4d45-b336-041c975474ad",
+      "url": "https://en.wikipedia.org/wiki/Mike_DeWine",
+      "title": "Mike DeWine",
+      "position": {
+        "x": 1070.8203932499366,
+        "y": -307.7683537175255
+      },
+      "via": "DeWine",
+      "timestamp": "2026-04-02T05:26:25.140Z"
+    },
+    {
+      "id": "93a3ac29-905f-4a0f-ad11-793d1b8ad857",
+      "url": "https://en.wikipedia.org/wiki/Jeremiah_Morrow",
+      "title": "Jeremiah Morrow",
+      "position": {
+        "x": 1009.0169943749471,
+        "y": -497.97965697655616
+      },
+      "via": "Morrow",
+      "timestamp": "2026-04-02T05:26:29.951Z"
+    },
+    {
+      "id": "ca38bb17-a12c-44a7-86c2-27095eea49db",
+      "url": "https://en.wikipedia.org/wiki/James_Caldwell_(Ohio_politician)",
+      "title": "James Caldwell (Ohio politician)",
+      "position": {
+        "x": 1170.8203932499366,
+        "y": -615.5367074350509
+      },
+      "via": "Caldwell",
+      "timestamp": "2026-04-02T05:26:34.813Z"
+    },
+    {
+      "id": "e816d5df-46e3-49ba-93bf-0869e9893688",
+      "url": "https://en.wikipedia.org/wiki/Nelson_Barrere",
+      "title": "Nelson Barrere",
+      "position": {
+        "x": 1332.623792124926,
+        "y": -733.0937578935456
+      },
+      "via": "Barrere",
+      "timestamp": "2026-04-02T05:26:39.582Z"
+    },
+    {
+      "id": "e014f914-759a-4275-b394-edccacfda42c",
+      "url": "https://en.wikipedia.org/w/index.php",
+      "title": "Main Page",
+      "position": {
+        "x": 1494.4271909999154,
+        "y": -615.536707435051
+      },
+      "via": "Create account",
+      "timestamp": "2026-04-02T05:26:44.245Z"
+    },
+    {
+      "id": "51f29f67-6886-4b48-882f-537e049b07c9",
+      "url": "https://en.wikipedia.org/wiki/2026_Italian_constitutional_referendum",
+      "title": "2026 Italian constitutional referendum",
+      "position": {
+        "x": 1656.2305898749048,
+        "y": -733.0937578935457
+      },
+      "via": "a constitutional referendum",
+      "timestamp": "2026-04-02T05:26:48.804Z"
+    },
+    {
+      "id": "17ec6d2a-bf2a-4a26-aa89-4674db635eae",
+      "url": "https://en.wikipedia.org/wiki/Matteo_Lepore",
+      "title": "Matteo Lepore",
+      "position": {
+        "x": 1718.0339887498942,
+        "y": -542.8824546345149
+      },
+      "via": "Matteo Lepore",
+      "timestamp": "2026-04-02T05:26:53.415Z"
+    },
+    {
+      "id": "2d1dea18-826a-42dc-aec8-fd8949297da8",
+      "url": "https://en.wikipedia.org/wiki/Incumbent",
+      "title": "Incumbent",
+      "position": {
+        "x": 1879.8373876248836,
+        "y": -425.3254041760203
+      },
+      "via": "Incumbent",
+      "timestamp": "2026-04-02T05:26:57.926Z"
+    },
+    {
+      "id": "80f59c31-dfde-4a38-89b7-b6d6a814d901",
+      "url": "https://en.wikipedia.org/wiki/Election",
+      "title": "Election",
+      "position": {
+        "x": 1818.0339887498942,
+        "y": -235.11410091698957
+      },
+      "via": "election",
+      "timestamp": "2026-04-02T05:27:02.799Z"
+    },
+    {
+      "id": "fd4fb4a9-a9f1-4117-b932-8cdc1f02f19b",
+      "url": "https://en.wikipedia.org/wiki/List_of_elections_in_2000",
+      "title": "List of elections in 2000",
+      "position": {
+        "x": 1756.2305898749048,
+        "y": -44.90279765795884
+      },
+      "via": "2000",
+      "timestamp": "2026-04-02T05:27:07.419Z"
+    },
+    {
+      "id": "7c171984-6a03-4981-96a1-50906bdf4733",
+      "url": "https://en.wikipedia.org/wiki/2000_Haitian_presidential_election",
+      "title": "2000 Haitian presidential election",
+      "position": {
+        "x": 1594.4271909999152,
+        "y": -162.45984811645343
+      },
+      "via": "2000 Haitian presidential election",
+      "timestamp": "2026-04-02T05:27:11.859Z"
+    },
+    {
+      "id": "a1ea361d-7b9d-48c9-aad7-5553ca25eb97",
+      "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_Haiti",
+      "title": "Supreme Court of Haiti",
+      "position": {
+        "x": 1432.6237921249258,
+        "y": -44.902797657958786
+      },
+      "via": "Supreme Court of Haiti",
+      "timestamp": "2026-04-02T05:27:16.548Z"
+    },
+    {
+      "id": "5f4dfce8-acf2-4a08-b483-7421014e1042",
+      "url": "https://en.wikipedia.org/wiki/Dance_in_Haiti",
+      "title": "Dance in Haiti",
+      "position": {
+        "x": 1232.6237921249258,
+        "y": -44.902797657958764
+      },
+      "via": "Dance",
+      "timestamp": "2026-04-02T05:27:21.549Z"
+    },
+    {
+      "id": "f5efaec8-0e7a-4eb5-bca4-2d5e2f80530f",
+      "url": "https://en.wikipedia.org/wiki/Igbo_people_in_the_Atlantic_slave_trade",
+      "title": "Igbo people in the Atlantic slave trade",
+      "position": {
+        "x": 1294.4271909999152,
+        "y": 145.30850560107194
+      },
+      "via": "Igbo_people_in_the_Atlantic_slave_trade § Haiti",
+      "timestamp": "2026-04-02T05:27:26.287Z"
+    },
+    {
+      "id": "d19d941b-194b-4d77-b098-199235d19f53",
+      "url": "https://en.wikipedia.org/wiki/Abia_State",
+      "title": "Abia State",
+      "position": {
+        "x": 1456.2305898749046,
+        "y": 262.8655560595666
+      },
+      "via": "Abia",
+      "timestamp": "2026-04-02T05:27:31.062Z"
+    },
+    {
+      "id": "9a84a351-5e04-42ef-a494-9ae719ee949a",
+      "url": "https://en.wikipedia.org/wiki/Textile",
+      "title": "Textile",
+      "position": {
+        "x": 1518.033988749894,
+        "y": 453.07685931859726
+      },
+      "via": "textile",
+      "timestamp": "2026-04-02T05:27:35.697Z"
+    },
+    {
+      "id": "7d4214b6-8eb9-4bc1-89d2-39c5e01d84c4",
+      "url": "https://en.wikipedia.org/wiki/Shagreen",
+      "title": "Shagreen",
+      "position": {
+        "x": 1679.8373876248834,
+        "y": 335.51980886010256
+      },
+      "via": "Stingray",
+      "timestamp": "2026-04-02T05:27:40.118Z"
+    },
+    {
+      "id": "d3208c29-c860-4211-b59a-e1b4a925b774",
+      "url": "https://en.wikipedia.org/wiki/Time_(magazine)",
+      "title": "Time (magazine)",
+      "position": {
+        "x": 1841.6407864998728,
+        "y": 453.0768593185972
+      },
+      "via": "Time",
+      "timestamp": "2026-04-02T05:27:45.076Z"
+    },
+    {
+      "id": "8d492628-2c85-43bb-aaab-80e0d021920b",
+      "url": "https://en.wikipedia.org/wiki/Cozi",
+      "title": "Cozi",
+      "position": {
+        "x": 1903.4441853748622,
+        "y": 643.2881625776279
+      },
+      "via": "Cozi",
+      "timestamp": "2026-04-02T05:27:49.822Z"
+    },
+    {
+      "id": "3bbb02bf-59d4-49a1-b69b-0421aa2100be",
+      "url": "https://en.wikipedia.org/wiki/Parent_company",
+      "title": "Holding company",
+      "position": {
+        "x": 2065.2475842498516,
+        "y": 525.7311121191332
+      },
+      "via": "Parent",
+      "timestamp": "2026-04-02T05:27:54.275Z"
+    },
+    {
+      "id": "4f20c1b8-8f0b-4b7f-ad5d-1f0008c85532",
+      "url": "https://en.wikipedia.org/wiki/Kabushiki_gaisha",
+      "title": "Kabushiki gaisha",
+      "position": {
+        "x": 2127.050983124841,
+        "y": 715.9424153781639
+      },
+      "via": "Kabushiki gaisha (K.K.)",
+      "timestamp": "2026-04-02T05:27:58.859Z"
+    },
+    {
+      "id": "ba08cd0e-2f10-4dd6-9c7a-0a6d5cbbc11a",
+      "url": "https://en.wikipedia.org/wiki/Private_company_limited_by_guarantee",
+      "title": "Company limited by guarantee",
+      "position": {
+        "x": 2288.8543819998304,
+        "y": 598.3853649196692
+      },
+      "via": "by guarantee",
+      "timestamp": "2026-04-02T05:28:03.499Z"
+    },
+    {
+      "id": "632ea479-39ec-4072-8660-3b8406af17e4",
+      "url": "https://en.wikipedia.org/wiki/Aksjeselskap",
+      "title": "Aksjeselskap",
+      "position": {
+        "x": 2450.6577808748198,
+        "y": 480.8283144611745
+      },
+      "via": "Aksjeselskap (AS)",
+      "timestamp": "2026-04-02T05:28:07.992Z"
+    },
+    {
+      "id": "fb1924c4-9339-414f-a899-23398d2554f6",
+      "url": "https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_%C3%A0_responsabilit%C3%A9_limit%C3%A9e",
+      "title": "Société à responsabilité limitée",
+      "position": {
+        "x": 2288.8543819998304,
+        "y": 363.2712640026799
+      },
+      "via": "Société à responsabilité limitée (SARL)",
+      "timestamp": "2026-04-02T05:28:12.560Z"
+    },
+    {
+      "id": "a7face0c-752b-4d45-ab49-b01fbf7a0a70",
+      "url": "https://en.wikipedia.org/wiki/Limited_liability_partnership",
+      "title": "Limited liability partnership",
+      "position": {
+        "x": 2450.6577808748198,
+        "y": 245.71421354418524
+      },
+      "via": "Limited liability",
+      "timestamp": "2026-04-02T05:28:17.051Z"
+    },
+    {
+      "id": "3151bef4-4dd8-4190-b7a4-1032fc965218",
+      "url": "https://en.wikipedia.org/wiki/Yukon",
+      "title": "Yukon",
+      "position": {
+        "x": 2612.461179749809,
+        "y": 128.15716308569057
+      },
+      "via": "Yukon",
+      "timestamp": "2026-04-02T05:28:21.606Z"
+    },
+    {
+      "id": "5af45137-ed3e-4253-b43d-5a971137d2a7",
+      "url": "https://en.wikipedia.org/wiki/Deputy_Prime_Minister_of_Canada",
+      "title": "Deputy Prime Minister of Canada",
+      "position": {
+        "x": 2674.2645786247986,
+        "y": -62.05414017334016
+      },
+      "via": "Deputy Prime Minister",
+      "timestamp": "2026-04-02T05:28:26.143Z"
+    },
+    {
+      "id": "75e5057f-5705-4908-a926-9ab25dfcdcf7",
+      "url": "https://en.wikipedia.org/wiki/Royal_prerogative",
+      "title": "Royal prerogative",
+      "position": {
+        "x": 2474.2645786247986,
+        "y": -62.05414017334014
+      },
+      "via": "Royal prerogative",
+      "timestamp": "2026-04-02T05:28:31.083Z"
+    },
+    {
+      "id": "9c4a783f-6a5b-4219-a7c5-94cf4713b1db",
+      "url": "https://en.wikipedia.org/wiki/Ethnarch",
+      "title": "Ethnarch",
+      "position": {
+        "x": 2312.461179749809,
+        "y": 55.502910285154506
+      },
+      "via": "Ethnarch",
+      "timestamp": "2026-04-02T05:28:35.586Z"
+    },
+    {
+      "id": "d06b0bc1-6cce-40ad-86f2-5f65bd241da8",
+      "url": "https://en.wikipedia.org/wiki/Race_and_ethnicity_in_censuses",
+      "title": "Race and ethnicity in censuses",
+      "position": {
+        "x": 2150.6577808748198,
+        "y": 173.05996074364916
+      },
+      "via": "Ethnicity in censuses",
+      "timestamp": "2026-04-02T05:28:40.415Z"
+    },
+    {
+      "id": "4e3b36fb-59be-4f42-80ab-87b5f7e84c31",
+      "url": "https://en.wikipedia.org/wiki/Communal_violence",
+      "title": "Communal violence",
+      "position": {
+        "x": 1988.8543819998304,
+        "y": 290.6170112021438
+      },
+      "via": "Communal violence",
+      "timestamp": "2026-04-02T05:28:45.403Z"
+    },
+    {
+      "id": "8175904a-8183-4815-b0f9-91a6b4aa2ec3",
+      "url": "https://en.wikipedia.org/wiki/Henry_Chadwick_(theologian)",
+      "title": "Henry Chadwick (theologian)",
+      "position": {
+        "x": 1927.050983124841,
+        "y": 100.40570794311307
+      },
+      "via": "Chadwick, H.",
+      "timestamp": "2026-04-02T05:28:50.184Z"
+    },
+    {
+      "id": "7f3541c1-71f7-4a86-bdaf-8d56c5aff4c6",
+      "url": "https://en.wikipedia.org/wiki/James_Porter_(Master_of_Peterhouse,_Cambridge)",
+      "title": "James Porter (Master of Peterhouse, Cambridge)",
+      "position": {
+        "x": 2088.8543819998304,
+        "y": -17.1513425153816
+      },
+      "via": "James Porter",
+      "timestamp": "2026-04-02T05:28:54.632Z"
+    },
+    {
+      "id": "908bf81e-7f23-4400-afe3-2f8b02e89a68",
+      "url": "https://en.wikipedia.org/wiki/Francis_Turner_(bishop)",
+      "title": "Francis Turner (bishop)",
+      "position": {
+        "x": 2150.6577808748198,
+        "y": -207.36264577441233
+      },
+      "via": "Francis Turner",
+      "timestamp": "2026-04-02T05:28:59.173Z"
+    },
+    {
+      "id": "f8ed8aad-37d9-4408-823d-17e115eee3cf",
+      "url": "https://en.wikipedia.org/wiki/Henry_Holbeach",
+      "title": "Henry Holbeach",
+      "position": {
+        "x": 2088.8543819998304,
+        "y": -397.573949033443
+      },
+      "via": "Henry Holbeach",
+      "timestamp": "2026-04-02T05:29:04.824Z"
+    },
+    {
+      "id": "0aec6945-4b58-480d-a725-5acbd88a3b5d",
+      "url": "https://en.wikipedia.org/wiki/Folliott_Cornewall",
+      "title": "Folliott Cornewall",
+      "position": {
+        "x": 2150.6577808748198,
+        "y": -587.7852522924737
+      },
+      "via": "Folliott Cornewall",
+      "timestamp": "2026-04-02T05:29:10.561Z"
+    },
+    {
+      "id": "4d97d315-104f-4d32-aa1c-109bb8d13790",
+      "url": "https://en.wikipedia.org/wiki/Paul_Bush_(bishop)",
+      "title": "Paul Bush (bishop)",
+      "position": {
+        "x": 2088.8543819998304,
+        "y": -777.9965555515045
+      },
+      "via": "Paul Bush",
+      "timestamp": "2026-04-02T05:29:15.656Z"
+    },
+    {
+      "id": "3cb19757-d446-4e3d-a964-e900f38dbd61",
+      "url": "https://en.wikipedia.org/wiki/Mary_I_of_England",
+      "title": "Mary I",
+      "position": {
+        "x": 1927.050983124841,
+        "y": -895.553606009999
+      },
+      "via": "Queen Mary",
+      "timestamp": "2026-04-02T05:29:20.241Z"
+    },
+    {
+      "id": "859d71be-8807-4a3c-9353-91178e4b32bf",
+      "url": "https://en.wikipedia.org/wiki/Eustace_Chapuys",
+      "title": "Eustace Chapuys",
+      "position": {
+        "x": 1865.2475842498516,
+        "y": -1085.7649092690297
+      },
+      "via": "Eustace Chapuys",
+      "timestamp": "2026-04-02T05:29:24.846Z"
+    },
+    {
+      "id": "3172211a-e81d-4286-aa9a-48114bb41768",
+      "url": "https://en.wikipedia.org/wiki/Robert_Bolt",
+      "title": "Robert Bolt",
+      "position": {
+        "x": 1803.4441853748622,
+        "y": -1275.9762125280604
+      },
+      "via": "Robert Bolt",
+      "timestamp": "2026-04-02T05:29:29.756Z"
+    },
+    {
+      "id": "63ca9ec2-f309-4c99-8526-a1f1cc03ac93",
+      "url": "https://en.wikipedia.org/wiki/Seven_Pillars_of_Wisdom",
+      "title": "Seven Pillars of Wisdom",
+      "position": {
+        "x": 1741.6407864998728,
+        "y": -1466.1875157870911
+      },
+      "via": "Seven Pillars of Wisdom",
+      "timestamp": "2026-04-02T05:29:34.759Z"
+    },
+    {
+      "id": "396ded4f-73dc-4225-b2e0-98b65dbd7523",
+      "url": "https://en.wikipedia.org/wiki/Winston_Churchill",
+      "title": "Winston Churchill",
+      "position": {
+        "x": 1803.4441853748622,
+        "y": -1656.3988190461218
+      },
+      "via": "Winston Churchill",
+      "timestamp": "2026-04-02T05:29:39.533Z"
+    },
+    {
+      "id": "a1477d37-6da4-4c94-a95e-e21a1529f63d",
+      "url": "https://en.wikipedia.org/wiki/Bruce_R._Kuniholm",
+      "title": "Bruce R. Kuniholm",
+      "position": {
+        "x": 2003.4441853748622,
+        "y": -1656.3988190461218
+      },
+      "via": "Bruce R. Kuniholm",
+      "timestamp": "2026-04-02T05:29:44.107Z"
+    },
+    {
+      "id": "58f4864b-2d23-4588-852d-726d8116a78c",
+      "url": "https://en.wikipedia.org/wiki/United_States_Department_of_State",
+      "title": "United States Department of State",
+      "position": {
+        "x": 2203.444185374862,
+        "y": -1656.3988190461218
+      },
+      "via": "U.S. Dept. of State",
+      "timestamp": "2026-04-02T05:29:48.631Z"
+    },
+    {
+      "id": "e69464e7-4fed-4e5d-9d1a-dcb9e107029f",
+      "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(South_Korea)",
+      "title": "Ministry of Foreign Affairs (South Korea)",
+      "position": {
+        "x": 2365.2475842498516,
+        "y": -1773.9558695046164
+      },
+      "via": "South Korea",
+      "timestamp": "2026-04-02T05:29:53.239Z"
+    },
+    {
+      "id": "9a90273f-8d13-4aa5-83f8-7422b00536f7",
+      "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_and_International_Cooperation_(Fiji)",
+      "title": "Ministry of Foreign Affairs and International Cooperation (Fiji)",
+      "position": {
+        "x": 2303.444185374862,
+        "y": -1964.1671727636472
+      },
+      "via": "Fiji",
+      "timestamp": "2026-04-02T05:29:57.978Z"
+    },
+    {
+      "id": "a8a4f134-fb47-4a75-acf0-bcc611676ec7",
+      "url": "https://en.wikipedia.org/wiki/Local_government_in_Fiji",
+      "title": "Local government in Fiji",
+      "position": {
+        "x": 2503.444185374862,
+        "y": -1964.1671727636472
+      },
+      "via": "Local government",
+      "timestamp": "2026-04-02T05:30:02.499Z"
+    },
+    {
+      "id": "e46beda2-af7a-4ec5-b69b-e49536cc25de",
+      "url": "https://en.wikipedia.org/wiki/Vikash_Singh",
+      "title": "Vikash Singh",
+      "position": {
+        "x": 2565.2475842498516,
+        "y": -2154.378476022678
+      },
+      "via": "Vikash Singh",
+      "timestamp": "2026-04-02T05:30:07.192Z"
+    },
+    {
+      "id": "2cc0c106-476d-434d-a350-b4e89b123af9",
+      "url": "https://en.wikipedia.org/wiki/Cricket",
+      "title": "Cricket",
+      "position": {
+        "x": 2727.050983124841,
+        "y": -2271.935526481173
+      },
+      "via": "cricketer",
+      "timestamp": "2026-04-02T05:30:11.795Z"
     }
   ],
   "pages": {
@@ -718,6 +1389,3384 @@
         "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Great_Seal_of_North_Dakota.svg/120px-Great_Seal_of_North_Dakota.svg.png",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/North_Dakota_in_United_States.svg/330px-North_Dakota_in_United_States.svg.png",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/State_of_North_Dakota_logo.svg/250px-State_of_North_Dakota_logo.svg.png"
+      ]
+    },
+    "f1fb2478-3bb9-4f81-88a0-31518e96d200": {
+      "url": "https://en.wikipedia.org/wiki/United_States_Virgin_Islands",
+      "title": "United States Virgin Islands",
+      "anchorText": "U.S. Virgin Islands",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Tropical_climate",
+            "label": "tropical climate"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Buck_Island_Reef_National_Monument",
+            "label": "Buck Island Reef National Monument"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_in_North_America",
+            "label": "Countries and dependencies"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISSN_(identifier)",
+            "label": "ISSN"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Country_code_top-level_domain",
+            "label": "Internet TLD"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dutch-based_creole_languages",
+            "label": "Dutch-based creole language"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/West_Virginia",
+            "label": "West Virginia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Clipperton_Island",
+            "label": "Clipperton Island"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Island",
+            "label": "continental islands"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/New_York_(state)",
+            "label": "New York"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/250px-Flag_of_the_United_States_Virgin_Islands.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Seal_of_the_United_States_Virgin_Islands.svg/120px-Seal_of_the_United_States_Virgin_Islands.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/United_States_Virgin_Islands_in_United_States_%28closer_zoom%29_%28US48%2B2%29.svg/250px-United_States_Virgin_Islands_in_United_States_%28closer_zoom%29_%28US48%2B2%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/40px-Flag_of_the_United_States.svg.png"
+      ]
+    },
+    "2cdd8bb9-2613-4823-97ad-c4b646640d72": {
+      "url": "https://en.wikipedia.org/wiki/Buck_Island_Reef_National_Monument",
+      "title": "Buck Island Reef National Monument",
+      "anchorText": "Buck Island Reef National Monument",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Hanford_Reach_National_Monument",
+            "label": "Hanford Reach"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_national_historic_sites_and_historical_parks_of_the_United_States",
+            "label": "National Historic Sites and Historical Parks"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Newberry_National_Volcanic_Monument",
+            "label": "Newberry"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Leatherback_turtles",
+            "label": "Leatherback turtles"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_minor_islands_of_the_United_States_Virgin_Islands",
+            "label": "Others"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_governors_of_the_Danish_West_Indies",
+            "label": "governors"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/National_Oceanic_and_Atmospheric_Administration",
+            "label": "National Oceanic and Atmospheric Administration"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Aniakchak_National_Monument_and_Preserve",
+            "label": "Aniakchak"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hohokam_Pima_National_Monument",
+            "label": "Hohokam Pima"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/United_States_Army",
+            "label": "Army"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/BuckIsland_StCroix_fire_coral.jpg/330px-BuckIsland_StCroix_fire_coral.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Location_map_US_Virgin_Islands_Saint_Croix.png/330px-Location_map_US_Virgin_Islands_Saint_Croix.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/USA_Virgin_Islands_location_map.svg/330px-USA_Virgin_Islands_location_map.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Caribbean_location_map.svg/330px-Caribbean_location_map.svg.png"
+      ]
+    },
+    "76e44d0a-f917-44d3-9a72-4c6f86520c64": {
+      "url": "https://en.wikipedia.org/wiki/Newberry_National_Volcanic_Monument",
+      "title": "Newberry National Volcanic Monument",
+      "anchorText": "Newberry",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Fort_Pulaski_National_Monument",
+            "label": "Fort Pulaski"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fish_Creek_(Oregon)",
+            "label": "Fish Creek"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Clay_Myers_State_Natural_Area_at_Whalen_Island",
+            "label": "Clay Myers at Whalen Island"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Big_Marsh_Creek",
+            "label": "Big Marsh Creek"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mount_St._Helens_National_Volcanic_Monument",
+            "label": "Mount St. Helens Volcanic"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Oceanside_Beach_State_Recreation_Site",
+            "label": "Oceanside Beach"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Poverty_Point",
+            "label": "Poverty Point"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/North_Fork_Crooked_River",
+            "label": "Crooked River (North Fork)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hat_Rock_State_Park",
+            "label": "Hat Rock"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Freedom_Riders_National_Monument",
+            "label": "Freedom Riders"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Lavabutte3.jpg/330px-Lavabutte3.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Usa_edcp_relief_location_map.png/330px-Usa_edcp_relief_location_map.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/USA_Oregon_relief_location_map.svg/330px-USA_Oregon_relief_location_map.svg.png",
+        "https://maps.wikimedia.org/img/osm-intl,9,a,a,284x208.png?lang=en&domain=en.wikipedia.org&title=Newberry_National_Volcanic_Monument&revid=1340126089&groups=_d34fb28e694ed74dd9821bedc247cfe86b56db98&parser=legacy"
+      ]
+    },
+    "740a8298-f023-4d61-9393-3941935525ff": {
+      "url": "https://en.wikipedia.org/wiki/Fort_Pulaski_National_Monument",
+      "title": "Fort Pulaski National Monument",
+      "anchorText": "Fort Pulaski",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Katahdin_Woods_and_Waters_National_Monument",
+            "label": "Katahdin Woods and Waters"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fort_King_George",
+            "label": "Fort King George"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Springfield_1908_Race_Riot_National_Monument",
+            "label": "Springfield 1908 Race Riot"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Agate_Fossil_Beds_National_Monument",
+            "label": "Agate Fossil Beds"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rio_Grande_del_Norte_National_Monument",
+            "label": "Río Grande del Norte"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Woodrow_Wilson_Boyhood_Home",
+            "label": "Woodrow Wilson Boyhood Home"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Georgia_Forestry_Commission",
+            "label": "Georgia Forestry Commission"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dorchester_Academy",
+            "label": "Dorchester Academy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/California_Coastal_National_Monument",
+            "label": "California Coastal"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Agua_Fria_National_Monument",
+            "label": "Agua Fria"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/FtPulaskiInside.jpg/330px-FtPulaskiInside.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/USA_Georgia_relief_location_map.svg/330px-USA_Georgia_relief_location_map.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Usa_edcp_relief_location_map.png/330px-Usa_edcp_relief_location_map.png",
+        "https://maps.wikimedia.org/img/osm-intl,10,a,a,284x208.png?lang=en&domain=en.wikipedia.org&title=Fort_Pulaski_National_Monument&revid=1345005210&groups=_2f30370e7f3c1ba4588d2d8fac7811e5a57c827a&parser=legacy"
+      ]
+    },
+    "f6f313fd-9770-4467-8170-4a2bc18d951d": {
+      "url": "https://en.wikipedia.org/wiki/Agua_Fria_National_Monument",
+      "title": "Agua Fria National Monument",
+      "anchorText": "Agua Fria",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Alibates_Flint_Quarries_National_Monument",
+            "label": "Alibates Flint Quarries"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Las_Cienegas_National_Conservation_Area",
+            "label": "Las Cienegas"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/President_Lincoln%27s_Cottage_at_the_Soldiers%27_Home",
+            "label": "President Lincoln's Cottage at the Soldiers' Home"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rio_Grande_del_Norte_National_Monument",
+            "label": "Río Grande del Norte"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jewel_Cave_National_Monument",
+            "label": "Jewel Cave"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Luna_Lake_(Arizona)",
+            "label": "Luna Lake"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Agua_Fria_(disambiguation)",
+            "label": "Agua Fria (disambiguation)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Medgar_and_Myrlie_Evers_Home_National_Monument",
+            "label": "Medgar and Myrlie Evers Home"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fort_Bowie",
+            "label": "Fort Bowie"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bears_Ears_National_Monument",
+            "label": "Bears Ears"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Agfr_aguafriariver.jpg/330px-Agfr_aguafriariver.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Usa_edcp_relief_location_map.png/330px-Usa_edcp_relief_location_map.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/USA_Arizona_relief_location_map.svg/330px-USA_Arizona_relief_location_map.svg.png",
+        "https://maps.wikimedia.org/img/osm-intl,9,a,a,284x208.png?lang=en&domain=en.wikipedia.org&title=Agua_Fria_National_Monument&revid=1339749265&groups=_3066ee0b80167d4523168c36bbe5e4a9b3310cb2&parser=legacy"
+      ]
+    },
+    "042c01f1-f42c-4b5f-8cd5-5494fe0c9ed1": {
+      "url": "https://en.wikipedia.org/wiki/Medgar_and_Myrlie_Evers_Home_National_Monument",
+      "title": "Medgar and Myrlie Evers Home National Monument",
+      "anchorText": "Medgar and Myrlie Evers Home",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Chiricahua_National_Monument",
+            "label": "Chiricahua"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/W._E._B._Du_Bois",
+            "label": "W. E. B. Du Bois"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pacific_Islands_Heritage_Marine_National_Monument",
+            "label": "Pacific Islands Heritage Marine"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bureau_of_Land_Management",
+            "label": "Bureau ofLand Management"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dockum_Drug_Store_sit-in",
+            "label": "Dockum Drug Store sit-in"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nashville_sit-ins",
+            "label": "Nashville sit-ins"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Brown_Chapel_A.M.E._Church_(Selma,_Alabama)",
+            "label": "Brown Chapel"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Claude_Black_(minister)",
+            "label": "Claude Black"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Plessy_v._Ferguson",
+            "label": "Plessy v. Ferguson"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/African-American_women_in_the_civil_rights_movement",
+            "label": "African-American women in the movement"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Medgar_Evers_house%2C_Jackson%2C_MS%2C_US.jpg/330px-Medgar_Evers_house%2C_Jackson%2C_MS%2C_US.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Logo_SNCC.svg/40px-Logo_SNCC.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Jackson%2C_Mississippi.svg/40px-Flag_of_Jackson%2C_Mississippi.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "6fdca4fd-ffe1-49bd-8403-60ccb0910bfc": {
+      "url": "https://en.wikipedia.org/wiki/Claude_Black_(minister)",
+      "title": "Claude Black (minister)",
+      "anchorText": "Claude Black",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Randolph_Blackwell",
+            "label": "Randolph Blackwell"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Atlanta_sit-ins",
+            "label": "Atlanta sit-ins"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Greensboro_sit-ins",
+            "label": "Greensboro sit-ins"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Savannah_Protest_Movement",
+            "label": "Savannah Protest Movement"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Oh,_Freedom",
+            "label": "\"Oh, Freedom\""
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Martin_Luther_King_III",
+            "label": "Martin Luther King III"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Myrlie_Evers-Williams",
+            "label": "Myrlie Evers-Williams"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Harriette_Moore",
+            "label": "Harriette Moore"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Freedom_Singers",
+            "label": "The Freedom Singers"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Frederick_D._Reese",
+            "label": "Frederick D. Reese"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "177f0e36-0276-4b41-808d-84e4782d2e5b": {
+      "url": "https://en.wikipedia.org/wiki/Oh,_Freedom",
+      "title": "Oh, Freedom",
+      "anchorText": "\"Oh, Freedom\"",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Adam_Fairclough_(historian)",
+            "label": "Adam Fairclough"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Kingdom_of_God_Is_Within_You",
+            "label": "The Kingdom of God Is Within You"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Frederick_D._Reese",
+            "label": "Frederick D. Reese"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/A._Maceo_Smith",
+            "label": "A. Maceo Smith"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jonathan_Daniels",
+            "label": "Jonathan Daniels"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lawrence_Guyot",
+            "label": "Lawrence Guyot"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Joseph_Ellwanger",
+            "label": "Joseph Ellwanger"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sit-in_movement",
+            "label": "Sit-in movement"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Uncle_Tom%27s_Cabin",
+            "label": "Uncle Tom's Cabin"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Gloria_Richardson",
+            "label": "Gloria Richardson"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Logo_SNCC.svg/40px-Logo_SNCC.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "8e1f0650-755f-46c4-a0f8-2f2859a64b48": {
+      "url": "https://en.wikipedia.org/wiki/Joseph_Ellwanger",
+      "title": "Joseph Ellwanger",
+      "anchorText": "Joseph Ellwanger",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Give_Us_the_Ballot",
+            "label": "Give Us the Ballot"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Septima_Poinsette_Clark",
+            "label": "Septima Clark"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fannie_Lou_Hamer",
+            "label": "Fannie Lou Hamer"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Birmingham,_Alabama",
+            "label": "Birmingham, Alabama"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bernice_Robinson",
+            "label": "Bernice Robinson"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Ali",
+            "label": "Muhammad Ali"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Montgomery_Improvement_Association",
+            "label": "Montgomery Improvement Association"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Annie_Bell_Robinson_Devine",
+            "label": "Annie Bell Robinson Devine"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/King_assassination_riots",
+            "label": "riots"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rosa_Parks_Museum",
+            "label": "Rosa Parks Museum"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Rev._Joe_Ellwanger_%2850939932101%29.jpg/250px-Rev._Joe_Ellwanger_%2850939932101%29.jpg",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "30438b85-7935-4284-a8f0-7054513d87a7": {
+      "url": "https://en.wikipedia.org/wiki/King_assassination_riots",
+      "title": "King assassination riots",
+      "anchorText": "riots",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Loyd_Jowers_trial",
+            "label": "Trial"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/1968_Kansas_City,_Missouri_riot",
+            "label": "Kansas City"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Chicago_Freedom_Movement",
+            "label": "campaigned for a federal fair housing law throughout 1966"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dorothy_Cotton",
+            "label": "Dorothy Cotton"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Washington_National_Cathedral",
+            "label": "Washington National Cathedral"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1968",
+            "label": "Civil Rights Act of 1968"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hough_riots",
+            "label": "Hough riots"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Charles_L._Terry",
+            "label": "Charles L. Terry"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hope_Moving_Forward",
+            "label": "Hope Moving Forward statue, Atlanta"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Civil_disturbance",
+            "label": "civil disturbance"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Leffler_-_1968_Washington%2C_D.C._Martin_Luther_King%2C_Jr._riots.jpg/330px-Leffler_-_1968_Washington%2C_D.C._Martin_Luther_King%2C_Jr._riots.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Holy_Week_Uprisings_Map.png/330px-Holy_Week_Uprisings_Map.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Damage_to_a_store_following_the_riots_in_Washington%2C_D.C.%2C_April_16%2C_1968.jpg/330px-Damage_to_a_store_following_the_riots_in_Washington%2C_D.C.%2C_April_16%2C_1968.jpg"
+      ]
+    },
+    "fa868dd4-130f-49a6-8e2f-5335c9038eea": {
+      "url": "https://en.wikipedia.org/wiki/Hough_riots",
+      "title": "Hough riots",
+      "anchorText": "Hough riots",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Carl_Stokes",
+            "label": "Carl Stokes"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Euclid_Avenue_(Cleveland,_Ohio)",
+            "label": "Euclid Avenue"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Martial_law",
+            "label": "martial law"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nicholas_Katzenbach",
+            "label": "Nicholas Katzenbach"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/University_Circle",
+            "label": "Little Italy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Erieview_Tower",
+            "label": "Erieview Tower"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Shooting_of_Timothy_Russell_and_Malissa_Williams",
+            "label": "Shooting of Timothy Russell and Malissa Williams"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/False_arrest",
+            "label": "false arrest"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Justice_Center_Complex",
+            "label": "Justice Center Complex"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jim_Rhodes",
+            "label": "James A. Rhodes"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/E_79th_and_Hough_-_site_of_Hough_Riots.jpg/330px-E_79th_and_Hough_-_site_of_Hough_Riots.jpg",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "71ca8f9c-cae1-4c6c-9a3e-45b82c0da433": {
+      "url": "https://en.wikipedia.org/wiki/Jim_Rhodes",
+      "title": "Jim Rhodes",
+      "anchorText": "James A. Rhodes",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Ralph_Osborn",
+            "label": "Osborn"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/1968_United_States_gubernatorial_elections",
+            "label": "Gubernatorial"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ohio_State_Auditor",
+            "label": "Ohio State Auditor"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Trade_mission",
+            "label": "Trade Mission"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Guerrant_Miller",
+            "label": "John G. Miller"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/William_E._Miller",
+            "label": "William E. Miller"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/James_John_Thomas",
+            "label": "James J. Thomas"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Maureen_O%27Connor_(judge)",
+            "label": "O'Connor"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mike_DeWine",
+            "label": "DeWine"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/1968_United_States_Senate_elections",
+            "label": "Senate"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Governor_James_Allen_Rhodes_-_DPLA_-_c001083ac8b9ac1d78a4012c702f22f9_%28page_1%29.jpg/250px-Governor_James_Allen_Rhodes_-_DPLA_-_c001083ac8b9ac1d78a4012c702f22f9_%28page_1%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Jim_Rhodes_and_Ronald_Reagan_1982.jpg/250px-Jim_Rhodes_and_Ronald_Reagan_1982.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Governor_Rhodes_Birthplace.jpg/250px-Governor_Rhodes_Birthplace.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/40px-Wikiquote-logo.svg.png"
+      ]
+    },
+    "58b73656-0807-4d45-b336-041c975474ad": {
+      "url": "https://en.wikipedia.org/wiki/Mike_DeWine",
+      "title": "Mike DeWine",
+      "anchorText": "DeWine",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/108th_United_States_Congress",
+            "label": "108th"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Opioid_epidemic",
+            "label": "opioid epidemic"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Human_trafficking",
+            "label": "human trafficking"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+            "label": "Joe Biden"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Microsoft_Teams",
+            "label": "Microsoft Teams"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/George_Floyd_protests",
+            "label": "George Floyd"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Boston",
+            "label": "Boston"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jeremiah_Morrow",
+            "label": "Morrow"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/WEWS-TV",
+            "label": "WEWS-TV"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/U.S._House_of_Representatives",
+            "label": "U.S. House of Representatives"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gov-Mike-DeWine.jpg/250px-Gov-Mike-DeWine.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mike_DeWine_and_family_pose_with_Ronald_Reagan.jpg/250px-Mike_DeWine_and_family_pose_with_Ronald_Reagan.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bush_Contact_Sheet_P17133_%28cropped%29.jpg/250px-Bush_Contact_Sheet_P17133_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Mike_DeWine_105th_Congress_1997.jpg/250px-Mike_DeWine_105th_Congress_1997.jpg"
+      ]
+    },
+    "93a3ac29-905f-4a0f-ad11-793d1b8ad857": {
+      "url": "https://en.wikipedia.org/wiki/Jeremiah_Morrow",
+      "title": "Jeremiah Morrow",
+      "anchorText": "Morrow",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Robert_Taft_Jr.",
+            "label": "R. Taft Jr."
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Scott_(Missouri_politician)",
+            "label": "Scott"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bruce_Johnson_(Ohio_politician)",
+            "label": "Johnson"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/J._Edward_Russell",
+            "label": "Russell"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rutherford_B._Hayes",
+            "label": "Hayes"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/David_T._Disney",
+            "label": "Disney"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ohio_Constitutional_Convention_(1802)",
+            "label": "Constitutional Convention"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Thomas_Chipman_McRae",
+            "label": "McRae"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cyrus_Locher",
+            "label": "Locher"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/James_Caldwell_(Ohio_politician)",
+            "label": "Caldwell"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Jeremiah_Morrow_at_statehouse.jpg/250px-Jeremiah_Morrow_at_statehouse.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jeremiah_Morrow_sketch_1900.jpg/250px-Jeremiah_Morrow_sketch_1900.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Seal_of_the_United_States_Senate.svg/120px-Seal_of_the_United_States_Senate.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_the_Governor_of_Ohio.svg/120px-Flag_of_the_Governor_of_Ohio.svg.png"
+      ]
+    },
+    "ca38bb17-a12c-44a7-86c2-27095eea49db": {
+      "url": "https://en.wikipedia.org/wiki/James_Caldwell_(Ohio_politician)",
+      "title": "James Caldwell (Ohio politician)",
+      "anchorText": "Caldwell",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Joyce_Beatty",
+            "label": "Jo. Beatty"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Henry_St._John_(congressman)",
+            "label": "St. John"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Norton_Strange_Townshend",
+            "label": "Townshend"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/David_S._Mann",
+            "label": "Mann"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:United_States_representatives_from_Ohio",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+            "label": "Current events"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/David_T._Disney",
+            "label": "Disney"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_C._Speaks",
+            "label": "Speaks"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/George_H._Bender",
+            "label": "Bender"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nelson_Barrere",
+            "label": "Barrere"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_House_of_Representatives.svg/120px-Seal_of_the_United_States_House_of_Representatives.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "e816d5df-46e3-49ba-93bf-0869e9893688": {
+      "url": "https://en.wikipedia.org/wiki/Nelson_Barrere",
+      "title": "Nelson Barrere",
+      "anchorText": "Barrere",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Ohio_House_of_Representatives",
+            "label": "Ohio House of Representatives"
+          },
+          {
+            "url": "https://en.wikipedia.org/w/index.php",
+            "label": "Create account"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Augusta_College_(Kentucky)",
+            "label": "Augusta College (Kentucky)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Walter_L._Weaver",
+            "label": "Weaver"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/32nd_United_States_Congress",
+            "label": "Thirty-second"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/West_Union,_Ohio",
+            "label": "West Union, Ohio"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Political_party",
+            "label": "Party"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Richard_A._Harrison",
+            "label": "Harrison"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Governor_of_Ohio",
+            "label": "Governor of Ohio"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hillsboro,_Ohio",
+            "label": "Hillsboro, Ohio"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_House_of_Representatives.svg/120px-Seal_of_the_United_States_House_of_Representatives.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "e014f914-759a-4275-b394-edccacfda42c": {
+      "url": "https://en.wikipedia.org/w/index.php",
+      "title": "Main Page",
+      "anchorText": "Create account",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Nymphalidae",
+            "label": "Nymphalidae"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Alexander_Kluge",
+            "label": "Alexander Kluge"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023%E2%80%93present)",
+            "label": "Sudanese civil war"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+            "label": "Iran war"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MacBook_Neo",
+            "label": "MacBook Neo"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Grimsk%C3%A4r",
+            "label": "Grimskär"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war_(2022%E2%80%93present)",
+            "label": "Russo-Ukrainian war"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Gould",
+            "label": "John Gould"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Subspecies",
+            "label": "subspecies"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2026_Italian_constitutional_referendum",
+            "label": "a constitutional referendum"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Cracticus_nigrogularis_by_John_Gould.JPG/250px-Cracticus_nigrogularis_by_John_Gould.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flygbilder_Sm%C3%A5land%2C_Kalmar_Grimsk%C3%A4r448.jpg/250px-Flygbilder_Sm%C3%A5land%2C_Kalmar_Grimsk%C3%A4r448.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Artemis_II_Launch_%28NHQ202604010105%29.jpg/250px-Artemis_II_Launch_%28NHQ202604010105%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg/250px-Elliott_%26_Fry_-_photograph_W._S._Gilbert.jpg"
+      ]
+    },
+    "51f29f67-6886-4b48-882f-537e049b07c9": {
+      "url": "https://en.wikipedia.org/wiki/2026_Italian_constitutional_referendum",
+      "title": "2026 Italian constitutional referendum",
+      "anchorText": "a constitutional referendum",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/1953_Italian_general_election",
+            "label": "1953"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Matteo_Lepore",
+            "label": "Matteo Lepore"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rete_degli_Studenti_Medi",
+            "label": "High School Students Network"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Italian_Confederation_of_Trades_Unions",
+            "label": "Italian Confederation of Trades Unions"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Voluntary_association",
+            "label": "Voluntary association"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Christian_Democracy_with_Rotondi",
+            "label": "Christian Democracy with Rotondi"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Anti-death_penalty",
+            "label": "Anti-death penalty"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2020_Italian_regional_elections",
+            "label": "2020"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Trentino-Alto_Adige/S%C3%BCdtirol",
+            "label": "Trentino-Alto Adige/Südtirol"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/60px-Flag_of_Italy.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2026_Italian_constitutional_referendum_by_province.svg/330px-2026_Italian_constitutional_referendum_by_province.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Carlo_Nordio_2025_%28cropped%29.jpg/250px-Carlo_Nordio_2025_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Italian_ballot_paper_for_2026_constitutional_referendum_%28front%29.svg/250px-Italian_ballot_paper_for_2026_constitutional_referendum_%28front%29.svg.png"
+      ]
+    },
+    "17ec6d2a-bf2a-4a26-aa89-4674db635eae": {
+      "url": "https://en.wikipedia.org/wiki/Matteo_Lepore",
+      "title": "Matteo Lepore",
+      "anchorText": "Matteo Lepore",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Virginio_Merola",
+            "label": "Virginio Merola"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Incumbent",
+            "label": "Incumbent"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/University_of_Bologna",
+            "label": "University of Bologna"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Roberto_Gualtieri",
+            "label": "Roberto Gualtieri"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_mayors_of_Perugia",
+            "label": "Perugia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Luigi_Galvani",
+            "label": "Luigi Galvani"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Marialuisa_Forte",
+            "label": "Marialuisa Forte"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Forza_Italia_(2013)",
+            "label": "FI"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nicola_Fiorita",
+            "label": "Nicola Fiorita"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pierluigi_Biondi",
+            "label": "Pierluigi Biondi"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Matteo_Lepore_2015_%28cropped%29.jpg/250px-Matteo_Lepore_2015_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/40px-Flag_of_Italy.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/40px-Flag_of_Italy.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "2d1dea18-826a-42dc-aec8-fd8949297da8": {
+      "url": "https://en.wikipedia.org/wiki/Incumbent",
+      "title": "Incumbent",
+      "anchorText": "Incumbent",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Virtual_incumbent",
+            "label": "Virtual incumbent"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Poujadist",
+            "label": "Poujadist"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rally_%27round_the_flag_effect",
+            "label": "Rally 'round the flag effect"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Election",
+            "label": "election"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Anti-incumbency",
+            "label": "Anti-incumbency"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Campaign_finance",
+            "label": "campaign finance"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/British_Journal_of_Political_Science",
+            "label": "British Journal of Political Science"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Competition",
+            "label": "competition"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/S2CID_(identifier)",
+            "label": "S2CID"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISSN_(identifier)",
+            "label": "ISSN"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/A_coloured_voting_box.svg/40px-A_coloured_voting_box.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "80f59c31-dfde-4a38-89b7-b6d6a814d901": {
+      "url": "https://en.wikipedia.org/wiki/Election",
+      "title": "Election",
+      "anchorText": "election",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Popular_initiative",
+            "label": "Initiative"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Freedom_of_speech",
+            "label": "Freedom of speech"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Majoritarian_representation",
+            "label": "Majoritarian representation"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_elections_in_2000",
+            "label": "2000"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2003_electoral_calendar",
+            "label": "2003"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Political_apathy",
+            "label": "political apathy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Business_Administration",
+            "label": "Business Administration"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Adhocracy",
+            "label": "Adhocracy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_elections_in_1860",
+            "label": "1860"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_elections_in_1978",
+            "label": "1978"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/250px-Election_MG_3455.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/A_coloured_voting_box_%28no_bg%29.svg/120px-A_coloured_voting_box_%28no_bg%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/A_coloured_voting_box_%28no_bg%29_%28cropped%29.svg/120px-A_coloured_voting_box_%28no_bg%29_%28cropped%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Roman_Election.jpg/250px-Roman_Election.jpg"
+      ]
+    },
+    "fd4fb4a9-a9f1-4117-b932-8cdc1f02f19b": {
+      "url": "https://en.wikipedia.org/wiki/List_of_elections_in_2000",
+      "title": "List of elections in 2000",
+      "anchorText": "2000",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/2000_Yugoslavian_presidential_election",
+            "label": "2000 Yugoslavian presidential election"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2000_Ayr_by-election",
+            "label": "2000 Ayr by-election"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_elections_in_1860",
+            "label": "1860"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2000_Southend-on-Sea_Council_election",
+            "label": "2000 Southend-on-Sea Council election"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_elections_in_1830",
+            "label": "1830"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_elections_in_1875",
+            "label": "1875"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2000_Haitian_presidential_election",
+            "label": "2000 Haitian presidential election"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2000_Tottenham_by-election",
+            "label": "2000 Tottenham by-election"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_elections_in_1829",
+            "label": "1829"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2000_Derby_Council_election",
+            "label": "2000 Derby Council election"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "7c171984-6a03-4981-96a1-50906bdf4733": {
+      "url": "https://en.wikipedia.org/wiki/2000_Haitian_presidential_election",
+      "title": "2000 Haitian presidential election",
+      "anchorText": "2000 Haitian presidential election",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Convergence_D%C3%A9mocratique",
+            "label": "Convergence Démocratique"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Haiti)",
+            "label": "Ministry of Foreign Affairs"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cabinet_of_Haiti",
+            "label": "Cabinet"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Haiti",
+            "label": "list"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_Haiti",
+            "label": "Supreme Court of Haiti"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/1990%E2%80%9391_Haitian_general_election",
+            "label": "1990"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Outline_of_political_science",
+            "label": "Other countries"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/1985_Haitian_constitutional_referendum",
+            "label": "1985"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/1995_Haitian_general_election",
+            "label": "1995"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Departments_of_Haiti",
+            "label": "Departments"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/60px-Flag_of_Haiti.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Jean-Bertrand_Aristide_%28cropped%29.jpg/120px-Jean-Bertrand_Aristide_%28cropped%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/3x4.svg/120px-3x4.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_arms_of_Haiti.svg/250px-Coat_of_arms_of_Haiti.svg.png"
+      ]
+    },
+    "a1ea361d-7b9d-48c9-aad7-5553ca25eb97": {
+      "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_Haiti",
+      "title": "Supreme Court of Haiti",
+      "anchorText": "Supreme Court of Haiti",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_Honduras",
+            "label": "Honduras"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Anti-Duvalier_protest_movement",
+            "label": "Anti-Duvalier protest movement"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Republic_of_Haiti_(1806%E2%80%931820)",
+            "label": "1806–1820"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2015_Haitian_presidential_election",
+            "label": "2015"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dance_in_Haiti",
+            "label": "Dance"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Haitian_Revolution",
+            "label": "Haitian Revolution"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/L%C3%A9og%C3%A2ne_Arrondissement",
+            "label": "Léogâne Arrondissement"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Constitution_of_Haiti",
+            "label": "Constitution of Haiti"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_commanders-in-chief_of_the_Armed_Forces_of_Haiti",
+            "label": "Commanders-in-chief"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Cour-de-cassation-haiti-actunews7.jpg/250px-Cour-de-cassation-haiti-actunews7.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_arms_of_Haiti.svg/250px-Coat_of_arms_of_Haiti.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/40px-Flag_of_Haiti.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png"
+      ]
+    },
+    "5f4dfce8-acf2-4a08-b483-7421014e1042": {
+      "url": "https://en.wikipedia.org/wiki/Dance_in_Haiti",
+      "title": "Dance in Haiti",
+      "anchorText": "Dance",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Caribbean_folk_music_traditions",
+            "label": "Haitian Folk Dance"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Austrian_folk_dance",
+            "label": "Austria"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Igbo_people_in_the_Atlantic_slave_trade",
+            "label": "Igbo_people_in_the_Atlantic_slave_trade § Haiti"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Greek_dances",
+            "label": "Greece"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ukrainian_dance",
+            "label": "Ukraine"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Turnout_(ballet)",
+            "label": "Turnout"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dance_in_Cuba",
+            "label": "Cuba"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dance_technology",
+            "label": "Dance technology"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Haiti",
+            "label": "Haiti"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Peruvian_dances",
+            "label": "Peru"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/40px-Crystal_Clear_app_kedit.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Folklore_Haitien_2.jpg/250px-Folklore_Haitien_2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Haiti_%281964%E2%80%931986%2C_civil%29.svg/60px-Flag_of_Haiti_%281964%E2%80%931986%2C_civil%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_the_United_States_%281912-1959%29.svg/60px-Flag_of_the_United_States_%281912-1959%29.svg.png"
+      ]
+    },
+    "f5efaec8-0e7a-4eb5-bca4-2d5e2f80530f": {
+      "url": "https://en.wikipedia.org/wiki/Igbo_people_in_the_Atlantic_slave_trade",
+      "title": "Igbo people in the Atlantic slave trade",
+      "anchorText": "Igbo_people_in_the_Atlantic_slave_trade § Haiti",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Slavery_and_religion",
+            "label": "Religion"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Abia_State",
+            "label": "Abia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Slavery_in_Zanzibar",
+            "label": "Zanzibar"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lejja",
+            "label": "Lejja"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Kwalliso",
+            "label": "Kwalliso"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mormonism_and_slavery",
+            "label": "Mormonism"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ogba_people",
+            "label": "Ogba"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Haitian_Revolution",
+            "label": "revolt"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Slavery_in_the_United_Arab_Emirates",
+            "label": "United Arab Emirates"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Creoles_of_color",
+            "label": "Creoles of color"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Olaudah_Equiano_-_Project_Gutenberg_eText_15399_%28cropped%29.png/250px-Olaudah_Equiano_-_Project_Gutenberg_eText_15399_%28cropped%29.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Grave_of_Archibald_Monteith%2C_Carmel_Moravian_Church%2C_Jamaica%2C_1968.png/250px-Grave_of_Archibald_Monteith%2C_Carmel_Moravian_Church%2C_Jamaica%2C_1968.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "d19d941b-194b-4d77-b098-199235d19f53": {
+      "url": "https://en.wikipedia.org/wiki/Abia_State",
+      "title": "Abia State",
+      "anchorText": "Abia",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Ikechukwu_Emetu",
+            "label": "Ikechukwu Emetu"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Leadership_(newspaper)",
+            "label": "Leadership"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Textile",
+            "label": "textile"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Arochukwu",
+            "label": "Arochukwu"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Frank_Ajobena",
+            "label": "Frank Ajobena"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cross_River_State",
+            "label": "Cross River"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Anglo-Aro_War",
+            "label": "Anglo-Aro War"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Aba,_Abia",
+            "label": "Aba"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Onyema_Ugochukwu",
+            "label": "Onyema Ugochukwu"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Isaac_Nwaobia",
+            "label": "Isaac Nwaobia"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Abia_%28new%29.png/120px-Flag_of_Abia_%28new%29.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/ABSG_Coat_of_Arms_Master.png/120px-ABSG_Coat_of_Arms_Master.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Nigeria_-_Abia.svg/250px-Nigeria_-_Abia.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/40px-Flag_of_Nigeria.svg.png"
+      ]
+    },
+    "9a84a351-5e04-42ef-a494-9ae719ee949a": {
+      "url": "https://en.wikipedia.org/wiki/Textile",
+      "title": "Textile",
+      "anchorText": "textile",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Aquaculture",
+            "label": "aquaculture"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hessian_(Cloth)",
+            "label": "hessian"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Tent_stitch",
+            "label": "Tent stitch"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Window_screen",
+            "label": "window screening"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Frederick_Crace_Calvert",
+            "label": "Frederick Crace Calvert"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Warp_and_weft",
+            "label": "Warp and weft"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Weaving",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Textile_manufacturing_by_pre-industrial_methods",
+            "label": "Textile manufacturing by pre-industrial methods"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Angora_wool",
+            "label": "Angora"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Shagreen",
+            "label": "Stingray"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Weaving_jamdani_at_BSCIC_Jamdani_palli%2C_Narayanganj_113.jpg/250px-Weaving_jamdani_at_BSCIC_Jamdani_palli%2C_Narayanganj_113.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Urdimbre_rosa.jpg/250px-Urdimbre_rosa.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flores_y_colores_hechos_a_mano.jpg/250px-Flores_y_colores_hechos_a_mano.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tzutujil.weaving.jpg/120px-Tzutujil.weaving.jpg"
+      ]
+    },
+    "7d4214b6-8eb9-4bc1-89d2-39c5e01d84c4": {
+      "url": "https://en.wikipedia.org/wiki/Shagreen",
+      "title": "Shagreen",
+      "anchorText": "Stingray",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Alligator_leather",
+            "label": "Alligator"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Time_(magazine)",
+            "label": "Time"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rawhide_(textile)",
+            "label": "rawhide"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corinthian_leather",
+            "label": "Corinthian"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cuir_de_Cordoue",
+            "label": "Cuir de Cordoue"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Chenopodium",
+            "label": "Chenopodium"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Placoid_scales",
+            "label": "placoid scales"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hilt",
+            "label": "hilts"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Topkapi_Palace",
+            "label": "Topkapi Palace"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Cincinnati_Post",
+            "label": "The Cincinnati Post"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Galuchat_2..jpg/250px-Galuchat_2..jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Tanto_Kunimitsu.jpg/250px-Tanto_Kunimitsu.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Shagreen_and_silver_elephants.jpg/250px-Shagreen_and_silver_elephants.jpg"
+      ]
+    },
+    "d3208c29-c860-4211-b59a-e1b4a925b774": {
+      "url": "https://en.wikipedia.org/wiki/Time_(magazine)",
+      "title": "Time (magazine)",
+      "anchorText": "Time",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/U.S._foreign_policy",
+            "label": "U.S. foreign policy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Covers_of_Time_(magazine)",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cozi",
+            "label": "Cozi"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Synapse_Group",
+            "label": "Synapse Group"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/BBC_News",
+            "label": "BBC News"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/JSTOR_(identifier)",
+            "label": "JSTOR"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Taylor_Swift",
+            "label": "Taylor Swift"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bono",
+            "label": "Bono"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Washington_Blade",
+            "label": "Washington Blade"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Harry_S._Truman",
+            "label": "Harry S. Truman"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Time_Magazine_logo.svg/250px-Time_Magazine_logo.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/The_AI_Arms_Race_Is_Changing_Everything.webp/250px-The_AI_Arms_Race_Is_Changing_Everything.webp.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Time_Magazine_-_first_cover.jpg/250px-Time_Magazine_-_first_cover.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Time_Magazine_logo.svg/250px-Time_Magazine_logo.svg.png"
+      ]
+    },
+    "8d492628-2c85-43bb-aaab-80e0d021920b": {
+      "url": "https://en.wikipedia.org/wiki/Cozi",
+      "title": "Cozi",
+      "anchorText": "Cozi",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Cozi_TV",
+            "label": "Cozi TV"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Computer_software",
+            "label": "computer software"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/American_City_Business_Journals",
+            "label": "American City Business Journals"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/PR_Newswire",
+            "label": "PR Newswire"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Minneapolis,_Minnesota",
+            "label": "Minneapolis, Minnesota"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wayback_Machine",
+            "label": "Wayback Machine"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+            "label": "Current events"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Meredith_Corporation",
+            "label": "Meredith Corporation"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Parent_company",
+            "label": "Parent"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Crystal_Clear_app_linneighborhood.svg/40px-Crystal_Clear_app_linneighborhood.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/40px-Flag_of_the_United_States.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "3bbb02bf-59d4-49a1-b69b-0421aa2100be": {
+      "url": "https://en.wikipedia.org/wiki/Parent_company",
+      "title": "Holding company",
+      "anchorText": "Parent",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Broadcast_license",
+            "label": "broadcast licenses"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wholly_owned_subsidiary",
+            "label": "wholly owned subsidiary"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Kabushiki_gaisha",
+            "label": "Kabushiki gaisha (K.K.)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Investment_company",
+            "label": "Investment company"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_%C3%A0_responsabilit%C3%A9_limit%C3%A9e",
+            "label": "Société à responsabilité limitée (SARL)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jacor",
+            "label": "Jacor"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Limited_company",
+            "label": "Limited company (Ltd.)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Susquehanna_Radio",
+            "label": "Susquehanna Radio"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Federal_Financial_Institutions_Examination_Council",
+            "label": "Federal Financial Institutions Examination Council"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Massachusetts_business_trust",
+            "label": "Massachusetts business trust"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Society.svg/250px-Society.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ambox_globe_content.svg/60px-Ambox_globe_content.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/All-currency-symbol.svg/40px-All-currency-symbol.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "4f20c1b8-8f0b-4b7f-ad5d-1f0008c85532": {
+      "url": "https://en.wikipedia.org/wiki/Kabushiki_gaisha",
+      "title": "Kabushiki gaisha",
+      "anchorText": "Kabushiki gaisha (K.K.)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Canadian_corporate_law",
+            "label": "Canada"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Benefit_corporation",
+            "label": "Benefit corporation"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_%C3%A0_responsabilit%C3%A9_limit%C3%A9e",
+            "label": "Société à responsabilité limitée (SARL)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Societas_privata_Europaea",
+            "label": "Societas privata (SPE)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/European_economic_interest_grouping",
+            "label": "Economic interest grouping (EEIG)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Unlimited_company",
+            "label": "Unlimited company"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nominating_committee",
+            "label": "nominating committee"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ansvarlig_selskap",
+            "label": "Ansvarlig selskap (ANS)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/G%C5%8Dd%C5%8D_gaisha",
+            "label": "gōdō gaisha"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Private_company_limited_by_guarantee",
+            "label": "by guarantee"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Society.svg/250px-Society.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/40px-Flag_of_Japan.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "ba08cd0e-2f10-4dd6-9c7a-0a6d5cbbc11a": {
+      "url": "https://en.wikipedia.org/wiki/Private_company_limited_by_guarantee",
+      "title": "Company limited by guarantee",
+      "anchorText": "by guarantee",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Limited_partnership",
+            "label": "Limited"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Private_company_limited_by_shares",
+            "label": "by shares"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Beneficial_ownership",
+            "label": "Beneficial ownership"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Liquidation",
+            "label": "wound up"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corporate_law_in_Vietnam",
+            "label": "Vietnam"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Public_limited_company",
+            "label": "public"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mutual_insurance",
+            "label": "mutual insurance"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Canadian_corporate_law",
+            "label": "Canada"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Types_of_business_entity",
+            "label": "more..."
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Aksjeselskap",
+            "label": "Aksjeselskap (AS)"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Society.svg/250px-Society.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "632ea479-39ec-4072-8660-3b8406af17e4": {
+      "url": "https://en.wikipedia.org/wiki/Aksjeselskap",
+      "title": "Aksjeselskap",
+      "anchorText": "Aksjeselskap (AS)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/European_economic_interest_grouping",
+            "label": "Economic interest grouping (EEIG)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Selskap_med_begrenset_ansvar",
+            "label": "BA"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corporate_law_in_Vietnam",
+            "label": "Vietnam"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/British_Virgin_Islands_company_law",
+            "label": "BVI"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Canadian_corporate_law",
+            "label": "Canada"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Norwegian_krone",
+            "label": "NOK"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_%C3%A0_responsabilit%C3%A9_limit%C3%A9e",
+            "label": "Société à responsabilité limitée (SARL)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sociedad_de_responsabilidad_limitada",
+            "label": "Sociedad de responsabilidad limitada (S.R.L.)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Contract",
+            "label": "Contract"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/European_corporate_law",
+            "label": "European Union"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Translation_to_english_arrow.svg/60px-Translation_to_english_arrow.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Society.svg/250px-Society.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "fb1924c4-9339-414f-a899-23398d2554f6": {
+      "url": "https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_%C3%A0_responsabilit%C3%A9_limit%C3%A9e",
+      "title": "Société à responsabilité limitée",
+      "anchorText": "Société à responsabilité limitée (SARL)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Corporate_law_in_Vietnam",
+            "label": "Vietnam"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+            "label": "Current events"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corporate_law",
+            "label": "Corporate law"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/De_facto_corporation_and_corporation_by_estoppel",
+            "label": "De facto and estoppel corporations"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/General_partnership",
+            "label": "General"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Charitable_incorporated_organisation",
+            "label": "Charitable incorporated organisation (England and Wales) (CIO)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Joint-stock_company",
+            "label": "Joint-stock"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_legal_entity_types_by_country",
+            "label": "Corporate forms by jurisdiction"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Osakeyhti%C3%B6",
+            "label": "Osakeyhtiö (Oy)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Limited_liability_partnership",
+            "label": "Limited liability"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Society.svg/250px-Society.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "a7face0c-752b-4d45-ab49-b01fbf7a0a70": {
+      "url": "https://en.wikipedia.org/wiki/Limited_liability_partnership",
+      "title": "Limited liability partnership",
+      "anchorText": "Limited liability",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Queen%27s_Law_Journal",
+            "label": "Queen's Law Journal"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corporate_law",
+            "label": "Corporate law"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Companies_Act_2006",
+            "label": "Companies Act 2006"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/European_corporate_law",
+            "label": "European Union"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Uniform_Partnership_Act",
+            "label": "Uniform Partnership Act"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Corporate_law",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Double_taxation",
+            "label": "double taxation"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Holding_company",
+            "label": "Holding company"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/U.S._state",
+            "label": "state"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Yukon",
+            "label": "Yukon"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Society.svg/250px-Society.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/217_West_Main_Street_GA.jpg/250px-217_West_Main_Street_GA.jpg"
+      ]
+    },
+    "3151bef4-4dd8-4190-b7a4-1032fc965218": {
+      "url": "https://en.wikipedia.org/wiki/Yukon",
+      "title": "Yukon",
+      "anchorText": "Yukon",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Alaska_Highway",
+            "label": "Alaska Highway"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mount_Lorne",
+            "label": "Mount Lorne"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Yukon_territorial_highways",
+            "label": "List of Yukon territorial highways"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Yukon_Jack",
+            "label": "Yukon Jack"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Northern_Quebec",
+            "label": "Northern Quebec"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/James_Bay_and_Northern_Quebec_Agreement",
+            "label": "James Bay and Northern Quebec Agreement"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Marsh_Lake,_Yukon",
+            "label": "Marsh Lake"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Peace_River,_Alberta",
+            "label": "Peace River"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Deputy_Prime_Minister_of_Canada",
+            "label": "Deputy Prime Minister"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Missionary",
+            "label": "missionaries"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_Yukon.svg/250px-Flag_of_Yukon.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Coat_of_arms_of_Yukon.svg/60px-Coat_of_arms_of_Yukon.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Yukon_in_Canada_2.svg/330px-Yukon_in_Canada_2.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ca%C3%B1%C3%B3n_Miles%2C_Yuk%C3%B3n%2C_Canad%C3%A1%2C_2017-08-26%2C_DD_130-132_PAN.jpg/330px-Ca%C3%B1%C3%B3n_Miles%2C_Yuk%C3%B3n%2C_Canad%C3%A1%2C_2017-08-26%2C_DD_130-132_PAN.jpg"
+      ]
+    },
+    "5af45137-ed3e-4253-b43d-5a971137d2a7": {
+      "url": "https://en.wikipedia.org/wiki/Deputy_Prime_Minister_of_Canada",
+      "title": "Deputy Prime Minister of Canada",
+      "anchorText": "Deputy Prime Minister",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/20th_Canadian_Ministry",
+            "label": "20th"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Deputy_leader",
+            "label": "deputy leader"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2019_Canadian_federal_election",
+            "label": "2019 federal election"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Cabinet_of_Canada",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Deputy_Prime_Minister_of_Antigua_and_Barbuda",
+            "label": "Antigua and Barbuda"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Royal_prerogative",
+            "label": "Royal prerogative"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Regina%E2%80%94Wascana",
+            "label": "Regina—Wascana"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Minister_of_Indigenous_Services",
+            "label": "Indigenous Services"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Turner",
+            "label": "John Turner"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vice_President_of_Panama",
+            "label": "Panama"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Royal_Crown_of_Canada.svg/120px-Royal_Crown_of_Canada.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Allan_MacEachen.jpg/120px-Allan_MacEachen.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Allan_MacEachen.jpg/120px-Allan_MacEachen.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Jean_Chr%C3%A9tien_cropped.jpg/120px-Jean_Chr%C3%A9tien_cropped.jpg"
+      ]
+    },
+    "75e5057f-5705-4908-a926-9ab25dfcdcf7": {
+      "url": "https://en.wikipedia.org/wiki/Royal_prerogative",
+      "title": "Royal prerogative",
+      "anchorText": "Royal prerogative",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Coronation",
+            "label": "Coronation"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Law_enforcement_agency",
+            "label": "Agency"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Space_law",
+            "label": "Space law"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Comparative_law",
+            "label": "Comparative law"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ethnarch",
+            "label": "Ethnarch"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Patriarcha",
+            "label": "Patriarcha"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Despotism",
+            "label": "Despotism"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Royal_consort",
+            "label": "Consort"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Criticism_of_monarchy",
+            "label": "Criticism"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Consumer_protection",
+            "label": "Consumer protection"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Heraldic_Royal_Crown_%28Common%29.svg/120px-Heraldic_Royal_Crown_%28Common%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Balance%2C_by_David.svg/40px-Balance%2C_by_David.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "9c4a783f-6a5b-4219-a7c5-94cf4713b1db": {
+      "url": "https://en.wikipedia.org/wiki/Ethnarch",
+      "title": "Ethnarch",
+      "anchorText": "Ethnarch",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Federal_monarchy",
+            "label": "Federal"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Greek_Cypriots",
+            "label": "Greek Cypriots"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Allophilia",
+            "label": "Allophilia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Benjamin_Disraeli",
+            "label": "Disraeli"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Race_and_ethnicity_in_censuses",
+            "label": "Ethnicity in censuses"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pretender",
+            "label": "Pretender"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Miguelist",
+            "label": "Miguelism"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hyrcanus_II",
+            "label": "Hyrcanus II"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Privy_council",
+            "label": "Privy council"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Court_appointment",
+            "label": "Appointment"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Heraldic_Royal_Crown_%28Common%29.svg/120px-Heraldic_Royal_Crown_%28Common%29.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "d06b0bc1-6cce-40ad-86f2-5f65bd241da8": {
+      "url": "https://en.wikipedia.org/wiki/Race_and_ethnicity_in_censuses",
+      "title": "Race and ethnicity in censuses",
+      "anchorText": "Ethnicity in censuses",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Asiatics",
+            "label": "Asiatics"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_contemporary_ethnic_groups",
+            "label": "Groups by region"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dominica",
+            "label": "Dominica"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Demographics_of_Mexico",
+            "label": "Mexico"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Communal_violence",
+            "label": "Communal violence"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Afro-Peruvians",
+            "label": "Afro-descendant"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Belarus",
+            "label": "Belarus"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Grenada",
+            "label": "Grenada"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/JSTOR_(identifier)",
+            "label": "JSTOR"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/U.S._State_Department",
+            "label": "State Department"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Ethnicity_and_race_in_censuses.png/500px-Ethnicity_and_race_in_censuses.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Angola_Ethnic_map_1970.svg/120px-Angola_Ethnic_map_1970.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/IvoryCoastEthno.jpg/120px-IvoryCoastEthno.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Volkeren_in_Marokko.jpg/120px-Volkeren_in_Marokko.jpg"
+      ]
+    },
+    "4e3b36fb-59be-4f42-80ab-87b5f7e84c31": {
+      "url": "https://en.wikipedia.org/wiki/Communal_violence",
+      "title": "Communal violence",
+      "anchorText": "Communal violence",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Hindus",
+            "label": "Hindus"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Languages_of_India",
+            "label": "Language conflicts in India"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/PMID_(identifier)",
+            "label": "PMID"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISSN_(identifier)",
+            "label": "ISSN"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Kenya",
+            "label": "Kenya"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/University_of_California_Press",
+            "label": "University of California Press"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Muhammad_Ali_Jinnah",
+            "label": "Jinnah"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Henry_Chadwick_(theologian)",
+            "label": "Chadwick, H."
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Egypt",
+            "label": "Egypt"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Exodus_of_Kashmiri_Hindus",
+            "label": "India"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Action_to_stem_violence.jpg/330px-Action_to_stem_violence.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/La_masacre_de_San_Bartolom%C3%A9%2C_por_Fran%C3%A7ois_Dubois.jpg/250px-La_masacre_de_San_Bartolom%C3%A9%2C_por_Fran%C3%A7ois_Dubois.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Communal_trouble_also_erupts_in_Ahmedabad%2C_between_Muslims_and_Jains.jpg/250px-Communal_trouble_also_erupts_in_Ahmedabad%2C_between_Muslims_and_Jains.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Cyprus_Greek_Turk_Communal_Violence_at_Ktima%2C_Paphos.jpg/250px-Cyprus_Greek_Turk_Communal_Violence_at_Ktima%2C_Paphos.jpg"
+      ]
+    },
+    "8175904a-8183-4815-b0f9-91a6b4aa2ec3": {
+      "url": "https://en.wikipedia.org/wiki/Henry_Chadwick_(theologian)",
+      "title": "Henry Chadwick (theologian)",
+      "anchorText": "Chadwick, H.",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Festschriften",
+            "label": "Festschriften"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Tom_Quad",
+            "label": "Tom Quad"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Diocese",
+            "label": "bishopric"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Henry_Wilkinson_Cookson",
+            "label": "Henry Wilkinson Cookson"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Eric_Heaton",
+            "label": "Eric Heaton"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dennis_Eric_Nineham",
+            "label": "Dennis Eric Nineham"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/William_Bradshaw_(bishop)",
+            "label": "William Bradshaw"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/James_Amiraux_Jeremie",
+            "label": "James Amiraux Jeremie"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Richard_Smyth_(theologian)",
+            "label": "Richard Smyth"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/James_Porter_(Master_of_Peterhouse,_Cambridge)",
+            "label": "James Porter"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Henry-Chadwick.jpg/250px-Henry-Chadwick.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Tom_Quad%2C_Christ_Church_2004-01-21.jpg/250px-Tom_Quad%2C_Christ_Church_2004-01-21.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Cathedral_oxford.jpg/250px-Cathedral_oxford.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/P_christianity.svg/40px-P_christianity.svg.png"
+      ]
+    },
+    "7f3541c1-71f7-4a86-bdaf-8d56c5aff4c6": {
+      "url": "https://en.wikipedia.org/wiki/James_Porter_(Master_of_Peterhouse,_Cambridge)",
+      "title": "James Porter (Master of Peterhouse, Cambridge)",
+      "anchorText": "James Porter",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Masters_of_Peterhouse,_Cambridge",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/William_Glyn_(bishop)",
+            "label": "William Glyn"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Francis_Parris",
+            "label": "Francis Parris"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/David_Wilson,_Baron_Wilson_of_Tillyorn",
+            "label": "The Lord Wilson of Tillyorn"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Worthington_(academic)",
+            "label": "John Worthington"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Crayford",
+            "label": "John Crayford"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Thomas_Hill_(Cambridge)",
+            "label": "Thomas Hill"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Davies_(classical_scholar,_born_1679)",
+            "label": "John Davies"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Francis_Turner_(bishop)",
+            "label": "Francis Turner"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/William_Powell_(Archdeacon_of_Colchester)",
+            "label": "William Samuel Powell"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/James_Porter_by_WW_Ouless.jpg/250px-James_Porter_by_WW_Ouless.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/40px-Flag_of_England.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Coat_of_Arms_of_the_University_of_Cambridge.svg/40px-Coat_of_Arms_of_the_University_of_Cambridge.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "908bf81e-7f23-4400-afe3-2f8b02e89a68": {
+      "url": "https://en.wikipedia.org/wiki/Francis_Turner_(bishop)",
+      "title": "Francis Turner (bishop)",
+      "anchorText": "Francis Turner",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Edward_Legge_(bishop)",
+            "label": "Edward Legge"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Alcock_(bishop)",
+            "label": "John Alcock"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Alma_mater",
+            "label": "Alma mater"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mary_of_Modena",
+            "label": "queen"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dean_of_Windsor",
+            "label": "Dean of Windsor"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Damian_(bishop_of_Rochester)",
+            "label": "Damianus"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bachelor_of_Arts",
+            "label": "B.A."
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Henry_Holbeach",
+            "label": "Henry Holbeach"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Edmund_Audley",
+            "label": "Edmund Audley"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/British_Museum",
+            "label": "British Museum"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Francis_Turner_by_Mary_Beale.jpg/250px-Francis_Turner_by_Mary_Beale.jpg",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "f8ed8aad-37d9-4408-823d-17e115eee3cf": {
+      "url": "https://en.wikipedia.org/wiki/Henry_Holbeach",
+      "title": "Henry Holbeach",
+      "anchorText": "Henry Holbeach",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Joseph_Hall_(bishop)",
+            "label": "Joseph Hall"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Joseph_Butler",
+            "label": "Joseph Butler"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Waleran_(bishop_of_Rochester)",
+            "label": "Waleran"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Richard_Edes",
+            "label": "Richard Edes"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Gilbert_Glanvill",
+            "label": "Gilbert Glanvill"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nicholas_Heath",
+            "label": "Nicholas Heath"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+            "label": "Current events"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cathedral",
+            "label": "cathedral"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Folliott_Cornewall",
+            "label": "Folliott Cornewall"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Bowle_(bishop)",
+            "label": "John Bowle"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "0aec6945-4b58-480d-a725-5acbd88a3b5d": {
+      "url": "https://en.wikipedia.org/wiki/Folliott_Cornewall",
+      "title": "Folliott Cornewall",
+      "anchorText": "Folliott Cornewall",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Nicholas_Monck",
+            "label": "Nicholas Monck"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nicholas_of_Ely",
+            "label": "Nicholas of Ely"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Silvestro_de%27_Gigli",
+            "label": "Silvestro de' Gigli"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Brownlow_North",
+            "label": "Brownlow North"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Harley_(16th-century_bishop)",
+            "label": "John Harley"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wulfheard",
+            "label": "Wulfheard"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Thomas_Cobham",
+            "label": "Thomas Cobham"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Paul_Bush_(bishop)",
+            "label": "Paul Bush"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Robert_of_Melun",
+            "label": "Robert of Melun"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Thomas_Bourchier_(cardinal)",
+            "label": "Thomas Bourchier"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Folliott_Herbert_Walker_Cornewall_by_William_Owen.jpg/250px-Folliott_Herbert_Walker_Cornewall_by_William_Owen.jpg",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "4d97d315-104f-4d32-aa1c-109bb8d13790": {
+      "url": "https://en.wikipedia.org/wiki/Paul_Bush_(bishop)",
+      "title": "Paul Bush (bishop)",
+      "anchorText": "Paul Bush",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Edward_VI",
+            "label": "Edward VI"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Henry_VIII",
+            "label": "Henry VIII"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Edmund_Bonner",
+            "label": "Edmund Bonner"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Somerset",
+            "label": "Somerset"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/University_of_Oxford",
+            "label": "University of Oxford"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bishopstone,_Salisbury",
+            "label": "Bishopston"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mary_I_of_England",
+            "label": "Queen Mary"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Stephen_Gardiner",
+            "label": "Stephen Gardiner"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Salisbury_Cathedral",
+            "label": "Salisbury Cathedral"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Smith,_Elder_%26_Co",
+            "label": "Smith, Elder & Co"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "3cb19757-d446-4e3d-a964-e900f38dbd61": {
+      "url": "https://en.wikipedia.org/wiki/Mary_I_of_England",
+      "title": "Mary I",
+      "anchorText": "Queen Mary",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Duke_of_Brabant",
+            "label": "Brabant"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rowland_Taylor",
+            "label": "Rowland Taylor"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_the_King_of_Spain",
+            "label": "those of her husband"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Eleanor_of_Anjou",
+            "label": "Eleanor of Anjou"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Gules",
+            "label": "Gules"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Adam_Otterburn",
+            "label": "Adam Otterburn"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Henry_VIII",
+            "label": "Henry VIII"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Eustace_Chapuys",
+            "label": "Eustace Chapuys"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Palace_of_Beaulieu",
+            "label": "Palace of Beaulieu"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Winchester_Cathedral",
+            "label": "Winchester Cathedral"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Maria_Tudor1.jpg/250px-Maria_Tudor1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mary_I_Signature.svg/250px-Mary_I_Signature.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Catalina_de_Arag%C3%B3n%2C_palacio_de_Lambeth.jpg/250px-Catalina_de_Arag%C3%B3n%2C_palacio_de_Lambeth.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mary_Tudor_by_Horenbout.jpg/250px-Mary_Tudor_by_Horenbout.jpg"
+      ]
+    },
+    "859d71be-8807-4a3c-9353-91178e4b32bf": {
+      "url": "https://en.wikipedia.org/wiki/Eustace_Chapuys",
+      "title": "Eustace Chapuys",
+      "anchorText": "Eustace Chapuys",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Annecy",
+            "label": "Annecy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Blackwell_Publishing",
+            "label": "Blackwell"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Concubinage",
+            "label": "concubine"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Mirror_%26_the_Light",
+            "label": "The Mirror & the Light"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Leuven",
+            "label": "Leuven"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Duchy_of_Savoy",
+            "label": "Duchy of Savoy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_van_der_Delft",
+            "label": "François van der Delft"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Robert_Bolt",
+            "label": "Robert Bolt"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sinecure",
+            "label": "sinecures"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Austin_Friars,_London",
+            "label": "Austin Friars"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/d/d3/Eustace_Chapuys_Portrait.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Eustace_Chapuis.jpg/250px-Eustace_Chapuis.jpg",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "3172211a-e81d-4286-aa9a-48114bb41768": {
+      "url": "https://en.wikipedia.org/wiki/Robert_Bolt",
+      "title": "Robert Bolt",
+      "anchorText": "Robert Bolt",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/William_Goldman",
+            "label": "William Goldman"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Donald_Ogden_Stewart",
+            "label": "Donald Ogden Stewart"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lisa_Cholodenko",
+            "label": "Lisa Cholodenko"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Andrew_Keir",
+            "label": "Andrew Keir"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Royal_Air_Force",
+            "label": "RAF"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Larry_Gelbart",
+            "label": "Larry Gelbart"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nostromo",
+            "label": "Nostromo"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Seven_Pillars_of_Wisdom",
+            "label": "Seven Pillars of Wisdom"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Truffaut",
+            "label": "François Truffaut"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Michael_Blake_(author)",
+            "label": "Michael Blake"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Robert_Bolt.jpg/250px-Robert_Bolt.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/40px-Wikiquote-logo.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "63ca9ec2-f309-4c99-8526-a1f1cc03ac93": {
+      "url": "https://en.wikipedia.org/wiki/Seven_Pillars_of_Wisdom",
+      "title": "Seven Pillars of Wisdom",
+      "anchorText": "Seven Pillars of Wisdom",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Tony_Parsons_(British_journalist)",
+            "label": "Tony Parsons"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/LibriVox",
+            "label": "LibriVox"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sykes-Picot_agreement",
+            "label": "Sykes-Picot agreement"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Great_War_(Sabaton_album)",
+            "label": "The Great War (Sabaton album)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Times",
+            "label": "The Times"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Middle_East",
+            "label": "Middle East"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+            "label": "Current events"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Constantinople",
+            "label": "Constantinople"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Winston_Churchill",
+            "label": "Winston Churchill"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jonathan_Cape",
+            "label": "Jonathan Cape"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/79/Seven_pillars_tooling.jpeg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Revolt_in_the_Desert.jpg/330px-Revolt_in_the_Desert.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Seven_Pillars_2008_e5.jpg/330px-Seven_Pillars_2008_e5.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Lcamel.jpg/120px-Lcamel.jpg"
+      ]
+    },
+    "396ded4f-73dc-4225-b2e0-98b65dbd7523": {
+      "url": "https://en.wikipedia.org/wiki/Winston_Churchill",
+      "title": "Winston Churchill",
+      "anchorText": "Winston Churchill",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Bruce_R._Kuniholm",
+            "label": "Bruce R. Kuniholm"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/John_Egerton,_3rd_Earl_of_Bridgewater",
+            "label": "The Earl of Bridgewater"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Partition_of_Ireland",
+            "label": "Partition of Ireland"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Caribbean",
+            "label": "Caribbean"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/1978_Nobel_Prize_in_Literature",
+            "label": "1978"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Kitchen_Debate",
+            "label": "Kitchen Debate"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mary_Moore-Bentley",
+            "label": "Moore-Bentley"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/William_C._Gorgas",
+            "label": "Gorgas"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ruritanian_romance",
+            "label": "Ruritanian romance"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Alex_von_Tunzelmann",
+            "label": "Alex von Tunzelmann"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sir_Winston_Churchill_-_19086236948_%28restored%29.jpg/250px-Sir_Winston_Churchill_-_19086236948_%28restored%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Jennie_Churchill_with_her_sons.jpg/250px-Jennie_Churchill_with_her_sons.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Winston_Churchill_1874_-_1965_ZZZ5426F.jpg/250px-Winston_Churchill_1874_-_1965_ZZZ5426F.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Winston_Churchill_With_the_4th_Hussars_in_India%2C_1899._HU98777.jpg/250px-Winston_Churchill_With_the_4th_Hussars_in_India%2C_1899._HU98777.jpg"
+      ]
+    },
+    "a1477d37-6da4-4c94-a95e-e21a1529f63d": {
+      "url": "https://en.wikipedia.org/wiki/Bruce_R._Kuniholm",
+      "title": "Bruce R. Kuniholm",
+      "anchorText": "Bruce R. Kuniholm",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/United_States_Department_of_State",
+            "label": "U.S. Dept. of State"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Near_East",
+            "label": "Near"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dartmouth_College",
+            "label": "Dartmouth College"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/United_States_Armed_Forces",
+            "label": "United States Armed Forces"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sanford_School_of_Public_Policy",
+            "label": "Sanford School of Public Policy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/National_Endowment_for_the_Humanities",
+            "label": "National Endowment for the Humanities"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/France",
+            "label": "France"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Norwegian_Nobel_Institute",
+            "label": "Norwegian Nobel Institute"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Terry_Sanford_Institute_of_Public_Policy",
+            "label": "Terry Sanford Institute of Public Policy"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "58f4864b-2d23-4588-852d-726d8116a78c": {
+      "url": "https://en.wikipedia.org/wiki/United_States_Department_of_State",
+      "title": "United States Department of State",
+      "anchorText": "U.S. Dept. of State",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/United_States_Department_of_Commerce_and_Labor",
+            "label": "Department of Commerce and Labor"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lowy_Institute",
+            "label": "Lowy Institute"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/United_States_Department_of_Health_and_Human_Services",
+            "label": "Health and Human Services"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_of_Georgia",
+            "label": "Georgia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Kearney_%26_Company",
+            "label": "Kearney & Company"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/National_Archives_and_Records_Administration",
+            "label": "National Archives and Records Administration"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Somalia)",
+            "label": "Somalia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Diplomatic_Security_Service",
+            "label": "Diplomatic Security Service"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Philadelphia",
+            "label": "Philadelphia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(South_Korea)",
+            "label": "South Korea"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/U.S._Department_of_State_official_seal.svg/250px-U.S._Department_of_State_official_seal.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Flag_of_the_United_States_Department_of_State.svg/250px-Flag_of_the_United_States_Department_of_State.svg.png",
+        "https://maps.wikimedia.org/img/osm-intl,10,38.894166666667,-77.048333333333,270x200.png?lang=en&domain=en.wikipedia.org&title=United_States_Department_of_State&revid=1344208372&groups=_be37a6fd322c9fe0c6d25a57f39e75d52a1034ac&parser=legacy",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/United_States_Department_of_State_headquarters.jpg/250px-United_States_Department_of_State_headquarters.jpg"
+      ]
+    },
+    "e69464e7-4fed-4e5d-9d1a-dcb9e107029f": {
+      "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(South_Korea)",
+      "title": "Ministry of Foreign Affairs (South Korea)",
+      "anchorText": "South Korea",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Korea-Africa_Foundation",
+            "label": "Korea-Africa Foundation"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Department_of_External_Relations_(Monaco)",
+            "label": "Monaco"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sakhalin_Koreans",
+            "label": "Sakhalin Koreans"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Russia)",
+            "label": "Russia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MOFAT_Diamond_scandal",
+            "label": "MOFAT Diamond scandal"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93South_Korea_relations",
+            "label": "Greece"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fiji%E2%80%93South_Korea_relations",
+            "label": "Fiji"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_and_International_Cooperation_(Fiji)",
+            "label": "Fiji"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Iran)",
+            "label": "Iran"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Armenia)",
+            "label": "Armenia"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Ministry_of_Foreign_Affairs_of_the_Republic_of_Korea_Logo_%28vertical%29.svg/250px-Ministry_of_Foreign_Affairs_of_the_Republic_of_Korea_Logo_%28vertical%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Ministry_of_Foreign_Affairs_logo.svg/250px-Ministry_of_Foreign_Affairs_logo.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/ROK_Ministry_of_Foreign_Affairs.jpg/250px-ROK_Ministry_of_Foreign_Affairs.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Emblem_of_the_Government_of_the_Republic_of_Korea_%281949-2016%29.svg/120px-Emblem_of_the_Government_of_the_Republic_of_Korea_%281949-2016%29.svg.png"
+      ]
+    },
+    "9a90273f-8d13-4aa5-83f8-7422b00536f7": {
+      "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_and_International_Cooperation_(Fiji)",
+      "title": "Ministry of Foreign Affairs and International Cooperation (Fiji)",
+      "anchorText": "Fiji",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Local_government_in_Fiji",
+            "label": "Local government"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Turkmenistan)",
+            "label": "Turkmenistan"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_for_Foreign_Affairs_(Sweden)",
+            "label": "Sweden"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Economy_of_Fiji",
+            "label": "Economy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fiji%E2%80%93United_Kingdom_relations",
+            "label": "United Kingdom"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Foreign_Affairs_(Liberia)",
+            "label": "Liberia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/President_of_Fiji",
+            "label": "President"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Fiji",
+            "label": "Elections"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Republic_of_Fiji_Military_Forces",
+            "label": "Military"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vice-President_of_Fiji",
+            "label": "Vice-President"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Coat_of_arms_of_Fiji.svg/120px-Coat_of_arms_of_Fiji.svg.png",
+        "https://maps.wikimedia.org/img/osm-intl,10,a,a,270x200.png?lang=en&domain=en.wikipedia.org&title=Ministry_of_Foreign_Affairs_and_International_Cooperation_%28Fiji%29&revid=1344381832&groups=_5104e7d58ce5b2e5ae702052439dd3b1159031af&parser=legacy",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Coat_of_arms_of_Fiji.svg/250px-Coat_of_arms_of_Fiji.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/40px-Flag_of_Fiji.svg.png"
+      ]
+    },
+    "a8a4f134-fb47-4a75-acf0-bcc611676ec7": {
+      "url": "https://en.wikipedia.org/wiki/Local_government_in_Fiji",
+      "title": "Local government in Fiji",
+      "anchorText": "Local government",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Senate_of_Fiji",
+            "label": "Senate"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Reserve_Bank_of_Fiji",
+            "label": "Central bank"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rotuma",
+            "label": "Rotuma"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fiji",
+            "label": "Fiji"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/House_of_Representatives_of_Fiji",
+            "label": "House of Representatives"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Soqosoqo_Duavata_ni_Lewenivanua",
+            "label": "Soqosoqo Duavata ni Lewenivanua"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_missions_in_Fiji",
+            "label": "in Fiji"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nadi,_Fiji",
+            "label": "Nadi"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vikash_Singh",
+            "label": "Vikash Singh"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Eastern_Division,_Fiji",
+            "label": "Eastern"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ambox_current_red_Americas.svg/60px-Ambox_current_red_Americas.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Coat_of_arms_of_Fiji.svg/250px-Coat_of_arms_of_Fiji.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Fiji_divisions_named.png/250px-Fiji_divisions_named.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Fiji_Province.svg/250px-Fiji_Province.svg.png"
+      ]
+    },
+    "e46beda2-af7a-4ec5-b69b-e49536cc25de": {
+      "url": "https://en.wikipedia.org/wiki/Vikash_Singh",
+      "title": "Vikash Singh",
+      "anchorText": "Vikash Singh",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/ESPNcricinfo",
+            "label": "ESPNcricinfo"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Ranji_Trophy",
+            "label": "2016–17 Ranji Trophy"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ranchi",
+            "label": "Ranchi"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jharkhand_cricket_team",
+            "label": "Jharkhand"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vikash_Singh_(race_walker)",
+            "label": "Vikash Singh (race walker)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/First-class_cricket",
+            "label": "first-class"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+            "label": "Current events"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:India-cricket-bio-1994-stub",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cricket",
+            "label": "cricketer"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/40px-Flag_of_India.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Cricketball.svg/40px-Cricketball.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "2cc0c106-476d-434d-a350-b4e89b123af9": {
+      "url": "https://en.wikipedia.org/wiki/Cricket",
+      "title": "Cricket",
+      "anchorText": "cricketer",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Super_Smash_(men%27s_cricket)",
+            "label": "Mens"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rugby_sevens",
+            "label": "sevens"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Afghanistan_women%27s_national_cricket_team",
+            "label": "Women"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ireland_cricket_team",
+            "label": "Ireland"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/1748_English_cricket_season",
+            "label": "1748 season"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Team_sports",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fistball",
+            "label": "Fistball"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Romania_national_cricket_team",
+            "label": "Romania"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cricket_at_the_2028_Summer_Olympics",
+            "label": "2028"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sport",
+            "label": "Sport"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pollock_to_Hussey.jpg/330px-Pollock_to_Hussey.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Cricket_-_The_Noun_Project.svg/60px-Cricket_-_The_Noun_Project.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cantigas_de_Santa_Mar%C3%ADa_-_Xogo_da_pelota.jpg/250px-Cantigas_de_Santa_Mar%C3%ADa_-_Xogo_da_pelota.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Historical_cricket_bat_art.jpg/250px-Historical_cricket_bat_art.jpg"
       ]
     }
   }

@@ -1,1 +1,52 @@
 @import 'tailwindcss';
+
+/* 6 semantic theme vars:
+   --bg      canvas & card background
+   --fg      text, UI borders, hover background
+   --link    links, page-card borders, path connections
+   --muted   grid lines, skeleton, subtle elements
+   --pop     breadcrumb trail background
+   --pop-fg  text on breadcrumb trail
+*/
+
+[data-theme='light'],
+:root {
+	--bg: #ffffff;
+	--fg: #000000;
+	--link: #0000cc;
+	--muted: #dddddd;
+	--pop: rgba(28, 28, 28, 0.92);
+	--pop-fg: #ffffff;
+}
+
+[data-theme='cave'] {
+	--bg: #1e1610;
+	--fg: #e8d5b0;
+	--link: #c4703a;
+	--muted: #342820;
+	--pop: rgba(8, 5, 2, 0.95);
+	--pop-fg: #e8d5b0;
+}
+
+[data-theme='pond'] {
+	--bg: #100818;
+	--fg: #d0aef5;
+	--link: #9060d0;
+	--muted: #1e1028;
+	--pop: rgba(6, 3, 10, 0.96);
+	--pop-fg: #d0aef5;
+}
+
+[data-theme='natural'] {
+	--bg: #f2ead9;
+	--fg: #1a3d28;
+	--link: #2a6040;
+	--muted: #ddd4ba;
+	--pop: rgba(15, 38, 20, 0.9);
+	--pop-fg: #f2ead9;
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--fg);
+}

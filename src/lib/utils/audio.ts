@@ -175,10 +175,22 @@ function buildSequenceFromPattern(
 }
 
 /**
- * Play a sequence of 2-4 overlapping pentatonic notes with ethereal shimmer effect
- * Uses global mute state if no parameter provided
+ * Map image count to a note count (1–5, scaling with images loaded)
  */
-export function playNoteSequence(muted?: boolean): void {
+function imageCountToNoteCount(imageCount: number): number {
+	if (imageCount <= 0) return 1;
+	if (imageCount === 1) return 2;
+	if (imageCount === 2) return 3;
+	if (imageCount <= 4) return 4;
+	return 5;
+}
+
+/**
+ * Play a sequence of pentatonic notes with ethereal shimmer effect.
+ * Note count scales with imageCount when provided; otherwise random 2–4.
+ * Uses global mute state if no muted parameter provided.
+ */
+export function playNoteSequence(muted?: boolean, imageCount?: number): void {
 	const isMuted = muted !== undefined ? muted : globalMuted;
 	console.log('playNoteSequence called, muted:', isMuted);
 
@@ -196,7 +208,7 @@ export function playNoteSequence(muted?: boolean): void {
 	}
 
 	// Generate sequence parameters
-	const noteCount = generateNoteCount();
+	const noteCount = imageCount !== undefined ? imageCountToNoteCount(imageCount) : generateNoteCount();
 	const patternType = generatePatternType();
 	const startingIndex = generateStartingIndex();
 
