@@ -12,11 +12,15 @@
 
 	const {
 		page = null,
+		visitId = null,
+		via = null,
 		isActive = true,
 		isLoading = false,
 		onclick = undefined
 	} = $props<{
 		page?: any;
+		visitId?: string | null;
+		via?: string | null;
 		isActive?: boolean;
 		isLoading?: boolean;
 		onclick?: () => void;
@@ -59,9 +63,16 @@
 		};
 	}
 
-	const truncatedTitle = $derived(
-		page?.title && page.title.length > 25 ? page.title.substring(0, 25) + '...' : page?.title
+	const titleIsDuplicate = $derived(
+		page?.title &&
+			walk.visits.some((v) => v.id !== visitId && v.title === page.title)
 	);
+
+	const displayTitle = $derived(() => {
+		if (!page?.title) return null;
+		const text = titleIsDuplicate && via ? via : page.title;
+		return text.length > 25 ? text.substring(0, 25) + '...' : text;
+	});
 
 	const visitedUrls = $derived(new Set(walk.visits.map((v) => v.url)));
 
@@ -175,7 +186,7 @@
 		{:else}
 			<div class="page-title relative z-10 flex flex-col items-center p-2">
 				<div class="flex items-center gap-2">
-					<span>{truncatedTitle}</span>
+					<span>{displayTitle()}</span>
 					{#if isActive}
 						<a
 							href={page.url}
@@ -289,7 +300,7 @@
 		cursor: pointer;
 		padding: 0 4px;
 		font-size: 14px;
-		color: blue;
+		color: var(--link);
 		opacity: 0.6;
 		transition: opacity 0.2s;
 		pointer-events: auto;

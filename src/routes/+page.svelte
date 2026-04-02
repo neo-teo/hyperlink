@@ -147,7 +147,7 @@
 		{@const isLoading = walk.loadingVisitId === visit.id}
 		{@const isActive = visit.id === walk.activeVisitId}
 		<div class="page-container" style:left="{visit.position.x}px" style:top="{visit.position.y}px">
-			<Page {page} {isActive} {isLoading} onclick={() => handlePageClick(visit.id)} />
+			<Page {page} visitId={visit.id} via={visit.via} {isActive} {isLoading} onclick={() => handlePageClick(visit.id)} />
 		</div>
 	{/each}
 </Canvas>
