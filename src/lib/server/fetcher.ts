@@ -21,8 +21,19 @@ async function fetchAndParseSimple(url: string): Promise<ParsedPage> {
 		throw new Error(`HTTP ${response.status}: ${response.statusText}`);
 	}
 
+	// If the response is a direct image, return it as a single-image page
+	const contentType = response.headers.get('content-type') ?? '';
+	if (contentType.startsWith('image/')) {
+		const filename = new URL(response.url).pathname.split('/').pop() ?? 'image';
+		return {
+			title: filename,
+			links: { internal: [], external: [] },
+			images: [response.url]
+		};
+	}
+
 	const html = await response.text();
-	return parsePage(html, url);
+	return parsePage(html, response.url); // use final URL after redirects for correct relative path resolution
 }
 
 /**

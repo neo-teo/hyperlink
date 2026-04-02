@@ -163,7 +163,7 @@
 <style>
 	.page-container {
 		position: absolute;
-		width: 600px;
+		width: 300px;
 		height: 600px;
 		transform: translate(-50%, -50%);
 		pointer-events: none;

@@ -48,9 +48,9 @@
 				prevVisit.position.y,
 				visit.position.x,
 				visit.position.y,
-				i * 123.456 // Use index as seed for consistent randomness
+				i * 123.456
 			)}
-			<path d={pathData} class="connection-line" />
+			<path id="conn-{visit.id}" d={pathData} class="connection-line" />
 		{/if}
 	{/each}
 </svg>
@@ -72,5 +72,11 @@
 		stroke-width: 0.5;
 		stroke-dasharray: 1, 4;
 		stroke-linecap: round;
+	}
+
+	.connection-label {
+		font-size: 9px;
+		fill: #999;
+		font-style: italic;
 	}
 </style>

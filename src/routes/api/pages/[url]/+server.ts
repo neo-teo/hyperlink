@@ -5,8 +5,19 @@ import { fetchPage } from '$lib/server/fetcher';
 import { sampleLinks } from '$lib/server/sampler';
 import { getVisitedUrls, recordVisit } from '$lib/server/sessions';
 
+function normalizeUrl(raw: string): string {
+    try {
+        const u = new URL(raw);
+        const pathname = u.pathname.replace(/\/index\.html$/, '/');
+        return `https://${u.hostname}${pathname}`;
+    } catch {
+        return raw;
+    }
+}
+
 export const POST: RequestHandler = async ({ params, request }) => {
-    const url = decodeURIComponent(params.url);
+    const fetchUrl = decodeURIComponent(params.url);
+    const url = normalizeUrl(fetchUrl); // normalized form used for storage & dedup
 
     let walkId: string | undefined;
     let visitId: string | undefined;
@@ -22,7 +33,7 @@ export const POST: RequestHandler = async ({ params, request }) => {
     } catch { /* degrade to stateless if body missing/malformed */ }
 
     try {
-        const parsed = await fetchPage(url);
+        const parsed = await fetchPage(fetchUrl);
 
         // Build visited set; include current URL so it won't appear in its own links
         const visited = walkId ? await getVisitedUrls(walkId) : new Set<string>();
@@ -37,6 +48,7 @@ export const POST: RequestHandler = async ({ params, request }) => {
         const page: Page = {
             url,
             title: parsed.title,
+            ...(via ? { anchorText: via } : {}),
             links: { internal: sampled.internal, external: sampled.external },
             images: sampled.images
         };

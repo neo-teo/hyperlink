@@ -77,7 +77,18 @@ export function activateVisit(visitId: string) {
     }
 }
 
+export function normalizeUrl(raw: string): string {
+    try {
+        const u = new URL(raw);
+        const pathname = u.pathname.replace(/\/index\.html$/, '/');
+        return `https://${u.hostname}${pathname}`;
+    } catch {
+        return raw;
+    }
+}
+
 export async function loadPage(url: string, via?: string, linkContext?: LinkContext) {
+    url = normalizeUrl(url);
     const id = crypto.randomUUID?.() ?? Math.random().toString(36).slice(2) + Date.now().toString(36);
     const isFirstVisit = walk.visits.length === 0;
     const position = calculateNewPagePosition(linkContext);
@@ -171,14 +182,16 @@ export function startAutoWalk() {
 }
 
 /**
- * Check if a potential position would be too close to existing pages
+ * Check if a potential position would be too close to existing pages.
+ * Excludes the source visit so it doesn't filter its own links.
  */
-function isPositionOccupied(x: number, y: number, proximityThreshold: number = 150): boolean {
+function isPositionOccupied(x: number, y: number, excludeVisitId?: string | null): boolean {
     return walk.visits.some(visit => {
+        if (excludeVisitId && visit.id === excludeVisitId) return false;
         const dx = visit.position.x - x;
         const dy = visit.position.y - y;
         const distance = Math.sqrt(dx * dx + dy * dy);
-        return distance < proximityThreshold;
+        return distance < 150;
     });
 }
 
@@ -202,16 +215,19 @@ function focusRandomLink() {
     if (!walk.currentPage || !walk.autoWalk.enabled) return;
 
     const { internal, external } = walk.currentPage.links;
+    const visitedUrls = new Set(walk.visits.map(v => v.url));
 
-    // Filter out links that would place pages in occupied areas
+    // Filter out already-visited URLs and positions that are occupied
     const availableInternal = internal.filter((link, i) => {
+        if (visitedUrls.has(normalizeUrl(link.url))) return false;
         const potentialPos = calculatePotentialPosition(i, internal.length, INTERNAL_LINK_RADIUS);
-        return !isPositionOccupied(potentialPos.x, potentialPos.y);
+        return !isPositionOccupied(potentialPos.x, potentialPos.y, walk.activeVisitId);
     });
 
     const availableExternal = external.filter((link, i) => {
+        if (visitedUrls.has(normalizeUrl(link.url))) return false;
         const potentialPos = calculatePotentialPosition(i, external.length, EXTERNAL_LINK_RADIUS);
-        return !isPositionOccupied(potentialPos.x, potentialPos.y);
+        return !isPositionOccupied(potentialPos.x, potentialPos.y, walk.activeVisitId);
     });
 
     // Prefer internal links over external links

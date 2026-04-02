@@ -2,8 +2,12 @@
 	import Link from './Link.svelte';
 	import LoadingLinks from './LoadingLinks.svelte';
 	import PageImages from './PageImages.svelte';
-	import { INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS, calculateRadialPosition } from '$lib/constants';
-	import { walk, startAutoWalk } from '$lib/stores/walk.svelte';
+	import {
+		INTERNAL_LINK_RADIUS,
+		EXTERNAL_LINK_RADIUS,
+		calculateRadialPosition
+	} from '$lib/constants';
+	import { walk, startAutoWalk, normalizeUrl } from '$lib/stores/walk.svelte';
 	import { playNoteSequence } from '$lib/utils/audio';
 
 	const {
@@ -22,10 +26,12 @@
 	const PROXIMITY_THRESHOLD = 150; // pixels
 
 	/**
-	 * Check if a potential position would be too close to existing pages
+	 * Check if a potential position would be too close to existing pages.
+	 * Excludes the source visit so it doesn't filter its own links.
 	 */
-	function isPositionOccupied(x: number, y: number): boolean {
-		return walk.visits.some(visit => {
+	function isPositionOccupied(x: number, y: number, excludeVisitId?: string | null): boolean {
+		return walk.visits.some((visit) => {
+			if (excludeVisitId && visit.id === excludeVisitId) return false;
 			const dx = visit.position.x - x;
 			const dy = visit.position.y - y;
 			const distance = Math.sqrt(dx * dx + dy * dy);
@@ -36,8 +42,12 @@
 	/**
 	 * Calculate where a link would position a new page
 	 */
-	function calculatePotentialPosition(linkIndex: number, totalLinks: number, radius: number): { x: number; y: number } {
-		const sourceVisit = walk.visits.find(v => v.id === walk.activeVisitId);
+	function calculatePotentialPosition(
+		linkIndex: number,
+		totalLinks: number,
+		radius: number
+	): { x: number; y: number } {
+		const sourceVisit = walk.visits.find((v) => v.id === walk.activeVisitId);
 		if (!sourceVisit) {
 			return { x: 0, y: 0 };
 		}
@@ -50,26 +60,38 @@
 	}
 
 	const truncatedTitle = $derived(
-		page?.title && page.title.length > 50 ? page.title.substring(0, 50) + '...' : page?.title
+		page?.title && page.title.length > 25 ? page.title.substring(0, 25) + '...' : page?.title
 	);
 
-	// Filter links to exclude those that would place pages in occupied areas
+	const visitedUrls = $derived(new Set(walk.visits.map((v) => v.url)));
+
+	// Filter links to exclude already-visited URLs and positions that are occupied
 	const filteredInternalLinks = $derived(
 		page && isActive
 			? page.links.internal.filter((link: any, i: number) => {
-					const potentialPos = calculatePotentialPosition(i, page.links.internal.length, INTERNAL_LINK_RADIUS);
-					return !isPositionOccupied(potentialPos.x, potentialPos.y);
+					if (visitedUrls.has(normalizeUrl(link.url))) return false;
+					const potentialPos = calculatePotentialPosition(
+						i,
+						page.links.internal.length,
+						INTERNAL_LINK_RADIUS
+					);
+					return !isPositionOccupied(potentialPos.x, potentialPos.y, walk.activeVisitId);
 				})
-			: page?.links.internal ?? []
+			: (page?.links.internal ?? [])
 	);
 
 	const filteredExternalLinks = $derived(
 		page && isActive
 			? page.links.external.filter((link: any, i: number) => {
-					const potentialPos = calculatePotentialPosition(i, page.links.external.length, EXTERNAL_LINK_RADIUS);
-					return !isPositionOccupied(potentialPos.x, potentialPos.y);
+					if (visitedUrls.has(normalizeUrl(link.url))) return false;
+					const potentialPos = calculatePotentialPosition(
+						i,
+						page.links.external.length,
+						EXTERNAL_LINK_RADIUS
+					);
+					return !isPositionOccupied(potentialPos.x, potentialPos.y, walk.activeVisitId);
 				})
-			: page?.links.external ?? []
+			: (page?.links.external ?? [])
 	);
 
 	// Combine filtered internal and external links into a single array with metadata
@@ -142,7 +164,7 @@
 	<button
 		class="page-title-wrapper absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
 		class:clickable={onclick}
-		onclick={onclick}
+		{onclick}
 		disabled={!onclick}
 		type="button"
 	>
@@ -151,20 +173,25 @@
 				<span class="loading-dots"></span>
 			</div>
 		{:else}
-			<div class="page-title border bg-white p-2 relative z-10">
-				<span>{truncatedTitle}</span>
-				{#if isActive}
-					<a
-						href={page.url}
-						target="_blank"
-						rel="noopener noreferrer"
-						class="external-link-btn"
-						onclick={(e) => e.stopPropagation()}
-						title="Open in new tab"
-					>
-						↗
-					</a>
-				{/if}
+			<div class="page-title relative z-10 flex flex-col items-center border bg-white p-2">
+				<div class="flex items-center gap-2">
+					<span>{truncatedTitle}</span>
+					{#if isActive}
+						<a
+							href={page.url}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="external-link-btn"
+							onclick={(e) => e.stopPropagation()}
+							title="Open in new tab"
+						>
+							↗
+						</a>
+					{/if}
+				</div>
+				<!-- {#if page.anchorText}
+					<div class="text-sm">{page.anchorText}</div>
+				{/if} -->
 			</div>
 		{/if}
 	</button>
@@ -189,12 +216,10 @@
 					isLoading={shouldReveal}
 					isRevealing={shouldReveal}
 					{staggerIndex}
-					isFocused={
-						index === walk.autoWalk.focusedLinkIndex &&
+					isFocused={index === walk.autoWalk.focusedLinkIndex &&
 						(isInternal
 							? walk.autoWalk.focusedLinkType === 'internal'
-							: walk.autoWalk.focusedLinkType === 'external')
-					}
+							: walk.autoWalk.focusedLinkType === 'external')}
 				/>
 			{/each}
 		{/if}
@@ -246,9 +271,6 @@
 	}
 
 	.page-title {
-		display: flex;
-		align-items: center;
-		gap: 8px;
 		pointer-events: auto;
 	}
 

@@ -8,6 +8,7 @@ export type Link = {
 export type Page = {
     url: string;
     title: string;
+    anchorText?: string;
     links: {
         internal: Link[];
         external: Link[];
