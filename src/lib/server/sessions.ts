@@ -9,6 +9,8 @@ import type { Visit, Page, WalkSession } from '$lib/types';
 const IS_NETLIFY = !!process.env.NETLIFY_BLOBS_CONTEXT;
 const WALKS_DIR = join(process.cwd(), 'walks');
 
+console.log('[sessions] IS_NETLIFY:', IS_NETLIFY, '| cwd:', process.cwd(), '| BLOBS_CTX:', !!process.env.NETLIFY_BLOBS_CONTEXT, '| LAMBDA:', !!process.env.AWS_LAMBDA_FUNCTION_NAME);
+
 async function storageGet(key: string): Promise<WalkSession | null> {
     if (IS_NETLIFY) {
         const { getStore } = await import('@netlify/blobs');
@@ -85,11 +87,13 @@ export async function recordVisit(walkId: string, visit: Visit, page: Page): Pro
     const prev = writeQueues.get(walkId) ?? Promise.resolve();
     const next = prev.then(async () => {
         const existing = await loadSession(walkId);
+        console.log(`[recordVisit] ${walkId} existing visits: ${existing?.visits.length ?? 'null (new session)'}`);
         const now = new Date().toISOString();
         const session: WalkSession = existing
             ? { ...existing, updatedAt: now, visits: [...existing.visits, visit], pages: { ...existing.pages, [visit.id]: page } }
             : { id: walkId, createdAt: now, updatedAt: now, visits: [visit], pages: { [visit.id]: page } };
         await storageSet(walkId, session);
+        console.log(`[recordVisit] ${walkId} wrote ${session.visits.length} visit(s)`);
     });
     writeQueues.set(walkId, next);
     await next;
