@@ -1,0 +1,1414 @@
+{
+  "id": "173e2a",
+  "createdAt": "2026-04-02T20:57:35.793Z",
+  "updatedAt": "2026-04-02T20:59:12.849Z",
+  "visits": [
+    {
+      "id": "a14d4009-cae3-461b-91e6-755910a91ee8",
+      "url": "https://www.newschool.edu/",
+      "title": "A University in New York City | The New School",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "timestamp": "2026-04-02T20:57:35.793Z"
+    },
+    {
+      "id": "62a9b528-421b-4cce-aea5-8d62819ead6c",
+      "url": "https://www.newschool.edu/giving/",
+      "title": "Giving",
+      "position": {
+        "x": 200,
+        "y": 0
+      },
+      "via": "Giving",
+      "timestamp": "2026-04-02T20:57:40.526Z"
+    },
+    {
+      "id": "9617ad47-99d8-4297-b7b5-c8fe5186c1cb",
+      "url": "https://www.newschool.edu/about/university-leadership/faculty-senate/",
+      "title": "Faculty Senate",
+      "position": {
+        "x": 361.8033988749895,
+        "y": 117.55705045849463
+      },
+      "via": "Faculty Senate",
+      "timestamp": "2026-04-02T20:57:45.157Z"
+    },
+    {
+      "id": "58599ddd-fba6-4f6f-8d97-a4d3e25a1ffb",
+      "url": "https://www.newschool.edu/apply/",
+      "title": "Apply to The New School",
+      "position": {
+        "x": 423.60679774997897,
+        "y": -72.6542528005361
+      },
+      "via": "Apply",
+      "timestamp": "2026-04-02T20:57:49.615Z"
+    },
+    {
+      "id": "56583ad1-7b38-4716-8126-bc21d13e1d69",
+      "url": "https://www.newschool.edu/academics/online-programs/experience/",
+      "title": "Online Learning Experience",
+      "position": {
+        "x": 585.4101966249684,
+        "y": 44.90279765795853
+      },
+      "via": "Online Learning Experience",
+      "timestamp": "2026-04-02T20:57:54.073Z"
+    },
+    {
+      "id": "8b8cf9b5-a6c6-428b-9375-c6f7c01e6648",
+      "url": "https://www.newschool.edu/academics/excellence-rigor/",
+      "title": "Our Academic Approach",
+      "position": {
+        "x": 647.2135954999578,
+        "y": -145.3085056010722
+      },
+      "via": "Academic Approach",
+      "timestamp": "2026-04-02T20:57:59.988Z"
+    },
+    {
+      "id": "3a13fe46-5e5e-4005-9e3f-75f40434c175",
+      "url": "https://www.newschool.edu/campus-life/supporting-our-community/",
+      "title": "Supporting Our Community",
+      "position": {
+        "x": 485.4101966249683,
+        "y": -262.8655560595668
+      },
+      "via": "Supporting Our Community",
+      "timestamp": "2026-04-02T20:58:04.912Z"
+    },
+    {
+      "id": "3021d709-a06f-481d-be59-8d440475f9c4",
+      "url": "https://www.newschool.edu/research-creative-practice/featured-work/",
+      "title": "Featured Work",
+      "position": {
+        "x": 423.6067977499788,
+        "y": -453.0768593185975
+      },
+      "via": "Featured Work",
+      "timestamp": "2026-04-02T20:58:09.346Z"
+    },
+    {
+      "id": "6544d64d-2cb9-448a-a67c-b3237fcaab05",
+      "url": "https://www.newschool.edu/academics/",
+      "title": "Academics",
+      "position": {
+        "x": 585.4101966249682,
+        "y": -570.6339097770922
+      },
+      "via": "Academics",
+      "timestamp": "2026-04-02T20:58:14.850Z"
+    },
+    {
+      "id": "ec046866-1a85-4f8c-9729-5e69cf1890e2",
+      "url": "https://www.newschool.edu/uarts-teach-out/",
+      "title": "UArts Teach-Out Agreement",
+      "position": {
+        "x": 523.6067977499787,
+        "y": -760.8452130361229
+      },
+      "via": "UArts Teach-Out Agreement",
+      "timestamp": "2026-04-02T20:58:21.602Z"
+    },
+    {
+      "id": "1868002a-aa44-4d4b-ab0a-6022e9b559ee",
+      "url": "https://www.newschool.edu/about/university-leadership/student-senate/",
+      "title": "Student Senate",
+      "position": {
+        "x": 723.6067977499787,
+        "y": -760.8452130361229
+      },
+      "via": "Student Senate",
+      "timestamp": "2026-04-02T20:58:26.658Z"
+    },
+    {
+      "id": "892ffd70-6a77-43da-85f9-3d1c1b887e6b",
+      "url": "https://www.newschool.edu/campus-life/gnarls-narwhal/",
+      "title": "Gnarls Narwhal",
+      "position": {
+        "x": 885.4101966249682,
+        "y": -878.4022634946176
+      },
+      "via": "Gnarls Narwhal",
+      "timestamp": "2026-04-02T20:58:31.225Z"
+    },
+    {
+      "id": "75a6ccb4-824f-49df-9547-33bdcd3015f8",
+      "url": "https://www.newschool.edu/admission/graduate-team/",
+      "title": "Meet Our Graduate Team",
+      "position": {
+        "x": 947.2135954999577,
+        "y": -688.1909602355869
+      },
+      "via": "Graduate Team",
+      "timestamp": "2026-04-02T20:58:35.929Z"
+    },
+    {
+      "id": "dec1404f-f4a7-4747-baa1-c43f07ac8e76",
+      "url": "https://www.newschool.edu/admission/prospective-graduate-students/",
+      "title": "Graduate Admissions",
+      "position": {
+        "x": 885.4101966249682,
+        "y": -497.97965697655616
+      },
+      "via": "Graduate",
+      "timestamp": "2026-04-02T20:58:40.487Z"
+    },
+    {
+      "id": "caba996b-d92a-431d-b4ec-f5cce95a63d0",
+      "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/dates-deadlines/",
+      "title": "Undergraduate Admission Deadlines",
+      "position": {
+        "x": 947.2135954999577,
+        "y": -307.76835371752543
+      },
+      "via": "Deadlines",
+      "timestamp": "2026-04-02T20:58:44.926Z"
+    },
+    {
+      "id": "0b7b7f17-d193-44cb-bc7f-06879750d6f2",
+      "url": "https://www.newschool.edu/eisj/",
+      "title": "Equity, Inclusion & Social Justice",
+      "position": {
+        "x": 1109.0169943749472,
+        "y": -425.32540417602013
+      },
+      "via": "Equity, Inclusion, & Social Justice",
+      "timestamp": "2026-04-02T20:58:49.512Z"
+    },
+    {
+      "id": "4b98ceab-ea6c-426e-b656-2587719ebe8f",
+      "url": "https://www.newschool.edu/admission/contact/",
+      "title": "Contact the Admission Office",
+      "position": {
+        "x": 1170.8203932499366,
+        "y": -235.11410091698943
+      },
+      "via": "CONTACT US",
+      "timestamp": "2026-04-02T20:58:54.165Z"
+    },
+    {
+      "id": "da234a22-24bc-4332-bdcd-870ec9c7f73b",
+      "url": "https://www.newschool.edu/financial-aid/guarantee/",
+      "title": "Financial Aid Guarantee",
+      "position": {
+        "x": 1332.623792124926,
+        "y": -352.6711513754841
+      },
+      "via": "Learn More",
+      "timestamp": "2026-04-02T20:58:58.678Z"
+    },
+    {
+      "id": "cba69dae-bbe1-4bf9-82a5-de0f0889aec3",
+      "url": "https://www.newschool.edu/research-and-work/",
+      "title": "Featured Work",
+      "position": {
+        "x": 1494.4271909999154,
+        "y": -470.2282018339788
+      },
+      "via": "Discover more",
+      "timestamp": "2026-04-02T20:59:03.276Z"
+    },
+    {
+      "id": "65c62e7a-d921-4800-85a9-c4165ecf711e",
+      "url": "https://www.newschool.edu/provost/",
+      "title": "Provost",
+      "position": {
+        "x": 1332.6237921249258,
+        "y": -587.7852522924734
+      },
+      "via": "Provost",
+      "timestamp": "2026-04-02T20:59:08.270Z"
+    },
+    {
+      "id": "6d698c5d-5fdd-4385-a6ae-3e900a14e352",
+      "url": "https://www.newschool.edu/admission/undergraduate-admission-events/",
+      "title": "Undergraduate Admissions Events",
+      "position": {
+        "x": 1170.8203932499364,
+        "y": -705.342302750968
+      },
+      "via": "Undergraduate Admission Events",
+      "timestamp": "2026-04-02T20:59:12.848Z"
+    }
+  ],
+  "pages": {
+    "a14d4009-cae3-461b-91e6-755910a91ee8": {
+      "url": "https://www.newschool.edu/",
+      "title": "A University in New York City | The New School",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/giving/",
+            "label": "Giving"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/graduate/",
+            "label": "Graduate"
+          },
+          {
+            "url": "https://www.newschool.edu/research-creative-practice/research-centers-institutes-labs/",
+            "label": "Centers, Institutes & Labs"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/success-stories/",
+            "label": "Success Stories"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/map/",
+            "label": "Campus Map"
+          },
+          {
+            "url": "https://www.newschool.edu/registrar/academic-calendar/",
+            "label": "Academic Calendar"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-life/gnarls-narwhal/",
+            "label": "Gnarls Narwhal"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/international-applicants/",
+            "label": "International Applicants"
+          },
+          {
+            "url": "https://www.newschool.edu/alumni/",
+            "label": "Alumni"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-resources/right-to-know/",
+            "label": "Right to Know"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "62a9b528-421b-4cce-aea5-8d62819ead6c": {
+      "url": "https://www.newschool.edu/giving/",
+      "title": "Giving",
+      "anchorText": "Giving",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/parsons/youth-pre-college-programs/",
+            "label": "Youth and Pre-College"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-leadership/faculty-senate/",
+            "label": "Faculty Senate"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/",
+            "label": "Graduate"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/",
+            "label": "Outcomes"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-resources/right-to-know/",
+            "label": "Right to Know"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/international-applicants/",
+            "label": "International Applicants"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/safety-facilities/",
+            "label": "Safety & Facilities"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/undergraduate/",
+            "label": "Undergraduate"
+          },
+          {
+            "url": "https://www.newschool.edu/giving/annual/",
+            "label": "Annual Giving Programs\r\n                                                                    \r\n                                        The Annual Fund allows The New School to respond to the most urgent needs of our community."
+          },
+          {
+            "url": "https://www.newschool.edu/research-creative-practice/research-centers-institutes-labs/",
+            "label": "Centers, Institutes & Labs"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "9617ad47-99d8-4297-b7b5-c8fe5186c1cb": {
+      "url": "https://www.newschool.edu/about/university-leadership/faculty-senate/",
+      "title": "Faculty Senate",
+      "anchorText": "Faculty Senate",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/about/history/",
+            "label": "History"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/",
+            "label": "Outcomes"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/living-at-the-new-school/",
+            "label": "Living at The New School"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/online-programs/experience/",
+            "label": "Online Learning Experience"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/directions/",
+            "label": "Directions"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/apply-undergraduate/",
+            "label": "How to Apply"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/contact/",
+            "label": "CONTACT US"
+          },
+          {
+            "url": "https://www.newschool.edu/apply/undergrad/",
+            "label": "Online Common App"
+          },
+          {
+            "url": "https://www.newschool.edu/apply/",
+            "label": "Apply"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/",
+            "label": "Undergraduate"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "58599ddd-fba6-4f6f-8d97-a4d3e25a1ffb": {
+      "url": "https://www.newschool.edu/apply/",
+      "title": "Apply to The New School",
+      "anchorText": "Apply",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/admission/graduate-admission-events/",
+            "label": "Graduate Admission Events"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/online-programs/experience/",
+            "label": "Online Learning Experience"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-resources/policies/",
+            "label": "Policies: A-Z"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/learning-partner-platforms/",
+            "label": "Learning on Partner Platforms"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/health-wellness-support/",
+            "label": "Health & Wellness"
+          },
+          {
+            "url": "https://www.newschool.edu/visiting-students/",
+            "label": "Visiting Students"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/international-applicants/",
+            "label": "International Applicants"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/map/",
+            "label": "Campus Map"
+          },
+          {
+            "url": "https://www.newschool.edu/study-abroad/",
+            "label": "Study Abroad"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/early-application-options/",
+            "label": "Early Application Options"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "56583ad1-7b38-4716-8126-bc21d13e1d69": {
+      "url": "https://www.newschool.edu/academics/online-programs/experience/",
+      "title": "Online Learning Experience",
+      "anchorText": "Online Learning Experience",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/parsons-paris/",
+            "label": "Parsons Paris"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/admitted-student-events/",
+            "label": "Admitted Student Events"
+          },
+          {
+            "url": "https://www.newschool.edu/nssr/",
+            "label": "The New School for Social Research"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-leadership/student-senate/",
+            "label": "Student Senate"
+          },
+          {
+            "url": "https://www.newschool.edu/financial-aid/",
+            "label": "Financial Aid"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-resources/annual-report/",
+            "label": "Annual Report"
+          },
+          {
+            "url": "https://www.newschool.edu/staff/",
+            "label": "Staff"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/our-colleges/",
+            "label": "Our Colleges and Schools"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/excellence-rigor/",
+            "label": "Academic Approach"
+          },
+          {
+            "url": "https://www.newschool.edu/request-info/",
+            "label": "Request Info"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "8b8cf9b5-a6c6-428b-9375-c6f7c01e6648": {
+      "url": "https://www.newschool.edu/academics/excellence-rigor/",
+      "title": "Our Academic Approach",
+      "anchorText": "Academic Approach",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/nearby-accommodations/",
+            "label": "Nearby Accommodations"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/student-facilities/",
+            "label": "Student Facilities"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/",
+            "label": "Campus & City Guide"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/dates-deadlines/",
+            "label": "Deadlines"
+          },
+          {
+            "url": "https://www.newschool.edu/registrar/academic-calendars/",
+            "label": "Academic Calendar"
+          },
+          {
+            "url": "https://www.newschool.edu/research-creative-practice/",
+            "label": "Research & Creative Practice"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-life/supporting-our-community/",
+            "label": "Supporting Our Community"
+          },
+          {
+            "url": "https://www.newschool.edu/research-creative-practice/featured-work/",
+            "label": "Featured Work"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/contact/",
+            "label": "CONTACT US"
+          },
+          {
+            "url": "https://www.newschool.edu/lang/",
+            "label": "Eugene Lang College of Liberal Arts"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "3a13fe46-5e5e-4005-9e3f-75f40434c175": {
+      "url": "https://www.newschool.edu/campus-life/supporting-our-community/",
+      "title": "Supporting Our Community",
+      "anchorText": "Supporting Our Community",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/about/mission-vision/",
+            "label": "Mission and Vision"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/student-team/",
+            "label": "Student Team"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/directions/",
+            "label": "Directions"
+          },
+          {
+            "url": "https://www.newschool.edu/international-students-scholars/maintaining-f-j-status/",
+            "label": "maintaining your nonimmigrant status"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/graduate-team/",
+            "label": "Graduate Team"
+          },
+          {
+            "url": "https://www.newschool.edu/international-students-scholars/immigration-news-updates/",
+            "label": "ISSS Immigration News and Updates page"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/viewbooks/",
+            "label": "Viewbooks"
+          },
+          {
+            "url": "https://www.newschool.edu/research-creative-practice/featured-work/",
+            "label": "Featured Work"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/transfer-students/",
+            "label": "Transfer to The New School"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/meet-faculty/",
+            "label": "Our Faculty"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "3021d709-a06f-481d-be59-8d440475f9c4": {
+      "url": "https://www.newschool.edu/research-creative-practice/featured-work/",
+      "title": "Featured Work",
+      "anchorText": "Featured Work",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/research-creative-practice/spark/",
+            "label": "Spark"
+          },
+          {
+            "url": "https://www.newschool.edu/apply/aas/",
+            "label": "New School Online App"
+          },
+          {
+            "url": "https://www.newschool.edu/about/mission-vision/",
+            "label": "Mission and Vision"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-leadership/staff-senate/",
+            "label": "Staff Senate"
+          },
+          {
+            "url": "https://www.newschool.edu/about/senior-leadership/",
+            "label": "Senior Leadership"
+          },
+          {
+            "url": "https://www.newschool.edu/human-resources/talent-job-opportunities/",
+            "label": "Working at The New School"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/academic-advising/",
+            "label": "Academic Advising"
+          },
+          {
+            "url": "https://www.newschool.edu/nssr/",
+            "label": "The New School for Social Research"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/",
+            "label": "Admission & Aid"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/",
+            "label": "Academics"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "6544d64d-2cb9-448a-a67c-b3237fcaab05": {
+      "url": "https://www.newschool.edu/academics/",
+      "title": "Academics",
+      "anchorText": "Academics",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/human-resources/talent-job-opportunities/",
+            "label": "Working at The New School"
+          },
+          {
+            "url": "https://www.newschool.edu/title-ix/",
+            "label": "Harrassment, Discrimination & Title IX"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/health-wellness-support/",
+            "label": "Health & Wellness"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/",
+            "label": "Campus & City Guide"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/student-facilities/",
+            "label": "Student Facilities"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/admitted-students/",
+            "label": "Admitted Students"
+          },
+          {
+            "url": "https://www.newschool.edu/Components/Wireframes/TwoColumnWireframe.aspx",
+            "label": "A Place for Fearless Progress"
+          },
+          {
+            "url": "https://www.newschool.edu/uarts-teach-out/",
+            "label": "UArts Teach-Out Agreement"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/viewbooks/",
+            "label": "Viewbooks"
+          },
+          {
+            "url": "https://www.newschool.edu/apply/aas/",
+            "label": "New School Online App"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "ec046866-1a85-4f8c-9729-5e69cf1890e2": {
+      "url": "https://www.newschool.edu/uarts-teach-out/",
+      "title": "UArts Teach-Out Agreement",
+      "anchorText": "UArts Teach-Out Agreement",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/about/university-leadership/student-senate/",
+            "label": "Student Senate"
+          },
+          {
+            "url": "https://www.newschool.edu/human-resources/talent-job-opportunities/",
+            "label": "Working at The New School"
+          },
+          {
+            "url": "https://www.newschool.edu/title-ix/",
+            "label": "Harrassment, Discrimination & Title IX"
+          },
+          {
+            "url": "https://www.newschool.edu/bachelors-program/",
+            "label": "Bachelor’s Program for Adults and Transfer Students"
+          },
+          {
+            "url": "https://www.newschool.edu/financial-aid/guarantee/",
+            "label": "Learn More"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/academic-advising/",
+            "label": "Academic Advising"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/campus-map/",
+            "label": "Campus Map"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/our-colleges/",
+            "label": "Our Colleges and Schools"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/safety-facilities/",
+            "label": "Safety & Facilities"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/dates-deadlines/",
+            "label": "Deadlines"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "1868002a-aa44-4d4b-ab0a-6022e9b559ee": {
+      "url": "https://www.newschool.edu/about/university-leadership/student-senate/",
+      "title": "Student Senate",
+      "anchorText": "Student Senate",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/commencement/",
+            "label": "Commencement"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/success-stories/",
+            "label": "Success Stories"
+          },
+          {
+            "url": "https://www.newschool.edu/visiting-students/",
+            "label": "Visiting Students"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/international-applicants/",
+            "label": "International Applicants"
+          },
+          {
+            "url": "https://www.newschool.edu/management-entrepreneurship/",
+            "label": "Management and Entrepreneurship"
+          },
+          {
+            "url": "https://www.newschool.edu/financial-aid/guarantee/",
+            "label": "Learn More"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-leadership/",
+            "label": "University Leadership"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-resources/annual-report/",
+            "label": "Annual Report"
+          },
+          {
+            "url": "https://www.newschool.edu/Components/Wireframes/TwoColumnWireframe.aspx",
+            "label": "A Place for Fearless Progress"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-life/gnarls-narwhal/",
+            "label": "Gnarls Narwhal"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "892ffd70-6a77-43da-85f9-3d1c1b887e6b": {
+      "url": "https://www.newschool.edu/campus-life/gnarls-narwhal/",
+      "title": "Gnarls Narwhal",
+      "anchorText": "Gnarls Narwhal",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/international-applicants/",
+            "label": "International Applicants"
+          },
+          {
+            "url": "https://www.newschool.edu/global-partnerships/",
+            "label": "Global Partnerships"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/graduate-team/",
+            "label": "Graduate Team"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/admitted-student-events/",
+            "label": "Admitted Student Events"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/career-internship-support/",
+            "label": "Internships & Careers"
+          },
+          {
+            "url": "https://www.newschool.edu/about/senior-leadership/",
+            "label": "Senior Leadership"
+          },
+          {
+            "url": "https://www.newschool.edu/about/mission-vision/",
+            "label": "Mission and Vision"
+          },
+          {
+            "url": "https://www.newschool.edu/student-leadership/organizations/",
+            "label": "Student Organizations"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/meet-our-students/",
+            "label": "Meet Our Students"
+          },
+          {
+            "url": "https://www.newschool.edu/faculty-experts/",
+            "label": "Faculty Experts"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "75a6ccb4-824f-49df-9547-33bdcd3015f8": {
+      "url": "https://www.newschool.edu/admission/graduate-team/",
+      "title": "Meet Our Graduate Team",
+      "anchorText": "Graduate Team",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/about/campus-information/campus-map/",
+            "label": "Campus Map"
+          },
+          {
+            "url": "https://www.newschool.edu/lang/",
+            "label": "Eugene Lang College of Liberal Arts"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/",
+            "label": "Admission & Aid"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/",
+            "label": "Graduate"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/career-internship-support/",
+            "label": "Internships & Careers"
+          },
+          {
+            "url": "https://www.newschool.edu/about/contact/",
+            "label": "Contact Us"
+          },
+          {
+            "url": "https://www.newschool.edu/global-partnerships/",
+            "label": "Global Partnerships"
+          },
+          {
+            "url": "https://www.newschool.edu/learn-something-new/",
+            "label": "Learn Something New"
+          },
+          {
+            "url": "https://www.newschool.edu/parsons/",
+            "label": "Parsons School of Design"
+          },
+          {
+            "url": "https://www.newschool.edu/students/",
+            "label": "Students"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "dec1404f-f4a7-4747-baa1-c43f07ac8e76": {
+      "url": "https://www.newschool.edu/admission/prospective-graduate-students/",
+      "title": "Graduate Admissions",
+      "anchorText": "Graduate",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/about/campus-information/",
+            "label": "Campus Information"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/building-hours/",
+            "label": "Building Hours"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/dates-deadlines/",
+            "label": "Deadlines"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/early-application-options/",
+            "label": "Early Application Options"
+          },
+          {
+            "url": "https://www.newschool.edu/management-entrepreneurship/",
+            "label": "Management and Entrepreneurship"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/student-team/",
+            "label": "Student Team"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/undergraduate/",
+            "label": "Undergraduate"
+          },
+          {
+            "url": "https://www.newschool.edu/title-ix/",
+            "label": "Harrassment, Discrimination & Title IX"
+          },
+          {
+            "url": "https://www.newschool.edu/about/global-partnerships-our-process/",
+            "label": "Our Process"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-resources/policies/",
+            "label": "Policies: A-Z"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "caba996b-d92a-431d-b4ec-f5cce95a63d0": {
+      "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/dates-deadlines/",
+      "title": "Undergraduate Admission Deadlines",
+      "anchorText": "Deadlines",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/admission/welcome-center-team/",
+            "label": "Welcome Center Team"
+          },
+          {
+            "url": "https://www.newschool.edu/lang/",
+            "label": "Eugene Lang College of Liberal Arts"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/map/",
+            "label": "Campus Map"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/career-internship-support/",
+            "label": "Internships & Careers"
+          },
+          {
+            "url": "https://www.newschool.edu/apply/aas/",
+            "label": "New School Online App"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/our-colleges/",
+            "label": "Our Colleges and Schools"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-leadership/",
+            "label": "University Leadership"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/directions/",
+            "label": "Directions"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/immersed-in-nyc/",
+            "label": "Immersed in New York City"
+          },
+          {
+            "url": "https://www.newschool.edu/eisj/",
+            "label": "Equity, Inclusion, & Social Justice"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "0b7b7f17-d193-44cb-bc7f-06879750d6f2": {
+      "url": "https://www.newschool.edu/eisj/",
+      "title": "Equity, Inclusion & Social Justice",
+      "anchorText": "Equity, Inclusion, & Social Justice",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/management-entrepreneurship/",
+            "label": "Management and Entrepreneurship"
+          },
+          {
+            "url": "https://www.newschool.edu/student-disability-services/",
+            "label": "Student Disability Services"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/contact/",
+            "label": "CONTACT US"
+          },
+          {
+            "url": "https://www.newschool.edu/learn-something-new/",
+            "label": "Learn Something New"
+          },
+          {
+            "url": "https://www.newschool.edu/trademark-licensing/",
+            "label": "Trademark & Licensing Programs"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-resources/right-to-know/",
+            "label": "Right to Know"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/",
+            "label": "Campus & City Guide"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/campus-map/",
+            "label": "Campus Map"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/notable-new-schoolers/",
+            "label": "Notable New Schoolers"
+          },
+          {
+            "url": "https://www.newschool.edu/parsons/",
+            "label": "Parsons School of Design"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "4b98ceab-ea6c-426e-b656-2587719ebe8f": {
+      "url": "https://www.newschool.edu/admission/contact/",
+      "title": "Contact the Admission Office",
+      "anchorText": "CONTACT US",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/academics/learning-partner-platforms/",
+            "label": "Learning on Partner Platforms"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/directions/",
+            "label": "Directions"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-resources/annual-report/",
+            "label": "Annual Report"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/",
+            "label": "Undergraduate"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/graduate/",
+            "label": "Graduate"
+          },
+          {
+            "url": "https://www.newschool.edu/research-creative-practice/research-centers-institutes-labs/",
+            "label": "Centers, Institutes & Labs"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/admitted-student-events/",
+            "label": "Admitted Student Events"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/career-internship-support/",
+            "label": "Internships & Careers"
+          },
+          {
+            "url": "https://www.newschool.edu/cdn-cgi/l/email-protection",
+            "label": "[email protected]"
+          },
+          {
+            "url": "https://www.newschool.edu/financial-aid/guarantee/",
+            "label": "Learn More"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "da234a22-24bc-4332-bdcd-870ec9c7f73b": {
+      "url": "https://www.newschool.edu/financial-aid/guarantee/",
+      "title": "Financial Aid Guarantee",
+      "anchorText": "Learn More",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/campus-community/student-facilities/",
+            "label": "Student Facilities"
+          },
+          {
+            "url": "https://www.newschool.edu/financial-aid/new-school-scholarships/",
+            "label": "New School Scholarships"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/meet-our-students/",
+            "label": "Meet Our Students"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/university-status/",
+            "label": "University Status"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/",
+            "label": "Campus Information"
+          },
+          {
+            "url": "https://www.newschool.edu/request-info/",
+            "label": "Request Info"
+          },
+          {
+            "url": "https://www.newschool.edu/parsons/youth-pre-college-programs/",
+            "label": "Youth and Pre-College"
+          },
+          {
+            "url": "https://www.newschool.edu/title-ix/",
+            "label": "Harrassment, Discrimination & Title IX"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-leadership/president/",
+            "label": "President"
+          },
+          {
+            "url": "https://www.newschool.edu/research-and-work/",
+            "label": "Discover more"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "cba69dae-bbe1-4bf9-82a5-de0f0889aec3": {
+      "url": "https://www.newschool.edu/research-and-work/",
+      "title": "Featured Work",
+      "anchorText": "Discover more",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/dates-deadlines/",
+            "label": "Deadlines"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/activities-on-campus/",
+            "label": "Campus Activities"
+          },
+          {
+            "url": "https://www.newschool.edu/parsons-paris/",
+            "label": "Parsons Paris"
+          },
+          {
+            "url": "https://www.newschool.edu/about/senior-leadership/",
+            "label": "Senior Leadership"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/",
+            "label": "Outcomes"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-life/",
+            "label": "Campus Life"
+          },
+          {
+            "url": "https://www.newschool.edu/provost/",
+            "label": "Provost"
+          },
+          {
+            "url": "https://www.newschool.edu/research-creative-practice/research-centers-institutes-labs/",
+            "label": "Centers, Institutes & Labs"
+          },
+          {
+            "url": "https://www.newschool.edu/parsons/youth-pre-college-programs/",
+            "label": "Youth and Pre-College"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-leadership/president/",
+            "label": "President"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "65c62e7a-d921-4800-85a9-c4165ecf711e": {
+      "url": "https://www.newschool.edu/provost/",
+      "title": "Provost",
+      "anchorText": "Provost",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/",
+            "label": "Undergraduate"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/",
+            "label": "Campus Information"
+          },
+          {
+            "url": "https://www.newschool.edu/english-language-studies-center/",
+            "label": "Center for English Language Studies"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/university-art-collection/",
+            "label": "University Art Collection"
+          },
+          {
+            "url": "https://www.newschool.edu/apply/aas/",
+            "label": "New School Online App"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/adult-learners/",
+            "label": "Adult Learners"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/undergraduate-admission-events/",
+            "label": "Undergraduate Admission Events"
+          },
+          {
+            "url": "https://www.newschool.edu/about/university-leadership/",
+            "label": "University Leadership"
+          },
+          {
+            "url": "https://www.newschool.edu/parsons/",
+            "label": "Parsons School of Design"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/undergraduate/",
+            "label": "Undergraduate"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "6d698c5d-5fdd-4385-a6ae-3e900a14e352": {
+      "url": "https://www.newschool.edu/admission/undergraduate-admission-events/",
+      "title": "Undergraduate Admissions Events",
+      "anchorText": "Undergraduate Admission Events",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/academics/our-colleges/",
+            "label": "Our Colleges and Schools"
+          },
+          {
+            "url": "https://www.newschool.edu/title-ix/",
+            "label": "Harrassment, Discrimination & Title IX"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/activities-on-campus/",
+            "label": "Campus Activities"
+          },
+          {
+            "url": "https://www.newschool.edu/financial-aid/",
+            "label": "Financial Aid"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/university-status/",
+            "label": "University Status"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/map/",
+            "label": "Campus Map"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/apply-graduate/",
+            "label": "How to Apply"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-graduate-students/international-applicants/",
+            "label": "International Applicants"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/academic-advising/",
+            "label": "Academic Advising"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/visit/",
+            "label": "VISIT"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    }
+  }
+}

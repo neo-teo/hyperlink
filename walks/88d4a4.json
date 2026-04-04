@@ -1,7 +1,7 @@
 {
   "id": "88d4a4",
   "createdAt": "2026-04-02T03:42:35.396Z",
-  "updatedAt": "2026-04-02T06:04:12.240Z",
+  "updatedAt": "2026-04-02T21:13:17.691Z",
   "visits": [
     {
       "id": "2810b0b5-baf0-4b72-82d2-d6bf9792608c",
@@ -166,6 +166,424 @@
       },
       "via": "Wilhelm Fliess",
       "timestamp": "2026-04-02T06:04:12.240Z"
+    },
+    {
+      "id": "35e014ac-ed13-44b5-bdf8-ce1043baa689",
+      "url": "https://en.wikipedia.org/wiki/List_of_Martin_Gardner_Mathematical_Games_columns",
+      "title": "List of Martin Gardner Mathematical Games columns",
+      "position": {
+        "x": 38.1966011250104,
+        "y": -262.8655560595667
+      },
+      "via": "Mathematical Games column",
+      "timestamp": "2026-04-02T21:02:38.783Z"
+    },
+    {
+      "id": "373f08db-d751-4acd-961d-50eb45b6fff4",
+      "url": "https://en.wikipedia.org/wiki/Penrose_tiling",
+      "title": "Penrose tiling",
+      "position": {
+        "x": 199.99999999999986,
+        "y": -380.42260651806134
+      },
+      "via": "Extraordinary nonperiodic tiling",
+      "timestamp": "2026-04-02T21:10:35.334Z"
+    },
+    {
+      "id": "028c6ab7-4d52-4897-8d06-2c0a516ea827",
+      "url": "https://en.wikipedia.org/wiki/Order-8_hexagonal_tiling",
+      "title": "List of regular polytopes",
+      "position": {
+        "x": 38.196601125010346,
+        "y": -497.97965697655593
+      },
+      "via": "Order-8 hexagonal tiling",
+      "timestamp": "2026-04-02T21:10:40.076Z"
+    },
+    {
+      "id": "759e11d4-ee4c-4ffb-8b1b-c9ca49406ed6",
+      "url": "https://en.wikipedia.org/wiki/Order-4_24-cell_honeycomb_honeycomb",
+      "title": "Order-4 24-cell honeycomb honeycomb",
+      "position": {
+        "x": 199.9999999999998,
+        "y": -615.5367074350506
+      },
+      "via": "Order-4 24-cell honeycomb honeycomb",
+      "timestamp": "2026-04-02T21:10:44.618Z"
+    },
+    {
+      "id": "4e1c1a3f-2dca-48cf-94bb-59ae37d6ec9c",
+      "url": "https://en.wikipedia.org/wiki/Honeycomb_(geometry)",
+      "title": "Honeycomb (geometry)",
+      "position": {
+        "x": 261.8033988749892,
+        "y": -805.7480106940814
+      },
+      "via": "honeycombs",
+      "timestamp": "2026-04-02T21:10:48.945Z"
+    },
+    {
+      "id": "6fe5677d-3ebf-423e-b9c1-e480c262fea8",
+      "url": "https://en.wikipedia.org/wiki/Wayback_Machine",
+      "title": "Wayback Machine",
+      "position": {
+        "x": 323.6067977499787,
+        "y": -995.9593139531121
+      },
+      "via": "Wayback Machine",
+      "timestamp": "2026-04-02T21:10:53.548Z"
+    },
+    {
+      "id": "c22b3937-d69e-427f-9ff3-bfe8f1b63ba6",
+      "url": "https://en.wikipedia.org/wiki/Copyright_infringement",
+      "title": "Copyright infringement",
+      "position": {
+        "x": 485.4101966249682,
+        "y": -878.4022634946175
+      },
+      "via": "copyright infringement",
+      "timestamp": "2026-04-02T21:10:57.942Z"
+    },
+    {
+      "id": "81dadcc2-4a42-47eb-83ee-5b84d4e2016c",
+      "url": "https://en.wikipedia.org/wiki/Copyright_law_of_Peru",
+      "title": "Copyright law of Peru",
+      "position": {
+        "x": 647.2135954999576,
+        "y": -995.9593139531122
+      },
+      "via": "Peru",
+      "timestamp": "2026-04-02T21:11:02.255Z"
+    },
+    {
+      "id": "749d077d-b81d-4515-a3d0-35349ac5fb5f",
+      "url": "https://en.wikipedia.org/wiki/Template_talk:South_America_topic",
+      "title": "Template talk:South America topic",
+      "position": {
+        "x": 585.4101966249681,
+        "y": -1186.1706172121428
+      },
+      "via": "t",
+      "timestamp": "2026-04-02T21:11:06.646Z"
+    },
+    {
+      "id": "719f55d1-0716-4fe8-b3bd-963547799e44",
+      "url": "https://en.wikipedia.org/wiki/MOS:EASTEREGG",
+      "title": "Wikipedia:Manual of Style/Linking",
+      "position": {
+        "x": 747.2135954999576,
+        "y": -1303.7276676706374
+      },
+      "via": "MOS:EASTEREGG",
+      "timestamp": "2026-04-02T21:11:11.364Z"
+    },
+    {
+      "id": "2443afb0-b3b0-449a-8dce-e3202df4ce31",
+      "url": "https://en.wikipedia.org/wiki/February_24",
+      "title": "February 24",
+      "position": {
+        "x": 809.016994374947,
+        "y": -1493.9389709296681
+      },
+      "via": "February 24",
+      "timestamp": "2026-04-02T21:11:16.158Z"
+    },
+    {
+      "id": "57b53e74-9b2d-4a2d-abc3-1425a6d52f11",
+      "url": "https://en.wikipedia.org/wiki/October_24",
+      "title": "October 24",
+      "position": {
+        "x": 747.2135954999575,
+        "y": -1684.1502741886989
+      },
+      "via": "24",
+      "timestamp": "2026-04-02T21:11:20.540Z"
+    },
+    {
+      "id": "b85670ff-2432-40ec-8831-ac627b87a3ce",
+      "url": "https://en.wikipedia.org/wiki/September",
+      "title": "September",
+      "position": {
+        "x": 909.016994374947,
+        "y": -1801.7073246471934
+      },
+      "via": "<<",
+      "timestamp": "2026-04-02T21:11:25.268Z"
+    },
+    {
+      "id": "4b9b635e-25dc-4ac5-ab4f-c0ffc09f8a52",
+      "url": "https://en.wikipedia.org/wiki/White_Balloon_Day",
+      "title": "White Balloon Day",
+      "position": {
+        "x": 970.8203932499365,
+        "y": -1611.4960213881627
+      },
+      "via": "White Balloon Day",
+      "timestamp": "2026-04-02T21:11:29.676Z"
+    },
+    {
+      "id": "669de79c-92ff-4cd6-b89f-26787dffdf1e",
+      "url": "https://en.wikipedia.org/wiki/Child_sexual_abuse",
+      "title": "Child sexual abuse",
+      "position": {
+        "x": 1124.029281873732,
+        "y": -1482.9384994508548
+      },
+      "via": "child sexual abuse",
+      "timestamp": "2026-04-02T21:11:34.084Z"
+    },
+    {
+      "id": "cd2146e8-4062-4d7b-8222-ee085c24ebc4",
+      "url": "https://en.wikipedia.org/wiki/Procuring_(prostitution)",
+      "title": "Procuring (prostitution)",
+      "position": {
+        "x": 962.2258829987427,
+        "y": -1365.3814489923602
+      },
+      "via": "Pimping",
+      "timestamp": "2026-04-02T21:11:38.424Z"
+    },
+    {
+      "id": "9c0e20d4-c825-4d09-814c-76a645a840ce",
+      "url": "https://en.wikipedia.org/wiki/Prostitution_in_Vietnam",
+      "title": "Prostitution in Vietnam",
+      "position": {
+        "x": 900.4224841237532,
+        "y": -1175.1701457333295
+      },
+      "via": "Vietnam",
+      "timestamp": "2026-04-02T21:11:43.142Z"
+    },
+    {
+      "id": "72e8735b-2a72-4723-8117-88e8741b0913",
+      "url": "https://en.wikipedia.org/wiki/Red_River_Delta",
+      "title": "Red River Delta",
+      "position": {
+        "x": 1062.2258829987427,
+        "y": -1057.613095274835
+      },
+      "via": "Red River Delta",
+      "timestamp": "2026-04-02T21:11:47.788Z"
+    },
+    {
+      "id": "b336ce43-ad32-426e-9131-cd0f976abd09",
+      "url": "https://en.wikipedia.org/wiki/Paul_Sidwell",
+      "title": "Paul Sidwell",
+      "position": {
+        "x": 1262.2258829987427,
+        "y": -1057.613095274835
+      },
+      "via": "Paul Sidwell",
+      "timestamp": "2026-04-02T21:11:52.349Z"
+    },
+    {
+      "id": "2e9f3573-8fa6-4ccf-bda7-27cee2a3279d",
+      "url": "https://en.wikipedia.org/wiki/Batemans_Bay",
+      "title": "Batemans Bay",
+      "position": {
+        "x": 1200.4224841237533,
+        "y": -1247.8243985338656
+      },
+      "via": "Batemans Bay",
+      "timestamp": "2026-04-02T21:11:56.697Z"
+    },
+    {
+      "id": "e705d3b2-d663-4ae4-8ca2-4fa71e089116",
+      "url": "https://en.wikipedia.org/wiki/Mystery_Bay",
+      "title": "Mystery Bay, New South Wales",
+      "position": {
+        "x": 1400.4224841237533,
+        "y": -1247.8243985338656
+      },
+      "via": "Mystery Bay",
+      "timestamp": "2026-04-02T21:12:01.290Z"
+    },
+    {
+      "id": "5940e15d-83bc-4114-a896-8bb1fc1da2e2",
+      "url": "https://en.wikipedia.org/wiki/Candelo,_New_South_Wales",
+      "title": "Candelo, New South Wales",
+      "position": {
+        "x": 1338.619085248764,
+        "y": -1438.0357017928964
+      },
+      "via": "Candelo",
+      "timestamp": "2026-04-02T21:12:05.851Z"
+    },
+    {
+      "id": "07291c71-79c2-4349-9539-2a11d949c146",
+      "url": "https://en.wikipedia.org/wiki/Shoalhaven_River",
+      "title": "Shoalhaven River",
+      "position": {
+        "x": 1400.4224841237533,
+        "y": -1628.247005051927
+      },
+      "via": "Shoalhaven",
+      "timestamp": "2026-04-02T21:12:10.400Z"
+    },
+    {
+      "id": "fad180c3-e7bb-48bc-b165-9313652cdb61",
+      "url": "https://en.wikipedia.org/wiki/Lake_Bathurst",
+      "title": "Lake Bathurst (New South Wales)",
+      "position": {
+        "x": 1200.4224841237533,
+        "y": -1628.247005051927
+      },
+      "via": "Lake Bathurst",
+      "timestamp": "2026-04-02T21:12:14.807Z"
+    },
+    {
+      "id": "be2eb678-c9a9-437c-9b67-d4ba6b471d96",
+      "url": "https://en.wikipedia.org/wiki/Lake_George_(New_South_Wales)",
+      "title": "Lake George (New South Wales)",
+      "position": {
+        "x": 1262.2258829987427,
+        "y": -1818.4583083109578
+      },
+      "via": "Lake George",
+      "timestamp": "2026-04-02T21:12:19.273Z"
+    },
+    {
+      "id": "3a7b3df9-d4aa-4c12-8cd8-609248ea152b",
+      "url": "https://en.wikipedia.org/wiki/Narran_Wetlands",
+      "title": "Narran Wetlands",
+      "position": {
+        "x": 1062.2258829987427,
+        "y": -1818.4583083109578
+      },
+      "via": "Narran Wetlands",
+      "timestamp": "2026-04-02T21:12:23.880Z"
+    },
+    {
+      "id": "c24dc200-f0a9-4068-b47d-b8c22ce1ecf0",
+      "url": "https://en.wikipedia.org/wiki/Hosnies_Spring",
+      "title": "Hosnies Spring",
+      "position": {
+        "x": 1000.4224841237532,
+        "y": -2008.6696115699885
+      },
+      "via": "Hosnies Spring (Christmas Island)",
+      "timestamp": "2026-04-02T21:12:28.477Z"
+    },
+    {
+      "id": "9eb176d6-fe58-48a7-9630-a5dbf60ef831",
+      "url": "https://en.wikipedia.org/wiki/Freshwater",
+      "title": "Fresh water",
+      "position": {
+        "x": 1062.2258829987427,
+        "y": -2198.8809148290193
+      },
+      "via": "freshwater",
+      "timestamp": "2026-04-02T21:12:33.142Z"
+    },
+    {
+      "id": "cc524e8e-4552-4768-acd6-b95f5713e85a",
+      "url": "https://en.wikipedia.org/wiki/Doi_(identifier)",
+      "title": "Digital object identifier",
+      "position": {
+        "x": 1000.4224841237532,
+        "y": -2389.09221808805
+      },
+      "via": "doi",
+      "timestamp": "2026-04-02T21:12:37.665Z"
+    },
+    {
+      "id": "5b7c56ef-fb32-4820-919e-b19d815bb7e6",
+      "url": "https://en.wikipedia.org/wiki/ISO_19114",
+      "title": "ISO 19114",
+      "position": {
+        "x": 800.4224841237532,
+        "y": -2389.09221808805
+      },
+      "via": "19114",
+      "timestamp": "2026-04-02T21:12:42.098Z"
+    },
+    {
+      "id": "a655f184-f3d0-4cd5-bffe-9d84d11cef23",
+      "url": "https://en.wikipedia.org/wiki/Mixed_raster_content",
+      "title": "Mixed raster content",
+      "position": {
+        "x": 738.6190852487637,
+        "y": -2198.8809148290193
+      },
+      "via": "16485",
+      "timestamp": "2026-04-02T21:12:46.488Z"
+    },
+    {
+      "id": "92890481-78e0-43f1-9a96-ab0df25bc65e",
+      "url": "https://en.wikipedia.org/wiki/ISO/IEC_10967",
+      "title": "ISO/IEC 10967",
+      "position": {
+        "x": 576.8156863737743,
+        "y": -2081.3238643705245
+      },
+      "via": "10967",
+      "timestamp": "2026-04-02T21:12:51.013Z"
+    },
+    {
+      "id": "e66fdd3a-f3ca-40b1-b223-844c8b828ad1",
+      "url": "https://en.wikipedia.org/wiki/IEC_60309",
+      "title": "IEC 60309",
+      "position": {
+        "x": 415.01228749878476,
+        "y": -2198.8809148290193
+      },
+      "via": "60309",
+      "timestamp": "2026-04-02T21:12:55.705Z"
+    },
+    {
+      "id": "a80283de-41bc-4284-85c5-8712e5520a80",
+      "url": "https://en.wikipedia.org/wiki/IEC_61360",
+      "title": "IEC 61360",
+      "position": {
+        "x": 253.2088886237953,
+        "y": -2081.3238643705245
+      },
+      "via": "61360",
+      "timestamp": "2026-04-02T21:13:00.133Z"
+    },
+    {
+      "id": "bb6490a6-a023-43e1-9fce-ecee435c9496",
+      "url": "https://en.wikipedia.org/wiki/IEC_61499",
+      "title": "IEC 61499",
+      "position": {
+        "x": 91.40548974880585,
+        "y": -1963.7668139120299
+      },
+      "via": "61499",
+      "timestamp": "2026-04-02T21:13:04.591Z"
+    },
+    {
+      "id": "dea06b4d-020e-434b-a1dd-ba63f578f0dc",
+      "url": "https://en.wikipedia.org/wiki/IEC_60034",
+      "title": "IEC 60034",
+      "position": {
+        "x": 153.20888862379533,
+        "y": -1773.5555106529991
+      },
+      "via": "60034",
+      "timestamp": "2026-04-02T21:13:08.993Z"
+    },
+    {
+      "id": "16916771-4a19-4b7b-924b-a24957b79446",
+      "url": "https://en.wikipedia.org/wiki/Universal_Disk_Format",
+      "title": "Universal Disk Format",
+      "position": {
+        "x": -8.594510251194123,
+        "y": -1655.9984601945046
+      },
+      "via": "13346",
+      "timestamp": "2026-04-02T21:13:13.371Z"
+    },
+    {
+      "id": "8ddd4350-281f-4c1d-b281-ac6cf42f80ca",
+      "url": "https://en.wikipedia.org/wiki/Battery_nomenclature",
+      "title": "Battery nomenclature",
+      "position": {
+        "x": -170.39790912618363,
+        "y": -1773.5555106529991
+      },
+      "via": "61960",
+      "timestamp": "2026-04-02T21:13:17.690Z"
     }
   ],
   "pages": {
@@ -993,6 +1411,2106 @@
         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
         "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/FreudFliess1890.jpg/250px-FreudFliess1890.jpg",
         "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "35e014ac-ed13-44b5-bdf8-ce1043baa689": {
+      "url": "https://en.wikipedia.org/wiki/List_of_Martin_Gardner_Mathematical_Games_columns",
+      "title": "List of Martin Gardner Mathematical Games columns",
+      "anchorText": "Mathematical Games column",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/The_monkey_and_the_coconuts",
+            "label": "a monkey and a pile of coconuts"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Abacus",
+            "label": "abacus"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Egyptian_fraction",
+            "label": "fractions of ancient Egypt"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Catalan_numbers",
+            "label": "Catalan numbers"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Newcomb%27s_paradox",
+            "label": "paradox by William Newcomb"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Origami",
+            "label": "Origami"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Tree_(graph_theory)",
+            "label": "tree graphs"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Tic-tac-toe",
+            "label": "ticktacktoe"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Penrose_tiling",
+            "label": "Extraordinary nonperiodic tiling"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "373f08db-d751-4acd-961d-50eb45b6fff4": {
+      "url": "https://en.wikipedia.org/wiki/Penrose_tiling",
+      "title": "Penrose tiling",
+      "anchorText": "Extraordinary nonperiodic tiling",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Spin_network",
+            "label": "Spin network"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Triangular_tiling",
+            "label": "Triangular tiling"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/CiteSeerX_(identifier)",
+            "label": "CiteSeerX"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Rhombitetraoctagonal_tiling",
+            "label": "Rhombitetraoctagonal tiling"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Domino_tiling",
+            "label": "Domino"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Keskuskatu",
+            "label": "Keskuskatu"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Order-8_hexagonal_tiling",
+            "label": "Order-8 hexagonal tiling"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Eureka_(University_of_Cambridge_magazine)",
+            "label": "Eureka"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Truncated_order-4_apeirogonal_tiling",
+            "label": "Truncated order-4 apeirogonal tiling"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Truncated_tetrahexagonal_tiling",
+            "label": "Truncated tetrahexagonal tiling"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Penrose_Tiling_%28Rhombi%29.svg/250px-Penrose_Tiling_%28Rhombi%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/RogerPenroseTileTAMU2010.jpg/250px-RogerPenroseTileTAMU2010.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/RegularRhombs.svg/250px-RegularRhombs.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wang_tiles.svg/250px-Wang_tiles.svg.png"
+      ]
+    },
+    "028c6ab7-4d52-4897-8d06-2c0a516ea827": {
+      "url": "https://en.wikipedia.org/wiki/Order-8_hexagonal_tiling",
+      "title": "List of regular polytopes",
+      "anchorText": "Order-8 hexagonal tiling",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Uniform_5-polytope",
+            "label": "Uniform 5-polytope"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Order-4_square_hosohedral_honeycomb",
+            "label": "{2,4,4}"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Snub_apeiroapeirogonal_tiling",
+            "label": "Snub apeiroapeirogonal tiling"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Clifford_displacement",
+            "label": "Clifford displacement"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Binomial_coefficient",
+            "label": "(\n            \n            \n              \n                n\n                +\n                1\n              \n              \n                k\n                +\n                1\n              \n            \n            \n              )\n            \n          \n        \n      \n    \n    {\\displaystyle {{n+1} \\choose {k+1}}}"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Polyhedral_compound",
+            "label": "compound"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_planar_symmetry_groups",
+            "label": "Symmetry"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Floret_pentagonal_tiling",
+            "label": "Floret pentagonal tiling"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Truncated_order-4_pentagonal_tiling",
+            "label": "Truncated order-4 pentagonal tiling"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Order-4_24-cell_honeycomb_honeycomb",
+            "label": "Order-4 24-cell honeycomb honeycomb"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Regular_pentagon.svg/250px-Regular_pentagon.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Star_polygon_5-2.svg/250px-Star_polygon_5-2.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Dodecahedron.png/250px-Dodecahedron.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Small_stellated_dodecahedron.png/250px-Small_stellated_dodecahedron.png"
+      ]
+    },
+    "759e11d4-ee4c-4ffb-8b1b-c9ca49406ed6": {
+      "url": "https://en.wikipedia.org/wiki/Order-4_24-cell_honeycomb_honeycomb",
+      "title": "Order-4 24-cell honeycomb honeycomb",
+      "anchorText": "Order-4 24-cell honeycomb honeycomb",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/w/index.php",
+            "label": "Create account"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ideal_point",
+            "label": "ideal points"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Tessellation",
+            "label": "tessellations"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Tesseractic_honeycomb_honeycomb",
+            "label": "Tesseractic honeycomb honeycomb"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vertex_figure",
+            "label": "Vertex figure"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/24-cell",
+            "label": "{3,4,3}"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Schl%C3%A4fli_symbol",
+            "label": "Schläfli symbol"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Honeycomb_(geometry)",
+            "label": "honeycombs"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vertex_figures",
+            "label": "vertex figures"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/b/bd/CDel_node_1.png",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c3/CDel_3.png",
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/CDel_node.png",
+        "https://upload.wikimedia.org/wikipedia/commons/8/8c/CDel_4.png"
+      ]
+    },
+    "4e1c1a3f-2dca-48cf-94bb-59ae37d6ec9c": {
+      "url": "https://en.wikipedia.org/wiki/Honeycomb_(geometry)",
+      "title": "Honeycomb (geometry)",
+      "anchorText": "honeycombs",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/5_21_honeycomb",
+            "label": "521"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Convex_polytope",
+            "label": "convex"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Square_tiling",
+            "label": "δ3"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Regular_honeycomb",
+            "label": "regular"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Close_packing",
+            "label": "close packing"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Uniform_5-honeycomb",
+            "label": "Uniform 5-honeycomb"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Truncated_octahedron",
+            "label": "Truncated octahedron"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Triangular_prismatic_honeycomb",
+            "label": "triangular prismatic honeycomb"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wayback_Machine",
+            "label": "Wayback Machine"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vertex-transitive",
+            "label": "transitive on vertices"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cubic_honeycomb.png/250px-Cubic_honeycomb.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Wallpaper_group-cmm-1.jpg/250px-Wallpaper_group-cmm-1.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Cubic_semicheck.svg/250px-Cubic_semicheck.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Tetroctahedric_semicheck.svg/250px-Tetroctahedric_semicheck.svg.png"
+      ]
+    },
+    "6fe5677d-3ebf-423e-b9c1-e480c262fea8": {
+      "url": "https://en.wikipedia.org/wiki/Wayback_Machine",
+      "title": "Wayback Machine",
+      "anchorText": "Wayback Machine",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/CanLII",
+            "label": "CanLII"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Copyright_infringement",
+            "label": "copyright infringement"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ars_Technica",
+            "label": "Ars Technica"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/InformationWeek",
+            "label": "InformationWeek"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISBN_(identifier)",
+            "label": "ISBN"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jill_Lepore",
+            "label": "Lepore, Jill"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Library_and_information_science",
+            "label": "library science"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Church_of_Scientology",
+            "label": "Church of Scientology"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Universal_Music_Group_v._Internet_Archive",
+            "label": "Universal Music Group v. Internet Archive"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Wayback_Machine_logo_2010.svg/250px-Wayback_Machine_logo_2010.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Wayback_Machine_logo_2010_%28light%29.svg/250px-Wayback_Machine_logo_2010_%28light%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Wayback_Machine_logo_2010.svg/250px-Wayback_Machine_logo_2010.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/40px-Wikinews-logo.svg.png"
+      ]
+    },
+    "c22b3937-d69e-427f-9ff3-bfe8f1b63ba6": {
+      "url": "https://en.wikipedia.org/wiki/Copyright_infringement",
+      "title": "Copyright infringement",
+      "anchorText": "copyright infringement",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/BSA_(The_Software_Alliance)",
+            "label": "BSA"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Copyrighted_content_on_file_sharing_networks",
+            "label": "Copyrighted content on file sharing networks"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Geographical_indication",
+            "label": "Geographical indication"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Copyright_law_of_Indonesia",
+            "label": "Indonesia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/South_Africa",
+            "label": "South Africa"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vidding",
+            "label": "vidding"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nintendo_Famicom",
+            "label": "Nintendo Famicom"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Protect_IP_Act",
+            "label": "Protect IP Act"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corporate_authorship",
+            "label": "corporate authorship"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Copyright_law_of_Peru",
+            "label": "Peru"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Copyrightpirates.jpg/330px-Copyrightpirates.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Intellectual_property_Noun_project.svg/250px-Intellectual_property_Noun_project.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Alfred_Schmidt_pirated_edition.jpg/250px-Alfred_Schmidt_pirated_edition.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Copyright_infringement_diagram.svg/250px-Copyright_infringement_diagram.svg.png"
+      ]
+    },
+    "81dadcc2-4a42-47eb-83ee-5b84d4e2016c": {
+      "url": "https://en.wikipedia.org/wiki/Copyright_law_of_Peru",
+      "title": "Copyright law of Peru",
+      "anchorText": "Peru",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Copyright_law_of_Argentina",
+            "label": "Argentina"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_sovereign_states",
+            "label": "Sovereign states"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Berne_Convention",
+            "label": "Berne Convention"
+          },
+          {
+            "url": "https://en.wikipedia.org/w/index.php",
+            "label": "Create account"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Law_of_South_America",
+            "label": "law of South America"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Copyright_law_of_Chile",
+            "label": "Chile"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:South_America_topic",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Peru",
+            "label": "Peru"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Peru-poli-stub",
+            "label": "t"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Translation_to_english_arrow.svg/60px-Translation_to_english_arrow.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/South_America.svg/40px-South_America.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Society.svg/60px-Society.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "749d077d-b81d-4515-a3d0-35349ac5fb5f": {
+      "url": "https://en.wikipedia.org/wiki/Template_talk:South_America_topic",
+      "title": "Template talk:South America topic",
+      "anchorText": "t",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/User_talk:Airezulian",
+            "label": "talk"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Geography_of_Peru",
+            "label": "Peru"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Geography_of_Venezuela",
+            "label": "Venezuela"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Geography_of_Ecuador",
+            "label": "Ecuador"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Geography_of_South_America",
+            "label": "Geography of South America"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISBN_(identifier)",
+            "label": "ISBN"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/User_talk:Apcbg",
+            "label": "talk"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_airports_in_French_Guiana",
+            "label": "List of airports in French Guiana"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MOS:EASTEREGG",
+            "label": "MOS:EASTEREGG"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Dialog-stop-hand.svg/40px-Dialog-stop-hand.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Symbol_template_class_pink.svg/40px-Symbol_template_class_pink.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/South_America_satellite_orthographic.jpg/60px-South_America_satellite_orthographic.jpg"
+      ]
+    },
+    "719f55d1-0716-4fe8-b3bd-963547799e44": {
+      "url": "https://en.wikipedia.org/wiki/MOS:EASTEREGG",
+      "title": "Wikipedia:Manual of Style/Linking",
+      "anchorText": "MOS:EASTEREGG",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/MOS:BOLDLINKAVOID",
+            "label": "should not contain links"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sad_Statue",
+            "label": "Sad Statue"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MOS:LINK",
+            "label": "MOS:LINK"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Style",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MOS:FURTHER",
+            "label": "Further reading"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Moana_(character)",
+            "label": "Moana"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Linking_and_page_manipulation",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MOS:SECTLINK",
+            "label": "piped links"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/February_24",
+            "label": "February 24"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hypertext",
+            "label": "hypertext"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Blue_check.svg/40px-Blue_check.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Easter_egg_hunt.JPG/250px-Easter_egg_hunt.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/40px-Wikiquote-logo.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "2443afb0-b3b0-449a-8dce-e3202df4ce31": {
+      "url": "https://en.wikipedia.org/wiki/February_24",
+      "title": "February 24",
+      "anchorText": "February 24",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/May_30",
+            "label": "30"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
+            "label": "Supreme Court of the United States"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jacques_de_Vaucanson",
+            "label": "Jacques de Vaucanson"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Grigory_Margulis",
+            "label": "Grigory Margulis"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Joe_Lieberman",
+            "label": "Joe Lieberman"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mughal_Empire",
+            "label": "Mughal"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/1536",
+            "label": "1536"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/October_24",
+            "label": "24"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Saudi_Arabia",
+            "label": "Saudi Arabian"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Peronism",
+            "label": "Peronism"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "57b53e74-9b2d-4a2d-abc3-1425a6d52f11": {
+      "url": "https://en.wikipedia.org/wiki/October_24",
+      "title": "October 24",
+      "anchorText": "24",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Konstantin_Yuon",
+            "label": "Konstantin Yuon"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/February_23",
+            "label": "23"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/August_12",
+            "label": "12"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bruce_Castor",
+            "label": "Bruce Castor"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nobel_Prize_in_Physics",
+            "label": "Nobel Prize"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/July_19",
+            "label": "19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Indian_National_Army",
+            "label": "Indian National Army"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Oscar_Wendt",
+            "label": "Oscar Wendt"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/August_28",
+            "label": "28"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/September",
+            "label": "<<"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "b85670ff-2432-40ec-8831-ac627b87a3ce": {
+      "url": "https://en.wikipedia.org/wiki/September",
+      "title": "September",
+      "anchorText": "<<",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Patriot_Day",
+            "label": "Patriot Day"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ask_a_Stupid_Question_Day",
+            "label": "Ask a Stupid Question Day"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/White_Balloon_Day",
+            "label": "White Balloon Day"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Public_holidays_in_Pakistan",
+            "label": "Defence Day"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/December_11",
+            "label": "11"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/National_Heroes_Day_(Saint_Kitts_and_Nevis)",
+            "label": "Heroes' Day"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/February_13",
+            "label": "13"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Republic_of_San_Marino",
+            "label": "Republic of San Marino"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/October_18",
+            "label": "18"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/January_3",
+            "label": "3"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_septembre.jpg/250px-Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_septembre.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/09_September_-_Percent_of_global_area_at_temperature_records_-_Global_warming_-_NOAA.svg/250px-09_September_-_Percent_of_global_area_at_temperature_records_-_Global_warming_-_NOAA.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/1850-_09_September_each_year_-_Global_average_temperature_changes.svg/250px-1850-_09_September_each_year_-_Global_average_temperature_changes.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Sapphire_ring.jpg/250px-Sapphire_ring.jpg"
+      ]
+    },
+    "4b9b635e-25dc-4ac5-ab4f-c0ffc09f8a52": {
+      "url": "https://en.wikipedia.org/wiki/White_Balloon_Day",
+      "title": "White Balloon Day",
+      "anchorText": "White Balloon Day",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Belgium",
+            "label": "Belgium"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Child_sexual_abuse",
+            "label": "child sexual abuse"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Paedophile",
+            "label": "paedophile"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+            "label": "Current events"
+          },
+          {
+            "url": "https://en.wikipedia.org/w/index.php",
+            "label": "Create account"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Activism-stub",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Activism",
+            "label": "activism"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sexual_assault",
+            "label": "sexually assaulted"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Megaphon.png/40px-Megaphon.png"
+      ]
+    },
+    "669de79c-92ff-4cd6-b89f-26787dffdf1e": {
+      "url": "https://en.wikipedia.org/wiki/Child_sexual_abuse",
+      "title": "Child sexual abuse",
+      "anchorText": "child sexual abuse",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Seduction_(tort)",
+            "label": "Seduction"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Siwi_people",
+            "label": "Siwan"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Anus",
+            "label": "anus"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Child_sexual_abuse_laws_in_India",
+            "label": "child sexual abuse laws in India"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Procuring_(prostitution)",
+            "label": "Pimping"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ministry_of_Women_and_Child_Development_(India)",
+            "label": "Ministry of Women and Child Development"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Denial",
+            "label": "Denial"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/War_crime",
+            "label": "War crimes"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Necessity_(criminal_law)",
+            "label": "Necessity"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Female_genital_mutilation",
+            "label": "Female genital mutilation"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Handcuffs_icon.svg/120px-Handcuffs_icon.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Scale_of_justice_2.svg/120px-Scale_of_justice_2.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bisexuality_symbol_%28bold%2C_color%29.svg/40px-Bisexuality_symbol_%28bold%2C_color%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Balance%2C_by_David.svg/40px-Balance%2C_by_David.svg.png"
+      ]
+    },
+    "cd2146e8-4062-4d7b-8222-ee085c24ebc4": {
+      "url": "https://en.wikipedia.org/wiki/Procuring_(prostitution)",
+      "title": "Procuring (prostitution)",
+      "anchorText": "Pimping",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Sexual_Offences_Act",
+            "label": "Sexual Offences Act"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Prostitution_in_Mozambique",
+            "label": "Mozambique"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Human_trafficking",
+            "label": "Trafficking"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Prostitution_in_Vietnam",
+            "label": "Vietnam"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Enriqueta_Mart%C3%AD",
+            "label": "Enriqueta Martí"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Legal_protection_of_access_to_abortion",
+            "label": "Access to abortion"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cybersex_trafficking",
+            "label": "Cybersex trafficking"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Prostitution_in_the_Dutch_Caribbean",
+            "label": "Dutch Caribbean"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Laws_regarding_rape",
+            "label": "Rape"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Al_Swearengen",
+            "label": "Al Swearengen"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Jan_Vermeer_van_Delft_002.jpg/250px-Jan_Vermeer_van_Delft_002.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Scale_of_justice_2.svg/120px-Scale_of_justice_2.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bisexuality_symbol_%28bold%2C_color%29.svg/40px-Bisexuality_symbol_%28bold%2C_color%29.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Balance%2C_by_David.svg/40px-Balance%2C_by_David.svg.png"
+      ]
+    },
+    "9c0e20d4-c825-4d09-814c-76a645a840ce": {
+      "url": "https://en.wikipedia.org/wiki/Prostitution_in_Vietnam",
+      "title": "Prostitution in Vietnam",
+      "anchorText": "Vietnam",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Regulatory_prostitution",
+            "label": "heavily regulated"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Red_River_Delta",
+            "label": "Red River Delta"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Communist_Party_of_Vietnam",
+            "label": "Communist Party"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/S2CID_(identifier)",
+            "label": "S2CID"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Interracial_relationships",
+            "label": "interracial relationships"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Prostitution_in_Bhutan",
+            "label": "Bhutan"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Foreign_aid_to_Vietnam",
+            "label": "Foreign aid"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Barbara_Watson_Andaya",
+            "label": "Andaya, Barbara Watson"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_Thought",
+            "label": "Ho Chi Minh Thought"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Religion_in_Vietnam",
+            "label": "Religion"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Women_in_%22reform_school%22_for_sex_workers%2C_Ho_Chi_Minh_City%2C_Vietnam%2C_1980.jpg/330px-Women_in_%22reform_school%22_for_sex_workers%2C_Ho_Chi_Minh_City%2C_Vietnam%2C_1980.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/ThuykieuTruyen2.jpg/250px-ThuykieuTruyen2.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/e/e5/Vu_Trong_Phung.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Hanoi_dispensary_nurse_teaches_sexual_hygiene%2C_1937.jpg/330px-Hanoi_dispensary_nurse_teaches_sexual_hygiene%2C_1937.jpg"
+      ]
+    },
+    "72e8735b-2a72-4723-8117-88e8741b0913": {
+      "url": "https://en.wikipedia.org/wiki/Red_River_Delta",
+      "title": "Red River Delta",
+      "anchorText": "Red River Delta",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Paul_Sidwell",
+            "label": "Paul Sidwell"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Elections_in_Vietnam",
+            "label": "Elections"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ch%C6%B0%C6%A1ng_M%E1%BB%B9_district",
+            "label": "Chương Mỹ"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Traditional_Vietnamese_musical_instruments",
+            "label": "Traditional musical instruments"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Time_in_Vietnam",
+            "label": "Time"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Vietnamese_cuisine",
+            "label": "Cuisine"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Supreme_People%27s_Court_of_Vietnam",
+            "label": "Supreme People's Court"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh_Thought",
+            "label": "Ho Chi Minh Thought"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/National_Defense_and_Security_Council_(Vietnam)",
+            "label": "National Defense and Security Council"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sport_in_Vietnam",
+            "label": "Sports"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Translation_to_english_arrow.svg/60px-Translation_to_english_arrow.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Red_River_Delta_in_Vietnam.svg/250px-Red_River_Delta_in_Vietnam.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/40px-Flag_of_Vietnam.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Red_River_Delta_in_Vietnam.svg/120px-Red_River_Delta_in_Vietnam.svg.png"
+      ]
+    },
+    "b336ce43-ad32-426e-9131-cd0f976abd09": {
+      "url": "https://en.wikipedia.org/wiki/Paul_Sidwell",
+      "title": "Paul Sidwell",
+      "anchorText": "Paul Sidwell",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Khasian_languages",
+            "label": "Khasic"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nicobarese_languages",
+            "label": "Nicobaric"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/International_Conference_on_Austroasiatic_Linguistics",
+            "label": "International Conference on Austroasiatic Linguistics"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Leipzig",
+            "label": "Leipzig"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Proto-Austroasiatic_language",
+            "label": "Proto-Austroasiatic"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Palaungic_languages",
+            "label": "Palaungic"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Doi_(identifier)",
+            "label": "doi"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Batemans_Bay",
+            "label": "Batemans Bay"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISBN_(identifier)",
+            "label": "ISBN"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Forensic_linguistics",
+            "label": "forensic linguistics"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Paul_Sidwell_portrait_2021.jpg/250px-Paul_Sidwell_portrait_2021.jpg",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "2e9f3573-8fa6-4ccf-bda7-27cee2a3279d": {
+      "url": "https://en.wikipedia.org/wiki/Batemans_Bay",
+      "title": "Batemans Bay",
+      "anchorText": "Batemans Bay",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Mystery_Bay",
+            "label": "Mystery Bay"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Merrica_River",
+            "label": "Merrica"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Jeremadra",
+            "label": "Jeremadra"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/7mate",
+            "label": "7mate"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Slade_Point",
+            "label": "Slade Point"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Botany_Bay",
+            "label": "Botany Bay"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/States_and_territories_of_Australia",
+            "label": "State"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nerrigundah,_New_South_Wales",
+            "label": "Nerrigundah"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nelligen",
+            "label": "Nelligen"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Daily_Telegraph_(Sydney)",
+            "label": "Daily Telegraph"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Batemans_Bay_view_from_bridge.jpg/330px-Batemans_Bay_view_from_bridge.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Australia_New_South_Wales_location_map_blank.svg/330px-Australia_New_South_Wales_location_map_blank.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Bridge_Plaza_in_the_sun.jpg/120px-Bridge_Plaza_in_the_sun.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Batemans_Bay_NSW_2536%2C_Australia_-_panoramio.jpg/120px-Batemans_Bay_NSW_2536%2C_Australia_-_panoramio.jpg"
+      ]
+    },
+    "e705d3b2-d663-4ae4-8ca2-4fa71e089116": {
+      "url": "https://en.wikipedia.org/wiki/Mystery_Bay",
+      "title": "Mystery Bay, New South Wales",
+      "anchorText": "Mystery Bay",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Wyndham,_New_South_Wales",
+            "label": "Wyndham"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bega_Valley_Shire",
+            "label": "Bega Valley Shire"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Dalmeny,_New_South_Wales",
+            "label": "Dalmeny"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Yowrie_River",
+            "label": "Yowrie"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nullica_River",
+            "label": "Nullica"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/South_Durras",
+            "label": "South Durras"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bibcode_(identifier)",
+            "label": "Bibcode"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Candelo,_New_South_Wales",
+            "label": "Candelo"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Nowra",
+            "label": "Nowra"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Genoa_River",
+            "label": "Genoa"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Mystery_Bay.JPG/330px-Mystery_Bay.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Australia_New_South_Wales_location_map_blank.svg/330px-Australia_New_South_Wales_location_map_blank.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_New_South_Wales.svg/40px-Flag_of_New_South_Wales.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_New_South_Wales.svg/40px-Flag_of_New_South_Wales.svg.png"
+      ]
+    },
+    "5940e15d-83bc-4114-a896-8bb1fc1da2e2": {
+      "url": "https://en.wikipedia.org/wiki/Candelo,_New_South_Wales",
+      "title": "Candelo, New South Wales",
+      "anchorText": "Candelo",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Eurobodalla_Shire",
+            "label": "Eurobodalla Shire"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wog_Wog_River",
+            "label": "Wog Wog"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wadbilliga_River",
+            "label": "Wadbilliga"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Australia",
+            "label": "Australia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bournda_National_Park",
+            "label": "Bournda"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Tomaga_River",
+            "label": "Tomaga"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Merrica_River",
+            "label": "Merrica"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Geography",
+            "label": "geography"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Shoalhaven_River",
+            "label": "Shoalhaven"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pambula_Beach",
+            "label": "Pambula Beach"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Australia_New_South_Wales_location_map_blank.svg/330px-Australia_New_South_Wales_location_map_blank.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_New_South_Wales.svg/40px-Flag_of_New_South_Wales.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/NSW_in_Australia_map.png/40px-NSW_in_Australia_map.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "07291c71-79c2-4349-9539-2a11d949c146": {
+      "url": "https://en.wikipedia.org/wiki/Shoalhaven_River",
+      "title": "Shoalhaven River",
+      "anchorText": "Shoalhaven",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Monga_National_Park",
+            "label": "Monga"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wolgan_River",
+            "label": "Wolgan"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Burra_Creek_(Palerang)",
+            "label": "Burra (Palerang)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Collector,_New_South_Wales",
+            "label": "Collector"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Berry,_New_South_Wales",
+            "label": "Berry"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lake_Bathurst",
+            "label": "Lake Bathurst"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Kangaroo_Valley,_New_South_Wales",
+            "label": "Kangaroo Valley"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Gulaga_National_Park",
+            "label": "Gulaga"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Chichester_River",
+            "label": "Chichester"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Niemur_River",
+            "label": "Niemur"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nowra_Shoalhaven_RIver_Hang._Roc._Look..jpg/250px-Nowra_Shoalhaven_RIver_Hang._Roc._Look..jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Australia_New_South_Wales_relief_location_map.png/250px-Australia_New_South_Wales_relief_location_map.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ballalaba_bridge_over_the_over_the_Shoalhaven_River.jpg/250px-Ballalaba_bridge_over_the_over_the_Shoalhaven_River.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Farringdon_Crossing%2C_Farringdon%2C_New_South_Wales.jpg/250px-Farringdon_Crossing%2C_Farringdon%2C_New_South_Wales.jpg"
+      ]
+    },
+    "fad180c3-e7bb-48bc-b165-9313652cdb61": {
+      "url": "https://en.wikipedia.org/wiki/Lake_Bathurst",
+      "title": "Lake Bathurst (New South Wales)",
+      "anchorText": "Lake Bathurst",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Canberra",
+            "label": "Canberra"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Marulan",
+            "label": "Marulan"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Deua_River",
+            "label": "Deua"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mummel",
+            "label": "Mummel"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Breadalbane,_New_South_Wales",
+            "label": "Breadalbane"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Wamberal_Lagoon",
+            "label": "Wamberal Lagoon"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lake_Illawarra",
+            "label": "Illawarra"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lake_George_(New_South_Wales)",
+            "label": "Lake George"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Boxers_Creek",
+            "label": "Boxers Creek"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Lake_george_nsw.jpg/330px-Lake_george_nsw.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Australia_New_South_Wales_relief_location_map.png/330px-Australia_New_South_Wales_relief_location_map.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Anas-rhynchotis-variegata.jpg/250px-Anas-rhynchotis-variegata.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/House%2C_Lake_Bathurst%2C_New_South_Wales.jpg/330px-House%2C_Lake_Bathurst%2C_New_South_Wales.jpg"
+      ]
+    },
+    "be2eb678-c9a9-437c-9b67-d4ba6b471d96": {
+      "url": "https://en.wikipedia.org/wiki/Lake_George_(New_South_Wales)",
+      "title": "Lake George (New South Wales)",
+      "anchorText": "Lake George",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Lake_Mungo",
+            "label": "Mungo"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lake_Albina",
+            "label": "Albina"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Burra,_New_South_Wales",
+            "label": "Burra"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Murray_County,_New_South_Wales",
+            "label": "Murray"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Narrabeen_Lagoon",
+            "label": "Narrabeen Lagoon"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Narran_Wetlands",
+            "label": "Narran Wetlands"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Quarry",
+            "label": "quarry"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Murray_cod",
+            "label": "Murray cod"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Stone_artefact",
+            "label": "stone artefacts"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Tirrannaville",
+            "label": "Tirrannaville"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Lake_George_August_2022.jpg/330px-Lake_George_August_2022.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Australia_New_South_Wales_relief_location_map.png/330px-Australia_New_South_Wales_relief_location_map.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Canberra_Zebra_herd.JPG/250px-Canberra_Zebra_herd.JPG",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Lake_George_when_dry_looking_east.jpg/250px-Lake_George_when_dry_looking_east.jpg"
+      ]
+    },
+    "3a7b3df9-d4aa-4c12-8cd8-609248ea152b": {
+      "url": "https://en.wikipedia.org/wiki/Narran_Wetlands",
+      "title": "Narran Wetlands",
+      "anchorText": "Narran Wetlands",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Gamilaroi_Nature_Reserve",
+            "label": "Gamilaroi"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Lake_Cowal",
+            "label": "Cowal"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Menindee_Lakes",
+            "label": "Menindee Lakes"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Glenrock_Lagoon",
+            "label": "Glenrock Lagoon"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Broken_Head_Nature_Reserve",
+            "label": "Broken Head"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Couchy_Creek_Nature_Reserve",
+            "label": "Couchy Creek"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Great_cormorant",
+            "label": "great cormorants"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hosnies_Spring",
+            "label": "Hosnies Spring (Christmas Island)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Brewarrina,_New_South_Wales",
+            "label": "Brewarrina"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ngambaa_Nature_Reserve",
+            "label": "Ngambaa"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Black-fronted_Dotterel.jpg/330px-Black-fronted_Dotterel.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Australia_New_South_Wales_relief_location_map.png/250px-Australia_New_South_Wales_relief_location_map.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Muehlenbeckia_Lignum_swamp.jpg/250px-Muehlenbeckia_Lignum_swamp.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_New_South_Wales.svg/40px-Flag_of_New_South_Wales.svg.png"
+      ]
+    },
+    "c24dc200-f0a9-4068-b47d-b8c22ce1ecf0": {
+      "url": "https://en.wikipedia.org/wiki/Hosnies_Spring",
+      "title": "Hosnies Spring",
+      "anchorText": "Hosnies Spring (Christmas Island)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Coongie_Lakes",
+            "label": "Coongie Lakes"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Cape_Barren_Island",
+            "label": "Cape Barren Island east coast lagoons"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Ramsar_Convention",
+            "label": "Ramsar Wetland"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Little_Waterhouse_Lake",
+            "label": "Little Waterhouse Lake"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Port_Phillip_Bay_(Western_Shoreline)_and_Bellarine_Peninsula_Ramsar_Site",
+            "label": "Port Phillip Bay and Bellarine Peninsula"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Paroo_River",
+            "label": "Paroo Wetlands"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Template_talk:Ramsar_sites_in_Australia",
+            "label": "t"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fivebough_and_Tuckerbil_Swamps",
+            "label": "Fivebough and Tuckerbil Swamps"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Freshwater",
+            "label": "freshwater"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Christmas_Island_National_Park",
+            "label": "Christmas Island National Park"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ayers_rock_2.jpg/40px-Ayers_rock_2.jpg",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "9eb176d6-fe58-48a7-9630-a5dbf60ef831": {
+      "url": "https://en.wikipedia.org/wiki/Freshwater",
+      "title": "Fresh water",
+      "anchorText": "freshwater",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Soil_resilience",
+            "label": "resilience"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sea",
+            "label": "seas"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Peak_copper",
+            "label": "copper"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Exploitation_of_natural_resources",
+            "label": "Exploitation"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hypoxia_(environmental)",
+            "label": "hypoxia"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Precipitation",
+            "label": "precipitations"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fish",
+            "label": "fish"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Doi_(identifier)",
+            "label": "doi"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+            "label": "Current events"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISBN_(identifier)",
+            "label": "ISBN"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazonas%2C_Iquitos_-_Leticia%2C_Kolumbien_%2811472506936%29.jpg/250px-Amazonas%2C_Iquitos_-_Leticia%2C_Kolumbien_%2811472506936%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cove_with_Shamans_Rock_Olkhon_Island_Lake_Baikal_Russia_%2814594856552%29.jpg/250px-Cove_with_Shamans_Rock_Olkhon_Island_Lake_Baikal_Russia_%2814594856552%29.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Transition_from_Sawgrass_to_Coastal_Habitat%2C_NPSPhoto_%289250299462%29.jpg/250px-Transition_from_Sawgrass_to_Coastal_Habitat%2C_NPSPhoto_%289250299462%29.jpg"
+      ]
+    },
+    "cc524e8e-4552-4768-acd6-b95f5713e85a": {
+      "url": "https://en.wikipedia.org/wiki/Doi_(identifier)",
+      "title": "Digital object identifier",
+      "anchorText": "doi",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/X3D",
+            "label": "19775-1"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/OCR-B",
+            "label": "1073-2"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Digital_object_identifier",
+            "label": "Article"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Doi_(disambiguation)",
+            "label": "Doi (disambiguation)"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MPEG-21",
+            "label": "21000"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO_19114",
+            "label": "19114"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Open_Virtualization_Format",
+            "label": "17203"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_8859-11",
+            "label": "-11"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO_6346",
+            "label": "6346"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MPEG-4_Part_11",
+            "label": "-11"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/DOI_logo.svg/250px-DOI_logo.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/DOI_Foundation.svg/250px-DOI_Foundation.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/40px-Wikidata-logo.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "5b7c56ef-fb32-4820-919e-b19d815bb7e6": {
+      "url": "https://en.wikipedia.org/wiki/ISO_19114",
+      "title": "ISO 19114",
+      "anchorText": "19114",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO_898",
+            "label": "898"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO_55000",
+            "label": "55000"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Longitudinal_redundancy_check",
+            "label": "1155"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Mixed_raster_content",
+            "label": "16485"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO_10160",
+            "label": "10160"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/DICOM",
+            "label": "12052"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_9995",
+            "label": "9995"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/LCEVC",
+            "label": "23094-2"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Fiber_Distributed_Data_Interface",
+            "label": "9314"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO_2921",
+            "label": "2921"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "a655f184-f3d0-4cd5-bffe-9d84d11cef23": {
+      "url": "https://en.wikipedia.org/wiki/Mixed_raster_content",
+      "title": "Mixed raster content",
+      "anchorText": "16485",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_40260",
+            "label": "40260"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Computer_Graphics_Metafile",
+            "label": "8632"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/International_Standard_Musical_Work_Code",
+            "label": "15707"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60068",
+            "label": "60068"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_10967",
+            "label": "10967"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_63382",
+            "label": "63382"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_61499",
+            "label": "61499"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO_14971",
+            "label": "14971"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/QR_code",
+            "label": "18004"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Pinyin",
+            "label": "7098"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Crystal_Clear_app_kscreensaver.svg/40px-Crystal_Clear_app_kscreensaver.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "92890481-78e0-43f1-9a96-ab0df25bc65e": {
+      "url": "https://en.wikipedia.org/wiki/ISO/IEC_10967",
+      "title": "ISO/IEC 10967",
+      "anchorText": "10967",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Language_of_Temporal_Ordering_Specification",
+            "label": "8807"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO_3166-3",
+            "label": "-3"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Motion_JPEG_2000",
+            "label": "-3"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_12207",
+            "label": "12207"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_61499",
+            "label": "61499"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IS-IS",
+            "label": "10589"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60309",
+            "label": "60309"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Magnetic_ink_character_recognition",
+            "label": "1004"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Shock-resistant_watch",
+            "label": "1413"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IATF_16949",
+            "label": "16949 (TS)"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "e66fdd3a-f3ca-40b1-b223-844c8b828ad1": {
+      "url": "https://en.wikipedia.org/wiki/IEC_60309",
+      "title": "IEC 60309",
+      "anchorText": "60309",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_17024",
+            "label": "17024"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60870-6",
+            "label": "60870-6"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_61511",
+            "label": "61511"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_62061",
+            "label": "62061"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_61360",
+            "label": "61360"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60228",
+            "label": "60228"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IP44",
+            "label": "IP44"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Alternating_current",
+            "label": "AC"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MPEG-D",
+            "label": "23003"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/JPEG_XL",
+            "label": "18181"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/CEE_3P%2BN%2BPE_230V.jpg/250px-CEE_3P%2BN%2BPE_230V.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/IEC_60309-2_16-20A_2P%2BE_socket.svg/120px-IEC_60309-2_16-20A_2P%2BE_socket.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/IEC_60309-2_125-100A_3P%2BN%2BE_socket.svg/250px-IEC_60309-2_125-100A_3P%2BN%2BE_socket.svg.png"
+      ]
+    },
+    "a80283de-41bc-4284-85c5-8712e5520a80": {
+      "url": "https://en.wikipedia.org/wiki/IEC_61360",
+      "title": "IEC 61360",
+      "anchorText": "61360",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_62056",
+            "label": "62056"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_7816",
+            "label": "7816"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_12207",
+            "label": "12207"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Common_Criteria",
+            "label": "15408"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_61499",
+            "label": "61499"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60870-5",
+            "label": "60870-5"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_62304",
+            "label": "62304"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_62061",
+            "label": "62061"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Open_Data_Protocol",
+            "label": "20802"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60870-6",
+            "label": "60870-6"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "bb6490a6-a023-43e1-9fce-ecee435c9496": {
+      "url": "https://en.wikipedia.org/wiki/IEC_61499",
+      "title": "IEC 61499",
+      "anchorText": "61499",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_10021",
+            "label": "10021"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_15288",
+            "label": "15288"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60034",
+            "label": "60034"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60601",
+            "label": "60601"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/E_series_of_preferred_numbers",
+            "label": "60063"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEEE_754",
+            "label": "60559"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_19788",
+            "label": "19788"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_14443",
+            "label": "14443"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Main_Page",
+            "label": "Main page"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_9126",
+            "label": "9126"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/IEC_61499_Models_en.png/250px-IEC_61499_Models_en.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/IEC_61499_FBType_en.png/250px-IEC_61499_FBType_en.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "dea06b4d-020e-434b-a1dd-ba63f578f0dc": {
+      "url": "https://en.wikipedia.org/wiki/IEC_60034",
+      "title": "IEC 60034",
+      "anchorText": "60034",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Common_Logic",
+            "label": "24707"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/JPEG_XL",
+            "label": "18181"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/MPEG-1",
+            "label": "11172"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_33001",
+            "label": "33001"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Universal_Disk_Format",
+            "label": "13346"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60228",
+            "label": "60228"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_61400",
+            "label": "61400"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IEC_60906-1",
+            "label": "60906-1"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/C%2B%2B",
+            "label": "14882"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Measurement",
+            "label": "measurement"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "16916771-4a19-4b7b-924b-a24957b79446": {
+      "url": "https://en.wikipedia.org/wiki/Universal_Disk_Format",
+      "title": "Universal Disk Format",
+      "anchorText": "13346",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/OpenDocument",
+            "label": "26300"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Apache_Hadoop",
+            "label": "Hadoop"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_8859",
+            "label": "8859"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Computer_Graphics_Metafile",
+            "label": "8632"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_9126",
+            "label": "9126"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_24727",
+            "label": "24727"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Battery_nomenclature",
+            "label": "61960"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ZFS_(z/OS_file_system)",
+            "label": "zFS"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Symbolic_link",
+            "label": "symbolically linked"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/IP-XACT",
+            "label": "62014-4"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/CD_icon_test.svg/250px-CD_icon_test.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ambox_current_red_Asia_Australia.svg/60px-Ambox_current_red_Asia_Australia.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ecma_International_Logo.svg/120px-Ecma_International_Logo.svg.png",
+        "https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&type=1x1&usesul3=1"
+      ]
+    },
+    "8ddd4350-281f-4c1d-b281-ac6cf42f80ca": {
+      "url": "https://en.wikipedia.org/wiki/Battery_nomenclature",
+      "title": "Battery nomenclature",
+      "anchorText": "61960",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/QR_code",
+            "label": "18004"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Carbon_monofluoride",
+            "label": "Carbon monofluoride"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_battery_sizes",
+            "label": "List of battery sizes § Silver oxide and alkaline cells"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_7812",
+            "label": "7812"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_19788",
+            "label": "19788"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_15288",
+            "label": "15288"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_19770",
+            "label": "19770"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Full_BASIC",
+            "label": "10279"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISO/IEC_21827",
+            "label": "21827"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Universal_Remote_Console",
+            "label": "24752"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/60px-Question_book-new.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/IEC-60086--battery-code.svg/250px-IEC-60086--battery-code.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/LR44_Button_Cell_Battery_IEC_Standard_Version.jpg/250px-LR44_Button_Cell_Battery_IEC_Standard_Version.jpg"
       ]
     }
   }

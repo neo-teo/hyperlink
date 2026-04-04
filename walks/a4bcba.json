@@ -1,7 +1,7 @@
 {
   "id": "a4bcba",
   "createdAt": "2026-04-02T07:11:21.545Z",
-  "updatedAt": "2026-04-02T07:17:35.574Z",
+  "updatedAt": "2026-04-02T21:02:27.226Z",
   "visits": [
     {
       "id": "b0a517ff-c39d-4a9a-a578-0f703f9aa203",
@@ -474,6 +474,303 @@
       },
       "via": "Continuing and Professional Education",
       "timestamp": "2026-04-02T07:17:35.572Z"
+    },
+    {
+      "id": "16eecc79-208d-4b0f-9834-0aa5d73569a7",
+      "url": "https://www.newschool.edu/academics/academic-advising/",
+      "title": "Academic and Career Advising",
+      "position": {
+        "x": 1232.6237921249258,
+        "y": -895.5536060099987
+      },
+      "via": "Academic Advising",
+      "timestamp": "2026-04-02T20:59:17.463Z"
+    },
+    {
+      "id": "b489ca56-a803-45bb-8e3e-48dc73d0911f",
+      "url": "https://www.newschool.edu/financial-aid/guarantee/",
+      "title": "Financial Aid Guarantee",
+      "position": {
+        "x": 900.6328279127159,
+        "y": 785.0169030509074
+      },
+      "via": "Learn More",
+      "timestamp": "2026-04-02T20:59:21.665Z"
+    },
+    {
+      "id": "dd5a1b50-1a1d-4963-bd7d-df61917b14d4",
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/1024",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 193.38476113115235,
+        "y": 154.3050142477595
+      },
+      "via": "https://digital.archives.newschool.edu/index.php/Detail/entities/1024%20",
+      "timestamp": "2026-04-02T20:59:32.084Z"
+    },
+    {
+      "id": "ec30a02e-88f6-4316-bd03-840af7eb8a26",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/5c2c633d1a5d411c23b103ae04d9bf36/direction/asc/_advanced/0",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1140.5983566311102,
+        "y": 226.9592670482954
+      },
+      "via": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/5c2c633d1a5d411c23b103ae04d9bf36/direction/asc/_advanced/0",
+      "timestamp": "2026-04-02T20:59:42.634Z"
+    },
+    {
+      "id": "ca140248-f171-4fac-b3f6-c5f941b050e5",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/ecc7411b22d8481e480b6140ebe83778/facet/type_facet/id/35/view/images",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1502.4017555060996,
+        "y": 344.5163175067901
+      },
+      "via": "Books (7)",
+      "timestamp": "2026-04-02T21:00:36.353Z"
+    },
+    {
+      "id": "5096e4dc-80f4-46d7-99ef-9667f7aecd4a",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/87a82de46e53e5f8977fbe63ca5399bb/facet/lcsh_facet/id/594280/view/images",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1564.205154381089,
+        "y": 154.30501424775935
+      },
+      "via": "Subway stations (1)",
+      "timestamp": "2026-04-02T21:00:41.586Z"
+    },
+    {
+      "id": "8f87f843-7855-4ac7-81c1-1a9733d72994",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/type_facet/removeID/35/view/images/key/b6633972b6eda92811ceeee419fb70fc",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1726.0085532560784,
+        "y": 36.74796378926467
+      },
+      "via": "Book",
+      "timestamp": "2026-04-02T21:00:53.269Z"
+    },
+    {
+      "id": "e1fcb4d2-35e5-43a0-8561-1e2a63da473d",
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201.01",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1887.8119521310678,
+        "y": -80.80908666923
+      },
+      "via": "Series 1. Books",
+      "timestamp": "2026-04-02T21:00:57.643Z"
+    },
+    {
+      "id": "b0756f57-2a27-4c58-869b-95f9db1072da",
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1787.8119521310678,
+        "y": -254.01416742611767
+      },
+      "via": "Parsons School of Design Graphic Design Department Student Work",
+      "timestamp": "2026-04-02T21:01:02.049Z"
+    },
+    {
+      "id": "d02c6475-9392-4ab3-8b6f-981ef0049d09",
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201/view/pdf/export_format/_pdf_ca_collections_summary",
+      "title": "Untitled",
+      "position": {
+        "x": 1587.8119521310678,
+        "y": -254.01416742611764
+      },
+      "via": "Download Collection Record",
+      "timestamp": "2026-04-02T21:01:06.918Z"
+    },
+    {
+      "id": "fed8f681-ed97-4fb4-803a-8d9216175e3e",
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0042_000006",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1302.4017555060996,
+        "y": 109.40221658980073
+      },
+      "via": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0042_000006",
+      "timestamp": "2026-04-02T21:01:12.822Z"
+    },
+    {
+      "id": "3cd8df8f-c7ce-41da-92bc-874e3b0a3fa9",
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0042_000006/view/pdf/export_format/_pdf_ca_objects_summary",
+      "title": "Untitled",
+      "position": {
+        "x": 1240.5983566311102,
+        "y": -80.80908666922997
+      },
+      "via": "Download Catalog Record",
+      "timestamp": "2026-04-02T21:01:17.750Z"
+    },
+    {
+      "id": "d05fb11e-5c54-486e-89e8-5cc2da0bfc5b",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/c76c5d7984bd4980b5095c0fbdebd66b/facet/person_facet/id/8568/view/images",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1664.205154381089,
+        "y": 607.3818735663568
+      },
+      "via": "Richard Tweedy (2)",
+      "timestamp": "2026-04-02T21:01:24.147Z"
+    },
+    {
+      "id": "2adecf5f-419c-45fe-8f68-c91df67c9e8c",
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000032",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1726.0085532560784,
+        "y": 797.5931768253876
+      },
+      "via": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000032",
+      "timestamp": "2026-04-02T21:01:28.591Z"
+    },
+    {
+      "id": "4c865589-a3ca-4da2-86a1-88ab69d0937e",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/facet/repository_facet/id/215",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1850.7065136278252,
+        "y": 953.9594733189936
+      },
+      "via": "Kellen Design Archives",
+      "timestamp": "2026-04-02T21:01:34.090Z"
+    },
+    {
+      "id": "a5d312e1-fdd3-4942-a1e4-10c074623a42",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/24a72b3a503bb394643fe495455baca6/facet/type_facet/id/42/view/images",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1912.5099125028146,
+        "y": 1144.1707765780243
+      },
+      "via": "Three-dimensional Objects (5)",
+      "timestamp": "2026-04-02T21:01:38.540Z"
+    },
+    {
+      "id": "39e1fc41-9318-4459-9f5e-8c7cde9b4dc0",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/lcsh_facet/id/567833/view/images",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1974.313311377804,
+        "y": 1334.382079837055
+      },
+      "via": "Marketing (1)",
+      "timestamp": "2026-04-02T21:01:42.935Z"
+    },
+    {
+      "id": "93b882cd-7e80-4bc1-9b57-27db0f43d5ae",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/lcsh_facet/removeID/567833/view/images/key/0fed8688767d0762f7d8e98c03c9dff9",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 2174.313311377804,
+        "y": 1334.382079837055
+      },
+      "via": "Marketing [info:lc/authorities/subjects/sh85081333]",
+      "timestamp": "2026-04-02T21:01:47.385Z"
+    },
+    {
+      "id": "27154122-42c5-4a00-89f2-f9ddfa04e79c",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/collection_facet/id/20/view/images",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 2112.5099125028146,
+        "y": 1144.1707765780243
+      },
+      "via": "Norman Norell Collection (2)",
+      "timestamp": "2026-04-02T21:01:51.843Z"
+    },
+    {
+      "id": "e86ad667-68f9-425b-a9da-5b55c34a1f1b",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/s/1/key/008acbc8ccdb1e648512d1e29dfdad0b/view/images/sort/Date/_advanced/0",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 2174.313311377804,
+        "y": 953.9594733189936
+      },
+      "via": "Next 36",
+      "timestamp": "2026-04-02T21:01:56.201Z"
+    },
+    {
+      "id": "f3981af0-5573-43ed-84ed-b1350b4980e8",
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/sort/Title/_advanced/0",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 2012.5099125028146,
+        "y": 836.402422860499
+      },
+      "via": "Title",
+      "timestamp": "2026-04-02T21:02:00.598Z"
+    },
+    {
+      "id": "28ac74eb-10bf-4de0-b5d8-7b15bcd4c0c5",
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA003501",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 2074.313311377804,
+        "y": 646.1911196014682
+      },
+      "via": "Norman Norell Collection",
+      "timestamp": "2026-04-02T21:02:05.195Z"
+    },
+    {
+      "id": "ae49bf5f-ece1-46c4-8860-a4b318003e50",
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/nr2002017268",
+      "title": "The New School Archives And Special Collections",
+      "position": {
+        "x": 1874.313311377804,
+        "y": 646.1911196014682
+      },
+      "via": "Norman Norell",
+      "timestamp": "2026-04-02T21:02:09.674Z"
+    },
+    {
+      "id": "55435de7-9a74-4197-a1bd-c3a81527376a",
+      "url": "https://library.newschool.edu/",
+      "title": "Home | The New School Libraries",
+      "position": {
+        "x": 1724.3133113778038,
+        "y": 386.38349846613676
+      },
+      "via": "Library Home",
+      "timestamp": "2026-04-02T21:02:14.187Z"
+    },
+    {
+      "id": "ac3d99fe-2b15-427e-a4b8-83d43e3644b6",
+      "url": "https://library.newschool.edu/list",
+      "title": "List Center Library",
+      "position": {
+        "x": 1886.1167102527932,
+        "y": 268.82644800764206
+      },
+      "via": "List Center Library",
+      "timestamp": "2026-04-02T21:02:18.531Z"
+    },
+    {
+      "id": "1c3a50e9-16f8-4112-bb12-409eb86cdcfe",
+      "url": "https://library.newschool.edu/my-access",
+      "title": "What Do I Have Access To?",
+      "position": {
+        "x": 2047.9201091277826,
+        "y": 386.3834984661367
+      },
+      "via": "What do I have access to?",
+      "timestamp": "2026-04-02T21:02:22.842Z"
+    },
+    {
+      "id": "5cdbf1b7-f2db-4bc6-ae92-a58001964155",
+      "url": "https://library.newschool.edu/uc",
+      "title": "University Center Library",
+      "position": {
+        "x": 2209.723508002772,
+        "y": 268.82644800764206
+      },
+      "via": "University Center Library",
+      "timestamp": "2026-04-02T21:02:27.224Z"
     }
   ],
   "pages": {
@@ -2644,6 +2941,1293 @@
         "https://newschool.imgix.net/Media/cpe-assets/hero_uc-3.jpg?w=900&h=900&fit=crop",
         "https://newschool.imgix.net/Media/cpe-assets/sis_pre-c_hero_20240621_SIS_0422.jpg?w=900&h=900&fit=crop",
         "https://newschool.imgix.net/Media/cpe-assets/sis_c-a_hero_20240724_SIS_2481.jpg?w=900&h=900&fit=crop"
+      ]
+    },
+    "16eecc79-208d-4b0f-9834-0aa5d73569a7": {
+      "url": "https://www.newschool.edu/academics/academic-advising/",
+      "title": "Academic and Career Advising",
+      "anchorText": "Academic Advising",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/admission/graduate-team/",
+            "label": "Graduate Team"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/campus-city-guide/nearby-accommodations/",
+            "label": "Nearby Accommodations"
+          },
+          {
+            "url": "https://www.newschool.edu/public-engagement/",
+            "label": "Schools of Public Engagement"
+          },
+          {
+            "url": "https://www.newschool.edu/financial-aid/guarantee/",
+            "label": "Learn More"
+          },
+          {
+            "url": "https://www.newschool.edu/outcomes/career-internship-support/",
+            "label": "Internships & Careers"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/adult-learners/",
+            "label": "Adult Learners"
+          },
+          {
+            "url": "https://www.newschool.edu/research-creative-practice/featured-work/",
+            "label": "Featured Work"
+          },
+          {
+            "url": "https://www.newschool.edu/families/",
+            "label": "Families"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/early-application-options/",
+            "label": "Early Application Options"
+          },
+          {
+            "url": "https://www.newschool.edu/apply/undergrad/",
+            "label": "Online Common App"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "b489ca56-a803-45bb-8e3e-48dc73d0911f": {
+      "url": "https://www.newschool.edu/financial-aid/guarantee/",
+      "title": "Financial Aid Guarantee",
+      "anchorText": "Learn More",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/about/contact/",
+            "label": "Contact Us"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/excellence-rigor/",
+            "label": "Academic Approach"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/undergraduate/",
+            "label": "Undergraduate"
+          },
+          {
+            "url": "https://www.newschool.edu/uarts-teach-out/",
+            "label": "UArts Teach-Out Agreement"
+          },
+          {
+            "url": "https://www.newschool.edu/families/",
+            "label": "Families"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/transfer-students/",
+            "label": "Transfer to The New School"
+          },
+          {
+            "url": "https://www.newschool.edu/academics/online-programs/",
+            "label": "Online Programs"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-life/",
+            "label": "Campus Life"
+          },
+          {
+            "url": "https://www.newschool.edu/about/global-partnerships-our-process/",
+            "label": "Our Process"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/graduate-team/",
+            "label": "Graduate Team"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "dd5a1b50-1a1d-4963-bd7d-df61917b14d4": {
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/1024",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "https://digital.archives.newschool.edu/index.php/Detail/entities/1024%20",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/PIC05007-1_MCD5_f02_05",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/PIC05007-1_MCD5_f02_05"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://findingaids.archives.newschool.edu/",
+            "label": "Finding Aids"
+          },
+          {
+            "url": "https://library.newschool.edu/",
+            "label": "Library Home"
+          },
+          {
+            "url": "https://www.newschool.edu/",
+            "label": "University Home"
+          }
+        ]
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/0/58168_ca_object_representations_media_19_large.jpg"
+      ]
+    },
+    "ec30a02e-88f6-4316-bd03-840af7eb8a26": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/5c2c633d1a5d411c23b103ae04d9bf36/direction/asc/_advanced/0",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/5c2c633d1a5d411c23b103ae04d9bf36/direction/asc/_advanced/0",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0036_000001",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0036_000001"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/ecc7411b22d8481e480b6140ebe83778/facet/decade_facet/id/1990s/view/images",
+            "label": "1990s (3354)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/ecc7411b22d8481e480b6140ebe83778",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/ecc7411b22d8481e480b6140ebe83778"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/ecc7411b22d8481e480b6140ebe83778/facet/type_facet/id/27/view/images",
+            "label": "Proofs (66)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/PC020407_request",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/PC020407_request"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/ecc7411b22d8481e480b6140ebe83778/facet/org_facet/id/8677/view/images",
+            "label": "Aetna Insurance Company (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/ecc7411b22d8481e480b6140ebe83778/facet/tags/id/6/view/images",
+            "label": "Poster (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/ecc7411b22d8481e480b6140ebe83778/facet/person_facet/id/5059/view/images",
+            "label": "Aaron Gustafson (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0076_request",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0076_request"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0042_000006",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0042_000006"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/3/4/8/92067_ca_object_representations_media_34808_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/3/5/0/61172_ca_object_representations_media_35007_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/3/5/0/61172_ca_object_representations_media_35007_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/3/7/56823_ca_object_representations_media_43782_medium.jpg"
+      ]
+    },
+    "ca140248-f171-4fac-b3f6-c5f941b050e5": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/ecc7411b22d8481e480b6140ebe83778/facet/type_facet/id/35/view/images",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Books (7)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/87a82de46e53e5f8977fbe63ca5399bb/facet/org_facet/id/3171/view/images",
+            "label": "Mannes College of Music (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/87a82de46e53e5f8977fbe63ca5399bb/facet/repository_facet/id/36470/view/images",
+            "label": "Parsons Institutional Collections (4)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/87a82de46e53e5f8977fbe63ca5399bb/facet/lcsh_facet/id/65961/view/images",
+            "label": "Universities and colleges--Alumni and alumnae--United States (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/PC021001_000002",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/PC021001_000002"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/87a82de46e53e5f8977fbe63ca5399bb/facet/person_facet/id/8167/view/images",
+            "label": "Madeline Sell (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/s/7/key/87a82de46e53e5f8977fbe63ca5399bb/view/images/sort/Date/_advanced/0",
+            "label": "Next 36"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/87a82de46e53e5f8977fbe63ca5399bb/facet/collection_facet/id/1701/view/images",
+            "label": "Parsons School of Design Advanced Research Seminar Student Manifestoes (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/87a82de46e53e5f8977fbe63ca5399bb/facet/lcsh_facet/id/528735/view/images",
+            "label": "Urban transportation (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/87a82de46e53e5f8977fbe63ca5399bb/facet/lcsh_facet/id/594280/view/images",
+            "label": "Subway stations (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/MA030201",
+            "label": "International Schenker Symposium Records"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/2/4/49668_ca_object_representations_media_42447_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/2/0/6/84172_ca_object_representations_media_20699_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/3/6/43569_ca_object_representations_media_3681_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/3/6/16844_ca_object_representations_media_43673_medium.jpg"
+      ]
+    },
+    "5096e4dc-80f4-46d7-99ef-9667f7aecd4a": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/87a82de46e53e5f8977fbe63ca5399bb/facet/lcsh_facet/id/594280/view/images",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Subway stations (1)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/b6633972b6eda92811ceeee419fb70fc",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/b6633972b6eda92811ceeee419fb70fc"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/PC021201_000001",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/PC021201_000001"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/lcsh_facet/removeID/594280/view/images/key/b6633972b6eda92811ceeee419fb70fc",
+            "label": "Subway stations [info:lc/authorities/subjects/sh85129584]"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/b6633972b6eda92811ceeee419fb70fc",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/b6633972b6eda92811ceeee419fb70fc"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/s/1/key/b6633972b6eda92811ceeee419fb70fc/view/images/sort/Date/_advanced/0",
+            "label": "Next 36"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/pdf/download/1/export_format/basic_excel/key/b6633972b6eda92811ceeee419fb70fc",
+            "label": "Excel (basic information)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/b6633972b6eda92811ceeee419fb70fc/sort/Title/_advanced/0",
+            "label": "Title"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/b6633972b6eda92811ceeee419fb70fc/clear/1/_advanced/0",
+            "label": "Start Over"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201",
+            "label": "Parsons School of Design Graphic Design Department Student Work"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/type_facet/removeID/35/view/images/key/b6633972b6eda92811ceeee419fb70fc",
+            "label": "Book"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/3/6/16844_ca_object_representations_media_43673_medium.jpg"
+      ]
+    },
+    "8f87f843-7855-4ac7-81c1-1a9733d72994": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/type_facet/removeID/35/view/images/key/b6633972b6eda92811ceeee419fb70fc",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Book",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/2af3d13e11ab2dd6079143afa4c73d50/sort/Title/_advanced/0",
+            "label": "Title"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/PC021201_000001",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/PC021201_000001"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/2af3d13e11ab2dd6079143afa4c73d50/clear/1/_advanced/0",
+            "label": "Start Over"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/2af3d13e11ab2dd6079143afa4c73d50",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/2af3d13e11ab2dd6079143afa4c73d50"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/lcsh_facet/removeID/594280/view/images/key/2af3d13e11ab2dd6079143afa4c73d50",
+            "label": "Subway stations [info:lc/authorities/subjects/sh85129584]"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/s/1/key/2af3d13e11ab2dd6079143afa4c73d50/view/images/sort/Date/_advanced/0",
+            "label": "Next 36"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/pdf/download/1/export_format/basic_excel/key/2af3d13e11ab2dd6079143afa4c73d50",
+            "label": "Excel (basic information)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/2af3d13e11ab2dd6079143afa4c73d50/sort/Identifier/_advanced/0",
+            "label": "Identifier"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/2af3d13e11ab2dd6079143afa4c73d50",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/2af3d13e11ab2dd6079143afa4c73d50"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201.01",
+            "label": "Series 1. Books"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/3/6/16844_ca_object_representations_media_43673_medium.jpg"
+      ]
+    },
+    "e1fcb4d2-35e5-43a0-8561-1e2a63da473d": {
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201.01",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Series 1. Books",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/facet/collection_facet/id/2223",
+            "label": "(View with filters)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201/view/pdf/export_format/_pdf_ca_collections_summary",
+            "label": "Download Collection Record"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201",
+            "label": "Parsons School of Design Graphic Design Department Student Work"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://www.newschool.edu/",
+            "label": "University Home"
+          },
+          {
+            "url": "https://findingaids.archives.newschool.edu/",
+            "label": "Finding Aids"
+          },
+          {
+            "url": "https://library.newschool.edu/",
+            "label": "Library Home"
+          }
+        ]
+      },
+      "images": []
+    },
+    "b0756f57-2a27-4c58-869b-95f9db1072da": {
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Parsons School of Design Graphic Design Department Student Work",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/facet/collection_facet/id/1763",
+            "label": "(View with filters)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201/view/pdf/export_format/_pdf_ca_collections_summary",
+            "label": "Download Collection Record"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://findingaids.archives.newschool.edu/",
+            "label": "Finding Aids"
+          },
+          {
+            "url": "https://findingaids.archives.newschool.edu/repositories/3/resources/260",
+            "label": "Guide to  the Collection"
+          },
+          {
+            "url": "https://library.newschool.edu/",
+            "label": "Library Home"
+          },
+          {
+            "url": "https://www.newschool.edu/",
+            "label": "University Home"
+          }
+        ]
+      },
+      "images": []
+    },
+    "d02c6475-9392-4ab3-8b6f-981ef0049d09": {
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC021201/view/pdf/export_format/_pdf_ca_collections_summary",
+      "title": "Untitled",
+      "anchorText": "Download Collection Record",
+      "links": {
+        "internal": [],
+        "external": []
+      },
+      "images": []
+    },
+    "fed8f681-ed97-4fb4-803a-8d9216175e3e": {
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0042_000006",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0042_000006",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/nr90010267",
+            "label": "Eugene Paul Ullman"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA004201",
+            "label": "Eugene Paul Ullman Papers"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA004201.02",
+            "label": "Series 2. Biographical and Ullman Family Materials"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/facet/repository_facet/id/215",
+            "label": "Kellen Design Archives"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/3909",
+            "label": "Frans Halsmuseum"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Search/objects/search/ca_objects.lcshTopical%3A+Expatriate+painters",
+            "label": "Expatriate painters"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/790001",
+            "label": "Pierre L. Ullman"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0042_000006/view/pdf/export_format/_pdf_ca_objects_summary",
+            "label": "Download Catalog Record"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/n79061094",
+            "label": "William Merritt Chase"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/DownloadRepresentation/context/objects/representation_id/38441/id/14787/download/1/version/original",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/DownloadRepresentation/context/objects/representation_id/38441/id/14787/download/1/version/original"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/3/8/4/35296_ca_object_representations_media_38441_large.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/3/8/4/63694_ca_object_representations_media_38441_icon.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/3/8/4/42779_ca_object_representations_media_38442_icon.jpg"
+      ]
+    },
+    "3cd8df8f-c7ce-41da-92bc-874e3b0a3fa9": {
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0042_000006/view/pdf/export_format/_pdf_ca_objects_summary",
+      "title": "Untitled",
+      "anchorText": "Download Catalog Record",
+      "links": {
+        "internal": [],
+        "external": []
+      },
+      "images": []
+    },
+    "d05fb11e-5c54-486e-89e8-5cc2da0bfc5b": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/c76c5d7984bd4980b5095c0fbdebd66b/facet/person_facet/id/8568/view/images",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Richard Tweedy (2)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000001",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000001"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/2482241efda046e3c20bcdb65d15d3a6/sort/Identifier/_advanced/0",
+            "label": "Identifier"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000032",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000032"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000031",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000031"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/2482241efda046e3c20bcdb65d15d3a6",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/2482241efda046e3c20bcdb65d15d3a6"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000017",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000017"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000029",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000029"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000011",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000011"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000003",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000003"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/2482241efda046e3c20bcdb65d15d3a6/direction/desc/_advanced/0",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/2482241efda046e3c20bcdb65d15d3a6/direction/desc/_advanced/0"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/4/6/92071_ca_object_representations_media_44683_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/4/0/42830_ca_object_representations_media_44039_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/4/0/37425_ca_object_representations_media_44041_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/4/0/80607_ca_object_representations_media_44043_medium.jpg"
+      ]
+    },
+    "2adecf5f-419c-45fe-8f68-c91df67c9e8c": {
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000032",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000032",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/8568",
+            "label": "Richard Tweedy"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/facet/repository_facet/id/215",
+            "label": "Kellen Design Archives"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Search/objects/search/ca_objects.lcshTopical%3A+Artists--United+States--Correspondence",
+            "label": "Artists--United States--Correspondence"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/8977",
+            "label": "James Fisher Tweedy"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA015601",
+            "label": "Richard Tweedy Letters From Europe"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/DownloadRepresentation/context/objects/representation_id/44101/id/30275/download/1/version/original",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/DownloadRepresentation/context/objects/representation_id/44101/id/30275/download/1/version/original"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000032/view/pdf/export_format/_pdf_ca_objects_summary",
+            "label": "Download Catalog Record"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://library.newschool.edu/",
+            "label": "Library Home"
+          },
+          {
+            "url": "https://findingaids.archives.newschool.edu/",
+            "label": "Finding Aids"
+          },
+          {
+            "url": "https://www.newschool.edu/",
+            "label": "University Home"
+          }
+        ]
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/4/1/39037_ca_object_representations_media_44101_mediumlarge.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/4/1/42460_ca_object_representations_media_44101_icon.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/4/1/6272_ca_object_representations_media_44102_icon.jpg"
+      ]
+    },
+    "4c865589-a3ca-4da2-86a1-88ab69d0937e": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/facet/repository_facet/id/215",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Kellen Design Archives",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000001",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000001"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/24a72b3a503bb394643fe495455baca6/facet/decade_facet/id/2020s/view/images",
+            "label": "2020s (3)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/24a72b3a503bb394643fe495455baca6/facet/type_facet/id/42/view/images",
+            "label": "Three-dimensional Objects (5)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000010",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA015601_000010"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA004801.02",
+            "label": "Series 2. Professional"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/24a72b3a503bb394643fe495455baca6",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/24a72b3a503bb394643fe495455baca6"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/24a72b3a503bb394643fe495455baca6",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/24a72b3a503bb394643fe495455baca6"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/24a72b3a503bb394643fe495455baca6/facet/collection_facet/id/115/view/images",
+            "label": "Adri Fashion Design Business Records (34)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/24a72b3a503bb394643fe495455baca6/facet/decade_facet/id/1950s/view/images",
+            "label": "1950s (949)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/24a72b3a503bb394643fe495455baca6/facet/org_facet/id/1111/view/images",
+            "label": "American Institute of Interior Designers New York Chapter (2)"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/3/5/0/61172_ca_object_representations_media_35007_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/3/3/77856_ca_object_representations_media_43377_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/7/1/25256_ca_object_representations_media_7169_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/1/5/44483_ca_object_representations_media_1509_medium.jpg"
+      ]
+    },
+    "a5d312e1-fdd3-4942-a1e4-10c074623a42": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/24a72b3a503bb394643fe495455baca6/facet/type_facet/id/42/view/images",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Three-dimensional Objects (5)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA014901",
+            "label": "Cory Benett Bloomingdale's Shopping Bag Collection"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/lcsh_facet/id/541464/view/images",
+            "label": "Shopping bags (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/lcsh_facet/id/567833/view/images",
+            "label": "Marketing (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA014501_000008",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA014501_000008"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/collection_facet/id/607/view/images",
+            "label": "Sherl Nero Papers (8)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/person_facet/id/6862/view/images",
+            "label": "Sherl Nero (3)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/0ac8ee9ca642db2395b1f912ff26c0b4/sort/Identifier/_advanced/0",
+            "label": "Identifier"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA003501",
+            "label": "Norman Norell Collection"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/collection_facet/id/1690/view/images",
+            "label": "Cory Benett Bloomingdale's Shopping Bag Collection (2)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/lcsh_facet/id/227477/view/images",
+            "label": "Textile design (3)"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/8/6/24623_ca_object_representations_media_8644_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/6/7/49982_ca_object_representations_media_46760_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/6/9/6674_ca_object_representations_media_46959_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/6/7/38139_ca_object_representations_media_46754_medium.jpg"
+      ]
+    },
+    "39e1fc41-9318-4459-9f5e-8c7cde9b4dc0": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/lcsh_facet/id/567833/view/images",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Marketing (1)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/lcsh_facet/removeID/567833/view/images/key/0fed8688767d0762f7d8e98c03c9dff9",
+            "label": "Marketing [info:lc/authorities/subjects/sh85081333]"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/s/1/key/0fed8688767d0762f7d8e98c03c9dff9/view/images/sort/Date/_advanced/0",
+            "label": "Next 36"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA014901_000001",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA014901_000001"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/0fed8688767d0762f7d8e98c03c9dff9/sort/Title/_advanced/0",
+            "label": "Title"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/0fed8688767d0762f7d8e98c03c9dff9/sort/Identifier/_advanced/0",
+            "label": "Identifier"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA014901",
+            "label": "Cory Benett Bloomingdale's Shopping Bag Collection"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/0fed8688767d0762f7d8e98c03c9dff9/direction/desc/_advanced/0",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/0fed8688767d0762f7d8e98c03c9dff9/direction/desc/_advanced/0"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/0fed8688767d0762f7d8e98c03c9dff9",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/0fed8688767d0762f7d8e98c03c9dff9"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/0fed8688767d0762f7d8e98c03c9dff9/clear/1/_advanced/0",
+            "label": "Start Over"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/pdf/download/1/export_format/basic_excel/key/0fed8688767d0762f7d8e98c03c9dff9",
+            "label": "Excel (basic information)"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/2/6/45821_ca_object_representations_media_42638_medium.jpg"
+      ]
+    },
+    "93b882cd-7e80-4bc1-9b57-27db0f43d5ae": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/lcsh_facet/removeID/567833/view/images/key/0fed8688767d0762f7d8e98c03c9dff9",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Marketing [info:lc/authorities/subjects/sh85081333]",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA014501_000008",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA014501_000008"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA014901",
+            "label": "Cory Benett Bloomingdale's Shopping Bag Collection"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA014501.02",
+            "label": "Series 2. Design Works of Bedford Stuyvesant"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/type_facet/removeID/42/view/images/key/0ac8ee9ca642db2395b1f912ff26c0b4",
+            "label": "Three-dimensional Object"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/collection_facet/id/1690/view/images",
+            "label": "Cory Benett Bloomingdale's Shopping Bag Collection (2)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/org_facet/id/7928/view/images",
+            "label": "Bloomingdale's (Firm) (1)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/s/5/key/0ac8ee9ca642db2395b1f912ff26c0b4/view/images/sort/Date/_advanced/0",
+            "label": "Next 36"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/collection_facet/id/20/view/images",
+            "label": "Norman Norell Collection (2)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0035_000248",
+            "label": "https://digital.archives.newschool.edu/index.php/Detail/objects/KA0035_000248"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/repository_facet/removeID/215/view/images/key/0ac8ee9ca642db2395b1f912ff26c0b4",
+            "label": "Kellen Design Archives"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/8/6/24623_ca_object_representations_media_8644_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/6/7/49982_ca_object_representations_media_46760_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/6/9/6674_ca_object_representations_media_46959_medium.jpg",
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/4/6/7/38139_ca_object_representations_media_46754_medium.jpg"
+      ]
+    },
+    "27154122-42c5-4a00-89f2-f9ddfa04e79c": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/key/0ac8ee9ca642db2395b1f912ff26c0b4/facet/collection_facet/id/20/view/images",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Norman Norell Collection (2)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/direction/desc/_advanced/0",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/direction/desc/_advanced/0"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/008acbc8ccdb1e648512d1e29dfdad0b"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/sort/Identifier/_advanced/0",
+            "label": "Identifier"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/repository_facet/removeID/215/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Kellen Design Archives"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/sort/Title/_advanced/0",
+            "label": "Title"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/collection_facet/removeID/20/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Norman Norell Collection"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/pdf/download/1/export_format/basic_excel/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Excel (basic information)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA003501.03",
+            "label": "Series 3. Realia"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/s/1/key/008acbc8ccdb1e648512d1e29dfdad0b/view/images/sort/Date/_advanced/0",
+            "label": "Next 36"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA003501",
+            "label": "Norman Norell Collection"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/8/6/24623_ca_object_representations_media_8644_medium.jpg"
+      ]
+    },
+    "e86ad667-68f9-425b-a9da-5b55c34a1f1b": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/s/1/key/008acbc8ccdb1e648512d1e29dfdad0b/view/images/sort/Date/_advanced/0",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Next 36",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/repository_facet/removeID/215/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Kellen Design Archives"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/008acbc8ccdb1e648512d1e29dfdad0b"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/direction/desc/_advanced/0",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/direction/desc/_advanced/0"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/sort/Identifier/_advanced/0",
+            "label": "Identifier"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/008acbc8ccdb1e648512d1e29dfdad0b"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/type_facet/removeID/42/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Three-dimensional Object"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/sort/Title/_advanced/0",
+            "label": "Title"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/clear/1/_advanced/0",
+            "label": "Start Over"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/pdf/download/1/export_format/basic_excel/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Excel (basic information)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/collection_facet/removeID/20/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Norman Norell Collection"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "f3981af0-5573-43ed-84ed-b1350b4980e8": {
+      "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/sort/Title/_advanced/0",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Title",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/sort/Identifier/_advanced/0",
+            "label": "Identifier"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/sort/Date/_advanced/0",
+            "label": "Date"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/list/key/008acbc8ccdb1e648512d1e29dfdad0b"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/repository_facet/removeID/215/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Kellen Design Archives"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/timeline/key/008acbc8ccdb1e648512d1e29dfdad0b"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/direction/desc/_advanced/0",
+            "label": "https://digital.archives.newschool.edu/index.php/Browse/objects/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b/direction/desc/_advanced/0"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/s/1/key/008acbc8ccdb1e648512d1e29dfdad0b/view/images/sort/Title/_advanced/0",
+            "label": "Next 36"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/type_facet/removeID/42/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Three-dimensional Object"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA003501",
+            "label": "Norman Norell Collection"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/removeCriterion/collection_facet/removeID/20/view/images/key/008acbc8ccdb1e648512d1e29dfdad0b",
+            "label": "Norman Norell Collection"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://digital.archives.newschool.edu/media/collectiveaccess/images/8/6/24623_ca_object_representations_media_8644_medium.jpg"
+      ]
+    },
+    "28ac74eb-10bf-4de0-b5d8-7b15bcd4c0c5": {
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/KA003501",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Norman Norell Collection",
+      "links": {
+        "internal": [
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Search/collections/search/ca_collections.lcshTopical%3A+Clothing+trade--New+York+%28State%29--New+York",
+            "label": "Clothing trade--New York (State)--New York"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Search/collections/search/ca_collections.lcshTopical%3A+Show+windows",
+            "label": "Show windows"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Search/collections/search/ca_collections.lcshTopical%3A+Costume+design",
+            "label": "Costume design"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/1370001",
+            "label": "William J. Cunningham"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/1360001",
+            "label": "Traina-Norell (Firm)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/nr2002017268",
+            "label": "Norman Norell"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/nr99036613",
+            "label": "Peter Moore"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Browse/objects/facet/collection_facet/id/20",
+            "label": "(View with filters)"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Search/collections/search/ca_collections.lcshTopical%3A+Fashion+shows",
+            "label": "Fashion shows"
+          },
+          {
+            "url": "https://digital.archives.newschool.edu/index.php/Detail/collections/PC020201",
+            "label": "Parsons School of Design Fashion Design Department Records"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "ae49bf5f-ece1-46c4-8860-a4b318003e50": {
+      "url": "https://digital.archives.newschool.edu/index.php/Detail/entities/nr2002017268",
+      "title": "The New School Archives And Special Collections",
+      "anchorText": "Norman Norell",
+      "links": {
+        "internal": [],
+        "external": [
+          {
+            "url": "https://www.newschool.edu/",
+            "label": "University Home"
+          },
+          {
+            "url": "https://findingaids.archives.newschool.edu/",
+            "label": "Finding Aids"
+          },
+          {
+            "url": "https://library.newschool.edu/",
+            "label": "Library Home"
+          }
+        ]
+      },
+      "images": []
+    },
+    "55435de7-9a74-4197-a1bd-c3a81527376a": {
+      "url": "https://library.newschool.edu/",
+      "title": "Home | The New School Libraries",
+      "anchorText": "Library Home",
+      "links": {
+        "internal": [
+          {
+            "url": "https://library.newschool.edu/request-purchase",
+            "label": "Request a Purchase"
+          },
+          {
+            "url": "https://library.newschool.edu/research",
+            "label": "Research"
+          },
+          {
+            "url": "http://library.newschool.edu/",
+            "label": "Libraries and Archives"
+          },
+          {
+            "url": "https://library.newschool.edu/a-z",
+            "label": "Databases A-Z"
+          },
+          {
+            "url": "https://library.newschool.edu/printing-and-scanning",
+            "label": "Printing & Scanning"
+          },
+          {
+            "url": "https://library.newschool.edu/consultation",
+            "label": "Request Consultation"
+          },
+          {
+            "url": "https://library.newschool.edu/ill",
+            "label": "Interlibrary Loan"
+          },
+          {
+            "url": "https://library.newschool.edu/loans",
+            "label": "Loans, Holds, & Fines"
+          },
+          {
+            "url": "https://library.newschool.edu/feedback",
+            "label": "Website Feedback"
+          },
+          {
+            "url": "https://library.newschool.edu/list",
+            "label": "List Center Library"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://library.newschool.edu/sites/default/files/TNS_Logo1_Large_Cropped_v4.png",
+        "https://library.newschool.edu/sites/default/files/TNS_Logo1_Large_Cropped_v4.png"
+      ]
+    },
+    "ac3d99fe-2b15-427e-a4b8-83d43e3644b6": {
+      "url": "https://library.newschool.edu/list",
+      "title": "List Center Library",
+      "anchorText": "List Center Library",
+      "links": {
+        "internal": [
+          {
+            "url": "https://library.newschool.edu/library-borrowing",
+            "label": "Library Borrowing"
+          },
+          {
+            "url": "https://library.newschool.edu/my-access",
+            "label": "What do I have access to?"
+          },
+          {
+            "url": "https://library.newschool.edu/request-purchase",
+            "label": "Request a Purchase"
+          },
+          {
+            "url": "https://library.newschool.edu/uc",
+            "label": "University Center Library"
+          },
+          {
+            "url": "https://library.newschool.edu/pal",
+            "label": "Performing Arts Library"
+          },
+          {
+            "url": "https://library.newschool.edu/feedback",
+            "label": "Website Feedback"
+          },
+          {
+            "url": "https://library.newschool.edu/journals",
+            "label": "Journals"
+          },
+          {
+            "url": "https://library.newschool.edu/consultation",
+            "label": "Request Consultation"
+          },
+          {
+            "url": "https://library.newschool.edu/using-the-library",
+            "label": "Using the Library"
+          },
+          {
+            "url": "https://library.newschool.edu/a-z",
+            "label": "Databases A-Z"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://library.newschool.edu/sites/default/files/TNS_Logo1_Large_Cropped_v4.png",
+        "https://library.newschool.edu/sites/default/files/TNS_Logo1_Large_Cropped_v4.png"
+      ]
+    },
+    "1c3a50e9-16f8-4112-bb12-409eb86cdcfe": {
+      "url": "https://library.newschool.edu/my-access",
+      "title": "What Do I Have Access To?",
+      "anchorText": "What do I have access to?",
+      "links": {
+        "internal": [
+          {
+            "url": "https://library.newschool.edu/public-computers",
+            "label": "Public Computers"
+          },
+          {
+            "url": "https://library.newschool.edu/ask-us",
+            "label": "Ask Us"
+          },
+          {
+            "url": "https://library.newschool.edu/pal",
+            "label": "Performing Arts Library"
+          },
+          {
+            "url": "https://library.newschool.edu/newspapers",
+            "label": "Newspapers"
+          },
+          {
+            "url": "https://library.newschool.edu/partner-libraries",
+            "label": "NYU Bobst, Cooper Union, & More"
+          },
+          {
+            "url": "https://library.newschool.edu/library-locations",
+            "label": "Locations"
+          },
+          {
+            "url": "https://library.newschool.edu/library-instruction",
+            "label": "Library Instruction"
+          },
+          {
+            "url": "https://library.newschool.edu/feedback",
+            "label": "Website Feedback"
+          },
+          {
+            "url": "https://library.newschool.edu/research",
+            "label": "Research"
+          },
+          {
+            "url": "https://library.newschool.edu/uc",
+            "label": "University Center Library"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://library.newschool.edu/sites/default/files/TNS_Logo1_Large_Cropped_v4.png",
+        "https://library.newschool.edu/sites/default/files/TNS_Logo1_Large_Cropped_v4.png"
+      ]
+    },
+    "5cdbf1b7-f2db-4bc6-ae92-a58001964155": {
+      "url": "https://library.newschool.edu/uc",
+      "title": "University Center Library",
+      "anchorText": "University Center Library",
+      "links": {
+        "internal": [
+          {
+            "url": "https://library.newschool.edu/feedback",
+            "label": "Website Feedback"
+          },
+          {
+            "url": "https://library.newschool.edu/ill",
+            "label": "Interlibrary Loan"
+          },
+          {
+            "url": "https://library.newschool.edu/electronic-materials",
+            "label": "Electronic Materials"
+          },
+          {
+            "url": "https://library.newschool.edu/using-the-library",
+            "label": "Using the Library"
+          },
+          {
+            "url": "https://library.newschool.edu/staff",
+            "label": "Staff"
+          },
+          {
+            "url": "https://library.newschool.edu/request-purchase",
+            "label": "Request a Purchase"
+          },
+          {
+            "url": "https://library.newschool.edu/copyright",
+            "label": "Copyright & Fair Use"
+          },
+          {
+            "url": "https://library.newschool.edu/course-support",
+            "label": "Course Support"
+          },
+          {
+            "url": "https://library.newschool.edu/pal",
+            "label": "Performing Arts Library"
+          },
+          {
+            "url": "https://library.newschool.edu/about",
+            "label": "About"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://library.newschool.edu/sites/default/files/TNS_Logo1_Large_Cropped_v4.png",
+        "https://library.newschool.edu/sites/default/files/TNS_Logo1_Large_Cropped_v4.png"
       ]
     }
   }

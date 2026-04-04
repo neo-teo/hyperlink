@@ -1,0 +1,28 @@
+{
+  "id": "578171",
+  "createdAt": "2026-04-02T21:04:49.677Z",
+  "updatedAt": "2026-04-02T21:04:49.677Z",
+  "visits": [
+    {
+      "id": "54e76425-cacb-4199-a4cf-1d3b60e527ac",
+      "url": "https://www.amazon.com/",
+      "title": "JavaScript is disabled",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "timestamp": "2026-04-02T21:04:49.677Z"
+    }
+  ],
+  "pages": {
+    "54e76425-cacb-4199-a4cf-1d3b60e527ac": {
+      "url": "https://www.amazon.com/",
+      "title": "JavaScript is disabled",
+      "links": {
+        "internal": [],
+        "external": []
+      },
+      "images": []
+    }
+  }
+}

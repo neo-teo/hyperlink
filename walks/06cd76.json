@@ -1,0 +1,1189 @@
+{
+  "id": "06cd76",
+  "createdAt": "2026-04-02T20:55:37.581Z",
+  "updatedAt": "2026-04-02T20:57:04.792Z",
+  "visits": [
+    {
+      "id": "a0e149d9-82fd-4e95-98fc-d553ffbd9e94",
+      "url": "https://en.wikipedia.org/wiki/Unix",
+      "title": "Unix",
+      "position": {
+        "x": 1018.0339887498943,
+        "y": -5394.521861314385
+      },
+      "via": "Unix",
+      "timestamp": "2026-04-02T20:55:37.581Z"
+    },
+    {
+      "id": "4b6aec07-05b0-4d14-8c78-bb45fd5af9de",
+      "url": "https://www.designbydianac.com/",
+      "title": "This site requires JavaScript",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "timestamp": "2026-04-02T20:55:38.301Z"
+    },
+    {
+      "id": "b730aa99-ca4b-4a5c-8eeb-f35b5fa58d7a",
+      "url": "https://www.designbydianac.com/for-stillness",
+      "title": "This site requires JavaScript",
+      "position": {
+        "x": -180.19377358048382,
+        "y": 86.77674782351164
+      },
+      "via": "For StillnessAnalog Interaction Design in a Digital Worldproduct design / visual design / parsons school of design",
+      "timestamp": "2026-04-02T20:55:42.606Z"
+    },
+    {
+      "id": "c1ce9dd0-36a2-42fb-84e6-774cde2d51fd",
+      "url": "https://www.designbydianac.com/zarizar",
+      "title": "This site requires JavaScript",
+      "position": {
+        "x": -80.19377358048379,
+        "y": 259.98182858039934
+      },
+      "via": "zarizar",
+      "timestamp": "2026-04-02T20:55:46.996Z"
+    },
+    {
+      "id": "bad508b0-e9be-42ae-988e-1d9d8b764f0c",
+      "url": "https://www.designbydianac.com/museumofscience",
+      "title": "This site requires JavaScript",
+      "position": {
+        "x": -18.390374705494303,
+        "y": 450.19313183943007
+      },
+      "via": "through ai’s eyes",
+      "timestamp": "2026-04-02T20:55:51.330Z"
+    },
+    {
+      "id": "c8d7e781-9d41-4272-9ece-30526630aa16",
+      "url": "https://www.designbydianac.com/prododo",
+      "title": "This site requires JavaScript",
+      "position": {
+        "x": -18.390374705494292,
+        "y": 650.1931318394301
+      },
+      "via": "prododo",
+      "timestamp": "2026-04-02T20:55:55.637Z"
+    },
+    {
+      "id": "5a849664-b1e5-4b5e-836a-de0d218c1683",
+      "url": "https://www.designbydianac.com/arc-security",
+      "title": "This site requires JavaScript",
+      "position": {
+        "x": -118.39037470549425,
+        "y": 823.3982125963178
+      },
+      "via": "arc security",
+      "timestamp": "2026-04-02T20:56:00.036Z"
+    },
+    {
+      "id": "3be8e11b-f3bc-4d15-add1-7b1eca09abdd",
+      "url": "https://www.designbydianac.com/e-agora",
+      "title": "This site requires JavaScript",
+      "position": {
+        "x": 81.60962529450575,
+        "y": 823.3982125963178
+      },
+      "via": "e-agora",
+      "timestamp": "2026-04-02T20:56:04.362Z"
+    },
+    {
+      "id": "8f2f4239-6897-45eb-8bac-92885fc8a4a8",
+      "url": "https://www.designbydianac.com/sensors-energy-and-automation-lab",
+      "title": "This site requires JavaScript",
+      "position": {
+        "x": 281.60962529450575,
+        "y": 823.3982125963178
+      },
+      "via": "sensors, energy, and automation",
+      "timestamp": "2026-04-02T20:56:08.694Z"
+    },
+    {
+      "id": "fc080840-3ef0-4bab-bb2d-39c5d93682d9",
+      "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+      "title": "Diana Chalakova Resume.pdf - Google Drive",
+      "position": {
+        "x": 131.6096252945056,
+        "y": 563.5905914609863
+      },
+      "via": "Resume",
+      "timestamp": "2026-04-02T20:56:13.168Z"
+    },
+    {
+      "id": "a06bafd6-04ce-41fc-af55-293f480d9894",
+      "url": "https://accounts.google.com/ServiceLogin",
+      "title": "Sign in",
+      "position": {
+        "x": 431.6096252945056,
+        "y": 563.5905914609863
+      },
+      "via": "Sign in",
+      "timestamp": "2026-04-02T20:56:18.108Z"
+    },
+    {
+      "id": "d0ca8bec-9af0-4ef7-88b1-fb7b4d0f466f",
+      "url": "https://accounts.google.com/TOS",
+      "title": "Google Terms of Service – Privacy & Terms – Google",
+      "position": {
+        "x": 631.6096252945056,
+        "y": 563.5905914609863
+      },
+      "via": "Privacy",
+      "timestamp": "2026-04-02T20:56:22.912Z"
+    },
+    {
+      "id": "2cf4a7e9-6069-4c8a-896e-4d9936fc49dd",
+      "url": "https://policies.google.com/",
+      "title": "Privacy & Terms – Google",
+      "position": {
+        "x": 831.6096252945056,
+        "y": 563.5905914609863
+      },
+      "via": "Privacy & Terms",
+      "timestamp": "2026-04-02T20:56:27.486Z"
+    },
+    {
+      "id": "794eba0d-d190-444e-9a37-fd785c13e08f",
+      "url": "https://policies.google.com/faq",
+      "title": "FAQ – Privacy & Terms – Google",
+      "position": {
+        "x": 893.413024169495,
+        "y": 373.37928820195555
+      },
+      "via": "FAQ",
+      "timestamp": "2026-04-02T20:56:31.908Z"
+    },
+    {
+      "id": "83645aec-e3b2-4964-a36b-5683d0950e19",
+      "url": "https://policies.google.com/country-association-form",
+      "title": "Sign in",
+      "position": {
+        "x": 693.413024169495,
+        "y": 373.37928820195555
+      },
+      "via": "change your region.",
+      "timestamp": "2026-04-02T20:56:36.792Z"
+    },
+    {
+      "id": "199c27ab-f6f4-48da-a8f2-9404f32b89b6",
+      "url": "https://support.google.com/accounts",
+      "title": "How can we help you?",
+      "position": {
+        "x": 393.413024169495,
+        "y": 373.3792882019556
+      },
+      "via": "Help",
+      "timestamp": "2026-04-02T20:56:41.584Z"
+    },
+    {
+      "id": "90ac0ed4-3139-4a5c-ba46-fd32be05d166",
+      "url": "https://support.google.com/accounts/topic/7189195",
+      "title": "2-Step Verification",
+      "position": {
+        "x": 193.41302416949497,
+        "y": 373.3792882019556
+      },
+      "via": "2-Step Verification",
+      "timestamp": "2026-04-02T20:56:46.207Z"
+    },
+    {
+      "id": "30958e18-0dd6-41fb-9c75-9bf4646fef20",
+      "url": "https://support.google.com/accounts/announcements/12343128",
+      "title": "Your Google Account Checklist",
+      "position": {
+        "x": 131.60962529450546,
+        "y": 183.1679849429249
+      },
+      "via": "Improve your Google Account",
+      "timestamp": "2026-04-02T20:56:50.954Z"
+    },
+    {
+      "id": "682b3fc9-c786-440a-ab62-1d9f3b62188c",
+      "url": "https://support.google.com/accounts/topic/12629408",
+      "title": "Simplify your life with Google",
+      "position": {
+        "x": 293.4130241694949,
+        "y": 65.61093448443023
+      },
+      "via": "Simplify your life with Google",
+      "timestamp": "2026-04-02T20:56:55.480Z"
+    },
+    {
+      "id": "f9713135-2aed-4abe-9c78-740bce5e2cfe",
+      "url": "https://support.google.com/accounts/answer/12629702",
+      "title": "Add a payment method",
+      "position": {
+        "x": 248.908837378232,
+        "y": -129.3746479519345
+      },
+      "via": "Add a payment method",
+      "timestamp": "2026-04-02T20:57:00.183Z"
+    },
+    {
+      "id": "44948a52-a62f-42d4-8985-c61ae19ca36f",
+      "url": "https://support.google.com/accounts/community",
+      "title": "Welcome to the Google Account Help Community",
+      "position": {
+        "x": 107.48748114092245,
+        "y": -270.79600418924394
+      },
+      "via": "Community",
+      "timestamp": "2026-04-02T20:57:04.791Z"
+    }
+  ],
+  "pages": {
+    "a0e149d9-82fd-4e95-98fc-d553ffbd9e94": {
+      "url": "https://en.wikipedia.org/wiki/Unix",
+      "title": "Unix",
+      "anchorText": "Unix",
+      "links": {
+        "internal": [
+          {
+            "url": "https://en.wikipedia.org/wiki/IBM_Remote_Access_Computing",
+            "label": "RAX"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard",
+            "label": "Filesystem Hierarchy Standard"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force",
+            "label": "IETF"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Printf_(Unix)",
+            "label": "printf"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Bell_Laboratories",
+            "label": "Bell Laboratories"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Touch_(command)",
+            "label": "touch"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ISSN_(identifier)",
+            "label": "ISSN"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/X/Open",
+            "label": "X/Open"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/OSF/1",
+            "label": "OSF/1"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/GNU_General_Public_License",
+            "label": "GNU General Public License"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/UNIX_logo.svg/250px-UNIX_logo.svg.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Simh-pdp11-unix-sysiii.png/250px-Simh-pdp11-unix-sysiii.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Version_7_Unix_SIMH_PDP11_Emulation_DMR.png/250px-Version_7_Unix_SIMH_PDP11_Emulation_DMR.png",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/CDE_2012_on_Linux.png/250px-CDE_2012_on_Linux.png"
+      ]
+    },
+    "4b6aec07-05b0-4d14-8c78-bb45fd5af9de": {
+      "url": "https://www.designbydianac.com/",
+      "title": "This site requires JavaScript",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.designbydianac.com/zarizar",
+            "label": "PrododoYour Personalized Productivity Gamebranding / visual identity / ux design"
+          },
+          {
+            "url": "https://www.designbydianac.com/prododo",
+            "label": "PrododoYour Personalized Productivity Gameux design / ux research / gamification"
+          },
+          {
+            "url": "https://www.designbydianac.com/arc-security",
+            "label": "Arc SecurityB2C Real Estate Safety Reimaginedinternship / ux design / cross-collaboration"
+          },
+          {
+            "url": "https://www.designbydianac.com/for-stillness",
+            "label": "For StillnessAnalog Interaction Design in a Digital Worldproduct design / visual design / parsons school of design"
+          },
+          {
+            "url": "https://www.designbydianac.com/sensors-energy-and-automation-lab",
+            "label": "Sensors, Energy, and Automation LaboratoryB2B Engineering Internal Dashboard Redesigninternship / ux design / usability testing"
+          },
+          {
+            "url": "https://www.designbydianac.com/museumofscience",
+            "label": "Through AI’s EyesTeaching Artificial Intelligence Principles in the Museum of Scienceinteraction design / usability testing / installation"
+          },
+          {
+            "url": "https://www.designbydianac.com/e-agora",
+            "label": "e-AgoraAI Tool in Support of Mental Processing of Ideological Landscapesspeculative / web design / cornell tech"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://dchalakova.github.io/mo_amongthetrees/",
+            "label": "Among The TreesAn AI-Assisted Typographic Exploration of Mary Oliver’s Classic Poeminteraction design / cursor, claude code, gemini / parsons school of design"
+          },
+          {
+            "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+            "label": "Resume"
+          },
+          {
+            "url": "https://www.linkedin.com/in/dchala",
+            "label": "LinkedIn"
+          }
+        ]
+      },
+      "images": [
+        "https://www.designbydianac.com/_assets/v11/caff583da2eca325d367513973833187f4eb02b8.png",
+        "https://www.designbydianac.com/_assets/v11/a8f1ba7e719a30f9786358c7fb58a4993abf9473.png",
+        "https://www.designbydianac.com/_assets/v11/00a862c4104ec5df3aabad18cbd2776de17ecc10.png",
+        "https://www.designbydianac.com/_assets/v11/ff1fa4583f2993ff71098b05d32350a0a48900a9.png"
+      ]
+    },
+    "b730aa99-ca4b-4a5c-8eeb-f35b5fa58d7a": {
+      "url": "https://www.designbydianac.com/for-stillness",
+      "title": "This site requires JavaScript",
+      "anchorText": "For StillnessAnalog Interaction Design in a Digital Worldproduct design / visual design / parsons school of design",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.designbydianac.com/sensors-energy-and-automation-lab",
+            "label": "sensors, energy, and automation"
+          },
+          {
+            "url": "https://www.designbydianac.com/zarizar",
+            "label": "zarizar"
+          },
+          {
+            "url": "https://www.designbydianac.com/e-agora",
+            "label": "e-agora"
+          },
+          {
+            "url": "https://www.designbydianac.com/prododo",
+            "label": "prododo"
+          },
+          {
+            "url": "https://www.designbydianac.com/arc-security",
+            "label": "arc security"
+          },
+          {
+            "url": "https://www.designbydianac.com/museumofscience",
+            "label": "through ai’s eyes"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://www.linkedin.com/in/dchala",
+            "label": "LinkedIn"
+          },
+          {
+            "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+            "label": "Resume"
+          },
+          {
+            "url": "https://dchalakova.github.io/amongthetrees/",
+            "label": "among the trees"
+          }
+        ]
+      },
+      "images": [
+        "https://www.designbydianac.com/_assets/v11/fd3e8ce8c860f60767618239f807e2733e6a1d8a.png",
+        "https://www.designbydianac.com/_assets/v11/bc5ab65c7b8f59379010b648385382f25bbc5458.png",
+        "https://www.designbydianac.com/_assets/v11/c063f84a8f781cb635a1d441cb3c9dc7b335af3e.png",
+        "https://www.designbydianac.com/_assets/v11/0d3b190cc5907f431ef560459b0af98ed9d74924.png"
+      ]
+    },
+    "c1ce9dd0-36a2-42fb-84e6-774cde2d51fd": {
+      "url": "https://www.designbydianac.com/zarizar",
+      "title": "This site requires JavaScript",
+      "anchorText": "zarizar",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.designbydianac.com/arc-security",
+            "label": "arc security"
+          },
+          {
+            "url": "https://www.designbydianac.com/museumofscience",
+            "label": "through ai’s eyes"
+          },
+          {
+            "url": "https://www.designbydianac.com/prododo",
+            "label": "prododo"
+          },
+          {
+            "url": "https://www.designbydianac.com/e-agora",
+            "label": "e-agora"
+          },
+          {
+            "url": "https://www.designbydianac.com/sensors-energy-and-automation-lab",
+            "label": "sensors, energy, and automation"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://www.linkedin.com/in/dchala",
+            "label": "LinkedIn"
+          },
+          {
+            "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+            "label": "Resume"
+          },
+          {
+            "url": "https://dchalakova.github.io/amongthetrees/",
+            "label": "among the trees"
+          }
+        ]
+      },
+      "images": [
+        "https://www.designbydianac.com/_assets/v11/8e3fc6d8ddc3872c5625f26726469ba32d6a8e25.png",
+        "https://www.designbydianac.com/_assets/v11/90b9d4bbc808ffe9b876326696e3aff05d8ab25d.png",
+        "https://www.designbydianac.com/_assets/v11/1209650b78787341e71efc57acd84b8b78920f00.png",
+        "https://www.designbydianac.com/_assets/v11/9efdd9363743aef9e4e9683b3bdb095d35e82792.png"
+      ]
+    },
+    "bad508b0-e9be-42ae-988e-1d9d8b764f0c": {
+      "url": "https://www.designbydianac.com/museumofscience",
+      "title": "This site requires JavaScript",
+      "anchorText": "through ai’s eyes",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.designbydianac.com/arc-security",
+            "label": "arc security"
+          },
+          {
+            "url": "https://www.designbydianac.com/prododo",
+            "label": "prododo"
+          },
+          {
+            "url": "https://www.designbydianac.com/e-agora",
+            "label": "e-agora"
+          },
+          {
+            "url": "https://www.designbydianac.com/sensors-energy-and-automation-lab",
+            "label": "sensors, energy, and automation"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+            "label": "Resume"
+          },
+          {
+            "url": "https://dchalakova.github.io/amongthetrees/",
+            "label": "among the trees"
+          },
+          {
+            "url": "https://www.linkedin.com/in/dchala",
+            "label": "LinkedIn"
+          }
+        ]
+      },
+      "images": [
+        "https://www.designbydianac.com/_assets/v11/a8f1ba7e719a30f9786358c7fb58a4993abf9473.png",
+        "https://www.designbydianac.com/_assets/v11/73e649c6d7b1dd4e0666b7755db8c962dc30b065.png",
+        "https://www.designbydianac.com/_assets/v11/8cc38ce879aa6e574b4ae60bc6b3066f703763fe.png",
+        "https://www.designbydianac.com/_assets/v11/319c52306f0d639df53e1d7c89e092e8b9bf6ae6.png"
+      ]
+    },
+    "c8d7e781-9d41-4272-9ece-30526630aa16": {
+      "url": "https://www.designbydianac.com/prododo",
+      "title": "This site requires JavaScript",
+      "anchorText": "prododo",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.designbydianac.com/e-agora",
+            "label": "e-agora"
+          },
+          {
+            "url": "https://www.designbydianac.com/arc-security",
+            "label": "arc security"
+          },
+          {
+            "url": "https://www.designbydianac.com/sensors-energy-and-automation-lab",
+            "label": "sensors, energy, and automation"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://dchalakova.github.io/amongthetrees/",
+            "label": "among the trees"
+          },
+          {
+            "url": "https://www.linkedin.com/in/dchala",
+            "label": "LinkedIn"
+          },
+          {
+            "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+            "label": "Resume"
+          }
+        ]
+      },
+      "images": [
+        "https://www.designbydianac.com/_assets/v11/ddb15f37b4fcbb7daad19ef41694d399f7f27a28.png",
+        "https://www.designbydianac.com/_assets/v11/c52e0fa90d0ad6fcde5c6a4724fcb91606624045.png",
+        "https://www.designbydianac.com/_assets/v11/fe1b7a0d7a7114f4fafe434a0c23698d795c0052.png",
+        "https://www.designbydianac.com/_assets/v11/d389d3a6c2d8b0de226fde5426b6b026ebb9a081.png"
+      ]
+    },
+    "5a849664-b1e5-4b5e-836a-de0d218c1683": {
+      "url": "https://www.designbydianac.com/arc-security",
+      "title": "This site requires JavaScript",
+      "anchorText": "arc security",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.designbydianac.com/e-agora",
+            "label": "e-agora"
+          },
+          {
+            "url": "https://www.designbydianac.com/sensors-energy-and-automation-lab",
+            "label": "sensors, energy, and automation"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://www.linkedin.com/in/dchala",
+            "label": "LinkedIn"
+          },
+          {
+            "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+            "label": "Resume"
+          },
+          {
+            "url": "https://dchalakova.github.io/amongthetrees/",
+            "label": "among the trees"
+          }
+        ]
+      },
+      "images": [
+        "https://www.designbydianac.com/_assets/v11/00a862c4104ec5df3aabad18cbd2776de17ecc10.png",
+        "https://www.designbydianac.com/_assets/v11/7503c0cea5fcd7d0469399957e99e8f1b2604751.png",
+        "https://www.designbydianac.com/_assets/v11/01cf283ab50c26950d425d9f9038ac0550fe4e8f.png",
+        "https://www.designbydianac.com/_assets/v11/20e59039dab0a4abfbf7be0ba25c0377aa5f8926.png"
+      ]
+    },
+    "3be8e11b-f3bc-4d15-add1-7b1eca09abdd": {
+      "url": "https://www.designbydianac.com/e-agora",
+      "title": "This site requires JavaScript",
+      "anchorText": "e-agora",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.designbydianac.com/sensors-energy-and-automation-lab",
+            "label": "sensors, energy, and automation"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+            "label": "Resume"
+          },
+          {
+            "url": "https://www.linkedin.com/in/dchala",
+            "label": "LinkedIn"
+          },
+          {
+            "url": "https://dchalakova.github.io/amongthetrees/",
+            "label": "among the trees"
+          }
+        ]
+      },
+      "images": [
+        "https://www.designbydianac.com/_assets/v11/9112dd0aae488e4cdaa27cbb2df4d947c70f5899.png",
+        "https://www.designbydianac.com/_assets/v11/e8fb47ef3641fc902f8a25aaa01cec4d2caf3cc9.png",
+        "https://www.designbydianac.com/_assets/v11/4a81c1f6776320acdccda5a7d9975d036ddef193.png",
+        "https://www.designbydianac.com/_assets/v11/f52e0769b7d4e5de5cdc1b1e4e6fc5af8b8fe4c0.png"
+      ]
+    },
+    "8f2f4239-6897-45eb-8bac-92885fc8a4a8": {
+      "url": "https://www.designbydianac.com/sensors-energy-and-automation-lab",
+      "title": "This site requires JavaScript",
+      "anchorText": "sensors, energy, and automation",
+      "links": {
+        "internal": [],
+        "external": [
+          {
+            "url": "https://www.linkedin.com/in/dchala",
+            "label": "LinkedIn"
+          },
+          {
+            "url": "https://dchalakova.github.io/amongthetrees/",
+            "label": "among the trees"
+          },
+          {
+            "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+            "label": "Resume"
+          }
+        ]
+      },
+      "images": [
+        "https://www.designbydianac.com/_assets/v11/caff583da2eca325d367513973833187f4eb02b8.png",
+        "https://www.designbydianac.com/_assets/v11/698a03ef62cdc3b51cd091456f08d9094a5be218.png",
+        "https://www.designbydianac.com/_assets/v11/601cba8018dea4af57fbaa3e2e1b19d1b7057f71.png",
+        "https://www.designbydianac.com/_assets/v11/86ec4d95447d9b4474914058f644fa574976d0d8.png"
+      ]
+    },
+    "fc080840-3ef0-4bab-bb2d-39c5d93682d9": {
+      "url": "https://drive.google.com/file/d/1A3SYj7I9duDX4O2fp-B-6QbB4rnwcwOE/view",
+      "title": "Diana Chalakova Resume.pdf - Google Drive",
+      "anchorText": "Resume",
+      "links": {
+        "internal": [],
+        "external": [
+          {
+            "url": "https://accounts.google.com/ServiceLogin",
+            "label": "Sign in"
+          }
+        ]
+      },
+      "images": [
+        "https://drive.google.com/drive-viewer/AKGpiha3VeZtLuuRqCm2e8LvZPH7BCXl9tP4GVgW8zU4G3A-AjfgoXzM3VWzZwwJrSvw521yp_UPZF7ksdXCuv4mZ3wfQuMFi7URAlI=s1600-rw-v1"
+      ]
+    },
+    "a06bafd6-04ce-41fc-af55-293f480d9894": {
+      "url": "https://accounts.google.com/ServiceLogin",
+      "title": "Sign in",
+      "anchorText": "Sign in",
+      "links": {
+        "internal": [
+          {
+            "url": "https://accounts.google.com/TOS",
+            "label": "Privacy"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://support.google.com/chrome/answer/6130773",
+            "label": "Learn more about using Guest mode"
+          },
+          {
+            "url": "https://support.google.com/accounts",
+            "label": "Help"
+          }
+        ]
+      },
+      "images": []
+    },
+    "d0ca8bec-9af0-4ef7-88b1-fb7b4d0f466f": {
+      "url": "https://accounts.google.com/TOS",
+      "title": "Google Terms of Service – Privacy & Terms – Google",
+      "anchorText": "Privacy",
+      "links": {
+        "internal": [
+          {
+            "url": "https://policies.google.com/",
+            "label": "Privacy & Terms"
+          },
+          {
+            "url": "https://policies.google.com/terms/service-specific",
+            "label": "List of services & service-specific additional terms"
+          },
+          {
+            "url": "https://policies.google.com/faq",
+            "label": "FAQ"
+          },
+          {
+            "url": "https://policies.google.com/terms/information-requests",
+            "label": "How Google handles government requests for user information"
+          },
+          {
+            "url": "https://policies.google.com/terms/archive",
+            "label": "Updates"
+          },
+          {
+            "url": "https://policies.google.com/terms/definitions",
+            "label": "Definitions"
+          },
+          {
+            "url": "https://policies.google.com/privacy",
+            "label": "Privacy Policy"
+          },
+          {
+            "url": "https://policies.google.com/terms",
+            "label": "Terms of Service"
+          },
+          {
+            "url": "https://policies.google.com/technologies",
+            "label": "Technologies"
+          },
+          {
+            "url": "https://policies.google.com/terms/generative-ai/use-policy",
+            "label": "Generative AI Prohibited Use Policy"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png",
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png",
+        "https://www.gstatic.com/identity/boq/policies/privacy/tos_2024/01-introduction-lightmode.svg",
+        "https://www.gstatic.com/identity/boq/policies/privacy/tos_2024/02-your-relationship-with-google-lightmode.svg"
+      ]
+    },
+    "2cf4a7e9-6069-4c8a-896e-4d9936fc49dd": {
+      "url": "https://policies.google.com/",
+      "title": "Privacy & Terms – Google",
+      "anchorText": "Privacy & Terms",
+      "links": {
+        "internal": [
+          {
+            "url": "https://policies.google.com/privacy",
+            "label": "Privacy Policy"
+          },
+          {
+            "url": "https://policies.google.com/terms",
+            "label": "Terms of Service"
+          },
+          {
+            "url": "https://policies.google.com/technologies/product-privacy",
+            "label": "Google Product Privacy Guide"
+          },
+          {
+            "url": "https://policies.google.com/technologies",
+            "label": "Technologies"
+          },
+          {
+            "url": "https://policies.google.com/faq",
+            "label": "FAQ"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://safety.google/principles",
+            "label": "Explore our Privacy and Security Principles"
+          },
+          {
+            "url": "https://www.google.com/intl/en/about/products",
+            "label": "https://www.google.com/intl/en/about/products"
+          },
+          {
+            "url": "https://safety.google/",
+            "label": "Explore what we do to help keep you safe"
+          },
+          {
+            "url": "https://www.google.com/",
+            "label": "https://www.google.com/"
+          },
+          {
+            "url": "https://account.google.com/",
+            "label": "Visit your Google Account"
+          }
+        ]
+      },
+      "images": [
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png",
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png",
+        "https://www.gstatic.com/policies/images/shields2.png",
+        "https://www.gstatic.com/policies/images/my_account.png"
+      ]
+    },
+    "794eba0d-d190-444e-9a37-fd785c13e08f": {
+      "url": "https://policies.google.com/faq",
+      "title": "FAQ – Privacy & Terms – Google",
+      "anchorText": "FAQ",
+      "links": {
+        "internal": [
+          {
+            "url": "https://policies.google.com/terms",
+            "label": "Terms of Service"
+          },
+          {
+            "url": "https://policies.google.com/technologies",
+            "label": "Technologies"
+          },
+          {
+            "url": "https://policies.google.com/country-association-form",
+            "label": "change your region."
+          },
+          {
+            "url": "https://policies.google.com/privacy",
+            "label": "Privacy Policy"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://about.google/",
+            "label": "About Google"
+          },
+          {
+            "url": "https://support.google.com/websearch/troubleshooter/3111061",
+            "label": "visit our help page for more information"
+          },
+          {
+            "url": "https://transparency.google/",
+            "label": "Transparency Center"
+          },
+          {
+            "url": "https://www.google.com/",
+            "label": "https://www.google.com/"
+          },
+          {
+            "url": "https://www.google.com/intl/en/about/products",
+            "label": "https://www.google.com/intl/en/about/products"
+          },
+          {
+            "url": "https://myaccount.google.com/",
+            "label": "Google Account"
+          }
+        ]
+      },
+      "images": [
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png",
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png"
+      ]
+    },
+    "83645aec-e3b2-4964-a36b-5683d0950e19": {
+      "url": "https://policies.google.com/country-association-form",
+      "title": "Sign in",
+      "anchorText": "change your region.",
+      "links": {
+        "internal": [],
+        "external": [
+          {
+            "url": "https://support.google.com/chrome/answer/6130773",
+            "label": "Learn more about using Guest mode"
+          },
+          {
+            "url": "https://support.google.com/accounts",
+            "label": "Help"
+          }
+        ]
+      },
+      "images": []
+    },
+    "199c27ab-f6f4-48da-a8f2-9404f32b89b6": {
+      "url": "https://support.google.com/accounts",
+      "title": "How can we help you?",
+      "anchorText": "Help",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/accounts/answer/12418290",
+            "label": "Inactive Google Account Policy"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/7189122",
+            "label": "Manage your location"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/7188673",
+            "label": "Suspicious activity"
+          },
+          {
+            "url": "https://support.google.com/accounts/troubleshooter/2402620",
+            "label": "Can't sign in to your Google Account"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/16668185",
+            "label": "Understand & fix error codes"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/7189195",
+            "label": "2-Step Verification"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/7188674",
+            "label": "Google activity controls"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/7189121",
+            "label": "Manage your email addresses"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/14200149",
+            "label": "Manage your Timeline data"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/46526",
+            "label": "Make your account more secure"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://lh3.googleusercontent.com/o9U8AvPuX9gkIYtYfNmH-_wBdTfOJ7jb0VwbLWWbERzml7oTPngODhKv2Br7A64=w64"
+      ]
+    },
+    "90ac0ed4-3139-4a5c-ba46-fd32be05d166": {
+      "url": "https://support.google.com/accounts/topic/7189195",
+      "title": "2-Step Verification",
+      "anchorText": "2-Step Verification",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/",
+            "label": "https://support.google.com/"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/1064203",
+            "label": "Turn off 2-Step Verification"
+          },
+          {
+            "url": "https://support.google.com/accounts/",
+            "label": "Help Center"
+          },
+          {
+            "url": "https://support.google.com/accounts/community",
+            "label": "Community"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/185834",
+            "label": "Fix common issues with 2-Step Verification"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/2544838",
+            "label": "Add or remove trusted computers"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/1066447",
+            "label": "Get verification codes with Google Authenticator"
+          },
+          {
+            "url": "https://support.google.com/accounts/announcements/12343128",
+            "label": "Improve your Google Account"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/7189145",
+            "label": "Signing in with 2-Step Verification"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/185839",
+            "label": "Turn on 2-Step Verification"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "30958e18-0dd6-41fb-9c75-9bf4646fef20": {
+      "url": "https://support.google.com/accounts/announcements/12343128",
+      "title": "Your Google Account Checklist",
+      "anchorText": "Improve your Google Account",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/accounts/answer/12372353",
+            "label": "Skip to main content"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/16363505",
+            "label": "Manage your third-party connections"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12629482",
+            "label": "Take a Security Checkup"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12629483",
+            "label": "Take a Privacy Checkup"
+          },
+          {
+            "url": "https://support.google.com/accounts/",
+            "label": "Help Center"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/12626869",
+            "label": "Repeatable lessons"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12437871",
+            "label": "Add recovery email address"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/14733746",
+            "label": "Manage your storage"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/12437267",
+            "label": "Account recovery steps"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/12629408",
+            "label": "Simplify your life with Google"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://lh3.googleusercontent.com/9Y5oRPNXHvhG3TpmG0PTQ8lEEAJyuDiyMLujhC4R042jzmk6NUUE-IoF7XF2F5qLhDA=w895",
+        "https://storage.googleapis.com/support-kms-prod/OsEXgiRupY59So2HOC6SmzUOBkSSAChhMTC8",
+        "https://lh3.googleusercontent.com/I-HtGTSP3hn5ug15yKM96ZEx7LMu0apBo5b_2oo8XW9dnRbdVI4jz3MlHsLSg_0tHQ=w256",
+        "https://storage.googleapis.com/support-kms-prod/amxDJj93vlWuIcDKrR5zdBH3DF7qDqbUtVjn"
+      ]
+    },
+    "682b3fc9-c786-440a-ab62-1d9f3b62188c": {
+      "url": "https://support.google.com/accounts/topic/12629408",
+      "title": "Simplify your life with Google",
+      "anchorText": "Simplify your life with Google",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/accounts/topic/12436754",
+            "label": "Your Google Account Checklist"
+          },
+          {
+            "url": "https://support.google.com/accounts/community",
+            "label": "Community"
+          },
+          {
+            "url": "https://support.google.com/",
+            "label": "https://support.google.com/"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12438773",
+            "label": "Add your home and work address"
+          },
+          {
+            "url": "https://support.google.com/accounts/",
+            "label": "Help Center"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12629702",
+            "label": "Add a payment method"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12438182",
+            "label": "Add your picture"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://www.google.com/intl/en/privacy.html",
+            "label": "Privacy Policy"
+          },
+          {
+            "url": "https://myaccount.google.com/",
+            "label": "Google Account"
+          },
+          {
+            "url": "https://www.google.com/accounts/TOS",
+            "label": "Terms of Service"
+          }
+        ]
+      },
+      "images": []
+    },
+    "f9713135-2aed-4abe-9c78-740bce5e2cfe": {
+      "url": "https://support.google.com/accounts/answer/12629702",
+      "title": "Add a payment method",
+      "anchorText": "Add a payment method",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/accounts/",
+            "label": "Help Center"
+          },
+          {
+            "url": "https://support.google.com/accounts/topic/12436754",
+            "label": "Your Google Account Checklist"
+          },
+          {
+            "url": "https://support.google.com/",
+            "label": "https://support.google.com/"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12438182",
+            "label": "Add your picture"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12629482",
+            "label": "https://support.google.com/accounts/answer/12629482"
+          },
+          {
+            "url": "https://support.google.com/accounts/community",
+            "label": "Community"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12438773",
+            "label": "Add your home and work address"
+          },
+          {
+            "url": "https://support.google.com/accounts/answer/12372353",
+            "label": "< Your Google Account checklist"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://www.google.com/accounts/TOS",
+            "label": "Terms of Service"
+          },
+          {
+            "url": "https://guidebooks.google.com/online-security",
+            "label": "https://guidebooks.google.com/online-security"
+          }
+        ]
+      },
+      "images": [
+        "https://lh3.googleusercontent.com/tMF0Lo8uwR0Mn7lnLEy1HtHsVZH2pEFAiR4M_8MhCw0sLF4ubITpkhf1xbbXBpxiAmU=w600",
+        "https://lh3.googleusercontent.com/tvu5qN2ElxJUH3cHyOsVg_m2U64B2K0-Tcdok_erdfjWelc2kX0VtNrwlDNdotK1nf2w=w200",
+        "https://storage.googleapis.com/support-kms-prod/Yyo7W6J4EWKAac3eS1bFOgRgBAhHBF4d2M7s"
+      ]
+    },
+    "44948a52-a62f-42d4-8985-c61ae19ca36f": {
+      "url": "https://support.google.com/accounts/community",
+      "title": "Welcome to the Google Account Help Community",
+      "anchorText": "Community",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/accounts/thread/new",
+            "label": "Post a question"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/235285575/a-are-you-getting-multiple-codes-you-did-not-request-for-google-account-recovery-password-resets",
+            "label": "A: Are you getting multiple codes you did not request for Google Account recovery/password resets?"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/224469734/recovery-my-gmail-account",
+            "label": "Recovery my gmail account"
+          },
+          {
+            "url": "https://support.google.com/accounts/",
+            "label": "Help Center"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/237644698/storage-error",
+            "label": "Storage Error"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/394030383/%F0%9F%9A%80-digital-id-linking-in-google-account",
+            "label": "🚀 Digital ID Linking in Google Account                 Hello everyone! 👋\nWe are excited to announce the rollout of a new security feature that allows users…        0 Recommended Answers    0 Replies 12684 Upvotes"
+          },
+          {
+            "url": "https://support.google.com/accounts/community/about",
+            "label": "About the Community"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/393518338/google-for-families-how-google-apps-work-with-children-s-google-accounts",
+            "label": "Google For Families- How Google apps work with children's Google Accounts                 How can my child sign in to Google Home? On your child's device, open the Google Home app and select…        0 Recommended Answers    0 Replies 3683 Upvotes"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/421718174/requesting-exception-for-12-month-family-group-switch-limit",
+            "label": "Requesting exception for 12-month family group switch limit"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/237581453/email-bombing",
+            "label": "Email bombing"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://lh3.googleusercontent.com/TI6U3UJ_bPv8hZPZFgNu_CmABLjigln7EudNbfu5tMUtREMZSiBxRVodEVmBP1UI4g=w64",
+        "https://i.ytimg.com/vi/FeUCwIPn3To/mqdefault.jpg",
+        "https://i.ytimg.com/vi/WZw30fYBKQA/mqdefault.jpg",
+        "https://i.ytimg.com/vi/vIt7pyuDPMc/mqdefault.jpg"
+      ]
+    }
+  }
+}

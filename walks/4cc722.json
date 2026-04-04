@@ -1,0 +1,28 @@
+{
+  "id": "4cc722",
+  "createdAt": "2026-04-02T21:04:54.105Z",
+  "updatedAt": "2026-04-02T21:04:54.105Z",
+  "visits": [
+    {
+      "id": "f7e5297c-d556-4b19-9463-a56ad587ab67",
+      "url": "https://www.amazon.com/",
+      "title": "JavaScript is disabled",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "timestamp": "2026-04-02T21:04:54.105Z"
+    }
+  ],
+  "pages": {
+    "f7e5297c-d556-4b19-9463-a56ad587ab67": {
+      "url": "https://www.amazon.com/",
+      "title": "JavaScript is disabled",
+      "links": {
+        "internal": [],
+        "external": []
+      },
+      "images": []
+    }
+  }
+}

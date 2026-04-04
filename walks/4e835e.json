@@ -1,0 +1,465 @@
+{
+  "id": "4e835e",
+  "createdAt": "2026-04-02T20:57:09.793Z",
+  "updatedAt": "2026-04-02T20:57:32.903Z",
+  "visits": [
+    {
+      "id": "b0f0612a-004f-42b9-825f-47dea7cfa4ea",
+      "url": "https://www.newschool.edu/",
+      "title": "A University in New York City | The New School",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "timestamp": "2026-04-02T20:57:09.792Z"
+    },
+    {
+      "id": "7a93d81e-f6bd-41cd-8a92-170eb96f4b2e",
+      "url": "https://support.google.com/accounts/thread/237644698/storage-error",
+      "title": "Storage Error - Google Account Community",
+      "position": {
+        "x": -54.315917734067,
+        "y": -153.2389537307493
+      },
+      "via": "Storage Error",
+      "timestamp": "2026-04-02T20:57:09.852Z"
+    },
+    {
+      "id": "87db3749-67ae-4de4-a24c-5ab20f5c1ae9",
+      "url": "https://support.google.com/accounts/community",
+      "title": "Welcome to the Google Account Help Community",
+      "position": {
+        "x": -44.50418679126287,
+        "y": 194.98558243636472
+      },
+      "via": "Community",
+      "timestamp": "2026-04-02T20:57:14.573Z"
+    },
+    {
+      "id": "7c28901d-d136-44c6-aa62-66308401bcc6",
+      "url": "https://support.google.com/accounts/thread/421767465/i-need-help",
+      "title": "I need help - Google Account Community",
+      "position": {
+        "x": -206.30758566625232,
+        "y": 312.54263289485937
+      },
+      "via": "I need help",
+      "timestamp": "2026-04-02T20:57:19.256Z"
+    },
+    {
+      "id": "ec68b3c0-66c0-4b54-bbeb-4a1d9ce2ca51",
+      "url": "https://support.google.com/",
+      "title": "How can we help you?",
+      "position": {
+        "x": -106.3075856662523,
+        "y": 485.74771365174706
+      },
+      "via": "https://support.google.com/",
+      "timestamp": "2026-04-02T20:57:23.804Z"
+    },
+    {
+      "id": "278add1e-2f71-422a-b03c-0420efad2411",
+      "url": "https://support.google.com/contacts",
+      "title": "How can we help you?",
+      "position": {
+        "x": -168.11098454124175,
+        "y": 675.9590169107778
+      },
+      "via": "Contacts",
+      "timestamp": "2026-04-02T20:57:28.395Z"
+    },
+    {
+      "id": "8789ceb3-8ba2-4fdd-b68e-72cfa2c31ba9",
+      "url": "https://support.google.com/contacts/answer/7280886",
+      "title": "Edit or delete contacts",
+      "position": {
+        "x": -329.9143834162312,
+        "y": 793.5160673692724
+      },
+      "via": "Edit or delete contacts",
+      "timestamp": "2026-04-02T20:57:32.902Z"
+    }
+  ],
+  "pages": {
+    "b0f0612a-004f-42b9-825f-47dea7cfa4ea": {
+      "url": "https://www.newschool.edu/",
+      "title": "A University in New York City | The New School",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.newschool.edu/request-info/",
+            "label": "Request Info"
+          },
+          {
+            "url": "https://www.newschool.edu/about/senior-leadership/",
+            "label": "Senior Leadership"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/contact/",
+            "label": "CONTACT US"
+          },
+          {
+            "url": "https://www.newschool.edu/parsons/youth-pre-college-programs/",
+            "label": "Youth and Pre-College"
+          },
+          {
+            "url": "https://www.newschool.edu/about/global-partnerships-our-process/",
+            "label": "Our Process"
+          },
+          {
+            "url": "https://www.newschool.edu/about/campus-information/university-status/",
+            "label": "University Status"
+          },
+          {
+            "url": "https://www.newschool.edu/apply/aas/",
+            "label": "New School Online App"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/meet-our-students/",
+            "label": "Meet Our Students"
+          },
+          {
+            "url": "https://www.newschool.edu/admission/prospective-undergraduate-students/adult-learners/",
+            "label": "Adult Learners"
+          },
+          {
+            "url": "https://www.newschool.edu/campus-community/safety-facilities/",
+            "label": "Safety & Facilities"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://newschool.imgix.net/Media/Resources/Content/about2/mm-impact-entrepreneurship-sml.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/051815_Festival_Seck_367.png?w=260&h=188&max-w=260&max-h=188&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Content/work/learn-something-new-cw.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90",
+        "https://newschool.imgix.net/Media/Resources/Images/menu/aditl-1440x960.jpg?w=460&h=260&max-w=460&max-h=260&fit=crop&q=90"
+      ]
+    },
+    "7a93d81e-f6bd-41cd-8a92-170eb96f4b2e": {
+      "url": "https://support.google.com/accounts/thread/237644698/storage-error",
+      "title": "Storage Error - Google Account Community",
+      "anchorText": "Storage Error",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/accounts/announcements/12343128",
+            "label": "Improve your Google Account"
+          },
+          {
+            "url": "https://support.google.com/communities/answer/7424249",
+            "label": "Community Overview"
+          },
+          {
+            "url": "https://support.google.com/accounts/community",
+            "label": "Community"
+          },
+          {
+            "url": "https://support.google.com/accounts",
+            "label": "Google Account Help"
+          },
+          {
+            "url": "https://support.google.com/accounts/",
+            "label": "Help Center"
+          },
+          {
+            "url": "https://support.google.com/communities/answer/7425194",
+            "label": "Community Policy"
+          },
+          {
+            "url": "https://support.google.com/",
+            "label": "https://support.google.com/"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://www.google.com/intl/en/about/products",
+            "label": "https://www.google.com/intl/en/about/products"
+          },
+          {
+            "url": "https://www.google.com/intl/en/privacy.html",
+            "label": "Privacy Policy"
+          },
+          {
+            "url": "https://accounts.google.com/ServiceLogin",
+            "label": "Sign in"
+          }
+        ]
+      },
+      "images": []
+    },
+    "87db3749-67ae-4de4-a24c-5ab20f5c1ae9": {
+      "url": "https://support.google.com/accounts/community",
+      "title": "Welcome to the Google Account Help Community",
+      "anchorText": "Community",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/accounts/thread/421660707/outlook-will-not-connect-to-google",
+            "label": "outlook will not connect to google"
+          },
+          {
+            "url": "https://support.google.com/accounts/community/about",
+            "label": "About the Community"
+          },
+          {
+            "url": "https://support.google.com/accounts/community-video/347291350/how-to-factory-reset-google-pixel-android-with-family-link-account-safely-remove-child-s-account",
+            "label": "How to Factory Reset Google Pixel/Android with Family Link Account | Safely Remove Child's Account                 Struggling to factory reset your child's Google Pixel or Android phone that's managed by Google Fami…        0 Recommended Answers    19 Replies 3809 Upvotes"
+          },
+          {
+            "url": "https://support.google.com/accounts/community-guide/350762890/looking-at-options-with-forgotten-a-password-no-recovery-options-2025",
+            "label": "Looking at Options With Forgotten A Password & No Recovery Options | 2025                 This is one of the most common issues with Google Account recovery- you forgot the password and don'…        0 Recommended Answers    1 Reply 2540 Upvotes"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/421767465/i-need-help",
+            "label": "I need help"
+          },
+          {
+            "url": "https://support.google.com/accounts/community-guide/278287042/i-forgot-my-google-gmail-password-%E2%80%94-frequently-asked-questions",
+            "label": "I forgot my Google/Gmail password — Frequently Asked Questions                 Important: This is a community of Google users. We can't recover your account. We can only give you …        0 Recommended Answers    3 Replies 1483 Upvotes"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/224469734/recovery-my-gmail-account",
+            "label": "Recovery my gmail account"
+          },
+          {
+            "url": "https://support.google.com/accounts/announcements/12343128",
+            "label": "Improve your Google Account"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/224152178/i-want-to-recover-my-email-account-and-password",
+            "label": "I want to recover my email account and password"
+          },
+          {
+            "url": "https://support.google.com/accounts/thread/237656703/i-really-cant-find-my-pass",
+            "label": "I really cant find my pass"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://lh3.googleusercontent.com/TI6U3UJ_bPv8hZPZFgNu_CmABLjigln7EudNbfu5tMUtREMZSiBxRVodEVmBP1UI4g=w64",
+        "https://i.ytimg.com/vi/FeUCwIPn3To/mqdefault.jpg",
+        "https://i.ytimg.com/vi/WZw30fYBKQA/mqdefault.jpg",
+        "https://i.ytimg.com/vi/vIt7pyuDPMc/mqdefault.jpg"
+      ]
+    },
+    "7c28901d-d136-44c6-aa62-66308401bcc6": {
+      "url": "https://support.google.com/accounts/thread/421767465/i-need-help",
+      "title": "I need help - Google Account Community",
+      "anchorText": "I need help",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/communities/answer/7424249",
+            "label": "Community Overview"
+          },
+          {
+            "url": "https://support.google.com/",
+            "label": "https://support.google.com/"
+          },
+          {
+            "url": "https://support.google.com/accounts/",
+            "label": "Help Center"
+          },
+          {
+            "url": "https://support.google.com/accounts/announcements/12343128",
+            "label": "Improve your Google Account"
+          },
+          {
+            "url": "https://support.google.com/communities/answer/7425194",
+            "label": "Community Policy"
+          },
+          {
+            "url": "https://support.google.com/accounts",
+            "label": "Google Account Help"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://myaccount.google.com/",
+            "label": "Google Account"
+          },
+          {
+            "url": "https://accounts.google.com/ServiceLogin",
+            "label": "Sign in"
+          },
+          {
+            "url": "https://www.google.com/intl/en/about/products",
+            "label": "https://www.google.com/intl/en/about/products"
+          },
+          {
+            "url": "https://www.google.com/accounts/TOS",
+            "label": "Terms of Service"
+          }
+        ]
+      },
+      "images": []
+    },
+    "ec68b3c0-66c0-4b54-bbeb-4a1d9ce2ca51": {
+      "url": "https://support.google.com/",
+      "title": "How can we help you?",
+      "anchorText": "https://support.google.com/",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/calendar",
+            "label": "Google Calendar"
+          },
+          {
+            "url": "https://support.google.com/cloud",
+            "label": "Google Cloud Platform Console"
+          },
+          {
+            "url": "https://support.google.com/wallet",
+            "label": "Google Wallet"
+          },
+          {
+            "url": "https://support.google.com/contacts",
+            "label": "Contacts"
+          },
+          {
+            "url": "https://support.google.com/books/partner",
+            "label": "Books"
+          },
+          {
+            "url": "https://support.google.com/displayvideo",
+            "label": "Display & Video 360"
+          },
+          {
+            "url": "https://support.google.com/programmable-search",
+            "label": "Programmable Search Engine"
+          },
+          {
+            "url": "https://support.google.com/googlecloud",
+            "label": "Google Cloud"
+          },
+          {
+            "url": "https://support.google.com/googleshopping",
+            "label": "Google Shopping"
+          },
+          {
+            "url": "https://support.google.com/admob",
+            "label": "Google AdMob"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://ssl.gstatic.com/images/branding/googleg/2x/googleg_standard_color_64dp.png",
+        "https://fonts.gstatic.com/s/i/productlogos/chrome/v7/web-64dp/logo_chrome_color_1x_web_64dp.png",
+        "https://lh3.googleusercontent.com/o9U8AvPuX9gkIYtYfNmH-_wBdTfOJ7jb0VwbLWWbERzml7oTPngODhKv2Br7A64=w64",
+        "https://www.gstatic.com/images/branding/product/1x/youtube_64dp.png"
+      ]
+    },
+    "278add1e-2f71-422a-b03c-0420efad2411": {
+      "url": "https://support.google.com/contacts",
+      "title": "How can we help you?",
+      "anchorText": "Contacts",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/contacts/answer/7345608",
+            "label": "Change who's saved & suggested as contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/15147365",
+            "label": "Import your contacts into Google Contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/1069522",
+            "label": "Add or move contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/6174430",
+            "label": "Use Google Contacts with a screen reader"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/7280886",
+            "label": "Edit or delete contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/7078226",
+            "label": "Merge duplicate contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/14441684",
+            "label": "Access your contacts with widgets from your Android device’s home screen"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/30970",
+            "label": "View, group & share contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/7199294",
+            "label": "Export, back up, or restore contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/2590392",
+            "label": "Give another user access to your contacts"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://fonts.gstatic.com/s/i/productlogos/contacts_2022/v2/web-64dp/logo_contacts_2022_color_1x_web_64dp.png"
+      ]
+    },
+    "8789ceb3-8ba2-4fdd-b68e-72cfa2c31ba9": {
+      "url": "https://support.google.com/contacts/answer/7280886",
+      "title": "Edit or delete contacts",
+      "anchorText": "Edit or delete contacts",
+      "links": {
+        "internal": [
+          {
+            "url": "https://support.google.com/contacts/answer/9833525",
+            "label": "Find or add emergency contacts on Pixel"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/14441684",
+            "label": "Access your contacts with widgets from your Android device’s home screen"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/7078226",
+            "label": "Merge duplicate contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/7345608",
+            "label": "Change who's saved & suggested as contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/",
+            "label": "Help Center"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/15147365",
+            "label": "Import your contacts into Google Contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/1069522",
+            "label": "add them back later"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/27442",
+            "label": "Change your Google Account picture, name & other info"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/30970",
+            "label": "View, group & share contacts"
+          },
+          {
+            "url": "https://support.google.com/contacts/answer/9423168",
+            "label": "Back up & sync device & SIM contacts"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://storage.googleapis.com/support-kms-prod/6wPOY1xa2nNQSHBeZE1Wdg9tLuF2tNMVscgF",
+        "https://lh3.googleusercontent.com/GW0HunPLo4wWAVJ-lPgrMCRXDdZcOB3lq9sm4BObwyFxD712B94powfC08f5BKrTS2M=h36",
+        "https://lh3.googleusercontent.com/3_l97rr0GvhSP2XV5OoCkV2ZDTIisAOczrSdzNCBxhIKWrjXjHucxNwocghoUa39gw=h36",
+        "https://lh3.googleusercontent.com/0EfTPzER2ptjM9N-sX_Lz6gA5Wggozvzm3pH0xJykslbvzFco5JRYEjw1TGvXJ-PBdk=w36-h36"
+      ]
+    }
+  }
+}

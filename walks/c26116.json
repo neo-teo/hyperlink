@@ -1,0 +1,519 @@
+{
+  "id": "c26116",
+  "createdAt": "2026-04-02T21:14:31.068Z",
+  "updatedAt": "2026-04-02T21:15:47.203Z",
+  "visits": [
+    {
+      "id": "225dcefd-eed3-4e46-9345-9ce07ebb8429",
+      "url": "https://www.shawkiizzat.com/",
+      "title": "When a potential recruiter visits your portfolio…",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "timestamp": "2026-04-02T21:14:31.068Z"
+    },
+    {
+      "id": "aa0f8d16-dd55-401f-bacd-c31f0eb13f7b",
+      "url": "https://shawkiizzat.com/letters/the-moth-storytelling-at-brooklyn",
+      "title": "The Moth: Storytelling at Brooklyn",
+      "position": {
+        "x": -161.8033988749895,
+        "y": -117.5570504584946
+      },
+      "via": "The Moth: Storytelling at Brooklyn\n  \n  \n\nShawki The Performer•3 min",
+      "timestamp": "2026-04-02T21:15:02.901Z"
+    },
+    {
+      "id": "0dcbe821-debe-48be-984f-f885b24d463e",
+      "url": "https://www.youtube.com/@shawkiizzat",
+      "title": "Shawki Izzat - YouTube",
+      "position": {
+        "x": -461.8033988749895,
+        "y": -117.55705045849456
+      },
+      "via": "YouTube",
+      "timestamp": "2026-04-02T21:15:12.547Z"
+    },
+    {
+      "id": "0b0e24e3-d158-45d0-898c-90525b066d24",
+      "url": "https://www.youtube.com/howyoutubeworks",
+      "title": "How YouTube Works",
+      "position": {
+        "x": -623.606797749979,
+        "y": -235.11410091698917
+      },
+      "via": "How YouTube works",
+      "timestamp": "2026-04-02T21:15:20.521Z"
+    },
+    {
+      "id": "68f3c613-f788-4395-84f3-5cfb5841d9bc",
+      "url": "https://www.youtube.com/howyoutubeworks/creator-economy/",
+      "title": "Creator Economy",
+      "position": {
+        "x": -785.4101966249684,
+        "y": -117.55705045849453
+      },
+      "via": "Creator Economy",
+      "timestamp": "2026-04-02T21:15:32.476Z"
+    },
+    {
+      "id": "aaf340b8-39a8-4f35-a360-824ff1cd4166",
+      "url": "https://www.youtube.com/howyoutubeworks/youtubes-impact/",
+      "title": "Exploring YouTube’s Impact in the U.S. in 2024",
+      "position": {
+        "x": -847.2135954999579,
+        "y": -307.7683537175252
+      },
+      "via": "Impact Reports",
+      "timestamp": "2026-04-02T21:15:38.013Z"
+    },
+    {
+      "id": "2da2e5fa-26cf-4b19-b604-f380fa59da25",
+      "url": "https://www.youtube.com/@blogilates",
+      "title": "blogilates - YouTube",
+      "position": {
+        "x": -1009.0169943749474,
+        "y": -190.21130325903056
+      },
+      "via": "https://www.youtube.com/@blogilates",
+      "timestamp": "2026-04-02T21:15:42.769Z"
+    },
+    {
+      "id": "0a6fe544-c744-4124-af1a-6b959014968d",
+      "url": "https://www.youtube.com/t/contact_us/",
+      "title": "Contact Us",
+      "position": {
+        "x": -947.2135954999579,
+        "y": 1.4210854715202004e-13
+      },
+      "via": "Contact us",
+      "timestamp": "2026-04-02T21:15:47.203Z"
+    }
+  ],
+  "pages": {
+    "225dcefd-eed3-4e46-9345-9ce07ebb8429": {
+      "url": "https://www.shawkiizzat.com/",
+      "title": "When a potential recruiter visits your portfolio…",
+      "links": {
+        "internal": [
+          {
+            "url": "https://shawkiizzat.com/letters/2022-fifa-world-cup",
+            "label": "FIFA World Cup Qatar x Microsoft Teams\n  \n  \n\nShawki The Designer•2 min"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/dino-s-last-run",
+            "label": "Dino's Last Run: Real-time Interactive Satire\n  \n  \n\nShawki The Designer•4 min"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/dumbo-toursim",
+            "label": "Regenerative Toursim in Dumbo\n  \n  \n\nShawki The Designer•5 min"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/boston-museum-of-science",
+            "label": "AI Spy With My Little Eye @Boston Museum of Science\n  \n  \n\nShawki The Designer•5 min"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/beta-did-you-eat",
+            "label": "Beta, did you eat?\n  \n  \n\nShawki The Designer•2 min"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/artificial-intelligence-and-democracy-interview-with-netflix-s-david-caroll",
+            "label": "Artificial Intelligence and Democracy: Interview with Netflix's David Caroll\n  \n  \n\nShawki The Performer•47 min"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/the-moth-storytelling-at-brooklyn",
+            "label": "The Moth: Storytelling at Brooklyn\n  \n  \n\nShawki The Performer•3 min"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/takotsubo",
+            "label": "Takotsubo: A Board Game about Grief\n  \n  \n\nShawki The Designer•4 min"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/hatao-ya-patao",
+            "label": "Hatao Ya Patao: iOS Board Game\n  \n  \n\nShawki The Engineer•7 min"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/severance-ramadan-invites",
+            "label": "Apple TV+ Severance Party Invites\n  \n  \n\nShawki The Designer•4 min"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://framerusercontent.com/images/IC6V6kyhDHWfS9xx852coRFZKV0.jpg?width=1177&height=791",
+        "https://framerusercontent.com/images/X7LZLBBKaiVvps3FlqraIxuMzFU.png?width=1512&height=982",
+        "https://framerusercontent.com/images/HqOHCMm8a9pHHyA7hiKFzRlpL0.png?width=300&height=300",
+        "https://framerusercontent.com/images/3wyT40CU8bwG1DFRdQggt3jAWc.png?width=3022&height=1712"
+      ]
+    },
+    "aa0f8d16-dd55-401f-bacd-c31f0eb13f7b": {
+      "url": "https://shawkiizzat.com/letters/the-moth-storytelling-at-brooklyn",
+      "title": "The Moth: Storytelling at Brooklyn",
+      "anchorText": "The Moth: Storytelling at Brooklyn\n  \n  \n\nShawki The Performer•3 min",
+      "links": {
+        "internal": [
+          {
+            "url": "https://shawkiizzat.com/letters/thesis-the-belonging-tree",
+            "label": "PinnedThesis: The Belonging Tree (In Progress)"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/beta-did-you-eat",
+            "label": "https://shawkiizzat.com/letters/beta-did-you-eat"
+          },
+          {
+            "url": "https://shawkiizzat.com/",
+            "label": "Home"
+          },
+          {
+            "url": "https://shawkiizzat.com/about",
+            "label": "About"
+          },
+          {
+            "url": "https://shawkiizzat.com/letters/dino-s-last-run",
+            "label": "https://shawkiizzat.com/letters/dino-s-last-run"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://www.linkedin.com/in/shawkiizzat/",
+            "label": "LinkedIn"
+          },
+          {
+            "url": "https://www.youtube.com/@shawkiizzat",
+            "label": "YouTube"
+          }
+        ]
+      },
+      "images": [
+        "https://framerusercontent.com/images/IC6V6kyhDHWfS9xx852coRFZKV0.jpg?width=1177&height=791",
+        "https://framerusercontent.com/images/X7LZLBBKaiVvps3FlqraIxuMzFU.png?width=1512&height=982",
+        "https://framerusercontent.com/images/KVRycm3lH821mayRCx23QwutuA.png?width=2464&height=1314",
+        "https://framerusercontent.com/images/KVRycm3lH821mayRCx23QwutuA.png?width=2464&height=1314"
+      ]
+    },
+    "0dcbe821-debe-48be-984f-f885b24d463e": {
+      "url": "https://www.youtube.com/@shawkiizzat",
+      "title": "Shawki Izzat - YouTube",
+      "anchorText": "YouTube",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.youtube.com/new",
+            "label": "Test new features"
+          },
+          {
+            "url": "https://www.youtube.com/about/copyright/",
+            "label": "Copyright"
+          },
+          {
+            "url": "https://www.youtube.com/about/press/",
+            "label": "Press"
+          },
+          {
+            "url": "https://www.youtube.com/ads/",
+            "label": "Advertise"
+          },
+          {
+            "url": "https://www.youtube.com/t/terms",
+            "label": "Terms"
+          },
+          {
+            "url": "https://www.youtube.com/about/policies/",
+            "label": "Policy & Safety"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks",
+            "label": "How YouTube works"
+          },
+          {
+            "url": "https://www.youtube.com/",
+            "label": "https://www.youtube.com/"
+          },
+          {
+            "url": "https://www.youtube.com/t/privacy",
+            "label": "Privacy"
+          },
+          {
+            "url": "https://www.youtube.com/t/contact_us/",
+            "label": "Contact us"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "0b0e24e3-d158-45d0-898c-90525b066d24": {
+      "url": "https://www.youtube.com/howyoutubeworks",
+      "title": "How YouTube Works",
+      "anchorText": "How YouTube works",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/",
+            "label": "https://www.youtube.com/howyoutubeworks/"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/privacy/",
+            "label": "Privacy"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/learning/",
+            "label": "Learning"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/kids-and-teens/",
+            "label": "Kids & Teens"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/creator-economy/",
+            "label": "Creator Economy"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/",
+            "label": "Copyright"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/recommendations/",
+            "label": "Recommendations"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/elections/",
+            "label": "Elections"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/news/",
+            "label": "News"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/youtubes-impact/",
+            "label": "Impact Reports"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://kstatic.googleusercontent.com/files/eae0fcc1c67cc38d9c2cd2300f46c8e821fcd6bc3bafa1d222426a6a4d5f2081071424c94454d9d3b967ab373b16b6345a9fe9df890183f327400624d123f32d",
+        "https://kstatic.googleusercontent.com/files/cfe5d66fd54bdfebc20e894bb64db27f2d4c8eb9e20a0c268d57fa62e48aa3f2d126b4b30e84840608d4c4bab611e63fe39c70834f1c8abd53e1f4cdbba4caa9",
+        "https://kstatic.googleusercontent.com/files/96f6cfc4511023bb650dbf45e6d60fc0756285c774f88a427fc014cfdec733f557f591a399fd4ce8fa94b8125feab72c9601e226ffdfdf317e4c213b92e07c33=w1080",
+        "https://kstatic.googleusercontent.com/files/dd64b7f06fdd8db218b17f88776fb00098325825e117fada327da012aff9d1c40c70ffb2f1f8dc778f7edc981902492db5def709ef8633f22c355bacd00da4fd=w1080"
+      ]
+    },
+    "68f3c613-f788-4395-84f3-5cfb5841d9bc": {
+      "url": "https://www.youtube.com/howyoutubeworks/creator-economy/",
+      "title": "Creator Economy",
+      "anchorText": "Creator Economy",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/our-policies/",
+            "label": "Our Policies"
+          },
+          {
+            "url": "https://www.youtube.com/@heyBrandonB",
+            "label": "@heyBrandonB"
+          },
+          {
+            "url": "https://www.youtube.com/aqmvideo",
+            "label": "@AquariusMusikindo"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/",
+            "label": "https://www.youtube.com/howyoutubeworks/"
+          },
+          {
+            "url": "https://www.youtube.com/@metrotvnews",
+            "label": "@metrotvnews"
+          },
+          {
+            "url": "https://www.youtube.com/@DharMann",
+            "label": "@DharMann"
+          },
+          {
+            "url": "https://www.youtube.com/@GaspardG",
+            "label": "@GaspardG"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/youtubes-impact/",
+            "label": "Impact Reports"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/copyright/",
+            "label": "Copyright"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/news/",
+            "label": "News"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://kstatic.googleusercontent.com/files/eae0fcc1c67cc38d9c2cd2300f46c8e821fcd6bc3bafa1d222426a6a4d5f2081071424c94454d9d3b967ab373b16b6345a9fe9df890183f327400624d123f32d",
+        "https://kstatic.googleusercontent.com/files/cfe5d66fd54bdfebc20e894bb64db27f2d4c8eb9e20a0c268d57fa62e48aa3f2d126b4b30e84840608d4c4bab611e63fe39c70834f1c8abd53e1f4cdbba4caa9",
+        "https://kstatic.googleusercontent.com/files/d85df87c2881cd4042d5d45c415d3d375f8522681cdd3a052610b226413357c51de25442e4f6f1d65d20f7a223ac6e65b73a0564154d99988ac812e08476e671=w1080",
+        "https://www.youtube.com/howyoutubeworks/static/images/arrow_drop_dow_black.svg"
+      ]
+    },
+    "aaf340b8-39a8-4f35-a360-824ff1cd4166": {
+      "url": "https://www.youtube.com/howyoutubeworks/youtubes-impact/",
+      "title": "Exploring YouTube’s Impact in the U.S. in 2024",
+      "anchorText": "Impact Reports",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/",
+            "label": "https://www.youtube.com/howyoutubeworks/"
+          },
+          {
+            "url": "https://www.youtube.com/@FirstWeFeast",
+            "label": "https://www.youtube.com/@FirstWeFeast"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/ai/",
+            "label": "AI"
+          },
+          {
+            "url": "https://www.youtube.com/playlist",
+            "label": "https://www.youtube.com/playlist"
+          },
+          {
+            "url": "https://www.youtube.com/@blogilates",
+            "label": "https://www.youtube.com/@blogilates"
+          },
+          {
+            "url": "https://www.youtube.com/@AmoebaSisters",
+            "label": "https://www.youtube.com/@AmoebaSisters"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/recommendations/",
+            "label": "Recommendations"
+          },
+          {
+            "url": "https://www.youtube.com/@viallfiles",
+            "label": "https://www.youtube.com/@viallfiles"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/elections/",
+            "label": "Elections"
+          },
+          {
+            "url": "https://www.youtube.com/howyoutubeworks/nd",
+            "label": "View state details"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://kstatic.googleusercontent.com/files/eae0fcc1c67cc38d9c2cd2300f46c8e821fcd6bc3bafa1d222426a6a4d5f2081071424c94454d9d3b967ab373b16b6345a9fe9df890183f327400624d123f32d",
+        "https://kstatic.googleusercontent.com/files/cfe5d66fd54bdfebc20e894bb64db27f2d4c8eb9e20a0c268d57fa62e48aa3f2d126b4b30e84840608d4c4bab611e63fe39c70834f1c8abd53e1f4cdbba4caa9",
+        "https://kstatic.googleusercontent.com/files/b39f4c03ff88806b81ba22c29559ff4c54a5d56f59ac8e84dd3e6ee6abaf6436d6fbb1ddb265254d839ae9e2877ff8c22d9c8ccae06f9a21950326be77dab0f8=w1080",
+        "https://www.youtube.com/howyoutubeworks/static/images/arrow_drop_dow_black.svg"
+      ]
+    },
+    "2da2e5fa-26cf-4b19-b604-f380fa59da25": {
+      "url": "https://www.youtube.com/@blogilates",
+      "title": "blogilates - YouTube",
+      "anchorText": "https://www.youtube.com/@blogilates",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.youtube.com/ads/",
+            "label": "Advertise"
+          },
+          {
+            "url": "https://www.youtube.com/new",
+            "label": "Test new features"
+          },
+          {
+            "url": "https://www.youtube.com/t/contact_us/",
+            "label": "Contact us"
+          },
+          {
+            "url": "https://www.youtube.com/about/copyright/",
+            "label": "Copyright"
+          },
+          {
+            "url": "https://www.youtube.com/t/privacy",
+            "label": "Privacy"
+          },
+          {
+            "url": "https://www.youtube.com/",
+            "label": "https://www.youtube.com/"
+          },
+          {
+            "url": "https://www.youtube.com/creators/",
+            "label": "Creators"
+          },
+          {
+            "url": "https://www.youtube.com/about/policies/",
+            "label": "Policy & Safety"
+          },
+          {
+            "url": "https://www.youtube.com/about/",
+            "label": "About"
+          },
+          {
+            "url": "https://www.youtube.com/t/terms",
+            "label": "Terms"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "0a6fe544-c744-4124-af1a-6b959014968d": {
+      "url": "https://www.youtube.com/t/contact_us/",
+      "title": "Contact Us",
+      "anchorText": "Contact us",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.youtube.com/t/press",
+            "label": "This area"
+          },
+          {
+            "url": "https://www.youtube.com/",
+            "label": "https://www.youtube.com/"
+          },
+          {
+            "url": "https://www.youtube.com/yt/dev",
+            "label": "Developer area"
+          },
+          {
+            "url": "https://www.youtube.com/yt/about",
+            "label": "About YouTube"
+          },
+          {
+            "url": "https://www.youtube.com/t/advertising_overview",
+            "label": "Learn the basics to advertising on YouTube"
+          },
+          {
+            "url": "https://www.youtube.com/t/contentid",
+            "label": "Content ID"
+          },
+          {
+            "url": "https://www.youtube.com/yt/jobs",
+            "label": "Careers"
+          },
+          {
+            "url": "https://www.youtube.com/t/terms",
+            "label": "read the Terms of Service"
+          },
+          {
+            "url": "https://www.youtube.com/yt/creators/get-started.html",
+            "label": "information page"
+          },
+          {
+            "url": "https://www.youtube.com/t/community_guidelines",
+            "label": "Community Guidelines"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://www.youtube.com/img/desktop/supported_browsers/yt_logo_rgb_light.png"
+      ]
+    }
+  }
+}

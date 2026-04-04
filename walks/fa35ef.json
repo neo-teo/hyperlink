@@ -1,0 +1,2355 @@
+{
+  "id": "fa35ef",
+  "createdAt": "2026-04-02T21:05:10.654Z",
+  "updatedAt": "2026-04-02T21:08:22.001Z",
+  "visits": [
+    {
+      "id": "343b88c4-1f3a-4be2-a797-b0f36cba12a1",
+      "url": "https://www.vasuki.design/",
+      "title": "Vasuki Sunder —  Product Designer",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "timestamp": "2026-04-02T21:05:10.653Z"
+    },
+    {
+      "id": "6c0dbad6-93fd-4d6a-912a-c71c2e06400a",
+      "url": "https://www.vasuki.design/album",
+      "title": "Vasuki Sunder —  Product Designer",
+      "position": {
+        "x": -200,
+        "y": 2.4492935982947064e-14
+      },
+      "via": "https://www.vasuki.design/album",
+      "timestamp": "2026-04-02T21:05:22.804Z"
+    },
+    {
+      "id": "9924846a-56f3-4eb5-a0f0-8d56a97f3e92",
+      "url": "https://www.are.na/suki/channels",
+      "title": "suki ‎  | Are.na",
+      "position": {
+        "x": -500,
+        "y": 6.123233995736766e-14
+      },
+      "via": "Are.na",
+      "timestamp": "2026-04-02T21:05:27.306Z"
+    },
+    {
+      "id": "6d489a94-6d0d-4422-8047-56bfd381fce2",
+      "url": "https://www.are.na/",
+      "title": "Are.na",
+      "position": {
+        "x": -600.0000000000001,
+        "y": -173.2050807568876
+      },
+      "via": "https://www.are.na/",
+      "timestamp": "2026-04-02T21:05:31.698Z"
+    },
+    {
+      "id": "75ebecd6-33c7-4cde-b46c-e98c74508c10",
+      "url": "https://www.are.na/about",
+      "title": "About",
+      "position": {
+        "x": -761.8033988749896,
+        "y": -290.7621312153822
+      },
+      "via": "See more...",
+      "timestamp": "2026-04-02T21:05:36.539Z"
+    },
+    {
+      "id": "0293a3d2-3db6-4142-86e4-23b2417622ea",
+      "url": "https://www.are.na/editorial",
+      "title": "Are.na Editorial",
+      "position": {
+        "x": -600.0000000000002,
+        "y": -408.31918167387687
+      },
+      "via": "Blog",
+      "timestamp": "2026-04-02T21:05:40.960Z"
+    },
+    {
+      "id": "a2868244-3b20-43d9-841b-a4a70d7543c4",
+      "url": "https://www.are.na/privacy",
+      "title": "Privacy",
+      "position": {
+        "x": -475.30203962825357,
+        "y": -564.6854781674829
+      },
+      "via": "Privacy",
+      "timestamp": "2026-04-02T21:05:45.301Z"
+    },
+    {
+      "id": "740f36ef-01b6-4ceb-ba50-45c13a971a8c",
+      "url": "https://www.are.na/are-na-team/are-na-press",
+      "title": "Are.na / Press | Are.na",
+      "position": {
+        "x": -333.88068339094406,
+        "y": -423.26412193017336
+      },
+      "via": "Press",
+      "timestamp": "2026-04-02T21:05:49.831Z"
+    },
+    {
+      "id": "b9ec40fb-9717-453c-b61f-2848fe2b9e05",
+      "url": "https://www.are.na/sign_up",
+      "title": "Sign Up | Are.na",
+      "position": {
+        "x": -133.88068339094406,
+        "y": -423.26412193017336
+      },
+      "via": "Sign up",
+      "timestamp": "2026-04-02T21:05:54.177Z"
+    },
+    {
+      "id": "e8e16eea-31c1-4532-b978-ac3f72a8d93a",
+      "url": "https://www.are.na/login",
+      "title": "Login | Are.na",
+      "position": {
+        "x": 66.11931660905594,
+        "y": -423.26412193017336
+      },
+      "via": "Log in",
+      "timestamp": "2026-04-02T21:05:58.555Z"
+    },
+    {
+      "id": "cb165ae5-8e02-4bbf-b775-87385e9f2d06",
+      "url": "https://www.are.na/forgot",
+      "title": "Forgot Password | Are.na",
+      "position": {
+        "x": 266.11931660905594,
+        "y": -423.26412193017336
+      },
+      "via": "Forgot password?",
+      "timestamp": "2026-04-02T21:06:02.908Z"
+    },
+    {
+      "id": "8a37d68c-22ee-419c-b4ba-b2c29618387a",
+      "url": "https://www.vasuki.design/manifesto",
+      "title": "Design Manifesto",
+      "position": {
+        "x": -61.80339887498951,
+        "y": -190.2113032590307
+      },
+      "via": "https://www.vasuki.design/manifesto",
+      "timestamp": "2026-04-02T21:06:08.753Z"
+    },
+    {
+      "id": "3d51dcb0-0317-45ad-a916-ddb8144db1af",
+      "url": "https://www.vasuki.design/poster",
+      "title": "Vasuki Sunder —  Product Designer",
+      "position": {
+        "x": 61.80339887498949,
+        "y": 190.2113032590307
+      },
+      "via": "https://www.vasuki.design/poster",
+      "timestamp": "2026-04-02T21:06:14.665Z"
+    },
+    {
+      "id": "a9e09ca8-d4a4-47d5-bd2e-5dc8728c83d5",
+      "url": "https://github.com/vasukisunder",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 361.8033988749895,
+        "y": 190.2113032590307
+      },
+      "via": "Github",
+      "timestamp": "2026-04-02T21:06:19.387Z"
+    },
+    {
+      "id": "e6a33fe8-94d9-4c4c-b94e-d1e4f28e3a1d",
+      "url": "https://github.com/enterprise",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 300,
+        "y": 0
+      },
+      "via": "Enterprises",
+      "timestamp": "2026-04-02T21:06:24.195Z"
+    },
+    {
+      "id": "7c3c5e41-e634-4021-b822-08a15962c010",
+      "url": "https://github.com/solutions/industry",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 361.80339887498945,
+        "y": -190.21130325903073
+      },
+      "via": "View all industries",
+      "timestamp": "2026-04-02T21:06:28.706Z"
+    },
+    {
+      "id": "5576e846-8d39-4b8f-beae-c7c7185360e2",
+      "url": "https://github.com/newsroom",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 523.6067977499789,
+        "y": -307.76835371752543
+      },
+      "via": "Newsroom",
+      "timestamp": "2026-04-02T21:06:33.266Z"
+    },
+    {
+      "id": "5db1f829-b581-44e2-84a5-98f5e6c7dc19",
+      "url": "https://github.com/github",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 685.4101966249684,
+        "y": -425.32540417602013
+      },
+      "via": "GitHub’s organization on GitHub",
+      "timestamp": "2026-04-02T21:06:38.196Z"
+    },
+    {
+      "id": "18963719-47af-468e-b553-8ae7fd837050",
+      "url": "https://github.com/solutions/industry/healthcare",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 847.2135954999579,
+        "y": -307.7683537175255
+      },
+      "via": "Healthcare",
+      "timestamp": "2026-04-02T21:06:42.755Z"
+    },
+    {
+      "id": "0b076139-014d-46f1-b0e6-92470789f1af",
+      "url": "https://github.com/customer-stories/doctolib",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 909.0169943749474,
+        "y": -117.55705045849479
+      },
+      "via": "Read the customer story",
+      "timestamp": "2026-04-02T21:06:47.328Z"
+    },
+    {
+      "id": "8c0bbba7-b9cb-444f-9950-05772bedf06f",
+      "url": "https://github.com/github/site-policy/pull/582",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 970.820393249937,
+        "y": 72.65425280053591
+      },
+      "via": "(Updated 02/2024)02/2024",
+      "timestamp": "2026-04-02T21:06:51.743Z"
+    },
+    {
+      "id": "211544f3-b433-41d9-9392-fa868e2459fa",
+      "url": "https://github.com/topics",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 1132.6237921249265,
+        "y": 190.21130325903056
+      },
+      "via": "Topics",
+      "timestamp": "2026-04-02T21:06:56.271Z"
+    },
+    {
+      "id": "1780ff6b-4046-41cc-b9c2-ba4cac99694f",
+      "url": "https://github.com/customer-stories",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 970.8203932499371,
+        "y": 307.7683537175252
+      },
+      "via": "Customer stories",
+      "timestamp": "2026-04-02T21:07:00.701Z"
+    },
+    {
+      "id": "aab42804-f100-4f8c-84b6-5238305a6b90",
+      "url": "https://github.com/team",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 809.0169943749476,
+        "y": 190.21130325903061
+      },
+      "via": "Small and medium teams",
+      "timestamp": "2026-04-02T21:07:05.191Z"
+    },
+    {
+      "id": "8c0d60e2-f670-4404-95e5-df9451cc7028",
+      "url": "https://github.com/solutions/industry/government",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 647.213595499958,
+        "y": 307.76835371752526
+      },
+      "via": "Government",
+      "timestamp": "2026-04-02T21:07:09.673Z"
+    },
+    {
+      "id": "c3b0616e-6aa6-4f66-98d7-6995899a10da",
+      "url": "https://github.com/solutions",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 585.4101966249685,
+        "y": 117.55705045849456
+      },
+      "via": "View all solutions",
+      "timestamp": "2026-04-02T21:07:14.176Z"
+    },
+    {
+      "id": "4e0438a5-bf52-46f2-9f29-93cbb1af9027",
+      "url": "https://github.com/marketplace",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 747.213595499958,
+        "y": -1.1368683772161603e-13
+      },
+      "via": "Marketplace",
+      "timestamp": "2026-04-02T21:07:18.851Z"
+    },
+    {
+      "id": "151593e5-5ef6-48ea-a4fd-15c3f3d8cf85",
+      "url": "https://github.com/resources",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 685.4101966249685,
+        "y": -190.2113032590308
+      },
+      "via": "View all resources",
+      "timestamp": "2026-04-02T21:07:23.309Z"
+    },
+    {
+      "id": "b29846dd-2b7b-4393-bd66-7c6aa9458913",
+      "url": "https://github.com/about/diversity",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 523.606797749979,
+        "y": -72.65425280053617
+      },
+      "via": "Inclusion",
+      "timestamp": "2026-04-02T21:07:27.829Z"
+    },
+    {
+      "id": "13d467f5-19fd-406d-8668-386f181f93dc",
+      "url": "https://github.com/enterprise/startups",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 1132.6237921249265,
+        "y": -44.90279765795876
+      },
+      "via": "Startups",
+      "timestamp": "2026-04-02T21:07:35.271Z"
+    },
+    {
+      "id": "fd7418d0-272a-4117-bb06-f652dd3e64c1",
+      "url": "https://github.com/solutions/use-case/ci-cd",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 1294.4271909999159,
+        "y": 72.65425280053587
+      },
+      "via": "CI/CD",
+      "timestamp": "2026-04-02T21:07:39.899Z"
+    },
+    {
+      "id": "8627102c-5451-4bcb-a4dc-e82cd6abbf4a",
+      "url": "https://github.com/resources/articles",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 1456.2305898749053,
+        "y": 190.2113032590305
+      },
+      "via": "AI",
+      "timestamp": "2026-04-02T21:07:44.637Z"
+    },
+    {
+      "id": "8b891159-10a4-46eb-b00f-8217e4f44e22",
+      "url": "https://github.com/solutions/use-case/app-modernization",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 1618.0339887498947,
+        "y": 307.76835371752514
+      },
+      "via": "App Modernization",
+      "timestamp": "2026-04-02T21:07:49.210Z"
+    },
+    {
+      "id": "4bd140ce-19eb-4c34-a493-7dd7841898e8",
+      "url": "https://github.com/partners",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 1779.837387624884,
+        "y": 190.21130325903047
+      },
+      "via": "Partners",
+      "timestamp": "2026-04-02T21:07:53.704Z"
+    },
+    {
+      "id": "7079dc78-eb7f-44e2-91f5-9123605614d3",
+      "url": "https://github.com/solutions/use-case",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 1718.0339887498944,
+        "y": -2.2737367544323206e-13
+      },
+      "via": "View all use cases",
+      "timestamp": "2026-04-02T21:07:58.396Z"
+    },
+    {
+      "id": "53ae097f-8726-448c-9733-93f08f04293e",
+      "url": "https://github.com/trending",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 1918.0339887498944,
+        "y": -2.2737367544323206e-13
+      },
+      "via": "Trending",
+      "timestamp": "2026-04-02T21:08:03.234Z"
+    },
+    {
+      "id": "2b73fde0-1c42-44d1-b28a-b3c05e58da78",
+      "url": "https://github.com/trending/hy",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 1979.8373876248838,
+        "y": 190.21130325903047
+      },
+      "via": "Hy",
+      "timestamp": "2026-04-02T21:08:07.870Z"
+    },
+    {
+      "id": "eb61a132-932a-4e5f-b6af-f911e4e30299",
+      "url": "https://github.com/trending/kickstart",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 2041.6407864998732,
+        "y": 380.4226065180612
+      },
+      "via": "Kickstart",
+      "timestamp": "2026-04-02T21:08:12.718Z"
+    },
+    {
+      "id": "0af9679f-24e8-485a-899d-8c9d3902a80a",
+      "url": "https://github.com/trending/public-key",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 2103.4441853748626,
+        "y": 570.6339097770918
+      },
+      "via": "Public Key",
+      "timestamp": "2026-04-02T21:08:17.311Z"
+    },
+    {
+      "id": "0c97539b-d09d-4ea7-94fc-e9c101ecabe7",
+      "url": "https://github.com/trending/sqlpl",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "position": {
+        "x": 2041.6407864998732,
+        "y": 760.8452130361226
+      },
+      "via": "SQLPL",
+      "timestamp": "2026-04-02T21:08:22.001Z"
+    }
+  ],
+  "pages": {
+    "343b88c4-1f3a-4be2-a797-b0f36cba12a1": {
+      "url": "https://www.vasuki.design/",
+      "title": "Vasuki Sunder —  Product Designer",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.vasuki.design/ebk",
+            "label": "https://www.vasuki.design/ebk"
+          },
+          {
+            "url": "https://www.vasuki.design/prism",
+            "label": "https://www.vasuki.design/prism"
+          },
+          {
+            "url": "https://www.vasuki.design/poster",
+            "label": "https://www.vasuki.design/poster"
+          },
+          {
+            "url": "https://www.vasuki.design/mindbud",
+            "label": "https://www.vasuki.design/mindbud"
+          },
+          {
+            "url": "https://www.vasuki.design/product",
+            "label": "product design and ux"
+          },
+          {
+            "url": "https://www.vasuki.design/album",
+            "label": "https://www.vasuki.design/album"
+          },
+          {
+            "url": "https://www.vasuki.design/outfielders",
+            "label": "https://www.vasuki.design/outfielders"
+          },
+          {
+            "url": "https://www.vasuki.design/manifesto",
+            "label": "https://www.vasuki.design/manifesto"
+          },
+          {
+            "url": "https://www.vasuki.design/julius",
+            "label": "https://www.vasuki.design/julius"
+          },
+          {
+            "url": "https://www.vasuki.design/about",
+            "label": "About Me"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://framerusercontent.com/images/KQvcnTmeyus5vh19VQUCvGAuqw.png?width=5544&height=3119",
+        "https://framerusercontent.com/images/KQvcnTmeyus5vh19VQUCvGAuqw.png?width=5544&height=3119",
+        "https://framerusercontent.com/images/CUN7FvZflqNli9tQwCCbcZhWCR0.png?width=5544&height=3119",
+        "https://framerusercontent.com/images/CUN7FvZflqNli9tQwCCbcZhWCR0.png?width=5544&height=3119"
+      ]
+    },
+    "6c0dbad6-93fd-4d6a-912a-c71c2e06400a": {
+      "url": "https://www.vasuki.design/album",
+      "title": "Vasuki Sunder —  Product Designer",
+      "anchorText": "https://www.vasuki.design/album",
+      "links": {
+        "internal": [],
+        "external": [
+          {
+            "url": "http://linkedin.com/in/vasukisunder/",
+            "label": "LinkedIn"
+          },
+          {
+            "url": "https://www.instagram.com/sukiva",
+            "label": "Instagram"
+          },
+          {
+            "url": "https://www.are.na/suki/channels",
+            "label": "Are.na"
+          },
+          {
+            "url": "https://github.com/vasukisunder",
+            "label": "Github"
+          }
+        ]
+      },
+      "images": [
+        "https://framerusercontent.com/images/GGX3a4bT9jGJOBy5JF9tj953fWY.png?width=2000&height=2000",
+        "https://framerusercontent.com/images/OK0EqC5NQpnXTvDBIJ4zkGv8.png?width=897&height=898",
+        "https://framerusercontent.com/images/xPQjbLmJZMRDc7b5BqJhs33Y.png?width=2000&height=2000",
+        "https://framerusercontent.com/images/4LGLjMSG8TWSPyOxjsVwwQSMB6o.png?width=2000&height=2000"
+      ]
+    },
+    "9924846a-56f3-4eb5-a0f0-8d56a97f3e92": {
+      "url": "https://www.are.na/suki/channels",
+      "title": "suki ‎  | Are.na",
+      "anchorText": "Are.na",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.are.na/login",
+            "label": "Log in"
+          },
+          {
+            "url": "https://www.are.na/sign_up",
+            "label": "Sign up"
+          },
+          {
+            "url": "https://www.are.na/",
+            "label": "https://www.are.na/"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "6d489a94-6d0d-4422-8047-56bfd381fce2": {
+      "url": "https://www.are.na/",
+      "title": "Are.na",
+      "anchorText": "https://www.are.na/",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.are.na/sign_up",
+            "label": "Sign up"
+          },
+          {
+            "url": "https://www.are.na/editorial",
+            "label": "Editorial"
+          },
+          {
+            "url": "https://www.are.na/community-guidelines",
+            "label": "Community Guidelines"
+          },
+          {
+            "url": "https://www.are.na/login",
+            "label": "Log in"
+          },
+          {
+            "url": "https://www.are.na/terms",
+            "label": "Terms"
+          },
+          {
+            "url": "https://www.are.na/block/1555253",
+            "label": "playlists, but for ideas"
+          },
+          {
+            "url": "https://www.are.na/about",
+            "label": "See more..."
+          },
+          {
+            "url": "https://www.are.na/block/16687864",
+            "label": "Internet memory palace"
+          },
+          {
+            "url": "https://www.are.na/privacy",
+            "label": "Privacy"
+          },
+          {
+            "url": "https://www.are.na/are-na-team/are-na-press",
+            "label": "Press"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/xq10wb7ogoji/7glLzLaHaCZ7QdL3Z2XBOC/c850d365338a75411494ce2816adf18d/Are.na_-_Groups.png?w=800&h=450&q=75"
+      ]
+    },
+    "75ebecd6-33c7-4cde-b46c-e98c74508c10": {
+      "url": "https://www.are.na/about",
+      "title": "About",
+      "anchorText": "See more...",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.are.na/blog/open-call-for-pitches-for-the-are-na-annual-vol-8",
+            "label": "Are.na AnnualOpen call for Pitches for the Are.na Annual Vol. 8"
+          },
+          {
+            "url": "https://www.are.na/block/2843700",
+            "label": "feature request"
+          },
+          {
+            "url": "https://www.are.na/block/12695186",
+            "label": "“Digital, open and multidirectional commonplace book.”"
+          },
+          {
+            "url": "https://www.are.na/daniel-pianetti",
+            "label": "Daniel Pianetti"
+          },
+          {
+            "url": "https://www.are.na/block/2269934",
+            "label": "feature request"
+          },
+          {
+            "url": "https://www.are.na/developers",
+            "label": "API"
+          },
+          {
+            "url": "https://www.are.na/block/9906207",
+            "label": "“A virtual notebook”"
+          },
+          {
+            "url": "https://www.are.na/dena-yago",
+            "label": "Dena Yago"
+          },
+          {
+            "url": "https://www.are.na/block/7499714",
+            "label": "“like actually seizing the collaborative potential of the internet”"
+          },
+          {
+            "url": "https://www.are.na/editorial",
+            "label": "Blog"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/xq10wb7ogoji/7glLzLaHaCZ7QdL3Z2XBOC/c850d365338a75411494ce2816adf18d/Are.na_-_Groups.png?w=800&h=450&q=75",
+        "https://images.ctfassets.net/xq10wb7ogoji/4k829LsHgRTVp0me3ViVji/e15fe81e2814c9d35622235032c7cf10/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIxOTA1NDE4NC9vcmlnaW5hbF81MmI2NjdmODM5Y2I5YTBlNjg4OGE1NWY2NjhhYTBkZS5wbmciLCJlZGl.webp?w=800&h=450&q=75",
+        "https://images.ctfassets.net/xq10wb7ogoji/1zEIRfdvYzBUZIkoInuw8X/475797adcd54dcf92a3abb3a3c1f5e84/fig_2.jpg?w=400&h=400&q=75",
+        "https://images.ctfassets.net/xq10wb7ogoji/EqZtbQsOT4APstuwGC5VL/6e9760d202c4f1601d766c7a8f7abae9/original_88f3462d3ba1f79a433e53681e595955.jpg?w=400&h=400&q=75"
+      ]
+    },
+    "0293a3d2-3db6-4142-86e4-23b2417622ea": {
+      "url": "https://www.are.na/editorial",
+      "title": "Are.na Editorial",
+      "anchorText": "Blog",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.are.na/terms",
+            "label": "Terms"
+          },
+          {
+            "url": "https://www.are.na/are-na-team/are-na-press",
+            "label": "Press"
+          },
+          {
+            "url": "https://www.are.na/developers",
+            "label": "API"
+          },
+          {
+            "url": "https://www.are.na/sign_up",
+            "label": "Sign up"
+          },
+          {
+            "url": "https://www.are.na/community-guidelines",
+            "label": "Community Guidelines"
+          },
+          {
+            "url": "https://www.are.na/login",
+            "label": "Log in"
+          },
+          {
+            "url": "https://www.are.na/privacy",
+            "label": "Privacy"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://store.are.na/",
+            "label": "Gift Shop"
+          },
+          {
+            "url": "https://itunes.apple.com/us/app/are-na/id1299153149",
+            "label": "iOS App"
+          },
+          {
+            "url": "https://play.google.com/store/apps/details",
+            "label": "Android App"
+          }
+        ]
+      },
+      "images": []
+    },
+    "a2868244-3b20-43d9-841b-a4a70d7543c4": {
+      "url": "https://www.are.na/privacy",
+      "title": "Privacy",
+      "anchorText": "Privacy",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.are.na/developers",
+            "label": "API"
+          },
+          {
+            "url": "https://www.are.na/are-na-team/are-na-press",
+            "label": "Press"
+          },
+          {
+            "url": "https://www.are.na/settings",
+            "label": "settings"
+          },
+          {
+            "url": "https://www.are.na/community-guidelines",
+            "label": "Community Guidelines"
+          },
+          {
+            "url": "https://www.are.na/sign_up",
+            "label": "Sign up"
+          },
+          {
+            "url": "https://www.are.na/login",
+            "label": "Log in"
+          },
+          {
+            "url": "https://www.are.na/terms",
+            "label": "Terms"
+          },
+          {
+            "url": "https://www.are.na/cdn-cgi/l/email-protection",
+            "label": "[email protected]"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://play.google.com/store/apps/details",
+            "label": "Android App"
+          },
+          {
+            "url": "https://itunes.apple.com/us/app/are-na/id1299153149",
+            "label": "iOS App"
+          }
+        ]
+      },
+      "images": []
+    },
+    "740f36ef-01b6-4ceb-ba50-45c13a971a8c": {
+      "url": "https://www.are.na/are-na-team/are-na-press",
+      "title": "Are.na / Press | Are.na",
+      "anchorText": "Press",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.are.na/sign_up",
+            "label": "Sign up"
+          },
+          {
+            "url": "https://www.are.na/login",
+            "label": "Log in"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "b9ec40fb-9717-453c-b61f-2848fe2b9e05": {
+      "url": "https://www.are.na/sign_up",
+      "title": "Sign Up | Are.na",
+      "anchorText": "Sign up",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.are.na/login",
+            "label": "Log in"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "e8e16eea-31c1-4532-b978-ac3f72a8d93a": {
+      "url": "https://www.are.na/login",
+      "title": "Login | Are.na",
+      "anchorText": "Log in",
+      "links": {
+        "internal": [
+          {
+            "url": "https://www.are.na/forgot",
+            "label": "Forgot password?"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "cb165ae5-8e02-4bbf-b775-87385e9f2d06": {
+      "url": "https://www.are.na/forgot",
+      "title": "Forgot Password | Are.na",
+      "anchorText": "Forgot password?",
+      "links": {
+        "internal": [],
+        "external": []
+      },
+      "images": []
+    },
+    "8a37d68c-22ee-419c-b4ba-b2c29618387a": {
+      "url": "https://www.vasuki.design/manifesto",
+      "title": "Design Manifesto",
+      "anchorText": "https://www.vasuki.design/manifesto",
+      "links": {
+        "internal": [],
+        "external": []
+      },
+      "images": [
+        "https://framerusercontent.com/images/D49oYASxy7JM7Hu4tyrNFQuaWwk.png?width=1805&height=2336",
+        "https://framerusercontent.com/images/Ok8jBxT4goK2Smlpsmvrdi7jc.png?width=1805&height=2336",
+        "https://framerusercontent.com/images/radCLQY2W2IYKc3NwnprL1v1I.png?width=1805&height=2336",
+        "https://framerusercontent.com/images/nvoscUhkYvgC9GTg2AEXAi0xmu8.png?width=1805&height=2335"
+      ]
+    },
+    "3d51dcb0-0317-45ad-a916-ddb8144db1af": {
+      "url": "https://www.vasuki.design/poster",
+      "title": "Vasuki Sunder —  Product Designer",
+      "anchorText": "https://www.vasuki.design/poster",
+      "links": {
+        "internal": [],
+        "external": [
+          {
+            "url": "https://github.com/vasukisunder",
+            "label": "Github"
+          },
+          {
+            "url": "https://www.instagram.com/sukiva",
+            "label": "Instagram"
+          },
+          {
+            "url": "http://linkedin.com/in/vasukisunder/",
+            "label": "LinkedIn"
+          }
+        ]
+      },
+      "images": [
+        "https://framerusercontent.com/images/Mb7mechEPq09JoSpKIuaENvIWA.png?width=3600&height=5400",
+        "https://framerusercontent.com/images/N0z50IWW7xR1X3ljIV0x0qv51I.png?width=2000&height=2500",
+        "https://framerusercontent.com/images/4PFLYDPcENiTO5gZ7XkGKnSYtA4.png?width=1080&height=1350",
+        "https://framerusercontent.com/images/p7G4eQpka6izjPWgjiqWLNDSekQ.png?width=2000&height=2500"
+      ]
+    },
+    "a9e09ca8-d4a4-47d5-bd2e-5dc8728c83d5": {
+      "url": "https://github.com/vasukisunder",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Github",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/features/codespaces",
+            "label": "CodespacesInstant dev environments"
+          },
+          {
+            "url": "https://github.com/security",
+            "label": "Security"
+          },
+          {
+            "url": "https://github.com/vasukisunder/memorybox/stargazers",
+            "label": "1"
+          },
+          {
+            "url": "https://github.com/solutions/industry/government",
+            "label": "Government"
+          },
+          {
+            "url": "https://github.com/features/issues",
+            "label": "IssuesPlan and track work"
+          },
+          {
+            "url": "https://github.com/solutions/use-case",
+            "label": "View all use cases"
+          },
+          {
+            "url": "https://github.com/marketplace",
+            "label": "Marketplace"
+          },
+          {
+            "url": "https://github.com/enterprise",
+            "label": "Enterprises"
+          },
+          {
+            "url": "https://github.com/solutions/industry/financial-services",
+            "label": "Financial services"
+          },
+          {
+            "url": "https://github.com/vasukisunder/nightwalk",
+            "label": "nightwalk"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://avatars.githubusercontent.com/u/17861677?s=64&v=4",
+        "https://avatars.githubusercontent.com/u/17861677?s=64&v=4",
+        "https://avatars.githubusercontent.com/u/17861677?v=4",
+        "https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png"
+      ]
+    },
+    "e6a33fe8-94d9-4c4c-b94e-d1e4f28e3a1d": {
+      "url": "https://github.com/enterprise",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Enterprises",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/solutions/industry/government",
+            "label": "Government"
+          },
+          {
+            "url": "https://github.com/solutions/industry/financial-services",
+            "label": "Financial services"
+          },
+          {
+            "url": "https://github.com/features/code-review",
+            "label": "Code ReviewManage code changes"
+          },
+          {
+            "url": "https://github.com/solutions/use-case/devops",
+            "label": "DevOps"
+          },
+          {
+            "url": "https://github.com/resources/events",
+            "label": "Events & webinars"
+          },
+          {
+            "url": "https://github.com/resources",
+            "label": "View all resources"
+          },
+          {
+            "url": "https://github.com/team",
+            "label": "Small and medium teams"
+          },
+          {
+            "url": "https://github.com/features/copilot/copilot-business",
+            "label": "Copilot for BusinessEnterprise-grade AI features"
+          },
+          {
+            "url": "https://github.com/solutions/industry",
+            "label": "View all industries"
+          },
+          {
+            "url": "https://github.com/solutions/industry/manufacturing",
+            "label": "Manufacturing"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/5boPv8e5DAq81KzOcJsqf/742f84af63f2298f2b8aac30990521df/enterprise-hero-bg.jpg?w=2400&fm=jpg&fl=progressive",
+        "https://images.ctfassets.net/8aevphvgewt8/5C7QaTEpGAyMgpM7TpECUZ/52926458b18c4d367f6cff5f808f2fcd/github-enterprise-advanced-security.jpg",
+        "https://images.ctfassets.net/8aevphvgewt8/32Mu5CHYtlQocH84hvQsOH/404beb4017fd0f679747517af5353d34/github-enterprise-copilot-coding-agent.jpg",
+        "https://images.ctfassets.net/8aevphvgewt8/7bPbJA8LGHzIi8PWQTIyNQ/bb018d564cb70517e4d010aeb40070ce/github-enterprise-octoverse.jpg"
+      ]
+    },
+    "7c3c5e41-e634-4021-b822-08a15962c010": {
+      "url": "https://github.com/solutions/industry",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "View all industries",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/mcp",
+            "label": "MCP RegistryNewIntegrate external tools"
+          },
+          {
+            "url": "https://github.com/premium-support",
+            "label": "Premium SupportEnterprise-grade 24/7 support"
+          },
+          {
+            "url": "https://github.com/customer-stories",
+            "label": "Customer stories"
+          },
+          {
+            "url": "https://github.com/resources/articles/devops-tools-comparison",
+            "label": "Compare GitHub"
+          },
+          {
+            "url": "https://github.com/sponsors",
+            "label": "GitHub SponsorsFund open source developers"
+          },
+          {
+            "url": "https://github.com/solutions/industry/healthcare",
+            "label": "Healthcare"
+          },
+          {
+            "url": "https://github.com/solutions/use-case",
+            "label": "View all use cases"
+          },
+          {
+            "url": "https://github.com/git-guides",
+            "label": "What is Git?"
+          },
+          {
+            "url": "https://github.com/features/actions",
+            "label": "ActionsAutomate any workflow"
+          },
+          {
+            "url": "https://github.com/newsroom",
+            "label": "Newsroom"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/7eK8DYwcy4he33dbtZQw1n/072a6daf0f4c62dffcc8f935a64b9974/hero-bg_2_3_2_2_2.png?w=2400&fm=jpg&fl=progressive"
+      ]
+    },
+    "5576e846-8d39-4b8f-beae-c7c7185360e2": {
+      "url": "https://github.com/newsroom",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Newsroom",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/partners",
+            "label": "Partners"
+          },
+          {
+            "url": "https://github.com/sitemap",
+            "label": "Sitemap"
+          },
+          {
+            "url": "https://github.com/features/actions",
+            "label": "ActionsAutomate any workflow"
+          },
+          {
+            "url": "https://github.com/features/ai",
+            "label": "AI"
+          },
+          {
+            "url": "https://github.com/features/code-review",
+            "label": "Code ReviewManage code changes"
+          },
+          {
+            "url": "https://github.com/customer-stories/ey",
+            "label": "EY"
+          },
+          {
+            "url": "https://github.com/resources",
+            "label": "View all resources"
+          },
+          {
+            "url": "https://github.com/login",
+            "label": "Sign in"
+          },
+          {
+            "url": "https://github.com/newsroom/contact",
+            "label": "Contact GitHub PR Team"
+          },
+          {
+            "url": "https://github.com/github",
+            "label": "GitHub’s organization on GitHub"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/1bbxIcnwTobxEqROLwJ4pV/0d9f05e482e8b69203fbe594e1ee0539/purple_background.webp?w=2400&fm=jpg&fl=progressive",
+        "https://images.ctfassets.net/8aevphvgewt8/2kqcK7Rjmd8KZvCUKE36D6/4608186c4882c38bfbfeccfda2c44810/garter.webp?fm=webp",
+        "https://images.ctfassets.net/8aevphvgewt8/BVtgN9ds13GdyBr0jCIml/90debc33debdd68f6a4bcb8e0f61f310/idc.webp?fm=webp",
+        "https://images.ctfassets.net/8aevphvgewt8/2rWlINmtKIar01m3aVnABK/fac10f3e4174549cac4de5613f8eee95/forrester.webp?fm=webp"
+      ]
+    },
+    "5db1f829-b581-44e2-84a5-98f5e6c7dc19": {
+      "url": "https://github.com/github",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "GitHub’s organization on GitHub",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/its-a-feature",
+            "label": "https://github.com/its-a-feature"
+          },
+          {
+            "url": "https://github.com/solutions/industry/healthcare",
+            "label": "Healthcare"
+          },
+          {
+            "url": "https://github.com/team",
+            "label": "Small and medium teams"
+          },
+          {
+            "url": "https://github.com/solutions/use-case/devsecops",
+            "label": "DevSecOps"
+          },
+          {
+            "url": "https://github.com/github/storybook-addon-performance-panel/graphs/commit-activity",
+            "label": "Uh oh!\n\n              There was an error while loading. Please reload this page."
+          },
+          {
+            "url": "https://github.com/github/gh-aw/stargazers",
+            "label": "4,216"
+          },
+          {
+            "url": "https://github.com/rails",
+            "label": "Ruby on Rails"
+          },
+          {
+            "url": "https://github.com/git-lfs/git-lfs",
+            "label": "Git Large File Storage"
+          },
+          {
+            "url": "https://github.com/SAML-Toolkits",
+            "label": "https://github.com/SAML-Toolkits"
+          },
+          {
+            "url": "https://github.com/github/docs/forks",
+            "label": "66,600"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://avatars.githubusercontent.com/u/9919?s=200&v=4",
+        "https://user-images.githubusercontent.com/3369400/133268513-5bfe2f93-4402-42c9-a403-81c9e86934b6.jpeg",
+        "https://avatars.githubusercontent.com/u/182?s=70&v=4",
+        "https://avatars.githubusercontent.com/u/623?s=70&v=4"
+      ]
+    },
+    "18963719-47af-468e-b553-8ae7fd837050": {
+      "url": "https://github.com/solutions/industry/healthcare",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Healthcare",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/customer-stories/pg",
+            "label": "https://github.com/customer-stories/pg"
+          },
+          {
+            "url": "https://github.com/solutions/industry/financial-services",
+            "label": "Financial services"
+          },
+          {
+            "url": "https://github.com/customer-stories/doctolib",
+            "label": "Read the customer story"
+          },
+          {
+            "url": "https://github.com/resources/articles/devops-tools-comparison",
+            "label": "Compare GitHub"
+          },
+          {
+            "url": "https://github.com/signup",
+            "label": "Sign up"
+          },
+          {
+            "url": "https://github.com/security/advanced-security/code-security",
+            "label": "Code securitySecure your code as you build"
+          },
+          {
+            "url": "https://github.com/partners",
+            "label": "Partners"
+          },
+          {
+            "url": "https://github.com/mcp",
+            "label": "MCP RegistryNewIntegrate external tools"
+          },
+          {
+            "url": "https://github.com/marketplace",
+            "label": "Marketplace"
+          },
+          {
+            "url": "https://github.com/solutions/industry/manufacturing",
+            "label": "Manufacturing"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/34dJBRRXiU3IZpYyZODyxO/0e9e8e2825d2773aba6837befea05bd5/hero-bg-light.webp?w=2400&fm=jpg&fl=progressive",
+        "https://images.ctfassets.net/8aevphvgewt8/10miox7JNqtL3gGpCf1sRS/d0923ff169cd8d2015174a51d503c09e/AI-2.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/4pufdRqmUtEHxCRy4SbGq6/566eeeb0beee0f3b8c92fb3831d2290d/Security-2.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/7JldMWj69GEj43gx9cIf5K/4d53dbc663417142a5dd826c79d4215f/Automation-2.webp"
+      ]
+    },
+    "0b076139-014d-46f1-b0e6-92470789f1af": {
+      "url": "https://github.com/customer-stories/doctolib",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Read the customer story",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/customer-stories/all",
+            "label": "All stories"
+          },
+          {
+            "url": "https://github.com/topics",
+            "label": "Topics"
+          },
+          {
+            "url": "https://github.com/github/site-policy/pull/582",
+            "label": "(Updated 02/2024)02/2024"
+          },
+          {
+            "url": "https://github.com/customer-stories/enterprise",
+            "label": "Enterprise"
+          },
+          {
+            "url": "https://github.com/resources/events",
+            "label": "Events & webinars"
+          },
+          {
+            "url": "https://github.com/features/spark",
+            "label": "GitHub SparkBuild and deploy intelligent apps"
+          },
+          {
+            "url": "https://github.com/accelerator",
+            "label": "Accelerator"
+          },
+          {
+            "url": "https://github.com/features",
+            "label": "View all features"
+          },
+          {
+            "url": "https://github.com/resources",
+            "label": "View all resources"
+          },
+          {
+            "url": "https://github.com/features/models",
+            "label": "GitHub ModelsManage and compare prompts"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/aukesvz1i7g8/2VjRfBbofXVoXr8n3uVzhk/6c82ab86d87dfa4d3720de99fef39bf5/Doctolib_Regular_Blue.png",
+        "https://images.ctfassets.net/aukesvz1i7g8/6Zsiiwtb1eAfukJhfSbfmW/765676b99736dd49b87d2ff43eedfa80/GitHub_Care-teams.png?w=1030&fm=png",
+        "https://images.ctfassets.net/aukesvz1i7g8/4tc9p9SIBi4f6iAIYylCiZ/42008666a9e128f966635367ce0070cc/GitHub_Patients2.png",
+        "https://images.ctfassets.net/aukesvz1i7g8/5m2IP1nQGCCjTU1CNTBetl/76456343dc96b53297944f62c4aa54e4/GitHub_Doctolibers.png"
+      ]
+    },
+    "8c0bbba7-b9cb-444f-9950-05772bedf06f": {
+      "url": "https://github.com/github/site-policy/pull/582",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "(Updated 02/2024)02/2024",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/github/site-policy/pull/582/commits/4a61c4e2be67c12a1cc200ef3e804db400ce1426",
+            "label": "commit"
+          },
+          {
+            "url": "https://github.com/topics",
+            "label": "Topics"
+          },
+          {
+            "url": "https://github.com/jacamera",
+            "label": "https://github.com/jacamera"
+          },
+          {
+            "url": "https://github.com/khalidkayo18-debug",
+            "label": "https://github.com/khalidkayo18-debug"
+          },
+          {
+            "url": "https://github.com/penaarmando711-collab",
+            "label": "https://github.com/penaarmando711-collab"
+          },
+          {
+            "url": "https://github.com/evieluvsrainbows",
+            "label": "https://github.com/evieluvsrainbows"
+          },
+          {
+            "url": "https://github.com/jhonnywalker77777019",
+            "label": "jhonnywalker77777019"
+          },
+          {
+            "url": "https://github.com/tylt6688",
+            "label": "https://github.com/tylt6688"
+          },
+          {
+            "url": "https://github.com/features/actions",
+            "label": "ActionsAutomate any workflow"
+          },
+          {
+            "url": "https://github.com/enterprise/startups",
+            "label": "Startups"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://avatars.githubusercontent.com/u/10137?s=80&v=4",
+        "https://avatars.githubusercontent.com/u/10137?s=48&v=4",
+        "https://avatars.githubusercontent.com/u/47122450?s=40&v=4",
+        "https://avatars.githubusercontent.com/u/10137?s=32&v=4"
+      ]
+    },
+    "211544f3-b433-41d9-9392-fa868e2459fa": {
+      "url": "https://github.com/topics",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Topics",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/topics/llm",
+            "label": "llm"
+          },
+          {
+            "url": "https://github.com/topics/npm",
+            "label": "https://github.com/topics/npm"
+          },
+          {
+            "url": "https://github.com/features/issues",
+            "label": "IssuesPlan and track work"
+          },
+          {
+            "url": "https://github.com/",
+            "label": "https://github.com/"
+          },
+          {
+            "url": "https://github.com/customer-stories",
+            "label": "Customer stories"
+          },
+          {
+            "url": "https://github.com/features/models",
+            "label": "GitHub ModelsManage and compare prompts"
+          },
+          {
+            "url": "https://github.com/sponsors",
+            "label": "GitHub SponsorsFund open source developers"
+          },
+          {
+            "url": "https://github.com/topics/mcp",
+            "label": "mcp"
+          },
+          {
+            "url": "https://github.com/security/advanced-security/secret-protection",
+            "label": "Secret protectionStop leaks before they start"
+          },
+          {
+            "url": "https://github.com/marketplace",
+            "label": "Marketplace"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://github.com/github/explore/blob/main/topics/awesome/awesome.png?raw=true",
+        "https://github.com/github/explore/blob/main/topics/typescript/typescript.png?raw=true",
+        "https://github.com/github/explore/blob/main/topics/chrome/chrome.png?raw=true",
+        "https://github.com/github/explore/blob/main/topics/awesome/awesome.png?raw=true"
+      ]
+    },
+    "1780ff6b-4046-41cc-b9c2-ba4cac99694f": {
+      "url": "https://github.com/customer-stories",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Customer stories",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/",
+            "label": "https://github.com/"
+          },
+          {
+            "url": "https://github.com/features",
+            "label": "View all features"
+          },
+          {
+            "url": "https://github.com/orgs/community/discussions",
+            "label": "Community forum"
+          },
+          {
+            "url": "https://github.com/about",
+            "label": "About"
+          },
+          {
+            "url": "https://github.com/features/copilot/copilot-business",
+            "label": "Copilot for BusinessEnterprise-grade AI features"
+          },
+          {
+            "url": "https://github.com/customer-stories/enterprise",
+            "label": "Enterprise"
+          },
+          {
+            "url": "https://github.com/team",
+            "label": "Small and medium teams"
+          },
+          {
+            "url": "https://github.com/resources/articles/devops-tools-comparison",
+            "label": "Compare GitHub"
+          },
+          {
+            "url": "https://github.com/customer-stories/general-motors",
+            "label": "How GM accelerated software delivery and strengthened engineering culture with GitHub.\n\n  \n    Read the story"
+          },
+          {
+            "url": "https://github.com/customer-stories/cathay",
+            "label": "Cathay embraces AI-powered development to deliver securely at scale.\n\n  \n    Read the story"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://github.githubassets.com/assets/homepage-gradient-mobile-a7ebb27b7922.png",
+        "https://github.githubassets.com/assets/homepage-gradient-071e6c8a6b2e.jpg",
+        "https://github.githubassets.com/assets/homepage-hero-blocks-mobile-9384b7dd0d0e.svg",
+        "https://images.ctfassets.net/aukesvz1i7g8/6c8FVNdzezH3Vic23Z7Kes/2f7ffb3f5ec107b78fbc0674eda8e50c/General_Motors.png"
+      ]
+    },
+    "aab42804-f100-4f8c-84b6-5238305a6b90": {
+      "url": "https://github.com/team",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Small and medium teams",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/solutions/executive-insights",
+            "label": "Business insights"
+          },
+          {
+            "url": "https://github.com/resources/whitepapers",
+            "label": "Ebooks & reports"
+          },
+          {
+            "url": "https://github.com/security/advanced-security/code-security",
+            "label": "Code securitySecure your code as you build"
+          },
+          {
+            "url": "https://github.com/features/actions",
+            "label": "ActionsAutomate any workflow"
+          },
+          {
+            "url": "https://github.com/solutions/industry/government",
+            "label": "Government"
+          },
+          {
+            "url": "https://github.com/features/models",
+            "label": "GitHub ModelsManage and compare prompts"
+          },
+          {
+            "url": "https://github.com/solutions/use-case/devops",
+            "label": "DevOps"
+          },
+          {
+            "url": "https://github.com/features/copilot/copilot-business",
+            "label": "Copilot for BusinessEnterprise-grade AI features"
+          },
+          {
+            "url": "https://github.com/solutions/industry/financial-services",
+            "label": "Financial services"
+          },
+          {
+            "url": "https://github.com/resources/articles/devops-tools-comparison",
+            "label": "Compare GitHub"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://github.githubassets.com/assets/califa-1ed7dddbe5d0.jpg",
+        "https://github.githubassets.com/assets/ohjoycelau-ffc18e400d35.jpg",
+        "https://github.githubassets.com/assets/lerebear-9bbe80165605.jpg",
+        "https://github.githubassets.com/assets/teenage-witch-12c6ca8df12f.jpg"
+      ]
+    },
+    "8c0d60e2-f670-4404-95e5-df9451cc7028": {
+      "url": "https://github.com/solutions/industry/government",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Government",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/github/roadmap",
+            "label": "Roadmap"
+          },
+          {
+            "url": "https://github.com/why-github",
+            "label": "Why GitHub"
+          },
+          {
+            "url": "https://github.com/features/ai",
+            "label": "AI"
+          },
+          {
+            "url": "https://github.com/solutions/use-case/ci-cd",
+            "label": "CI/CD"
+          },
+          {
+            "url": "https://github.com/about/diversity",
+            "label": "Inclusion"
+          },
+          {
+            "url": "https://github.com/security/advanced-security/code-security",
+            "label": "Code securitySecure your code as you build"
+          },
+          {
+            "url": "https://github.com/resources/articles/devops-tools-comparison",
+            "label": "Compare GitHub"
+          },
+          {
+            "url": "https://github.com/solutions",
+            "label": "View all solutions"
+          },
+          {
+            "url": "https://github.com/solutions/industry/manufacturing",
+            "label": "Manufacturing"
+          },
+          {
+            "url": "https://github.com/features/issues",
+            "label": "IssuesPlan and track work"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/34dJBRRXiU3IZpYyZODyxO/0e9e8e2825d2773aba6837befea05bd5/hero-bg-light.webp?w=2400&fm=jpg&fl=progressive",
+        "https://images.ctfassets.net/8aevphvgewt8/2Bv7MCBhvh3AmQqJcXOzDH/94fc994576fde4cb2c4a68de4bf93827/AI.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/4pufdRqmUtEHxCRy4SbGq6/566eeeb0beee0f3b8c92fb3831d2290d/Security-2.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/7JldMWj69GEj43gx9cIf5K/4d53dbc663417142a5dd826c79d4215f/Automation-2.webp"
+      ]
+    },
+    "c3b0616e-6aa6-4f66-98d7-6995899a10da": {
+      "url": "https://github.com/solutions",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "View all solutions",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/about/diversity",
+            "label": "Inclusion"
+          },
+          {
+            "url": "https://github.com/sitemap",
+            "label": "Sitemap"
+          },
+          {
+            "url": "https://github.com/solutions/use-case/ci-cd",
+            "label": "CI/CD"
+          },
+          {
+            "url": "https://github.com/mcp",
+            "label": "MCP RegistryNewIntegrate external tools"
+          },
+          {
+            "url": "https://github.com/security",
+            "label": "Security"
+          },
+          {
+            "url": "https://github.com/organizations/enterprise_plan",
+            "label": "Start a free trial"
+          },
+          {
+            "url": "https://github.com/partners",
+            "label": "Partners"
+          },
+          {
+            "url": "https://github.com/trending",
+            "label": "Trending"
+          },
+          {
+            "url": "https://github.com/orgs/community/discussions",
+            "label": "Community forum"
+          },
+          {
+            "url": "https://github.com/marketplace",
+            "label": "Marketplace"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/2y5vMAzPdBETL4MaRatk5i/bb416271611c749165b93fdd01df8966/merge-lines.webp?w=2400&fm=jpg&fl=progressive",
+        "https://images.ctfassets.net/8aevphvgewt8/29CiGKTG31W7VVxW3MXimT/cfdab99c54f2dd057746274707fa05c9/Stack-GitHub-logo.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/4VrAcl170GPqwcaaflY1zt/557fb777b1863612b7b597d88b370179/3M.webp?fm=webp",
+        "https://images.ctfassets.net/8aevphvgewt8/365n7ERNkjzhn9SPqfNuqJ/b3829500dfb573e878c1ede4d389e1f5/doctor-small.webp?fm=webp"
+      ]
+    },
+    "4e0438a5-bf52-46f2-9f29-93cbb1af9027": {
+      "url": "https://github.com/marketplace",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Marketplace",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/marketplace/opencode-copilot",
+            "label": "OpenCode"
+          },
+          {
+            "url": "https://github.com/marketplace/zenhub",
+            "label": "Zenhub"
+          },
+          {
+            "url": "https://github.com/git-guides",
+            "label": "What is Git?"
+          },
+          {
+            "url": "https://github.com/marketplace/guardrails",
+            "label": "GuardRails"
+          },
+          {
+            "url": "https://github.com/sitemap",
+            "label": "Sitemap"
+          },
+          {
+            "url": "https://github.com/trust-center",
+            "label": "Trust center"
+          },
+          {
+            "url": "https://github.com/features/issues",
+            "label": "IssuesPlan and track work"
+          },
+          {
+            "url": "https://github.com/resources",
+            "label": "View all resources"
+          },
+          {
+            "url": "https://github.com/features/code-review",
+            "label": "Code ReviewManage code changes"
+          },
+          {
+            "url": "https://github.com/marketplace/octobox",
+            "label": "Octobox"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://github.com/images/modules/marketplace/header/light/arrow.png",
+        "https://github.com/images/modules/marketplace/header/light/donut.png",
+        "https://github.com/images/modules/marketplace/header/light/semicircles.png",
+        "https://github.com/images/modules/marketplace/header/light/workflow.png"
+      ]
+    },
+    "151593e5-5ef6-48ea-a4fd-15c3f3d8cf85": {
+      "url": "https://github.com/resources",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "View all resources",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/resources/whitepapers/gartner-magic-quadrant-and-critical-capabilities-for-ai-code-assistants",
+            "label": "GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for AI Code Assistants"
+          },
+          {
+            "url": "https://github.com/mcp",
+            "label": "MCP RegistryNewIntegrate external tools"
+          },
+          {
+            "url": "https://github.com/enterprise/premium-support",
+            "label": "Premium Support"
+          },
+          {
+            "url": "https://github.com/resources/whitepapers/solutions-for-government",
+            "label": "Balancing Innovation with Governance: A Roadmap for AI-Powered Government"
+          },
+          {
+            "url": "https://github.com/about/diversity",
+            "label": "Inclusion"
+          },
+          {
+            "url": "https://github.com/resources/insights/how-github-licensing-used-ai-agents-champion-accessibility",
+            "label": "Playbook series: Activating your internal AI champions"
+          },
+          {
+            "url": "https://github.com/",
+            "label": "https://github.com/"
+          },
+          {
+            "url": "https://github.com/resources/articles/devops-tools-comparison",
+            "label": "Compare GitHub"
+          },
+          {
+            "url": "https://github.com/git-guides",
+            "label": "What is Git?"
+          },
+          {
+            "url": "https://github.com/solutions/industry/nonprofits",
+            "label": "Nonprofits"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/1r6nT8TubooOPmnLZGkMWl/7eca083b67df1ea861c1de0f3c855f1c/hero_frame.webp?w=2400&fm=jpg&fl=progressive",
+        "https://images.ctfassets.net/8aevphvgewt8/7iTT9cp4Am4r0F0deRtkiI/8a95dd9122e32410073c644b7e50de32/image__4_.webp?fm=webp",
+        "https://images.ctfassets.net/8aevphvgewt8/22I3WK0AvUR0Amk9o32ivD/3c5d76f12816aa7674c9afd1bc727cda/image__5_.webp?fm=webp",
+        "https://images.ctfassets.net/8aevphvgewt8/5lz1KzZx1GpY5qIkR3zvtK/abc469f47d05557e8a803a5f514928ed/image__6_.webp?fm=webp"
+      ]
+    },
+    "b29846dd-2b7b-4393-bd66-7c6aa9458913": {
+      "url": "https://github.com/about/diversity",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Inclusion",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/signup",
+            "label": "Sign up"
+          },
+          {
+            "url": "https://github.com/edu",
+            "label": "Education"
+          },
+          {
+            "url": "https://github.com/mcp",
+            "label": "MCP RegistryNewIntegrate external tools"
+          },
+          {
+            "url": "https://github.com/",
+            "label": "https://github.com/"
+          },
+          {
+            "url": "https://github.com/features/spark",
+            "label": "GitHub SparkBuild and deploy intelligent apps"
+          },
+          {
+            "url": "https://github.com/features/codespaces",
+            "label": "CodespacesInstant dev environments"
+          },
+          {
+            "url": "https://github.com/solutions/industry/financial-services",
+            "label": "Financial services"
+          },
+          {
+            "url": "https://github.com/partners",
+            "label": "Partners"
+          },
+          {
+            "url": "https://github.com/orgs/community/discussions",
+            "label": "Community forum"
+          },
+          {
+            "url": "https://github.com/premium-support",
+            "label": "Premium SupportEnterprise-grade 24/7 support"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/4mDvzuZPZ0NT9ntoecXsRp/d7b9b26bb9edb85e23e29651b7c0df5b/diversity-platform__1_.jpg",
+        "https://images.ctfassets.net/8aevphvgewt8/3MaBmJ3mXs5zIdlxFqt6am/9cada8fd44e66629241fa42241c12313/diversity-people__1_.jpg",
+        "https://images.ctfassets.net/8aevphvgewt8/3N2Rw6FLDVy0iU7F8apAw2/87fed133d9551eaf60212d327ff6756e/Group.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/1VrIkWI8eXshZagesH9Ja1/bd181160f541a71874ce13644805e7b8/diversity-policy.jpg"
+      ]
+    },
+    "13d467f5-19fd-406d-8668-386f181f93dc": {
+      "url": "https://github.com/enterprise/startups",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Startups",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/features/models",
+            "label": "GitHub ModelsManage and compare prompts"
+          },
+          {
+            "url": "https://github.com/solutions/use-case/ci-cd",
+            "label": "CI/CD"
+          },
+          {
+            "url": "https://github.com/security/advanced-security/secret-protection",
+            "label": "Secret protectionStop leaks before they start"
+          },
+          {
+            "url": "https://github.com/mobile",
+            "label": "GitHub Mobile"
+          },
+          {
+            "url": "https://github.com/resources/whitepapers",
+            "label": "Ebooks & reports"
+          },
+          {
+            "url": "https://github.com/features/copilot",
+            "label": "GitHub CopilotWrite better code with AI"
+          },
+          {
+            "url": "https://github.com/resources/articles/devops-tools-comparison",
+            "label": "Compare GitHub"
+          },
+          {
+            "url": "https://github.com/enterprise/startups/partners",
+            "label": "See our partners"
+          },
+          {
+            "url": "https://github.com/enterprise/contact",
+            "label": "Contact sales"
+          },
+          {
+            "url": "https://github.com/why-github",
+            "label": "Why GitHub"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/2C3KDiI7oL7DpAZcpgN4b0/b93b853164079d776b67e0d79ee7406e/GitHub_Startups_Hero_Dark.webp?w=2400&fm=jpg&fl=progressive",
+        "https://images.ctfassets.net/8aevphvgewt8/3jYzmaYnAbnZ75kDoTIZWh/f75c121d970abb2ca07fb0fec8b48fd7/logos.webp"
+      ]
+    },
+    "fd7418d0-272a-4117-bb06-f652dd3e64c1": {
+      "url": "https://github.com/solutions/use-case/ci-cd",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "CI/CD",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/why-github",
+            "label": "Why GitHub"
+          },
+          {
+            "url": "https://github.com/resources/articles",
+            "label": "AI"
+          },
+          {
+            "url": "https://github.com/git-guides",
+            "label": "What is Git?"
+          },
+          {
+            "url": "https://github.com/pricing",
+            "label": "Pricing"
+          },
+          {
+            "url": "https://github.com/solutions/use-case",
+            "label": "View all use cases"
+          },
+          {
+            "url": "https://github.com/solutions/industry/financial-services",
+            "label": "Financial services"
+          },
+          {
+            "url": "https://github.com/solutions/industry/nonprofits",
+            "label": "Nonprofits"
+          },
+          {
+            "url": "https://github.com/features/copilot/copilot-business",
+            "label": "Copilot for BusinessEnterprise-grade AI features"
+          },
+          {
+            "url": "https://github.com/edu",
+            "label": "Education"
+          },
+          {
+            "url": "https://github.com/collections",
+            "label": "Collections"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/6cuxKTqIN1l0NMxSNlx15F/7d746be47686a08fbc09219bc63df0e5/Hero2.webp?fm=webp",
+        "https://images.ctfassets.net/8aevphvgewt8/4pufdRqmUtEHxCRy4SbGq6/566eeeb0beee0f3b8c92fb3831d2290d/Security-2.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/7JldMWj69GEj43gx9cIf5K/4d53dbc663417142a5dd826c79d4215f/Automation-2.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/10miox7JNqtL3gGpCf1sRS/d0923ff169cd8d2015174a51d503c09e/AI-2.webp"
+      ]
+    },
+    "8627102c-5451-4bcb-a4dc-e82cd6abbf4a": {
+      "url": "https://github.com/resources/articles",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "AI",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/collections",
+            "label": "Collections"
+          },
+          {
+            "url": "https://github.com/solutions/use-case/app-modernization",
+            "label": "App Modernization"
+          },
+          {
+            "url": "https://github.com/resources/articles/what-is-generative-ai-genai",
+            "label": "What is generative AI (GenAI)?"
+          },
+          {
+            "url": "https://github.com/mcp",
+            "label": "MCP RegistryNewIntegrate external tools"
+          },
+          {
+            "url": "https://github.com/features/copilot/copilot-business",
+            "label": "Copilot for BusinessEnterprise-grade AI features"
+          },
+          {
+            "url": "https://github.com/resources/articles/what-is-unsupervised-learning",
+            "label": "What is Unsupervised Learning?"
+          },
+          {
+            "url": "https://github.com/accelerator",
+            "label": "Accelerator"
+          },
+          {
+            "url": "https://github.com/resources/events",
+            "label": "Events & webinars"
+          },
+          {
+            "url": "https://github.com/about",
+            "label": "About"
+          },
+          {
+            "url": "https://github.com/premium-support",
+            "label": "Premium SupportEnterprise-grade 24/7 support"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://github.githubassets.com/assets/light-1-6dd98b54b53d7cc5.png",
+        "https://github.githubassets.com/assets/light-2-e4ffed9ae565a460.png",
+        "https://github.githubassets.com/assets/light-3-2a87dd2f24888eb5.png",
+        "https://github.githubassets.com/assets/light-4-94b13afa23b5e173.png"
+      ]
+    },
+    "8b891159-10a4-46eb-b00f-8217e4f44e22": {
+      "url": "https://github.com/solutions/use-case/app-modernization",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "App Modernization",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/signup",
+            "label": "Sign up"
+          },
+          {
+            "url": "https://github.com/sponsors",
+            "label": "GitHub SponsorsFund open source developers"
+          },
+          {
+            "url": "https://github.com/features/codespaces",
+            "label": "CodespacesInstant dev environments"
+          },
+          {
+            "url": "https://github.com/enterprise/premium-support",
+            "label": "Premium Support"
+          },
+          {
+            "url": "https://github.com/accelerator",
+            "label": "Accelerator"
+          },
+          {
+            "url": "https://github.com/solutions/use-case/devops",
+            "label": "DevOps"
+          },
+          {
+            "url": "https://github.com/login",
+            "label": "Sign in"
+          },
+          {
+            "url": "https://github.com/mcp",
+            "label": "MCP RegistryNewIntegrate external tools"
+          },
+          {
+            "url": "https://github.com/resources/articles/devops-tools-comparison",
+            "label": "Compare GitHub"
+          },
+          {
+            "url": "https://github.com/partners",
+            "label": "Partners"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/1uKl93RL9HnlsMmoSdfpOn/548f2fef9ef104d6b8c00d7f42ff010a/Security__1_.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/11wcKPeghVZtE7MQQWVJMI/aceeee3711b9817e9939e64e86e8165f/Automation__1_.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/3yVL9UTBJCrkBVl7Z4Uakg/7ea3a8c40355e4f6afa2da787d318cd2/app-modernization-security-checks.webp",
+        "https://images.ctfassets.net/8aevphvgewt8/2qTd25LJVRYWV1pD21ktp3/771132759595f020aec72c2dedcfe1b8/AI.webp"
+      ]
+    },
+    "4bd140ce-19eb-4c34-a493-7dd7841898e8": {
+      "url": "https://github.com/partners",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Partners",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/security/advanced-security",
+            "label": "GitHub Advanced SecurityFind and fix vulnerabilities"
+          },
+          {
+            "url": "https://github.com/features/copilot/copilot-business",
+            "label": "Copilot for BusinessEnterprise-grade AI features"
+          },
+          {
+            "url": "https://github.com/features/copilot",
+            "label": "GitHub CopilotWrite better code with AI"
+          },
+          {
+            "url": "https://github.com/solutions/executive-insights",
+            "label": "Business insights"
+          },
+          {
+            "url": "https://github.com/mobile",
+            "label": "GitHub Mobile"
+          },
+          {
+            "url": "https://github.com/resources/articles/devops-tools-comparison",
+            "label": "Compare GitHub"
+          },
+          {
+            "url": "https://github.com/partners/service-channel-partners",
+            "label": "Services & Channel"
+          },
+          {
+            "url": "https://github.com/solutions/use-case",
+            "label": "View all use cases"
+          },
+          {
+            "url": "https://github.com/security",
+            "label": "Security"
+          },
+          {
+            "url": "https://github.com/enterprise/premium-support",
+            "label": "Premium Support"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/30SHUlFR4hmzjx68vU8F4q/3b7efc9281bd2f9dc383c95348215e24/yellow-bg.webp?w=2400&fm=jpg&fl=progressive",
+        "https://images.ctfassets.net/8aevphvgewt8/p3EzT1nErp4YnPdSDXFPr/8393ce5d6d61941f0a3c3ce0973c1416/idhOfvYsS__1757700047410.svg?fm=webp&w=120&q=90"
+      ]
+    },
+    "7079dc78-eb7f-44e2-91f5-9123605614d3": {
+      "url": "https://github.com/solutions/use-case",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "View all use cases",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/trending",
+            "label": "Trending"
+          },
+          {
+            "url": "https://github.com/git-guides",
+            "label": "What is Git?"
+          },
+          {
+            "url": "https://github.com/about",
+            "label": "About"
+          },
+          {
+            "url": "https://github.com/solutions/use-case/devops",
+            "label": "DevOps"
+          },
+          {
+            "url": "https://github.com/features/code-review",
+            "label": "Code ReviewManage code changes"
+          },
+          {
+            "url": "https://github.com/",
+            "label": "https://github.com/"
+          },
+          {
+            "url": "https://github.com/security/advanced-security/code-security",
+            "label": "Code securitySecure your code as you build"
+          },
+          {
+            "url": "https://github.com/why-github",
+            "label": "Why GitHub"
+          },
+          {
+            "url": "https://github.com/pricing",
+            "label": "Pricing"
+          },
+          {
+            "url": "https://github.com/enterprise/contact",
+            "label": "Contact sales"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://images.ctfassets.net/8aevphvgewt8/7eK8DYwcy4he33dbtZQw1n/072a6daf0f4c62dffcc8f935a64b9974/hero-bg_2_3_2_2_2.png?w=2400&fm=jpg&fl=progressive"
+      ]
+    },
+    "53ae097f-8726-448c-9733-93f08f04293e": {
+      "url": "https://github.com/trending",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Trending",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/trending/textile",
+            "label": "Textile"
+          },
+          {
+            "url": "https://github.com/trending/ltspice-symbol",
+            "label": "LTspice Symbol"
+          },
+          {
+            "url": "https://github.com/trending/hy",
+            "label": "Hy"
+          },
+          {
+            "url": "https://github.com/trending/al",
+            "label": "AL"
+          },
+          {
+            "url": "https://github.com/trending/sparql",
+            "label": "SPARQL"
+          },
+          {
+            "url": "https://github.com/",
+            "label": "https://github.com/"
+          },
+          {
+            "url": "https://github.com/trending/beef",
+            "label": "Beef"
+          },
+          {
+            "url": "https://github.com/trending/figlet-font",
+            "label": "FIGlet Font"
+          },
+          {
+            "url": "https://github.com/trending/http",
+            "label": "HTTP"
+          },
+          {
+            "url": "https://github.com/trending/quickbasic",
+            "label": "QuickBASIC"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://avatars.githubusercontent.com/u/70214527?s=40&v=4",
+        "https://avatars.githubusercontent.com/u/25193916?s=40&v=4",
+        "https://avatars.githubusercontent.com/u/17126?s=40&v=4",
+        "https://avatars.githubusercontent.com/u/86679051?s=40&v=4"
+      ]
+    },
+    "2b73fde0-1c42-44d1-b28a-b3c05e58da78": {
+      "url": "https://github.com/trending/hy",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Hy",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/trending/terra",
+            "label": "Terra"
+          },
+          {
+            "url": "https://github.com/trending/wollok",
+            "label": "Wollok"
+          },
+          {
+            "url": "https://github.com/trending/kickstart",
+            "label": "Kickstart"
+          },
+          {
+            "url": "https://github.com/trending/purebasic",
+            "label": "PureBasic"
+          },
+          {
+            "url": "https://github.com/trending/go",
+            "label": "Go"
+          },
+          {
+            "url": "https://github.com/trending/zil",
+            "label": "ZIL"
+          },
+          {
+            "url": "https://github.com/trending/bibtex",
+            "label": "BibTeX"
+          },
+          {
+            "url": "https://github.com/trending/bibtex-style",
+            "label": "BibTeX Style"
+          },
+          {
+            "url": "https://github.com/trending/openrc-runscript",
+            "label": "OpenRC runscript"
+          },
+          {
+            "url": "https://github.com/features/copilot/copilot-business",
+            "label": "Copilot for BusinessEnterprise-grade AI features"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "eb61a132-932a-4e5f-b6af-f911e4e30299": {
+      "url": "https://github.com/trending/kickstart",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Kickstart",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/trending/vcl",
+            "label": "VCL"
+          },
+          {
+            "url": "https://github.com/trending/linux-kernel-module",
+            "label": "Linux Kernel Module"
+          },
+          {
+            "url": "https://github.com/trending/public-key",
+            "label": "Public Key"
+          },
+          {
+            "url": "https://github.com/trending/edge",
+            "label": "Edge"
+          },
+          {
+            "url": "https://github.com/trending/classic-asp",
+            "label": "Classic ASP"
+          },
+          {
+            "url": "https://github.com/trending/faust",
+            "label": "Faust"
+          },
+          {
+            "url": "https://github.com/trending/circom",
+            "label": "Circom"
+          },
+          {
+            "url": "https://github.com/trending/stylus",
+            "label": "Stylus"
+          },
+          {
+            "url": "https://github.com/trending/diff",
+            "label": "Diff"
+          },
+          {
+            "url": "https://github.com/trending/eq",
+            "label": "EQ"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "0af9679f-24e8-485a-899d-8c9d3902a80a": {
+      "url": "https://github.com/trending/public-key",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "Public Key",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/trending/html",
+            "label": "HTML"
+          },
+          {
+            "url": "https://github.com/trending/rascript",
+            "label": "RAScript"
+          },
+          {
+            "url": "https://github.com/trending/restructuredtext",
+            "label": "reStructuredText"
+          },
+          {
+            "url": "https://github.com/trending/sqlpl",
+            "label": "SQLPL"
+          },
+          {
+            "url": "https://github.com/trending/git-config",
+            "label": "Git Config"
+          },
+          {
+            "url": "https://github.com/trending/openedge-abl",
+            "label": "OpenEdge ABL"
+          },
+          {
+            "url": "https://github.com/trending/zeek",
+            "label": "Zeek"
+          },
+          {
+            "url": "https://github.com/trending/pike",
+            "label": "Pike"
+          },
+          {
+            "url": "https://github.com/trending/xtend",
+            "label": "Xtend"
+          },
+          {
+            "url": "https://github.com/trending/minizinc-data",
+            "label": "MiniZinc Data"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "0c97539b-d09d-4ea7-94fc-e9c101ecabe7": {
+      "url": "https://github.com/trending/sqlpl",
+      "title": "Search code, repositories, users, issues, pull requests...",
+      "anchorText": "SQLPL",
+      "links": {
+        "internal": [
+          {
+            "url": "https://github.com/trending/jai",
+            "label": "Jai"
+          },
+          {
+            "url": "https://github.com/trending/maxscript",
+            "label": "MAXScript"
+          },
+          {
+            "url": "https://github.com/trending/conll-u",
+            "label": "CoNLL-U"
+          },
+          {
+            "url": "https://github.com/trending/euphoria",
+            "label": "Euphoria"
+          },
+          {
+            "url": "https://github.com/trending/antlers",
+            "label": "Antlers"
+          },
+          {
+            "url": "https://github.com/trending/vim-snippet",
+            "label": "Vim Snippet"
+          },
+          {
+            "url": "https://github.com/trending/numpy",
+            "label": "NumPy"
+          },
+          {
+            "url": "https://github.com/trending/genero-4gl",
+            "label": "Genero 4gl"
+          },
+          {
+            "url": "https://github.com/trending/ink",
+            "label": "Ink"
+          },
+          {
+            "url": "https://github.com/trending/xtend",
+            "label": "Xtend"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    }
+  }
+}

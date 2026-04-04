@@ -1,7 +1,7 @@
 {
   "id": "22c957",
   "createdAt": "2026-04-02T04:44:00.838Z",
-  "updatedAt": "2026-04-02T06:07:09.465Z",
+  "updatedAt": "2026-04-02T20:31:40.273Z",
   "visits": [
     {
       "id": "954dbd8d-6ceb-44a1-8bf8-398632d3ce40",
@@ -1486,6 +1486,171 @@
       },
       "via": "NL",
       "timestamp": "2026-04-02T06:07:09.462Z"
+    },
+    {
+      "id": "e3bc2804-f3d1-4877-bdfe-4546963be366",
+      "url": "https://nieuweinstituut.nl/pages/persbeeld",
+      "title": "Persbeeld.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Pers.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}beeld",
+      "position": {
+        "x": 4461.803398874989,
+        "y": 1417.5948992472195
+      },
+      "via": "Persbeeld",
+      "timestamp": "2026-04-02T20:24:34.314Z"
+    },
+    {
+      "id": "ef3822e4-508d-4fea-9e7e-6f9d55d9c2bd",
+      "url": "https://nieuweinstituut.nl/projects/over-ons/vacatures",
+      "title": "Over ons.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Over.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}} ons",
+      "position": {
+        "x": 4300,
+        "y": 1535.151949705714
+      },
+      "via": "Vacatures",
+      "timestamp": "2026-04-02T20:30:33.973Z"
+    },
+    {
+      "id": "aa40b5a1-b5cd-408f-b12f-9c7870184c12",
+      "url": "https://nieuweinstituut.nl/pages/privacy",
+      "title": "Privacyverklaring.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Privacyverkla.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}ring",
+      "position": {
+        "x": 4461.803398874989,
+        "y": 1652.7090001642086
+      },
+      "via": "privacy",
+      "timestamp": "2026-04-02T20:30:38.525Z"
+    },
+    {
+      "id": "a1ead62a-1ae7-4b3a-a6fe-1b17a6954c68",
+      "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek",
+      "title": "Plan je bezoek.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Plan je b.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}ezoek",
+      "position": {
+        "x": 4623.606797749979,
+        "y": 1535.151949705714
+      },
+      "via": ".css-itp9dy{line-height:1.29;font-size:14px;font-family:Social;font-weight:400;padding-top:var(--chakra-space-1);padding-bottom:var(--chakra-space-1);}@media screen and (min-width: 25em){.css-itp9dy{font-size:14px;}}@media screen and (min-width: 30em){.css-itp9dy{font-size:16px;}}@media screen and (min-width: 37.5625em){.css-itp9dy{font-size:16px;}}.css-itp9dy:hover,.css-itp9dy[data-hover]{background:var(--chakra-colors-black);color:var(--chakra-colors-white);-webkit-padding-start:var(--chakra-space-2);padding-inline-start:var(--chakra-space-2);-webkit-padding-end:var(--chakra-space-2);padding-inline-end:var(--chakra-space-2);}Plan je bezoek",
+      "timestamp": "2026-04-02T20:30:43.073Z"
+    },
+    {
+      "id": "cbfcede8-bc42-4810-bc83-48c28a49200c",
+      "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/boekwinkel",
+      "title": "Plan je bezoek.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Plan je bez.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}oek",
+      "position": {
+        "x": 4785.410196624968,
+        "y": 1417.5948992472195
+      },
+      "via": "BoekwinkelBoekwinkelBezoek in de foyer van het Nieuwe Instituut de boekwinkel van NAi Boekverkopers, voor inspiratie en informatie op het gebied van architectuur, stedenbouw, landschap en design.",
+      "timestamp": "2026-04-02T20:30:47.600Z"
+    },
+    {
+      "id": "c257f32c-ba62-4feb-95b8-da3dff0f1cdb",
+      "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/tickets-prijzen",
+      "title": "Plan je bezoek.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Plan je bez.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}oek",
+      "position": {
+        "x": 4947.213595499958,
+        "y": 1300.037848788725
+      },
+      "via": "Tickets en prijzen",
+      "timestamp": "2026-04-02T20:30:52.796Z"
+    },
+    {
+      "id": "0c2730a9-c7ca-4d29-939a-f9f10a22947f",
+      "url": "https://nieuweinstituut.nl/pages/colofon",
+      "title": "Colofon.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Co.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}lofon",
+      "position": {
+        "x": 5109.016994374947,
+        "y": 1182.4807983302303
+      },
+      "via": ".css-mu5y2q{line-height:1.29;color:var(--chakra-colors-white);font-size:14px;font-family:Social;}@media screen and (min-width: 25em){.css-mu5y2q{font-size:14px;}}@media screen and (min-width: 30em){.css-mu5y2q{font-size:16px;}}@media screen and (min-width: 37.5625em){.css-mu5y2q{font-size:16px;}}colofon & disclaimer",
+      "timestamp": "2026-04-02T20:30:57.260Z"
+    },
+    {
+      "id": "88c6bc90-dab1-45e9-9cee-06111789643f",
+      "url": "https://nieuweinstituut.nl/projects/collectie",
+      "title": "Collectie.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Collec.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}tie",
+      "position": {
+        "x": 5309.016994374947,
+        "y": 1182.4807983302303
+      },
+      "via": "Collectie",
+      "timestamp": "2026-04-02T20:31:01.761Z"
+    },
+    {
+      "id": "67ea1629-1ee0-4c84-aa42-d97def54a4a1",
+      "url": "https://nieuweinstituut.nl/articles/pre-inventarisatie-archief-van-eyck",
+      "title": "Pre-inventarisatie van het archief Aldo en Hannie van Eyck.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Pre-inventarisatie van het archief Aldo en.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}} Hannie van Eyck",
+      "position": {
+        "x": 5247.213595499958,
+        "y": 992.2694950711996
+      },
+      "via": "Het archief ligt opgeslagen op de zolder van het voormalige woonhuis van Aldo en Hannie van Eyck. Foto: Petra van der Ree.Pre-inventarisatie van het archief Aldo en Hannie van EyckPre-inventarisatie van het archief Aldo en Hannie van EyckDeze zomer is het archief van Aldo en Hannie van Eyck officieel overgedragen aan de Rijkscollectie. Voordat het archief op transport kan moet een aantal voorbereidingen getroffen worden: de pre-inventarisatie.",
+      "timestamp": "2026-04-02T20:31:06.425Z"
+    },
+    {
+      "id": "9ef4b38b-0647-407a-b59b-bb8adb6925c3",
+      "url": "https://nieuweinstituut.nl/projects/steun-ons",
+      "title": "Steun ons.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Steu.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}n ons",
+      "position": {
+        "x": 5185.410196624968,
+        "y": 802.0581918121688
+      },
+      "via": "Steun ons",
+      "timestamp": "2026-04-02T20:31:11.174Z"
+    },
+    {
+      "id": "a6fdee90-5730-4f9a-955d-9aecd5b79b73",
+      "url": "https://nieuweinstituut.nl/projects/steun-ons/circle",
+      "title": "Steun ons.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Ste.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}un ons",
+      "position": {
+        "x": 4985.410196624968,
+        "y": 802.0581918121688
+      },
+      "via": "Circle",
+      "timestamp": "2026-04-02T20:31:15.738Z"
+    },
+    {
+      "id": "96db0a8b-29c8-41d5-a091-ba211c689769",
+      "url": "https://thecreativeindependent.com/welcome/",
+      "title": "Welcome to The Creative Independent",
+      "position": {
+        "x": 2061.8033988749894,
+        "y": 791.3129591717341
+      },
+      "via": "https://thecreativeindependent.com/welcome/",
+      "timestamp": "2026-04-02T20:31:22.033Z"
+    },
+    {
+      "id": "7501b82d-6eff-47f0-97aa-dd228fe40120",
+      "url": "https://thecreativeindependent.com/subscribe",
+      "title": "Subscribe – The Creative Independent",
+      "position": {
+        "x": 2123.606797749979,
+        "y": 601.1016559127033
+      },
+      "via": "https://thecreativeindependent.com/subscribe",
+      "timestamp": "2026-04-02T20:31:26.506Z"
+    },
+    {
+      "id": "d4a0edf0-5d02-4c79-9466-225fc43e422d",
+      "url": "https://bsky.app/profile/thecreativeindependent.com",
+      "title": "JavaScript Required",
+      "position": {
+        "x": 1853.3161373792532,
+        "y": 731.2667776479708
+      },
+      "via": "Bluesky",
+      "timestamp": "2026-04-02T20:31:31.366Z"
+    },
+    {
+      "id": "ea491bf9-4e71-47d3-82a3-6845a553264f",
+      "url": "https://nieuweinstituut.nl/articles/opening-another-island",
+      "title": "Another Island van Janilda Bartolomeu te zien bij Nieuwe Instituut.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Another Island van Janild.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}a Bartolomeu te zien bij Nieuwe Instituut",
+      "position": {
+        "x": 4600,
+        "y": 1227.3835959881887
+      },
+      "via": "7 december 2025Another Island van Janilda Bartolomeu te zien bij Nieuwe InstituutAnother Island van Janilda Bartolomeu te zien bij Nieuwe InstituutAnother IslandVideo-installatie verbeeldt de dromen van de Kaapverdische gemeenschappen in Rotterdam en Dakar (Senegal)",
+      "timestamp": "2026-04-02T20:31:40.270Z"
     }
   ],
   "pages": {
@@ -6315,6 +6480,770 @@
         "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FDSC_04443_3b7370d7e2.JPG&w=3840&q=75",
         "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2F97_A9846_644803f9d4.jpg&w=3840&q=75",
         "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FFUNGI_Aad_H_42_83af32ff88.jpg&w=3840&q=75"
+      ]
+    },
+    "e3bc2804-f3d1-4877-bdfe-4546963be366": {
+      "url": "https://nieuweinstituut.nl/pages/persbeeld",
+      "title": "Persbeeld.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Pers.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}beeld",
+      "anchorText": "Persbeeld",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie",
+            "label": "Collectie"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/kinderen",
+            "label": "Kom met kinderen"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/nieuwsbrief",
+            "label": "Abonneer op de nieuwsbrief"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie/reproducties",
+            "label": "procedures en tarieven"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons/vacatures",
+            "label": "Vacatures"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/research",
+            "label": "Research"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/onderwijs",
+            "label": "Kom met school"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/zaalverhuur-en-catering",
+            "label": "Verhuur en catering"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/huis-sonneveld/persbeeld-huis-sonneveld",
+            "label": "perspagina van Huis Sonneveld"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/events",
+            "label": "Events"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FNieuwe_Instituut_Taco_de_Neef6_2_52c4efbc4f.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FNI_Zoop_Petravander_Ree_13_ab54a93ab4.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FNI_Zoop_Petravander_Ree_15_455fedbbb9.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FBoekwinkel_2016_Petravander_Ree_9dd3068c7f.jpg&w=3840&q=75"
+      ]
+    },
+    "ef3822e4-508d-4fea-9e7e-6f9d55d9c2bd": {
+      "url": "https://nieuweinstituut.nl/projects/over-ons/vacatures",
+      "title": "Over ons.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Over.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}} ons",
+      "anchorText": "Vacatures",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/privacy",
+            "label": "privacy"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/vacature-senior-hr-adviseur",
+            "label": "Senior HR-adviseur"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons",
+            "label": "Over ons"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/en/projects/over-ons/vacatures",
+            "label": "EN"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/nieuwsbrief",
+            "label": "Abonneer op de nieuwsbrief"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/vacature-stagiair-communicatie",
+            "label": "Stagiair Marketing & Communicatie"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/all-articles/1",
+            "label": "Nieuws"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/onderwijs",
+            "label": "Kom met school"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/vacature-interim-hoofd-programma",
+            "label": "Interim Hoofd Programma"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "aa40b5a1-b5cd-408f-b12f-9c7870184c12": {
+      "url": "https://nieuweinstituut.nl/pages/privacy",
+      "title": "Privacyverklaring.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Privacyverkla.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}ring",
+      "anchorText": "privacy",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/events",
+            "label": "Events"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/onderwijs",
+            "label": "Kom met school"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/nieuwsbrief",
+            "label": "Abonneer op de nieuwsbrief"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons",
+            "label": "Over ons"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/kinderen",
+            "label": "Kom met kinderen"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/colofon",
+            "label": ".css-mu5y2q{line-height:1.29;color:var(--chakra-colors-white);font-size:14px;font-family:Social;}@media screen and (min-width: 25em){.css-mu5y2q{font-size:14px;}}@media screen and (min-width: 30em){.css-mu5y2q{font-size:16px;}}@media screen and (min-width: 37.5625em){.css-mu5y2q{font-size:16px;}}colofon & disclaimer"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/en/pages/privacy",
+            "label": "EN"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/all-articles/1",
+            "label": "Nieuws"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek",
+            "label": ".css-itp9dy{line-height:1.29;font-size:14px;font-family:Social;font-weight:400;padding-top:var(--chakra-space-1);padding-bottom:var(--chakra-space-1);}@media screen and (min-width: 25em){.css-itp9dy{font-size:14px;}}@media screen and (min-width: 30em){.css-itp9dy{font-size:16px;}}@media screen and (min-width: 37.5625em){.css-itp9dy{font-size:16px;}}.css-itp9dy:hover,.css-itp9dy[data-hover]{background:var(--chakra-colors-black);color:var(--chakra-colors-white);-webkit-padding-start:var(--chakra-space-2);padding-inline-start:var(--chakra-space-2);-webkit-padding-end:var(--chakra-space-2);padding-inline-end:var(--chakra-space-2);}Plan je bezoek"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "a1ead62a-1ae7-4b3a-a6fe-1b17a6954c68": {
+      "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek",
+      "title": "Plan je bezoek.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Plan je b.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}ezoek",
+      "anchorText": ".css-itp9dy{line-height:1.29;font-size:14px;font-family:Social;font-weight:400;padding-top:var(--chakra-space-1);padding-bottom:var(--chakra-space-1);}@media screen and (min-width: 25em){.css-itp9dy{font-size:14px;}}@media screen and (min-width: 30em){.css-itp9dy{font-size:16px;}}@media screen and (min-width: 37.5625em){.css-itp9dy{font-size:16px;}}.css-itp9dy:hover,.css-itp9dy[data-hover]{background:var(--chakra-colors-black);color:var(--chakra-colors-white);-webkit-padding-start:var(--chakra-space-2);padding-inline-start:var(--chakra-space-2);-webkit-padding-end:var(--chakra-space-2);padding-inline-end:var(--chakra-space-2);}Plan je bezoek",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/projects/kinderen",
+            "label": "Kom met kinderen"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/rondleidingen",
+            "label": "RondleidingenRondleidingenBekijk de tentoonstellingen en Huis Sonneveld eens vanuit een ander perspectief. Boek een omleiding (voorheen rondleiding) met familie, vrienden, collega's of de klas of sluit aan bij een Thursday Night Detour."
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/openingstijden-en-prijzen",
+            "label": "Openingstijden"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/agentschap",
+            "label": "Agentschap"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/toegankelijkheid",
+            "label": "Een vrouw met een virtualreality-headset zit op een blauwe bank. Achter haar zijn gele planken vol boeken. De ruimte heeft een moderne uitstraling met contrasterende kleuren en een retro-accent.ToegankelijkheidToegankelijkheidNieuwe Instituut vindt het belangrijk om toegankelijk te zijn voor iedereen. Lees meer over rolstoelgebruik, hulphonden, persoonlijke assistentie, omgang met taal en (visuele) prikkels."
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie",
+            "label": "Collectie"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/colofon",
+            "label": ".css-mu5y2q{line-height:1.29;color:var(--chakra-colors-white);font-size:14px;font-family:Social;}@media screen and (min-width: 25em){.css-mu5y2q{font-size:14px;}}@media screen and (min-width: 30em){.css-mu5y2q{font-size:16px;}}@media screen and (min-width: 37.5625em){.css-mu5y2q{font-size:16px;}}colofon & disclaimer"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/huis-sonneveld",
+            "label": "Huis Sonneveld"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/boekwinkel",
+            "label": "BoekwinkelBoekwinkelBezoek in de foyer van het Nieuwe Instituut de boekwinkel van NAi Boekverkopers, voor inspiratie en informatie op het gebied van architectuur, stedenbouw, landschap en design."
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FFUNGI_Aad_H_42_83af32ff88.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FNI_2024_Petravander_Ree_4_aba0fa1e61.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FDesignday_8_06_2023_287_1495b22f80.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FNew_Store30_Petravander_Ree_6_ca96f69e55.jpg&w=3840&q=75"
+      ]
+    },
+    "cbfcede8-bc42-4810-bc83-48c28a49200c": {
+      "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/boekwinkel",
+      "title": "Plan je bezoek.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Plan je bez.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}oek",
+      "anchorText": "BoekwinkelBoekwinkelBezoek in de foyer van het Nieuwe Instituut de boekwinkel van NAi Boekverkopers, voor inspiratie en informatie op het gebied van architectuur, stedenbouw, landschap en design.",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/projects/steun-ons",
+            "label": "Steun ons"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/research",
+            "label": "Research"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/agentschap",
+            "label": "Agentschap"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/podcast",
+            "label": "Luister naar de podcast"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie",
+            "label": "Collectie"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/en/projects/plan-uw-bezoek/boekwinkel",
+            "label": "EN"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/colofon",
+            "label": ".css-mu5y2q{line-height:1.29;color:var(--chakra-colors-white);font-size:14px;font-family:Social;}@media screen and (min-width: 25em){.css-mu5y2q{font-size:14px;}}@media screen and (min-width: 30em){.css-mu5y2q{font-size:16px;}}@media screen and (min-width: 37.5625em){.css-mu5y2q{font-size:16px;}}colofon & disclaimer"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/now-on-display",
+            "label": "Nu te zien"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/tickets-prijzen",
+            "label": "Tickets en prijzen"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FBoekwinkel_2016_Petravander_Ree_header_8b20f392d8.jpg&w=3840&q=75"
+      ]
+    },
+    "c257f32c-ba62-4feb-95b8-da3dff0f1cdb": {
+      "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/tickets-prijzen",
+      "title": "Plan je bezoek.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Plan je bez.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}oek",
+      "anchorText": "Tickets en prijzen",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/events",
+            "label": "Events"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/agentschap",
+            "label": "Agentschap"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/steun-ons",
+            "label": "Steun ons"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/plan-uw-bezoek/openingstijden-en-prijzen",
+            "label": "Openingstijden"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons",
+            "label": "Over ons"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie",
+            "label": "Collectie"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/nieuwsbrief",
+            "label": "Abonneer op de nieuwsbrief"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/zaalverhuur-en-catering",
+            "label": "Verhuur en catering"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/colofon",
+            "label": ".css-mu5y2q{line-height:1.29;color:var(--chakra-colors-white);font-size:14px;font-family:Social;}@media screen and (min-width: 25em){.css-mu5y2q{font-size:14px;}}@media screen and (min-width: 30em){.css-mu5y2q{font-size:16px;}}@media screen and (min-width: 37.5625em){.css-mu5y2q{font-size:16px;}}colofon & disclaimer"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "0c2730a9-c7ca-4d29-939a-f9f10a22947f": {
+      "url": "https://nieuweinstituut.nl/pages/colofon",
+      "title": "Colofon.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Co.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}lofon",
+      "anchorText": ".css-mu5y2q{line-height:1.29;color:var(--chakra-colors-white);font-size:14px;font-family:Social;}@media screen and (min-width: 25em){.css-mu5y2q{font-size:14px;}}@media screen and (min-width: 30em){.css-mu5y2q{font-size:16px;}}@media screen and (min-width: 37.5625em){.css-mu5y2q{font-size:16px;}}colofon & disclaimer",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie",
+            "label": "Collectie"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/kinderen",
+            "label": "Kom met kinderen"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/events",
+            "label": "Events"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/zaalverhuur-en-catering",
+            "label": "Verhuur en catering"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/now-on-display",
+            "label": "Nu te zien"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/jaap-bakema-study-centre",
+            "label": "Jaap Bakema Study Centre"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/nieuwsbrief",
+            "label": "Abonneer op de nieuwsbrief"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/en/pages/colofon",
+            "label": "EN"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/podcast",
+            "label": "Luister naar de podcast"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          }
+        ],
+        "external": []
+      },
+      "images": []
+    },
+    "88c6bc90-dab1-45e9-9cee-06111789643f": {
+      "url": "https://nieuweinstituut.nl/projects/collectie",
+      "title": "Collectie.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Collec.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}tie",
+      "anchorText": "Collectie",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie/zoeken-in-de-collectie",
+            "label": "Zoeken in de collectie"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie/rijkscollectie",
+            "label": "Lees meer over de collectie"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie/reproducties",
+            "label": "Reproducties"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/kinderen",
+            "label": "Kom met kinderen"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/now-on-display",
+            "label": "Nu te zien"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie/onderzoek-presentaties",
+            "label": "Onderzoek en presentatiesOnderzoek en presentatiesEen selectie uit online publicaties en tentoonstellingen die het resultaat zijn van onderzoek in en naar de collectie."
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/nieuwsbrief",
+            "label": "Abonneer op de nieuwsbrief"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/articles/pre-inventarisatie-archief-van-eyck",
+            "label": "Het archief ligt opgeslagen op de zolder van het voormalige woonhuis van Aldo en Hannie van Eyck. Foto: Petra van der Ree.Pre-inventarisatie van het archief Aldo en Hannie van EyckPre-inventarisatie van het archief Aldo en Hannie van EyckDeze zomer is het archief van Aldo en Hannie van Eyck officieel overgedragen aan de Rijkscollectie. Voordat het archief op transport kan moet een aantal voorbereidingen getroffen worden: de pre-inventarisatie."
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons",
+            "label": "Over ons"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/collectie/artikelen",
+            "label": "Artikelen"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FVERH_f45_4_header_dab3061460.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FCAND_gisp103_12_header_2b029ac6ea.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2Felza_f7_24_2000px_header_e60d6b1b4c.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FAcquistie_Van_Eyck_Loenen_3_Petra_van_der_Ree_6cf045d665.jpg&w=3840&q=75"
+      ]
+    },
+    "67ea1629-1ee0-4c84-aa42-d97def54a4a1": {
+      "url": "https://nieuweinstituut.nl/articles/pre-inventarisatie-archief-van-eyck",
+      "title": "Pre-inventarisatie van het archief Aldo en Hannie van Eyck.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Pre-inventarisatie van het archief Aldo en.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}} Hannie van Eyck",
+      "anchorText": "Het archief ligt opgeslagen op de zolder van het voormalige woonhuis van Aldo en Hannie van Eyck. Foto: Petra van der Ree.Pre-inventarisatie van het archief Aldo en Hannie van EyckPre-inventarisatie van het archief Aldo en Hannie van EyckDeze zomer is het archief van Aldo en Hannie van Eyck officieel overgedragen aan de Rijkscollectie. Voordat het archief op transport kan moet een aantal voorbereidingen getroffen worden: de pre-inventarisatie.",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/articles/aanwinst-van-doesburg",
+            "label": "Aanwinst interieurmaquette Theo van Doesburg Aanwinst interieurmaquette Theo van Doesburg Het Nieuwe Instituut heeft een interieurmaquette van architect en kunstenaar Theo van Doesburg verworven voor de Rijkscollectie."
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/podcast",
+            "label": "Luister naar de podcast"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/en/articles/pre-inventarisatie-archief-van-eyck",
+            "label": "EN"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/events",
+            "label": "Events"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/now-on-display",
+            "label": "Nu te zien"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons",
+            "label": "Over ons"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/steun-ons",
+            "label": "Steun ons"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/jaap-bakema-study-centre",
+            "label": "Jaap Bakema Study Centre"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/zaalverhuur-en-catering",
+            "label": "Verhuur en catering"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FAcquistie_Van_Eyck_Loenen_3_Petra_van_der_Ree_6cf045d665.jpg&w=1920&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FAcquistie_Van_Eyck_Loenen_15_Petra_van_der_Ree_9816abf387.jpg&w=1920&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FIMG_3935_3_copy_1_copy_0b6d0ca59c.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2Fsonsbeek_gekleurde_tekening_def_copy_b0bbf4aa60.jpg&w=3840&q=75"
+      ]
+    },
+    "9ef4b38b-0647-407a-b59b-bb8adb6925c3": {
+      "url": "https://nieuweinstituut.nl/projects/steun-ons",
+      "title": "Steun ons.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Steu.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}n ons",
+      "anchorText": "Steun ons",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/projects/onderwijs",
+            "label": "Kom met school"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/huis-sonneveld",
+            "label": "Huis Sonneveld"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/all-articles/1",
+            "label": "Nieuws"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/",
+            "label": ".css-15nthr2{display:block;width:100%;height:46px;max-width:298px;}@media screen and (min-width: 48em){.css-15nthr2{display:none;}}.css-xf8z6o{width:298px;height:46px;}.css-sba44x{-webkit-animation:animation-18cqxqg 160ms forwards;animation:animation-18cqxqg 160ms forwards;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;white-space:nowrap;}@-webkit-keyframes animation-18cqxqg{0%{opacity:0;}100%{opacity:1;}}@keyframes animation-18cqxqg{0%{opacity:0;}100%{opacity:1;}}.css-aa8pkt{white-space:nowrap;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-family:Cerial;font-size:38.5px;line-height:46.2px;font-style:normal;letter-spacing:-0.02em;}@media screen and (min-width: 48em){.css-aa8pkt{font-size:56px;}}Nieuwe Institu.css-puzc6d{white-space:nowrap;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-family:Cerial;font-size:38.5px;line-height:46.2px;font-style:normal;}@media screen and (min-width: 48em){.css-puzc6d{font-size:56px;}}u.css-1gjzna8{white-space:nowrap;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-family:Impact;font-style:normal;font-size:33.16px;line-height:54.51px;}@media screen and (min-width: 48em){.css-1gjzna8{font-size:48px;}}t.css-fh7bbn{display:none;width:100%;height:55px;max-width:432px;}@media screen and (min-width: 48em){.css-fh7bbn{display:block;}}.css-12l86uk{width:432px;height:55px;visibility:hidden;}Nieuwe Instituut"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/steun-ons/word-member",
+            "label": "Word Member"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/steun-ons/circle",
+            "label": "Circle"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons/open-calls",
+            "label": "Open Calls"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/nieuwsbrief",
+            "label": "Abonneer op de nieuwsbrief"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/zaalverhuur-en-catering",
+            "label": "Verhuur en catering"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2F393_A7401a_89155e109c.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FMembers_08_62eb277636.jpg&w=3840&q=75"
+      ]
+    },
+    "a6fdee90-5730-4f9a-955d-9aecd5b79b73": {
+      "url": "https://nieuweinstituut.nl/projects/steun-ons/circle",
+      "title": "Steun ons.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Ste.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}un ons",
+      "anchorText": "Circle",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/projects/research",
+            "label": "Research"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/podcast",
+            "label": "Luister naar de podcast"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/en/projects/steun-ons/circle",
+            "label": "EN"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons/anbiinformatie",
+            "label": "Algemeen Nut Beogende Instelling (ANBI)"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/now-on-display",
+            "label": "Nu te zien"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/steun-ons/circle-leden",
+            "label": "Onze huidige Circle"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/kinderen",
+            "label": "Kom met kinderen"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons/open-calls",
+            "label": "Open Calls"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/huis-sonneveld",
+            "label": "Huis Sonneveld"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2F220811_FE_0212_Fred_Ernst_30cm_34349b6a47.jpg&w=1920&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2F16052025_Nieuwe_Instituut_Opening_Night_Ma_Yansong_Sabinevander_Vooren_HR_10_610ffa7608.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FCD_27_cbbfa4f7b2.jpg&w=3840&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2FCD_33_7e55ad4db5.jpg&w=3840&q=75"
+      ]
+    },
+    "96db0a8b-29c8-41d5-a091-ba211c689769": {
+      "url": "https://thecreativeindependent.com/welcome/",
+      "title": "Welcome to The Creative Independent",
+      "anchorText": "https://thecreativeindependent.com/welcome/",
+      "links": {
+        "internal": [
+          {
+            "url": "https://thecreativeindependent.com/essays/on-how-to-be-a-creative-person-with-a-job/",
+            "label": "On how to be a creative person with a job"
+          },
+          {
+            "url": "https://thecreativeindependent.com/people/kaari-upson-on-maintaining-a-sense-of-urgency/",
+            "label": "Kaari Upson on maintaining a sense of urgency"
+          },
+          {
+            "url": "https://thecreativeindependent.com/people/photographer-justine-kurland-on-solitude-and-community/",
+            "label": "Justine Kurland on solitude and community"
+          },
+          {
+            "url": "https://thecreativeindependent.com/people/visual-artist-alexander-heir-on-learning-the-things-they-dont-teach-you-in-school/",
+            "label": "Visual Artist Alexander Heir on learning the things they don’t teach you in school"
+          },
+          {
+            "url": "https://thecreativeindependent.com/people/erin-markey-on-trusting-yourself/",
+            "label": "Erin Markey on trusting yourself"
+          },
+          {
+            "url": "https://thecreativeindependent.com/people/art-director-designer-and-artist-annika-hansteen-izora-on-joy-communal-care-and-designing-liberatory-futures/",
+            "label": "Annika Hansteen on joy, communal care, and designing liberatory futures"
+          },
+          {
+            "url": "https://thecreativeindependent.com/people/writer-ashley-c-ford-on-being-honest-about-what-you-have-the-time-to-do/",
+            "label": "Writer Ashley C. Ford on being honest about what you have the time to do"
+          },
+          {
+            "url": "https://thecreativeindependent.com/focus/dealing-with-creative-anxiety/",
+            "label": "Explore more pieces on dealing with creative anxiety"
+          },
+          {
+            "url": "https://thecreativeindependent.com/subscribe",
+            "label": "https://thecreativeindependent.com/subscribe"
+          },
+          {
+            "url": "https://thecreativeindependent.com/focus/building-a-community/",
+            "label": "Building a community"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://thecreativeindependent.com/welcome/images/seahorse.png",
+        "https://thecreativeindependent.com/welcome/images/waterfall.png",
+        "https://thecreativeindependent.com/welcome/images/ginkgo.png",
+        "https://thecreativeindependent.com/welcome/images/shell.png"
+      ]
+    },
+    "7501b82d-6eff-47f0-97aa-dd228fe40120": {
+      "url": "https://thecreativeindependent.com/subscribe",
+      "title": "Subscribe – The Creative Independent",
+      "anchorText": "https://thecreativeindependent.com/subscribe",
+      "links": {
+        "internal": [
+          {
+            "url": "https://thecreativeindependent.com/emails/daily.html",
+            "label": "preview"
+          }
+        ],
+        "external": [
+          {
+            "url": "https://x.com/thecreativeindp",
+            "label": "X"
+          },
+          {
+            "url": "https://www.kickstarter.com/newsletters/creator",
+            "label": "Subscribe"
+          },
+          {
+            "url": "https://www.instagram.com/thecreativeindependent/",
+            "label": "Instagram"
+          },
+          {
+            "url": "https://bsky.app/profile/thecreativeindependent.com",
+            "label": "Bluesky"
+          },
+          {
+            "url": "https://www.kickstarter.com/",
+            "label": "https://www.kickstarter.com/"
+          },
+          {
+            "url": "https://www.are.na/the-creative-independent-1522276020/",
+            "label": "Are.na"
+          },
+          {
+            "url": "http://kickstarter.com/",
+            "label": "Kickstarter"
+          }
+        ]
+      },
+      "images": []
+    },
+    "d4a0edf0-5d02-4c79-9466-225fc43e422d": {
+      "url": "https://bsky.app/profile/thecreativeindependent.com",
+      "title": "JavaScript Required",
+      "anchorText": "Bluesky",
+      "links": {
+        "internal": [],
+        "external": [
+          {
+            "url": "https://atproto.com/",
+            "label": "atproto.com"
+          },
+          {
+            "url": "https://bsky.social/",
+            "label": "bsky.social"
+          }
+        ]
+      },
+      "images": []
+    },
+    "ea491bf9-4e71-47d3-82a3-6845a553264f": {
+      "url": "https://nieuweinstituut.nl/articles/opening-another-island",
+      "title": "Another Island van Janilda Bartolomeu te zien bij Nieuwe Instituut.css-a039nd{font-size:40px;line-height:39px;font-family:Cerial;}@media screen and (min-width: 48em){.css-a039nd{font-size:86px;line-height:83px;}}@media screen and (min-width: 90em){.css-a039nd{font-size:118px;line-height:115px;}}Another Island van Janild.css-1xbldqr{font-size:34px;line-height:39px;font-family:Impact;}@media screen and (min-width: 48em){.css-1xbldqr{font-size:74px;line-height:83px;}}@media screen and (min-width: 90em){.css-1xbldqr{font-size:102px;line-height:115px;}}a Bartolomeu te zien bij Nieuwe Instituut",
+      "anchorText": "7 december 2025Another Island van Janilda Bartolomeu te zien bij Nieuwe InstituutAnother Island van Janilda Bartolomeu te zien bij Nieuwe InstituutAnother IslandVideo-installatie verbeeldt de dromen van de Kaapverdische gemeenschappen in Rotterdam en Dakar (Senegal)",
+      "links": {
+        "internal": [
+          {
+            "url": "https://nieuweinstituut.nl/projects/huis-sonneveld",
+            "label": "Huis Sonneveld"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/agentschap",
+            "label": "Agentschap"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/",
+            "label": ".css-15nthr2{display:block;width:100%;height:46px;max-width:298px;}@media screen and (min-width: 48em){.css-15nthr2{display:none;}}.css-xf8z6o{width:298px;height:46px;}.css-sba44x{-webkit-animation:animation-18cqxqg 160ms forwards;animation:animation-18cqxqg 160ms forwards;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;white-space:nowrap;}@-webkit-keyframes animation-18cqxqg{0%{opacity:0;}100%{opacity:1;}}@keyframes animation-18cqxqg{0%{opacity:0;}100%{opacity:1;}}.css-aa8pkt{white-space:nowrap;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-family:Cerial;font-size:38.5px;line-height:46.2px;font-style:normal;letter-spacing:-0.02em;}@media screen and (min-width: 48em){.css-aa8pkt{font-size:56px;}}Nieuwe Institu.css-puzc6d{white-space:nowrap;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-family:Cerial;font-size:38.5px;line-height:46.2px;font-style:normal;}@media screen and (min-width: 48em){.css-puzc6d{font-size:56px;}}u.css-1gjzna8{white-space:nowrap;-webkit-box-flex-wrap:nowrap;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;font-family:Impact;font-style:normal;font-size:33.16px;line-height:54.51px;}@media screen and (min-width: 48em){.css-1gjzna8{font-size:48px;}}t.css-fh7bbn{display:none;width:100%;height:55px;max-width:432px;}@media screen and (min-width: 48em){.css-fh7bbn{display:block;}}.css-12l86uk{width:432px;height:55px;visibility:hidden;}Nieuwe Instituut"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/zaalverhuur-en-catering",
+            "label": "Verhuur en catering"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/pages/podcast",
+            "label": "Luister naar de podcast"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/search",
+            "label": ".css-o7q8oq{width:15.3px;height:15.3px;display:inline-block;line-height:1em;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;color:currentColor;vertical-align:middle;margin-right:var(--chakra-space-2);}.css-6dp5t{margin-top:0.9px;padding:var(--chakra-space-0);font-family:'Social';font-style:normal;font-weight:400;font-size:20px;line-height:26px;}Zoeken"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/onderwijs",
+            "label": "Kom met school"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/kinderen",
+            "label": "Kom met kinderen"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/another-island",
+            "label": "Another Island"
+          },
+          {
+            "url": "https://nieuweinstituut.nl/projects/over-ons/open-calls",
+            "label": "Open Calls"
+          }
+        ],
+        "external": []
+      },
+      "images": [
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2F97_A9846_644803f9d4.jpg&w=1920&q=75",
+        "https://nieuweinstituut.nl/_next/image?url=https%3A%2F%2Fcmsfiles.nieuweinstituut.nl%2F97_A9922_3c5fdec5fa.jpg&w=1920&q=75"
       ]
     }
   }
