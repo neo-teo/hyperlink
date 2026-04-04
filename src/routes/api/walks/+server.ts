@@ -11,7 +11,8 @@ export const GET: RequestHandler = async () => {
             .map(s => ({ id: s!.id, title: s!.visits[0]?.title ?? s!.visits[0]?.url ?? '', createdAt: s!.createdAt }))
             .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
         return json(list);
-    } catch {
+    } catch (err) {
+        console.error('[api/walks] failed to list walks:', err);
         return json([]);
     }
 };
