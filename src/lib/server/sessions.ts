@@ -6,7 +6,7 @@ import type { Visit, Page, WalkSession } from '$lib/types';
 // Storage abstraction — filesystem locally, Netlify Blobs in production
 // ---------------------------------------------------------------------------
 
-const IS_NETLIFY = !!process.env.AWS_LAMBDA_FUNCTION_NAME;
+const IS_NETLIFY = !!process.env.NETLIFY_BLOBS_CONTEXT;
 const WALKS_DIR = join(process.cwd(), 'walks');
 
 async function storageGet(key: string): Promise<WalkSession | null> {
