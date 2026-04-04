@@ -36,6 +36,7 @@
 		"vite": "^7.3.1"
 	},
 	"dependencies": {
+		"@netlify/blobs": "^10.7.4",
 		"linkedom": "^0.18.12",
 		"playwright": "^1.58.2"
 	}

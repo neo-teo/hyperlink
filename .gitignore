@@ -18,6 +18,9 @@ Thumbs.db
 !.env.example
 !.env.test
 
+# Walk sessions (local only — prod uses Netlify Blobs)
+/walks
+
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*

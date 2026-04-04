@@ -1,15 +1,10 @@
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { readdir } from 'fs/promises';
-import { join } from 'path';
-import { loadSession } from '$lib/server/sessions';
-
-const WALKS_DIR = join(process.cwd(), 'walks');
+import { loadSession, storageList } from '$lib/server/sessions';
 
 export const GET: RequestHandler = async () => {
     try {
-        const files = await readdir(WALKS_DIR);
-        const ids = files.filter(f => f.endsWith('.json')).map(f => f.slice(0, -5));
+        const ids = await storageList();
         const sessions = await Promise.all(ids.map(id => loadSession(id)));
         const list = sessions
             .filter(Boolean)
