@@ -20,7 +20,7 @@ Start from a certain web page and explore its connections, see where it takes yo
 
 --
 
-### *guestbook:*
+*guestbook:*
 
 Chris endorses this message. NYC to the world. March 6th 2026.
 (p.s. happy bday panousko)
