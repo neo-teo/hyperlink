@@ -1,11 +1,12 @@
 import type { Visit, Page, WalkSession, WalkSummary } from '$lib/types';
+import { env } from '$env/dynamic/private';
 
 export type { WalkSession, WalkSummary };
 
-import * as fs from './storage/fs';
-import * as blobs from './storage/blobs';
+import * as fs    from './storage/fs';
+import * as redis from './storage/redis';
 
-const storage = process.env.NETLIFY_BLOBS_CONTEXT ? blobs : fs;
+const storage = env.UPSTASH_REDIS_REST_URL ? redis : fs;
 
 export async function loadSession(walkId: string): Promise<WalkSession | null> {
     return storage.loadSession(walkId);
