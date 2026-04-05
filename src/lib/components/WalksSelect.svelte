@@ -25,7 +25,7 @@
 
 {#if walks.length > 0}
 	<select class="walks-select" bind:value={selectedWalkId} onchange={handleWalkSelect}>
-		<option value="">Past Walks</option>
+		<option value="">Past</option>
 		{#each walks as w (w.id)}
 			<option value={w.id}>{formatDate(w.createdAt)} — {w.title}</option>
 		{/each}
@@ -42,7 +42,7 @@
 		color: var(--fg);
 		border: 1px solid var(--fg);
 		cursor: pointer;
-		max-width: 110px;
+		max-width: 60px;
 	}
 
 	.error-message {

@@ -13,7 +13,7 @@ export const walk = $state({
     activeVisitId: null as string | null,
     loadingVisitId: null as string | null,
     autoWalk: {
-        enabled: true,
+        enabled: false,
         focusedLinkIndex: null as number | null,
         focusedLinkType: null as 'internal' | 'external' | null,
         timerId: null as number | null
@@ -58,6 +58,8 @@ function resetWalkState() {
     walk.currentPage = null;
     walk.activeVisitId = null;
     walk.loadingVisitId = null;
+    clearAutoWalkTimers();
+    walk.autoWalk.enabled = false;
 }
 
 export async function newWalk(url: string) {
@@ -85,6 +87,8 @@ export async function resumeWalk(walkId: string) {
     walk.currentPage = session.pages?.[lastVisit.id] ?? null;
     walk.activeVisitId = lastVisit.id;
     walk.loadingVisitId = null;
+    clearAutoWalkTimers();
+    walk.autoWalk.enabled = false;
 
     camera.centerOn(lastVisit.position.x, lastVisit.position.y, true);
 }
