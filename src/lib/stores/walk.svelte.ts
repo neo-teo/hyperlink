@@ -1,7 +1,8 @@
 // walk.svelte.ts
 import type { Page, Visit } from '$lib/types';
 import { camera } from './camera.svelte';
-import { calculateRadialPosition, INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS } from '$lib/constants';
+import { calculateRadialPosition, INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS, AUTO_WALK_STEP_DELAY, PAGE_LOAD_DELAY } from '$lib/constants';
+import { isPositionOccupied, calculatePotentialPosition } from '$lib/utils/positions';
 import { playNoteSequence } from '$lib/utils/audio';
 
 export const walk = $state({
@@ -104,8 +105,7 @@ export async function loadPage(url: string, via?: string, linkContext?: LinkCont
     walk.loadingVisitId = id;
 
     try {
-        // Artificial 2-second delay
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        await new Promise(resolve => setTimeout(resolve, PAGE_LOAD_DELAY));
 
         const encoded = encodeURIComponent(url);
         const res = await fetch(`/api/pages/${encoded}`, {
@@ -175,40 +175,9 @@ export function startAutoWalk() {
 
     clearAutoWalkTimers(); // Clear any existing timers (but don't disable)
 
-    // Wait 0.75 seconds, then focus random link
     walk.autoWalk.timerId = setTimeout(() => {
         focusRandomLink();
-    }, 750) as any;
-}
-
-/**
- * Check if a potential position would be too close to existing pages.
- * Excludes the source visit so it doesn't filter its own links.
- */
-function isPositionOccupied(x: number, y: number, excludeVisitId?: string | null): boolean {
-    return walk.visits.some(visit => {
-        if (excludeVisitId && visit.id === excludeVisitId) return false;
-        const dx = visit.position.x - x;
-        const dy = visit.position.y - y;
-        const distance = Math.sqrt(dx * dx + dy * dy);
-        return distance < 150;
-    });
-}
-
-/**
- * Calculate where a link would position a new page
- */
-function calculatePotentialPosition(linkIndex: number, totalLinks: number, radius: number): { x: number; y: number } {
-    const sourceVisit = walk.visits.find(v => v.id === walk.activeVisitId);
-    if (!sourceVisit) {
-        return { x: 0, y: 0 };
-    }
-
-    const offset = calculateRadialPosition(linkIndex, totalLinks, radius);
-    return {
-        x: sourceVisit.position.x + offset.x,
-        y: sourceVisit.position.y + offset.y
-    };
+    }, AUTO_WALK_STEP_DELAY) as any;
 }
 
 function focusRandomLink() {
@@ -220,14 +189,14 @@ function focusRandomLink() {
     // Filter out already-visited URLs and positions that are occupied
     const availableInternal = internal.filter((link, i) => {
         if (visitedUrls.has(normalizeUrl(link.url))) return false;
-        const potentialPos = calculatePotentialPosition(i, internal.length, INTERNAL_LINK_RADIUS);
-        return !isPositionOccupied(potentialPos.x, potentialPos.y, walk.activeVisitId);
+        const potentialPos = calculatePotentialPosition(walk.visits, walk.activeVisitId, i, internal.length, INTERNAL_LINK_RADIUS);
+        return !isPositionOccupied(walk.visits, potentialPos.x, potentialPos.y, walk.activeVisitId);
     });
 
     const availableExternal = external.filter((link, i) => {
         if (visitedUrls.has(normalizeUrl(link.url))) return false;
-        const potentialPos = calculatePotentialPosition(i, external.length, EXTERNAL_LINK_RADIUS);
-        return !isPositionOccupied(potentialPos.x, potentialPos.y, walk.activeVisitId);
+        const potentialPos = calculatePotentialPosition(walk.visits, walk.activeVisitId, i, external.length, EXTERNAL_LINK_RADIUS);
+        return !isPositionOccupied(walk.visits, potentialPos.x, potentialPos.y, walk.activeVisitId);
     });
 
     // Prefer internal links over external links
@@ -246,7 +215,7 @@ function focusRandomLink() {
                 // Restart auto-walk on the new page after a brief delay
                 walk.autoWalk.timerId = setTimeout(() => {
                     startAutoWalk();
-                }, 750) as any;
+                }, AUTO_WALK_STEP_DELAY) as any;
                 return;
             }
         }
@@ -265,10 +234,9 @@ function focusRandomLink() {
     walk.autoWalk.focusedLinkIndex = originalIndex;
     walk.autoWalk.focusedLinkType = linkType;
 
-    // Wait 0.75 seconds, then click the focused link
     walk.autoWalk.timerId = setTimeout(() => {
         clickFocusedLink();
-    }, 750) as any;
+    }, AUTO_WALK_STEP_DELAY) as any;
 }
 
 function clickFocusedLink() {

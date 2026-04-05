@@ -33,7 +33,6 @@
 		total={numInternalLoading}
 		radius={INTERNAL_LINK_RADIUS}
 		isLoading={true}
-		staggerIndex={i}
 	/>
 {/each}
 
@@ -44,6 +43,5 @@
 		total={numExternalLoading}
 		radius={EXTERNAL_LINK_RADIUS}
 		isLoading={true}
-		staggerIndex={i + numInternalLoading}
 	/>
 {/each}

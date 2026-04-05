@@ -1,3 +1,5 @@
+import { SPRITE_STOP_PROBABILITY, SPRITE_MIN_PAUSE_MS, SPRITE_MAX_PAUSE_EXTRA_MS } from '$lib/constants';
+
 type SpriteConfig = {
 	id: string;
 	imageSrc: string;
@@ -50,9 +52,8 @@ export class AnimatedSprite {
 
 		if (this.isStopped) this.isStopped = false;
 
-		// ~0.3% chance per update (50ms interval) → stops roughly every ~17s
-		if (Math.random() < 0.003) {
-			this.stopUntil = now + 1500 + Math.random() * 3500; // 1.5–5s pause
+		if (Math.random() < SPRITE_STOP_PROBABILITY) {
+			this.stopUntil = now + SPRITE_MIN_PAUSE_MS + Math.random() * SPRITE_MAX_PAUSE_EXTRA_MS;
 			this.isStopped = true;
 			return;
 		}

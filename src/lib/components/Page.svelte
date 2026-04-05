@@ -2,12 +2,9 @@
 	import Link from './Link.svelte';
 	import LoadingLinks from './LoadingLinks.svelte';
 	import PageImages from './PageImages.svelte';
-	import {
-		INTERNAL_LINK_RADIUS,
-		EXTERNAL_LINK_RADIUS,
-		calculateRadialPosition
-	} from '$lib/constants';
+	import { INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS } from '$lib/constants';
 	import { walk, startAutoWalk, normalizeUrl } from '$lib/stores/walk.svelte';
+	import { isPositionOccupied, calculatePotentialPosition } from '$lib/utils/positions';
 	import { playNoteSequence } from '$lib/utils/audio';
 
 	const {
@@ -25,43 +22,6 @@
 		isLoading?: boolean;
 		onclick?: () => void;
 	}>();
-
-	// Proximity threshold - don't render links that would place pages within this distance of existing pages
-	const PROXIMITY_THRESHOLD = 150; // pixels
-
-	/**
-	 * Check if a potential position would be too close to existing pages.
-	 * Excludes the source visit so it doesn't filter its own links.
-	 */
-	function isPositionOccupied(x: number, y: number, excludeVisitId?: string | null): boolean {
-		return walk.visits.some((visit) => {
-			if (excludeVisitId && visit.id === excludeVisitId) return false;
-			const dx = visit.position.x - x;
-			const dy = visit.position.y - y;
-			const distance = Math.sqrt(dx * dx + dy * dy);
-			return distance < PROXIMITY_THRESHOLD;
-		});
-	}
-
-	/**
-	 * Calculate where a link would position a new page
-	 */
-	function calculatePotentialPosition(
-		linkIndex: number,
-		totalLinks: number,
-		radius: number
-	): { x: number; y: number } {
-		const sourceVisit = walk.visits.find((v) => v.id === walk.activeVisitId);
-		if (!sourceVisit) {
-			return { x: 0, y: 0 };
-		}
-
-		const offset = calculateRadialPosition(linkIndex, totalLinks, radius);
-		return {
-			x: sourceVisit.position.x + offset.x,
-			y: sourceVisit.position.y + offset.y
-		};
-	}
 
 	const titleIsDuplicate = $derived(
 		page?.title &&
@@ -82,11 +42,13 @@
 			? page.links.internal.filter((link: any, i: number) => {
 					if (visitedUrls.has(normalizeUrl(link.url))) return false;
 					const potentialPos = calculatePotentialPosition(
+						walk.visits,
+						walk.activeVisitId,
 						i,
 						page.links.internal.length,
 						INTERNAL_LINK_RADIUS
 					);
-					return !isPositionOccupied(potentialPos.x, potentialPos.y, walk.activeVisitId);
+					return !isPositionOccupied(walk.visits, potentialPos.x, potentialPos.y, walk.activeVisitId);
 				})
 			: (page?.links.internal ?? [])
 	);
@@ -96,41 +58,40 @@
 			? page.links.external.filter((link: any, i: number) => {
 					if (visitedUrls.has(normalizeUrl(link.url))) return false;
 					const potentialPos = calculatePotentialPosition(
+						walk.visits,
+						walk.activeVisitId,
 						i,
 						page.links.external.length,
 						EXTERNAL_LINK_RADIUS
 					);
-					return !isPositionOccupied(potentialPos.x, potentialPos.y, walk.activeVisitId);
+					return !isPositionOccupied(walk.visits, potentialPos.x, potentialPos.y, walk.activeVisitId);
 				})
 			: (page?.links.external ?? [])
 	);
 
 	// Combine filtered internal and external links into a single array with metadata
-	// Need to recalculate indices after filtering
+	// Need to recalculate indices after filtering to maintain correct radial positioning
 	const links = $derived(
 		page
 			? [
-					...filteredInternalLinks.map((link: any, filteredIndex: number) => {
-						// Find original index in unfiltered array to maintain correct positioning
+					...filteredInternalLinks.map((link: any) => {
 						const originalIndex = page.links.internal.findIndex((l: any) => l.url === link.url);
 						return {
 							link,
 							index: originalIndex,
 							total: page.links.internal.length,
 							radius: INTERNAL_LINK_RADIUS,
-							isInternal: true,
-							staggerIndex: filteredIndex
+							isInternal: true
 						};
 					}),
-					...filteredExternalLinks.map((link: any, filteredIndex: number) => {
+					...filteredExternalLinks.map((link: any) => {
 						const originalIndex = page.links.external.findIndex((l: any) => l.url === link.url);
 						return {
 							link,
 							index: originalIndex,
 							total: page.links.external.length,
 							radius: EXTERNAL_LINK_RADIUS,
-							isInternal: false,
-							staggerIndex: filteredIndex + filteredInternalLinks.length
+							isInternal: false
 						};
 					})
 				]
@@ -217,7 +178,7 @@
 
 		{#if isActive}
 			<!-- Real links (styled as skeletons initially during transition) -->
-			{#each links as { link, index, total, radius, isInternal, staggerIndex } (link.url)}
+			{#each links as { link, index, total, radius, isInternal } (link.url)}
 				<Link
 					{link}
 					{index}
@@ -226,7 +187,6 @@
 					{isInternal}
 					isLoading={shouldReveal}
 					isRevealing={shouldReveal}
-					{staggerIndex}
 					isFocused={index === walk.autoWalk.focusedLinkIndex &&
 						(isInternal
 							? walk.autoWalk.focusedLinkType === 'internal'

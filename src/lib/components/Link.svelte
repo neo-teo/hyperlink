@@ -14,9 +14,7 @@
 		isInternal = false,
 		isLoading = false,
 		isRevealing = false,
-		staggerIndex = 0,
 		baseDelay = 200,
-		staggerDelay = 0,
 		animationDuration = 500,
 		isFocused = false
 	} = $props<{
@@ -27,9 +25,7 @@
 		isInternal?: boolean;
 		isLoading?: boolean;
 		isRevealing?: boolean;
-		staggerIndex?: number;
 		baseDelay?: number;
-		staggerDelay?: number;
 		animationDuration?: number;
 		isFocused?: boolean;
 	}>();
@@ -42,8 +38,7 @@
 
 	$effect(() => {
 		if (isRevealing) {
-			// Calculate when this specific link's animation will complete
-			const delay = baseDelay + staggerIndex * staggerDelay + animationDuration;
+			const delay = baseDelay + animationDuration;
 			const timer = setTimeout(() => {
 				animationComplete = true;
 			}, delay);
@@ -76,7 +71,6 @@
 	style:--x="{pos.x}px"
 	style:--y="{pos.y}px"
 	style:--base-delay="{baseDelay}ms"
-	style:--stagger-delay="{staggerIndex * staggerDelay}ms"
 	style:--animation-duration="{animationDuration}ms"
 	onclick={handleClick}
 >
@@ -125,13 +119,13 @@
 	/* Real links revealing from skeleton state */
 	.link.skeleton.revealing {
 		animation: reveal var(--animation-duration) ease-out forwards;
-		animation-delay: calc(var(--base-delay) + var(--stagger-delay));
+		animation-delay: var(--base-delay);
 	}
 
 	.link.skeleton.revealing .link-text {
 		opacity: 0;
 		animation: show-text var(--animation-duration) ease-out forwards;
-		animation-delay: calc(var(--base-delay) + var(--stagger-delay));
+		animation-delay: var(--base-delay);
 	}
 
 	@keyframes reveal {

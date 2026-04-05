@@ -9,7 +9,6 @@
 	import URLInput from '$lib/components/URLInput.svelte';
 	import ImageOverlay from '$lib/components/ImageOverlay.svelte';
 	import Sprite from '$lib/components/Sprite.svelte';
-	// import Grass from '$lib/components/Grass.svelte';
 	import { AnimatedSprite } from '$lib/classes/AnimatedSprite.svelte';
 
 	import frogGif from '$lib/assets/sprites/frog.gif';
@@ -133,9 +132,6 @@
 <Canvas>
 	<!-- Draw path connections behind everything -->
 	<PathConnections />
-
-	<!-- Render ASCII grass scattered around -->
-	<!-- <Grass /> -->
 
 	<!-- Render sprites between connections and pages -->
 	{#each sprites as sprite (sprite.currentConfig.id)}
