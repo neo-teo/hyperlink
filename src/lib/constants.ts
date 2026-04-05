@@ -17,10 +17,14 @@ export const AUTO_WALK_STEP_DELAY = 750;
 // Artificial delay added before each page fetch (in milliseconds)
 export const PAGE_LOAD_DELAY = 2000;
 
-// Animated sprite behaviour
-export const SPRITE_STOP_PROBABILITY = 0.003; // ~0.3% chance per update at 50ms → stops ~every 17s
-export const SPRITE_MIN_PAUSE_MS = 1500;
-export const SPRITE_MAX_PAUSE_EXTRA_MS = 3500; // pause = MIN + random * EXTRA (range: 1.5–5s)
+// Animated sprite behaviour (pausing only applies when on-screen)
+export const SPRITE_STOP_PROBABILITY = 0.01; // ~1% chance per update at 50ms → stops ~every 5s
+export const SPRITE_MIN_PAUSE_MS = 2500;
+export const SPRITE_MAX_PAUSE_EXTRA_MS = 5500; // pause = MIN + random * EXTRA (range: 2.5–8s)
+// Fraction of viewport used as the gradient ramp zone on each side.
+// Bias = 0 in the central (1 - 2*padding) area, ramps to 1 at the real edge.
+// e.g. 0.2 → frog roams freely in central 60%, pulled back across the outer 20% on each side.
+export const SPRITE_VIEWPORT_PADDING = 0.2;
 
 /**
  * Calculate radial position for a link in a circle

@@ -1,4 +1,4 @@
-import { SPRITE_STOP_PROBABILITY, SPRITE_MIN_PAUSE_MS, SPRITE_MAX_PAUSE_EXTRA_MS } from '$lib/constants';
+import { SPRITE_STOP_PROBABILITY, SPRITE_MIN_PAUSE_MS, SPRITE_MAX_PAUSE_EXTRA_MS, SPRITE_VIEWPORT_PADDING } from '$lib/constants';
 
 type SpriteConfig = {
 	id: string;
@@ -44,19 +44,13 @@ export class AnimatedSprite {
 	update() {
 		const now = Date.now();
 
-		// Sit still until stop duration expires
+		// Sit still until stop duration expires (always respect an active pause)
 		if (now < this.stopUntil) {
 			if (!this.isStopped) this.isStopped = true;
 			return;
 		}
 
 		if (this.isStopped) this.isStopped = false;
-
-		if (Math.random() < SPRITE_STOP_PROBABILITY) {
-			this.stopUntil = now + SPRITE_MIN_PAUSE_MS + Math.random() * SPRITE_MAX_PAUSE_EXTRA_MS;
-			this.isStopped = true;
-			return;
-		}
 
 		// Calculate elapsed time in seconds
 		const elapsed = (now - this.startTime) / 1000;
@@ -68,38 +62,48 @@ export class AnimatedSprite {
 		let dx = noiseX * this.config.speed;
 		let dy = noiseY * this.config.speed;
 
-		// If biased to camera, only apply bias when outside viewport
 		if (this.config.biasToCamera && this.config.cameraGetter) {
 			const viewport = this.config.cameraGetter();
+			const cx = viewport.x + viewport.width / 2;
+			const cy = viewport.y + viewport.height / 2;
 
-			// Check if sprite is outside the viewport bounds
-			const isOutsideViewport =
-				this.x < viewport.x ||
-				this.x > viewport.x + viewport.width ||
-				this.y < viewport.y ||
-				this.y > viewport.y + viewport.height;
+			// Normalised offset: 0 at center, ±1 at real viewport edge
+			const normOffsetX = (this.x - cx) / (viewport.width / 2);
+			const normOffsetY = (this.y - cy) / (viewport.height / 2);
 
-			// Only apply bias if outside viewport
-			if (isOutsideViewport) {
-				// Target the center of the viewport
-				const centerX = viewport.x + viewport.width / 2;
-				const centerY = viewport.y + viewport.height / 2;
+			// Bias ramps from 0 at the inner zone edge to 1 at the real edge.
+			// Inner zone spans the central (1 - 2*padding) fraction of the viewport.
+			const safeZone = 1 - 2 * SPRITE_VIEWPORT_PADDING;
+			const biasX = Math.min(1, Math.max(0, (Math.abs(normOffsetX) - safeZone) / SPRITE_VIEWPORT_PADDING));
+			const biasY = Math.min(1, Math.max(0, (Math.abs(normOffsetY) - safeZone) / SPRITE_VIEWPORT_PADDING));
+			const biasStrength = Math.max(biasX, biasY);
 
-				const towardsCameraX = centerX - this.x;
-				const towardsCameraY = centerY - this.y;
-				const distance = Math.sqrt(towardsCameraX ** 2 + towardsCameraY ** 2);
+			// Only pause when bias is low (frog comfortably near center)
+			if (biasStrength < 0.1 && Math.random() < SPRITE_STOP_PROBABILITY) {
+				this.stopUntil = now + SPRITE_MIN_PAUSE_MS + Math.random() * SPRITE_MAX_PAUSE_EXTRA_MS;
+				this.isStopped = true;
+				return;
+			}
 
-				// Normalize and scale toward camera direction
-				if (distance > 0) {
-					const normalizedX = towardsCameraX / distance;
-					const normalizedY = towardsCameraY / distance;
-
-					// Blend: 70% toward camera, 30% noise for organic movement
-					dx = normalizedX * this.config.speed * 0.7 + dx * 0.3;
-					dy = normalizedY * this.config.speed * 0.7 + dy * 0.3;
+			// Blend noise movement toward center proportional to bias strength
+			if (biasStrength > 0) {
+				const towardX = cx - this.x;
+				const towardY = cy - this.y;
+				const dist = Math.sqrt(towardX ** 2 + towardY ** 2);
+				if (dist > 0) {
+					const normTowardX = (towardX / dist) * this.config.speed;
+					const normTowardY = (towardY / dist) * this.config.speed;
+					dx = dx * (1 - biasStrength) + normTowardX * biasStrength;
+					dy = dy * (1 - biasStrength) + normTowardY * biasStrength;
 				}
 			}
-			// If inside viewport, use pure noise movement (no modification to dx/dy)
+		} else {
+			// No camera bias — still apply pause logic
+			if (Math.random() < SPRITE_STOP_PROBABILITY) {
+				this.stopUntil = now + SPRITE_MIN_PAUSE_MS + Math.random() * SPRITE_MAX_PAUSE_EXTRA_MS;
+				this.isStopped = true;
+				return;
+			}
 		}
 
 		// Update position
@@ -117,6 +121,11 @@ export class AnimatedSprite {
 			this.facingRight = true;
 		}
 		// If seedDirection is 'none', facingRight never changes
+	}
+
+	resume() {
+		this.stopUntil = 0;
+		this.isStopped = false;
 	}
 
 	get shouldFlip(): boolean {

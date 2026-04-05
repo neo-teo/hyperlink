@@ -44,8 +44,9 @@
 	alt={sprite.currentConfig.id}
 	style="{sharedStyle} display: {canvasReady && sprite.isStopped ? 'none' : 'block'};"
 />
-<!-- Frozen frame canvas — shown while stopped -->
+<!-- Frozen frame canvas — shown while stopped; hover wakes the frog -->
 <canvas
 	bind:this={canvasEl}
-	style="{sharedStyle} display: {canvasReady && sprite.isStopped ? 'block' : 'none'};"
+	onmouseenter={() => sprite.resume()}
+	style="{sharedStyle} display: {canvasReady && sprite.isStopped ? 'block' : 'none'}; pointer-events: {canvasReady && sprite.isStopped ? 'auto' : 'none'}; cursor: pointer;"
 ></canvas>
