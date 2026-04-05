@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { walk, loadPage, toggleAutoWalk, resumeWalk } from '$lib/stores/walk.svelte';
 	import { themeStore, type Theme } from '$lib/stores/theme.svelte';
 
@@ -13,7 +14,7 @@
 		if (res.ok) savedWalks = await res.json();
 	}
 
-	$effect(() => {
+	onMount(() => {
 		refreshWalks();
 	});
 

@@ -74,9 +74,5 @@
 		stroke-linecap: round;
 	}
 
-	.connection-label {
-		font-size: 9px;
-		fill: var(--muted);
-		font-style: italic;
-	}
+
 </style>

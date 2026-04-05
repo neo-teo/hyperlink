@@ -35,3 +35,9 @@ export type WalkSession = {
     visits: Visit[];
     pages: Record<string, Page>; // visitId → Page (mirrors walk.pages)
 };
+
+export type WalkSummary = {
+    id: string;
+    title: string;
+    createdAt: string;
+};

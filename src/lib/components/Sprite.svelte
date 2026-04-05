@@ -48,4 +48,4 @@
 <canvas
 	bind:this={canvasEl}
 	style="{sharedStyle} display: {canvasReady && sprite.isStopped ? 'block' : 'none'};"
-/>
+></canvas>
