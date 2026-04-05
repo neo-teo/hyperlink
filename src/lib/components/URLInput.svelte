@@ -43,7 +43,7 @@
 		<input
 			type="text"
 			bind:value={inputValue}
-			placeholder="wikipedia.org/wiki/Frog"
+			placeholder="type a web page, e.g. wikipedia.org/wiki/Frog"
 			class="url-input"
 			class:has-error={!!error}
 		/>
@@ -66,7 +66,7 @@
 	}
 
 	.url-input {
-		width: 300px;
+		width: 350px;
 		padding: 8px 12px;
 		background: var(--bg);
 		color: var(--fg);

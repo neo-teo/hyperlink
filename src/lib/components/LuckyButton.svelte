@@ -55,6 +55,7 @@
 		cursor: pointer;
 		min-width: 100px;
 		text-align: center;
+		text-wrap: nowrap;
 	}
 
 	.lucky-btn:hover:not(:disabled) {

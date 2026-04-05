@@ -3,7 +3,10 @@
 
 	let isExpanded = $state(false);
 
-	const title = $derived(walk.currentPage?.title ?? null);
+	const seedVisit = $derived(walk.visits[0] ?? null);
+	const seedVisitId = $derived(seedVisit?.id ?? null);
+	const title = $derived(seedVisitId ? (walk.pages[seedVisitId]?.title ?? null) : null);
+	const seedUrl = $derived(seedVisit?.url ?? null);
 	const stepNumber = $derived(walk.visits.length);
 
 	function toggleTrail() {
@@ -16,7 +19,8 @@
 	<div class="walk-status">
 		<div class="status-bar">
 			<div class="walking-label">
-				Walking <span class="title">{title}</span>
+				<div class="walking-line">Walking <span class="title">{title}</span></div>
+				{#if seedUrl}<a class="seed-url" href={seedUrl} target="_blank" rel="noopener noreferrer">{seedUrl}</a>{/if}
 			</div>
 			<button class="step-counter" onclick={toggleTrail}>
 				{stepNumber}
@@ -54,6 +58,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		font-size: 12px;
 	}
 
 	.status-bar {
@@ -66,16 +71,25 @@
 		background: var(--bg);
 		color: var(--fg);
 		padding: 8px 12px;
+		max-width: 260px;
+		min-width: 0;
+	}
 
-		max-width: 200px;
+	.walking-line {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.title {
 		font-style: italic;
+	}
+
+	.seed-url {
 		display: block;
+		opacity: 0.6;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		font-size: 12px;
 		white-space: nowrap;
 	}
 

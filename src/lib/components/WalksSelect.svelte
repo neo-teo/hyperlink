@@ -7,10 +7,16 @@
 	let selectedWalkId = $state('');
 	let error = $state('');
 
+	function formatDate(dateStr: string): string {
+		const d = new Date(dateStr);
+		return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+	}
+
 	async function handleWalkSelect() {
 		if (!selectedWalkId) return;
 		try {
 			await resumeWalk(selectedWalkId);
+			selectedWalkId = '';
 		} catch (e) {
 			error = e instanceof Error ? e.message : 'Failed to load walk';
 		}
@@ -19,9 +25,9 @@
 
 {#if walks.length > 0}
 	<select class="walks-select" bind:value={selectedWalkId} onchange={handleWalkSelect}>
-		<option value="">walks</option>
+		<option value="">Past Walks</option>
 		{#each walks as w (w.id)}
-			<option value={w.id}>{w.title} - {w.id}</option>
+			<option value={w.id}>{formatDate(w.createdAt)} — {w.title}</option>
 		{/each}
 	</select>
 {/if}
@@ -36,7 +42,7 @@
 		color: var(--fg);
 		border: 1px solid var(--fg);
 		cursor: pointer;
-		max-width: 80px;
+		max-width: 110px;
 	}
 
 	.error-message {
