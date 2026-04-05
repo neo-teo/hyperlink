@@ -4,9 +4,9 @@
 	import { camera } from '$lib/stores/camera.svelte';
 	import Page from '$lib/components/Page.svelte';
 	import Canvas from '$lib/components/Canvas.svelte';
-	import Breadcrumb from '$lib/components/Breadcrumb.svelte';
 	import PathConnections from '$lib/components/PathConnections.svelte';
-	import URLInput from '$lib/components/URLInput.svelte';
+	import ControlBar from '$lib/components/ControlBar.svelte';
+	import WalkStatus from '$lib/components/WalkStatus.svelte';
 	import ImageOverlay from '$lib/components/ImageOverlay.svelte';
 	import Sprite from '$lib/components/Sprite.svelte';
 	import { AnimatedSprite } from '$lib/classes/AnimatedSprite.svelte';
@@ -148,8 +148,8 @@
 	{/each}
 </Canvas>
 
-<Breadcrumb />
-<URLInput />
+<ControlBar />
+<WalkStatus />
 <ImageOverlay />
 
 {#if printing}

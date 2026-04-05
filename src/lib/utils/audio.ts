@@ -178,11 +178,7 @@ function buildSequenceFromPattern(
  * Map image count to a note count (1–5, scaling with images loaded)
  */
 function imageCountToNoteCount(imageCount: number): number {
-	if (imageCount <= 0) return 1;
-	if (imageCount === 1) return 2;
-	if (imageCount === 2) return 3;
-	if (imageCount <= 4) return 4;
-	return 5;
+	return Math.min(Math.max(imageCount, 0) + 1, 5);
 }
 
 /**

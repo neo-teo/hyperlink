@@ -51,11 +51,31 @@ function calculateNewPagePosition(linkContext?: LinkContext): { x: number; y: nu
     };
 }
 
+function resetWalkState() {
+    walk.walkId = crypto.randomUUID().slice(0, 6);
+    walk.visits = [];
+    walk.pages = {};
+    walk.currentPage = null;
+    walk.activeVisitId = null;
+    walk.loadingVisitId = null;
+}
+
+export async function newWalk(url: string) {
+    resetWalkState();
+    await loadPage(url);
+
+    // If https failed, retry with http
+    if (walk.currentPage?.title === 'Failed to load page' && url.startsWith('https://')) {
+        resetWalkState();
+        await loadPage(url.replace('https://', 'http://'));
+    }
+}
+
 export async function resumeWalk(walkId: string) {
     const res = await fetch(`/api/walks/${walkId}`);
-    if (!res.ok) return;
+    if (!res.ok) throw new Error(`Failed to load walk (${res.status})`);
     const session = await res.json();
-    if (!session.visits?.length) return;
+    if (!session.visits?.length) throw new Error('Walk session is empty');
 
     const lastVisit = session.visits[session.visits.length - 1];
 
@@ -175,9 +195,9 @@ export function startAutoWalk() {
 
     clearAutoWalkTimers(); // Clear any existing timers (but don't disable)
 
-    walk.autoWalk.timerId = setTimeout(() => {
+    walk.autoWalk.timerId = window.setTimeout(() => {
         focusRandomLink();
-    }, AUTO_WALK_STEP_DELAY) as any;
+    }, AUTO_WALK_STEP_DELAY);
 }
 
 function focusRandomLink() {
@@ -213,9 +233,9 @@ function focusRandomLink() {
                 const randomVisit = otherVisits[Math.floor(Math.random() * otherVisits.length)];
                 activateVisit(randomVisit.id);
                 // Restart auto-walk on the new page after a brief delay
-                walk.autoWalk.timerId = setTimeout(() => {
+                walk.autoWalk.timerId = window.setTimeout(() => {
                     startAutoWalk();
-                }, AUTO_WALK_STEP_DELAY) as any;
+                }, AUTO_WALK_STEP_DELAY);
                 return;
             }
         }
@@ -234,9 +254,9 @@ function focusRandomLink() {
     walk.autoWalk.focusedLinkIndex = originalIndex;
     walk.autoWalk.focusedLinkType = linkType;
 
-    walk.autoWalk.timerId = setTimeout(() => {
+    walk.autoWalk.timerId = window.setTimeout(() => {
         clickFocusedLink();
-    }, AUTO_WALK_STEP_DELAY) as any;
+    }, AUTO_WALK_STEP_DELAY);
 }
 
 function clickFocusedLink() {

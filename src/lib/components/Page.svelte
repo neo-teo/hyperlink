@@ -3,6 +3,7 @@
 	import LoadingLinks from './LoadingLinks.svelte';
 	import PageImages from './PageImages.svelte';
 	import { INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS } from '$lib/constants';
+	import type { Page, Link as LinkData } from '$lib/types';
 	import { walk, startAutoWalk, normalizeUrl } from '$lib/stores/walk.svelte';
 	import { isPositionOccupied, calculatePotentialPosition } from '$lib/utils/positions';
 	import { playNoteSequence } from '$lib/utils/audio';
@@ -15,7 +16,7 @@
 		isLoading = false,
 		onclick = undefined
 	} = $props<{
-		page?: any;
+		page?: Page | null;
 		visitId?: string | null;
 		via?: string | null;
 		isActive?: boolean;
@@ -39,7 +40,7 @@
 	// Filter links to exclude already-visited URLs and positions that are occupied
 	const filteredInternalLinks = $derived(
 		page && isActive
-			? page.links.internal.filter((link: any, i: number) => {
+			? page.links.internal.filter((link: LinkData, i: number) => {
 					if (visitedUrls.has(normalizeUrl(link.url))) return false;
 					const potentialPos = calculatePotentialPosition(
 						walk.visits,
@@ -55,7 +56,7 @@
 
 	const filteredExternalLinks = $derived(
 		page && isActive
-			? page.links.external.filter((link: any, i: number) => {
+			? page.links.external.filter((link: LinkData, i: number) => {
 					if (visitedUrls.has(normalizeUrl(link.url))) return false;
 					const potentialPos = calculatePotentialPosition(
 						walk.visits,
@@ -74,8 +75,8 @@
 	const links = $derived(
 		page
 			? [
-					...filteredInternalLinks.map((link: any) => {
-						const originalIndex = page.links.internal.findIndex((l: any) => l.url === link.url);
+					...filteredInternalLinks.map((link: LinkData) => {
+						const originalIndex = page.links.internal.findIndex((l: LinkData) => l.url === link.url);
 						return {
 							link,
 							index: originalIndex,
@@ -84,8 +85,8 @@
 							isInternal: true
 						};
 					}),
-					...filteredExternalLinks.map((link: any) => {
-						const originalIndex = page.links.external.findIndex((l: any) => l.url === link.url);
+					...filteredExternalLinks.map((link: LinkData) => {
+						const originalIndex = page.links.external.findIndex((l: LinkData) => l.url === link.url);
 						return {
 							link,
 							index: originalIndex,
@@ -152,7 +153,7 @@
 						<a
 							href={page.url}
 							target="_blank"
-							rel="noopener noreferrer"
+							rel="external noopener noreferrer"
 							class="external-link-btn"
 							onclick={(e) => e.stopPropagation()}
 							title="Open in new tab"
