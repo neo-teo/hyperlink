@@ -1,5 +1,20 @@
 <script lang="ts">
 	import type { AnimatedSprite } from '$lib/classes/AnimatedSprite.svelte';
+	import croak00 from '$lib/assets/audio/croaks/00.mp3';
+	import croak01 from '$lib/assets/audio/croaks/01.mp3';
+	import croak02 from '$lib/assets/audio/croaks/02.mp3';
+
+	const croaks = [croak00, croak01, croak02];
+
+	let lastCroakAt = 0;
+
+	function playRandomCroak() {
+		const now = Date.now();
+		if (now - lastCroakAt < 2000) return;
+		lastCroakAt = now;
+		const src = croaks[Math.floor(Math.random() * croaks.length)];
+		new Audio(src).play();
+	}
 
 	let { sprite }: { sprite: AnimatedSprite } = $props();
 
@@ -33,7 +48,7 @@
 		`position: absolute; left: ${sprite.x}px; top: ${sprite.y}px;` +
 			` transform: translate(-50%, -50%) ${sprite.shouldFlip ? 'scaleX(-1)' : ''};` +
 			` max-width: ${sprite.currentConfig.maxWidth}px; max-height: ${sprite.currentConfig.maxHeight}px;` +
-			` pointer-events: none; image-rendering: pixelated; z-index: 50;`
+			` image-rendering: pixelated; z-index: 50;`
 	);
 </script>
 
@@ -42,11 +57,21 @@
 	bind:this={imgEl}
 	src={sprite.currentConfig.imageSrc}
 	alt={sprite.currentConfig.id}
-	style="{sharedStyle} display: {canvasReady && sprite.isStopped ? 'none' : 'block'};"
+	onmouseenter={playRandomCroak}
+	style="{sharedStyle} display: {canvasReady && sprite.isStopped
+		? 'none'
+		: 'block'}; pointer-events: auto;"
 />
 <!-- Frozen frame canvas — shown while stopped; hover wakes the frog -->
 <canvas
 	bind:this={canvasEl}
-	onmouseenter={() => sprite.resume()}
-	style="{sharedStyle} display: {canvasReady && sprite.isStopped ? 'block' : 'none'}; pointer-events: {canvasReady && sprite.isStopped ? 'auto' : 'none'}; cursor: pointer;"
+	onmouseenter={() => {
+		playRandomCroak();
+		sprite.resume();
+	}}
+	style="{sharedStyle} display: {canvasReady && sprite.isStopped
+		? 'block'
+		: 'none'}; pointer-events: {canvasReady && sprite.isStopped
+		? 'auto'
+		: 'none'};"
 ></canvas>

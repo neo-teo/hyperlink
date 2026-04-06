@@ -14,7 +14,7 @@
 		console.log('AudioManager initialized, waiting for user interaction');
 
 		// Initialize background music
-		backgroundMusic = new Audio('/audio/background-music.mp3');
+		backgroundMusic = new Audio('/audio/pond.mp3');
 		backgroundMusic.loop = true;
 		backgroundMusic.volume = 0.3; // 30% volume for background
 
@@ -44,15 +44,11 @@
 			}
 
 			// Start background music
-			// if (backgroundMusic) {
-			// 	backgroundMusic.play()
-			// 		.then(() => {
-			// 			console.log('Background music started');
-			// 		})
-			// 		.catch((err) => {
-			// 			console.error('Failed to start background music:', err);
-			// 		});
-			// }
+			if (backgroundMusic) {
+				backgroundMusic.play().catch((err) => {
+					console.error('Failed to start background music:', err);
+				});
+			}
 		};
 
 		// Listen for any user interaction
