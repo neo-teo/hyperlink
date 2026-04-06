@@ -77,7 +77,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		font-size: 12px;
 		max-height: calc(100vh - 32px);
 	}
 
@@ -113,6 +112,12 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
+		font-size: 12px;
+		text-decoration: none;
+	}
+
+	.seed-url:hover {
+		text-decoration: underline;
 	}
 
 	.step-counter {
@@ -122,7 +127,6 @@
 		border-left: 1px solid var(--fg);
 		padding: 8px 12px;
 		cursor: pointer;
-		font-size: 14px;
 	}
 
 	.step-counter:hover {
@@ -140,6 +144,7 @@
 		max-height: calc(100vh - 32px - 60px);
 		display: flex;
 		flex-direction: column;
+		font-size: 12px;
 	}
 
 	.breadcrumb-item {
@@ -167,6 +172,7 @@
 	.breadcrumb-item.active {
 		background: var(--bg);
 		color: var(--fg);
+		opacity: 0.8;
 	}
 
 	.item-number {
