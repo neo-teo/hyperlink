@@ -41,11 +41,13 @@
 
 <svg class="path-connections">
 	{#each walk.visits as visit, i (visit.id)}
-		{#if i > 0}
-			{@const prevVisit = walk.visits[i - 1]}
+		{@const sourceVisit = visit.fromVisitId
+			? walk.visits.find(v => v.id === visit.fromVisitId)
+			: walk.visits[i - 1]}
+		{#if sourceVisit}
 			{@const pathData = generateCurvePath(
-				prevVisit.position.x,
-				prevVisit.position.y,
+				sourceVisit.position.x,
+				sourceVisit.position.y,
 				visit.position.x,
 				visit.position.y,
 				i * 123.456

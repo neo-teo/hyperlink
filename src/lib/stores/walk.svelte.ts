@@ -119,7 +119,8 @@ export async function loadPage(url: string, via?: string, linkContext?: LinkCont
     const position = calculateNewPagePosition(linkContext);
 
     // Create and activate new visit
-    walk.visits = [...walk.visits, { id, url, via, position }];
+    const fromVisitId = walk.activeVisitId ?? undefined;
+    walk.visits = [...walk.visits, { id, url, via, position, fromVisitId }];
     walk.activeVisitId = id;
 
     // Move camera to new page (immediately for first visit, animated otherwise)

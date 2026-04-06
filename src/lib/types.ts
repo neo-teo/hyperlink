@@ -24,6 +24,7 @@ export type Visit = {
         x: number;
         y: number;
     };
+    fromVisitId?: string;
     title?: string;
     timestamp?: string;
 };
