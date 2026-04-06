@@ -5,6 +5,7 @@
 	import AutoWalkToggle from './AutoWalkToggle.svelte';
 	import WalksSelect from './WalksSelect.svelte';
 	import ThemeSelect from './ThemeSelect.svelte';
+	import DocsButton from './DocsButton.svelte';
 	import type { WalkSummary } from '$lib/types';
 
 	let savedWalks = $state<WalkSummary[]>([]);
@@ -25,6 +26,7 @@
 	<AutoWalkToggle />
 	<WalksSelect walks={savedWalks} />
 	<ThemeSelect />
+	<DocsButton />
 </div>
 
 <style>
