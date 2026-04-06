@@ -30,8 +30,10 @@
 	<div class="walk-status">
 		<div class="status-bar">
 			<div class="walking-label">
-				<div class="walking-line"><span class="title">{title ?? '...'}</span></div>
-				{#if seedUrl && title}<a
+				<div class="walking-line">
+					<span class="title">{title ?? '...'}</span>
+				</div>
+				{#if seedUrl}<a
 						class="seed-url"
 						href={seedUrl}
 						target="_blank"
