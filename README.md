@@ -24,3 +24,13 @@ Start from a certain web page and explore its connections, see where it takes yo
 
 Chris endorses this message. NYC to the world. March 6th 2026.
 (p.s. happy bday panousko)
+
+--
+
+*credits:*
+
+frog gif — http://wrasse.pw/joel/icons/
+
+pond soundscape — https://www.youtube.com/watch?v=9f-ZO_G2pBQ
+
+frog croaks — https://www.youtube.com/watch?v=UiidibfhidE
