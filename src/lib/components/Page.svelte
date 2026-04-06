@@ -175,7 +175,7 @@
 		{/if}
 	{:else}
 		<!-- Images scattered around the page (always visible) -->
-		<PageImages images={page.images} isRevealing={shouldReveal} {isActive} />
+		<PageImages images={page.images} isRevealing={shouldReveal} />
 
 		{#if isActive}
 			<!-- Real links (styled as skeletons initially during transition) -->
@@ -245,10 +245,6 @@
 
 	.page-title-wrapper:disabled {
 		cursor: default;
-	}
-
-	.page-title-wrapper:not(:disabled) {
-		pointer-events: auto;
 	}
 
 	.page-title {

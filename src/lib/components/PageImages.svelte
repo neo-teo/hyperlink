@@ -1,11 +1,10 @@
 <script lang="ts">
-	import { expandedImageStore, expandImage, closeExpandedImage } from '$lib/stores/expandedImage.svelte';
+	import { expandImage } from '$lib/stores/expandedImage.svelte';
 	import { stopAutoWalk } from '$lib/stores/walk.svelte';
 
-	const { images = [], isRevealing = false, isActive = true } = $props<{
+	const { images = [], isRevealing = false } = $props<{
 		images: string[];
 		isRevealing?: boolean;
-		isActive?: boolean;
 	}>();
 
 	// Image positioning constants
@@ -45,16 +44,6 @@
 		expandImage(src, index);
 	}
 
-	// Close expanded image when page becomes inactive, but only if it's from this page
-	$effect(() => {
-		if (!isActive && expandedImageStore.current) {
-			// Only close if the expanded image belongs to this page
-			const imageFromThisPage = images.includes(expandedImageStore.current.src);
-			if (imageFromThisPage) {
-				closeExpandedImage();
-			}
-		}
-	});
 </script>
 
 {#each allImageData as imgData (imgData.index)}

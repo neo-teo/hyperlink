@@ -4,6 +4,7 @@ import { camera } from './camera.svelte';
 import { calculateRadialPosition, INTERNAL_LINK_RADIUS, EXTERNAL_LINK_RADIUS, AUTO_WALK_STEP_DELAY, PAGE_LOAD_DELAY } from '$lib/constants';
 import { isPositionOccupied, calculatePotentialPosition } from '$lib/utils/positions';
 import { playNoteSequence } from '$lib/utils/audio';
+import { closeExpandedImage } from './expandedImage.svelte';
 
 export const walk = $state({
     walkId: null as string | null,
@@ -94,6 +95,7 @@ export async function resumeWalk(walkId: string) {
 }
 
 export function activateVisit(visitId: string) {
+    closeExpandedImage();
     walk.activeVisitId = visitId;
     const visit = walk.visits.find(v => v.id === visitId);
     if (visit) {
@@ -119,6 +121,7 @@ export async function loadPage(url: string, via?: string, linkContext?: LinkCont
     const position = calculateNewPagePosition(linkContext);
 
     // Create and activate new visit
+    closeExpandedImage();
     const fromVisitId = walk.activeVisitId ?? undefined;
     walk.visits = [...walk.visits, { id, url, via, position, fromVisitId }];
     walk.activeVisitId = id;

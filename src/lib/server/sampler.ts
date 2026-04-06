@@ -66,6 +66,29 @@ function isWikipediaMetaPage(link: Link): boolean {
     return patterns.some(pattern => url.includes(pattern));
 }
 
+const BORING_PATH_SEGMENTS = new Set([
+    'login', 'signin', 'sign-in', 'logout',
+    'signup', 'sign-up', 'register',
+    'forgot-password', 'reset-password', 'change-password',
+    'account', 'profile', 'settings', 'preferences', 'dashboard',
+    'privacy', 'terms', 'cookie-policy', 'legal',
+    'cart', 'checkout', 'payment',
+    'oauth', 'sso', 'callback',
+    'admin', 'wp-admin',
+]);
+
+/**
+ * Check if a link points to a boring/utility page (auth, settings, legal, etc.)
+ */
+function isBoringPage(link: Link): boolean {
+    try {
+        const segments = new URL(link.url).pathname.toLowerCase().split('/').filter(Boolean);
+        return segments.some(seg => BORING_PATH_SEGMENTS.has(seg));
+    } catch {
+        return false;
+    }
+}
+
 /**
  * Samples links randomly - truly random each time (not deterministic)
  * @param url - The source URL (used to detect Wikipedia pages)
@@ -100,9 +123,11 @@ export function sampleLinks(
         };
     }
 
-    // For other sites, use the normal mix
-    const sampledInternal = shuffle(internal).slice(0, 10);
-    const sampledExternal = shuffle(external).slice(0, maxLinks - sampledInternal.length);
+    // For other sites, filter boring pages then use the normal mix
+    const filteredInternal = internal.filter(link => !isBoringPage(link));
+    const filteredExternal = external.filter(link => !isBoringPage(link));
+    const sampledInternal = shuffle(filteredInternal).slice(0, 10);
+    const sampledExternal = shuffle(filteredExternal).slice(0, maxLinks - sampledInternal.length);
 
     const sampledImages = images.slice(0, 4);
 
