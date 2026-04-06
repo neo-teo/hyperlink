@@ -7,6 +7,7 @@
 	import PathConnections from '$lib/components/PathConnections.svelte';
 	import NavBar from '$lib/components/NavBar.svelte';
 	import ConfigBar from '$lib/components/ConfigBar.svelte';
+	import PastWalksBar from '$lib/components/PastWalksBar.svelte';
 	import DocsButton from '$lib/components/DocsButton.svelte';
 	import WalkStatus from '$lib/components/WalkStatus.svelte';
 	import ImageOverlay from '$lib/components/ImageOverlay.svelte';
@@ -152,6 +153,7 @@
 
 <NavBar />
 <ConfigBar />
+<PastWalksBar />
 <div class="docs-anchor">
 	<DocsButton />
 </div>

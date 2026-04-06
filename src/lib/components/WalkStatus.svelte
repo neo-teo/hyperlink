@@ -26,12 +26,12 @@
 	});
 </script>
 
-{#if title}
+{#if seedVisit}
 	<div class="walk-status">
 		<div class="status-bar">
 			<div class="walking-label">
-				<div class="walking-line"><span class="title">{title}</span></div>
-				{#if seedUrl}<a
+				<div class="walking-line"><span class="title">{title ?? '...'}</span></div>
+				{#if seedUrl && title}<a
 						class="seed-url"
 						href={seedUrl}
 						target="_blank"

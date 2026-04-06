@@ -1,26 +1,18 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import URLInput from './URLInput.svelte';
 	import LuckyButton from './LuckyButton.svelte';
-	import WalksSelect from './WalksSelect.svelte';
-	import type { WalkSummary } from '$lib/types';
+	import { refreshSavedWalks } from '$lib/stores/savedWalks.svelte';
 
-	let savedWalks = $state<WalkSummary[]>([]);
-
-	async function refreshWalks() {
-		const res = await fetch('/api/walks');
-		if (res.ok) savedWalks = await res.json();
-	}
+	import { onMount } from 'svelte';
 
 	onMount(() => {
-		refreshWalks();
+		refreshSavedWalks();
 	});
 </script>
 
 <div class="control-bar">
-	<URLInput onwalkstarted={refreshWalks} />
-	<LuckyButton onwalkstarted={refreshWalks} />
-	<WalksSelect walks={savedWalks} />
+	<URLInput onwalkstarted={refreshSavedWalks} />
+	<LuckyButton onwalkstarted={refreshSavedWalks} />
 </div>
 
 <style>

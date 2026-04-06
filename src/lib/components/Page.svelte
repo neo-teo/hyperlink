@@ -26,7 +26,7 @@
 
 	const titleIsDuplicate = $derived(
 		page?.title &&
-			walk.visits.some((v) => v.id !== visitId && v.title === page.title)
+			walk.visits.some((v) => v.id !== visitId && walk.pages[v.id]?.title === page.title)
 	);
 
 	const displayTitle = $derived(() => {
