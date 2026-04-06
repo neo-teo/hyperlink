@@ -53,9 +53,11 @@
 		color: var(--fg);
 		border: 1px solid var(--fg);
 		cursor: pointer;
-		min-width: 100px;
+		width: 150px;
 		text-align: center;
-		text-wrap: nowrap;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 
 	.lucky-btn:hover:not(:disabled) {

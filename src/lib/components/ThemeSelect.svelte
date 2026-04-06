@@ -7,10 +7,10 @@
 </script>
 
 <select class="theme-select" value={themeStore.current} onchange={handleThemeChange}>
-	<option value="light">light</option>
-	<option value="natural">natural</option>
-	<option value="cave">cave</option>
-	<option value="pond">pond</option>
+	<option value="light">Light</option>
+	<option value="natural">Natural</option>
+	<option value="cave">Cave</option>
+	<option value="pond">Pond</option>
 </select>
 
 <style>

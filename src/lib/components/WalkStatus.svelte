@@ -136,7 +136,6 @@
 		width: 300px;
 		overflow-y: auto;
 		max-height: calc(100vh - 32px - 60px);
-		margin-bottom: 16px;
 		display: flex;
 		flex-direction: column;
 	}

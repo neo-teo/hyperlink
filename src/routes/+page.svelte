@@ -5,7 +5,9 @@
 	import Page from '$lib/components/Page.svelte';
 	import Canvas from '$lib/components/Canvas.svelte';
 	import PathConnections from '$lib/components/PathConnections.svelte';
-	import ControlBar from '$lib/components/ControlBar.svelte';
+	import NavBar from '$lib/components/NavBar.svelte';
+	import ConfigBar from '$lib/components/ConfigBar.svelte';
+	import DocsButton from '$lib/components/DocsButton.svelte';
 	import WalkStatus from '$lib/components/WalkStatus.svelte';
 	import ImageOverlay from '$lib/components/ImageOverlay.svelte';
 	import Sprite from '$lib/components/Sprite.svelte';
@@ -148,7 +150,11 @@
 	{/each}
 </Canvas>
 
-<ControlBar />
+<NavBar />
+<ConfigBar />
+<div class="docs-anchor">
+	<DocsButton />
+</div>
 <WalkStatus />
 <ImageOverlay />
 
@@ -157,6 +163,13 @@
 {/if}
 
 <style>
+	.docs-anchor {
+		position: fixed;
+		top: 16px;
+		right: 16px;
+		z-index: 100;
+	}
+
 	.page-container {
 		position: absolute;
 		width: 300px;

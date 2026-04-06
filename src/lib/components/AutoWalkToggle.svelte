@@ -3,7 +3,7 @@
 </script>
 
 <button type="button" class="auto-walk-toggle" onclick={toggleAutoWalk}>
-	{walk.autoWalk.enabled ? 'Pause' : 'Walk'}
+	{walk.autoWalk.enabled ? 'Stop' : 'Wander'}
 </button>
 
 <style>
