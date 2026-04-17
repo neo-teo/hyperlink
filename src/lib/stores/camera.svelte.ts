@@ -89,9 +89,12 @@ export const camera = {
     },
 
     centerOn(worldX: number, worldY: number, immediate = false) {
-        // Center the camera on the given world coordinates
-        const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : 0;
-        const viewportHeight = typeof window !== 'undefined' ? window.innerHeight : 0;
+        // Center the camera on the visible canvas area
+        const viewport = typeof document !== 'undefined'
+            ? (document.querySelector('.canvas-viewport') as HTMLElement | null)
+            : null;
+        const viewportWidth = viewport?.offsetWidth ?? (typeof window !== 'undefined' ? window.innerWidth : 0);
+        const viewportHeight = viewport?.offsetHeight ?? (typeof window !== 'undefined' ? window.innerHeight : 0);
 
         const targetX = worldX - viewportWidth / (2 * scale);
         const targetY = worldY - viewportHeight / (2 * scale);
