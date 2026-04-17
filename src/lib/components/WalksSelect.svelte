@@ -32,7 +32,7 @@
 	</select>
 {/if}
 {#if error}
-	<div class="error-message">{error}</div>
+	<div class="error-message text-xs">{error}</div>
 {/if}
 
 <style>
@@ -46,7 +46,6 @@
 	}
 
 	.error-message {
-		font-size: 12px;
 		background: var(--bg);
 		color: var(--fg);
 		padding: 4px 8px;

@@ -154,7 +154,7 @@
 							href={page.url}
 							target="_blank"
 							rel="external noopener noreferrer"
-							class="external-link-btn"
+							class="external-link-btn text-sm"
 							onclick={(e) => e.stopPropagation()}
 							title="Open in new tab"
 						>
@@ -256,7 +256,6 @@
 		border: none;
 		cursor: pointer;
 		padding: 0 4px;
-		font-size: 14px;
 		color: var(--link);
 		opacity: 0.6;
 		transition: opacity 0.2s;

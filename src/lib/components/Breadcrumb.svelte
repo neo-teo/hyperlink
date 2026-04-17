@@ -37,7 +37,7 @@
 	{/if}
 
 	<!-- Step counter button (always visible) -->
-	<button class="step-counter" onclick={toggleBreadcrumb}>
+	<button class="step-counter text-sm" onclick={toggleBreadcrumb}>
 		{stepNumber}
 	</button>
 </div>
@@ -58,7 +58,6 @@
 		border: 1px solid var(--fg);
 		padding: 8px 12px;
 		cursor: pointer;
-		font-size: 14px;
 		font-weight: normal;
 		color: var(--fg);
 		margin: 8px;

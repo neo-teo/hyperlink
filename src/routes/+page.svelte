@@ -161,7 +161,7 @@
 <ImageOverlay />
 
 {#if printing}
-	<div class="print-badge">Preparing print…</div>
+	<div class="print-badge text-sm">Preparing print…</div>
 {/if}
 
 <style>
@@ -193,7 +193,6 @@
 		color: #fff;
 		padding: 0.4rem 1rem;
 		border-radius: 999px;
-		font-size: 0.85rem;
 		z-index: 99999;
 		pointer-events: none;
 	}

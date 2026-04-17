@@ -34,7 +34,7 @@
 					<span class="title">{title ?? '...'}</span>
 				</div>
 				{#if seedUrl}<a
-						class="seed-url"
+						class="seed-url text-xs"
 						href={seedUrl}
 						target="_blank"
 						rel="external noopener noreferrer">{seedUrl}</a
@@ -46,7 +46,7 @@
 		</div>
 
 		{#if isExpanded}
-			<div class="breadcrumb-trail" bind:this={trailEl}>
+			<div class="breadcrumb-trail text-xs" bind:this={trailEl}>
 				{#each walk.visits as visit, i (visit.id)}
 					<button
 						class="breadcrumb-item"
@@ -112,7 +112,6 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-		font-size: 12px;
 		text-decoration: none;
 	}
 
@@ -144,7 +143,6 @@
 		max-height: calc(100vh - 32px - 60px);
 		display: flex;
 		flex-direction: column;
-		font-size: 12px;
 	}
 
 	.breadcrumb-item {
@@ -199,6 +197,5 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-		font-size: 10px;
 	}
 </style>

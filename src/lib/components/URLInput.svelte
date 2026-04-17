@@ -50,7 +50,7 @@
 		<button type="submit" class="url-submit">Go</button>
 	</form>
 	{#if error}
-		<div class="error-message">{error}</div>
+		<div class="error-message text-xs">{error}</div>
 	{/if}
 </div>
 
@@ -93,7 +93,6 @@
 		position: absolute;
 		top: calc(100% + 6px);
 		left: 0;
-		font-size: 11px;
 		background: var(--bg);
 		color: var(--fg);
 		border: 1px solid var(--fg);

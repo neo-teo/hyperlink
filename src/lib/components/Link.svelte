@@ -64,7 +64,7 @@
 </script>
 
 <button
-	class="link"
+	class="link text-xs"
 	class:skeleton={isLoading && !animationComplete}
 	class:revealing={isRevealing && !animationComplete}
 	class:focused={isFocused}
@@ -89,7 +89,6 @@
 		position: absolute;
 		left: 50%;
 		top: 50%;
-		font-size: 12px;
 		transform: translate(-50%, -50%) translate(var(--x), var(--y));
 		white-space: nowrap;
 		color: var(--link);
