@@ -135,14 +135,11 @@ export async function loadPage(url: string, via?: string, linkContext?: LinkCont
     try {
         await new Promise(resolve => setTimeout(resolve, PAGE_LOAD_DELAY));
 
-        const seenImages = walk.visits
-            .flatMap(v => walk.pages[v.id]?.images ?? []);
-
         const encoded = encodeURIComponent(url);
         const res = await fetch(`/api/pages/${encoded}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ walkId: walk.walkId ?? undefined, visitId: id, position, via, seenImages })
+            body: JSON.stringify({ walkId: walk.walkId ?? undefined, visitId: id, position, via })
         });
 
         if (!res.ok) {

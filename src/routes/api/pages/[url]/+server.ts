@@ -3,7 +3,7 @@ import type { RequestHandler } from './$types';
 import type { Page } from '$lib/types';
 import { fetchPage } from '$lib/server/fetcher';
 import { sampleLinks } from '$lib/server/sampler';
-import { getVisitedUrls, recordVisit } from '$lib/server/sessions';
+import { loadSession, recordVisit } from '$lib/server/sessions';
 
 function normalizeUrl(raw: string): string {
     try {
@@ -24,22 +24,21 @@ export const POST: RequestHandler = async ({ params, request }) => {
     let position = { x: 0, y: 0 };
     let via: string | undefined;
 
-    let seenImages = new Set<string>();
-
     try {
         const body = await request.json();
         walkId = body.walkId;
         visitId = body.visitId;
         position = body.position ?? { x: 0, y: 0 };
         via = body.via;
-        seenImages = new Set<string>(body.seenImages ?? []);
     } catch { /* degrade to stateless if body missing/malformed */ }
 
     try {
         const parsed = await fetchPage(fetchUrl);
 
-        // Build visited set; include current URL so it won't appear in its own links
-        const visited = walkId ? await getVisitedUrls(walkId) : new Set<string>();
+        // Build visited/seen sets from a single session load
+        const session = walkId ? await loadSession(walkId) : null;
+        const visited = new Set(session?.visits.map(v => v.url) ?? []);
+        const seenImages = new Set(Object.values(session?.pages ?? {}).flatMap(p => p.images));
         visited.add(url);
 
         // Filter before sampling so the sampler works with a clean pool

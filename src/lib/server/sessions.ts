@@ -12,11 +12,6 @@ export async function loadSession(walkId: string): Promise<WalkSession | null> {
     return storage.loadSession(walkId);
 }
 
-export async function getVisitedUrls(walkId: string): Promise<Set<string>> {
-    const session = await storage.loadSession(walkId);
-    return new Set(session?.visits.map(v => v.url) ?? []);
-}
-
 export async function recordVisit(walkId: string, visit: Visit, page: Page): Promise<void> {
     return storage.recordVisit(walkId, visit, page);
 }
