@@ -24,12 +24,15 @@ export const POST: RequestHandler = async ({ params, request }) => {
     let position = { x: 0, y: 0 };
     let via: string | undefined;
 
+    let seenImages = new Set<string>();
+
     try {
         const body = await request.json();
         walkId = body.walkId;
         visitId = body.visitId;
         position = body.position ?? { x: 0, y: 0 };
         via = body.via;
+        seenImages = new Set<string>(body.seenImages ?? []);
     } catch { /* degrade to stateless if body missing/malformed */ }
 
     try {
@@ -42,7 +45,8 @@ export const POST: RequestHandler = async ({ params, request }) => {
         // Filter before sampling so the sampler works with a clean pool
         const freshInternal = parsed.links.internal.filter(l => !visited.has(l.url));
         const freshExternal = parsed.links.external.filter(l => !visited.has(l.url));
-        const sampled = sampleLinks(url, freshInternal, freshExternal, parsed.images);
+        const freshImages = parsed.images.filter(img => !seenImages.has(img));
+        const sampled = sampleLinks(url, freshInternal, freshExternal, freshImages);
 
         // Record only on success — failed fetches don't pollute the visited set
         const page: Page = {

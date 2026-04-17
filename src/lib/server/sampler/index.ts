@@ -1,8 +1,7 @@
 import type { Link } from '$lib/types';
+import { isWikipediaUrl, isWikipediaMetaPage } from './wikipedia';
+import { isWaybackUrl, isWaybackCoreUrl, isWaybackMediaUrl } from './wayback';
 
-/**
- * Seeded random number generator (LCG)
- */
 class SeededRandom {
     private seed: number;
 
@@ -17,9 +16,6 @@ class SeededRandom {
     }
 }
 
-/**
- * Fisher-Yates shuffle with optional seed for deterministic randomness
- */
 function shuffle<T>(array: T[], seed?: number): T[] {
     const result = [...array];
     const rng = seed !== undefined ? new SeededRandom(seed) : null;
@@ -32,40 +28,6 @@ function shuffle<T>(array: T[], seed?: number): T[] {
     return result;
 }
 
-/**
- * Check if URL is a Wikipedia page
- */
-function isWikipediaUrl(url: string): boolean {
-    try {
-        const urlObj = new URL(url);
-        return urlObj.hostname.includes('wikipedia.org');
-    } catch {
-        return false;
-    }
-}
-
-/**
- * Check if a Wikipedia link should be filtered out (Help:, Wikipedia:, Special:, etc.)
- */
-function isWikipediaMetaPage(link: Link): boolean {
-    const url = link.url.toLowerCase();
-    const patterns = [
-        '/wiki/help:',
-        '/wiki/wikipedia:',
-        '/wiki/special:',
-        '/wiki/talk:',
-        '/wiki/user:',
-        '/wiki/template:',
-        '/wiki/category:',
-        '/wiki/file:',
-        '/wiki/mediawiki:',
-        'donate',
-        'login',
-        'createaccount'
-    ];
-    return patterns.some(pattern => url.includes(pattern));
-}
-
 const BORING_PATH_SEGMENTS = new Set([
     'login', 'signin', 'sign-in', 'logout',
     'signup', 'sign-up', 'register',
@@ -75,11 +37,9 @@ const BORING_PATH_SEGMENTS = new Set([
     'cart', 'checkout', 'payment',
     'oauth', 'sso', 'callback',
     'admin', 'wp-admin',
+    'cgi-bin',
 ]);
 
-/**
- * Check if a link points to a boring/utility page (auth, settings, legal, etc.)
- */
 function isBoringPage(link: Link): boolean {
     try {
         const segments = new URL(link.url).pathname.toLowerCase().split('/').filter(Boolean);
@@ -89,14 +49,6 @@ function isBoringPage(link: Link): boolean {
     }
 }
 
-/**
- * Samples links randomly - truly random each time (not deterministic)
- * @param url - The source URL (used to detect Wikipedia pages)
- * @param internal - Array of internal links
- * @param external - Array of external links
- * @param images - Array of image URLs
- * @returns Sampled links and images
- */
 export function sampleLinks(
     url: string,
     internal: Link[],
@@ -109,31 +61,32 @@ export function sampleLinks(
 } {
     const maxLinks = 10;
 
-    // For Wikipedia, only use internal links (/wiki links) and filter out meta pages
     if (isWikipediaUrl(url)) {
-        // Filter out Help:, Wikipedia:, Special:, etc.
         const filteredInternal = internal.filter(link => !isWikipediaMetaPage(link));
-        const sampledInternal = shuffle(filteredInternal).slice(0, maxLinks);
-        const sampledImages = images.slice(0, 4);
-
         return {
-            internal: sampledInternal,
-            external: [], // No external links for Wikipedia
-            images: sampledImages
+            internal: shuffle(filteredInternal).slice(0, maxLinks),
+            external: [],
+            images: images.slice(0, 4)
         };
     }
 
-    // For other sites, filter boring pages then use the normal mix
+    if (isWaybackUrl(url)) {
+        const filteredInternal = internal.filter(link => !isWaybackCoreUrl(link) && !isWaybackMediaUrl(link) && !isBoringPage(link));
+        const filteredExternal = external.filter(link => !isBoringPage(link));
+        const sampledInternal = shuffle(filteredInternal).slice(0, 10);
+        return {
+            internal: sampledInternal,
+            external: shuffle(filteredExternal).slice(0, maxLinks - sampledInternal.length),
+            images: images.slice(0, 4)
+        };
+    }
+
     const filteredInternal = internal.filter(link => !isBoringPage(link));
     const filteredExternal = external.filter(link => !isBoringPage(link));
     const sampledInternal = shuffle(filteredInternal).slice(0, 10);
-    const sampledExternal = shuffle(filteredExternal).slice(0, maxLinks - sampledInternal.length);
-
-    const sampledImages = images.slice(0, 4);
-
     return {
         internal: sampledInternal,
-        external: sampledExternal,
-        images: sampledImages
+        external: shuffle(filteredExternal).slice(0, maxLinks - sampledInternal.length),
+        images: images.slice(0, 4)
     };
 }

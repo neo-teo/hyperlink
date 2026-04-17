@@ -1,12 +1,51 @@
 // src/lib/server/fetcher.ts
 import { chromium } from 'playwright';
 import { parsePage, type ParsedPage } from './parser';
-import type { Link } from '$lib/types';
-import { IMAGE_BLOCKLIST, MIN_IMAGE_SIZE } from './image-blocklist';
+
+// --- Wayback Machine helpers ---
+
+const WAYBACK_URL_RE = /^https?:\/\/web\.archive\.org\/web\/(\d{14})\/(https?:\/\/.+)$/;
+const WAYBACK_MIN_INTERVAL_MS = 800;
+
+let lastWaybackFetch = 0;
+
+function isWaybackUrl(url: string): boolean {
+	return WAYBACK_URL_RE.test(url);
+}
+
+async function waybackDelay(): Promise<void> {
+	const elapsed = Date.now() - lastWaybackFetch;
+	if (lastWaybackFetch > 0 && elapsed < WAYBACK_MIN_INTERVAL_MS) {
+		await new Promise(resolve => setTimeout(resolve, WAYBACK_MIN_INTERVAL_MS - elapsed));
+	}
+	lastWaybackFetch = Date.now();
+}
 
 /**
- * Fetches and parses using simple HTTP fetch + HTML parsing (fast)
+ * Resolves a Wayback URL to the nearest actually-available snapshot.
+ * Returns null if no snapshot exists, or the original URL if the check itself fails.
  */
+async function resolveWaybackUrl(url: string): Promise<string> {
+	const match = url.match(WAYBACK_URL_RE);
+	if (!match) return url;
+
+	const [, timestamp, originalUrl] = match;
+
+	try {
+		const apiUrl = `https://archive.org/wayback/available?url=${encodeURIComponent(originalUrl)}&timestamp=${timestamp}`;
+		const res = await fetch(apiUrl);
+		const data = await res.json();
+		const closest = data?.archived_snapshots?.closest;
+		// If the API found a snapshot, use its URL (may have a corrected timestamp).
+		// If not, fall back to the original — the API has false negatives.
+		return closest?.available ? (closest.url as string) : url;
+	} catch {
+		return url;
+	}
+}
+
+// --- Core fetch strategies ---
+
 async function fetchAndParseSimple(url: string): Promise<ParsedPage> {
 	const response = await fetch(url, {
 		headers: {
@@ -21,7 +60,6 @@ async function fetchAndParseSimple(url: string): Promise<ParsedPage> {
 		throw new Error(`HTTP ${response.status}: ${response.statusText}`);
 	}
 
-	// If the response is a direct image, return it as a single-image page
 	const contentType = response.headers.get('content-type') ?? '';
 	if (contentType.startsWith('image/')) {
 		const filename = new URL(response.url).pathname.split('/').pop() ?? 'image';
@@ -33,148 +71,45 @@ async function fetchAndParseSimple(url: string): Promise<ParsedPage> {
 	}
 
 	const html = await response.text();
-	return parsePage(html, response.url); // use final URL after redirects for correct relative path resolution
+	return parsePage(html, response.url);
 }
 
-/**
- * Fetches and parses using Playwright browser (reliable, for blocked sites)
- * Extracts data directly from DOM instead of parsing HTML
- */
 async function fetchAndParseWithPlaywright(url: string): Promise<ParsedPage> {
 	const browser = await chromium.launch({ headless: true });
 	try {
 		const page = await browser.newPage();
 		await page.goto(url, { waitUntil: 'load', timeout: 15000 });
-		await page.waitForTimeout(2000); // Wait for lazy-loaded content
-
-		const baseUrl = new URL(url);
-
-		// Extract title
-		const title = (await page.title()) || 'Untitled';
-
-		// Extract links directly from DOM
-		const allLinks = await page.$$eval('a[href]', (anchors, baseHref) => {
-			const linkMap = new Map<string, { url: string; label: string }>();
-
-			for (const anchor of anchors) {
-				try {
-					const href = anchor.getAttribute('href');
-					if (!href) continue;
-
-					// Resolve to absolute URL
-					const absoluteUrl = new URL(href, baseHref);
-					const cleanUrl = `${absoluteUrl.origin}${absoluteUrl.pathname}`;
-
-					// Skip if already seen or not http(s)
-					if (linkMap.has(cleanUrl)) continue;
-					if (!cleanUrl.startsWith('http://') && !cleanUrl.startsWith('https://')) continue;
-
-					const label = anchor.textContent?.trim() || cleanUrl;
-					linkMap.set(cleanUrl, { url: cleanUrl, label });
-				} catch (error) {
-					// Skip malformed URLs
-				}
-			}
-
-			return Array.from(linkMap.values());
-		}, url);
-
-		// Categorize as internal/external
-		const internal: Link[] = [];
-		const external: Link[] = [];
-
-		for (const link of allLinks) {
-			try {
-				const linkUrl = new URL(link.url);
-				if (linkUrl.hostname === baseUrl.hostname) {
-					internal.push(link);
-				} else {
-					external.push(link);
-				}
-			} catch (error) {
-				// Skip invalid URLs
-			}
-		}
-
-		// Extract images directly from DOM (with filtering)
-		const images = await page.$$eval(
-			'img[src]',
-			(imgs: Element[], { baseHref, imageBlocklist, minImageSize }: { baseHref: string; imageBlocklist: readonly string[]; minImageSize: number }) => {
-				const isSmallImage = (url: string): boolean => {
-					const sizeMatch = url.match(/\/(\d+)px-/);
-					if (sizeMatch) {
-						const size = parseInt(sizeMatch[1], 10);
-						return size < minImageSize;
-					}
-					return false;
-				};
-
-				const results: string[] = [];
-
-				for (const img of imgs) {
-					try {
-						const src = img.getAttribute('src');
-						if (!src) continue;
-
-						const absoluteUrl = new URL(src, baseHref).href;
-
-						// Skip blocklisted or small images
-						const isBlocked = imageBlocklist.some((pattern: string) =>
-							absoluteUrl.toLowerCase().includes(pattern.toLowerCase())
-						);
-						if (isBlocked || isSmallImage(absoluteUrl)) continue;
-
-						results.push(absoluteUrl);
-					} catch (error) {
-						// Skip malformed URLs
-					}
-				}
-
-				return results;
-			},
-			{
-				baseHref: url,
-				imageBlocklist: Array.from(IMAGE_BLOCKLIST),
-				minImageSize: MIN_IMAGE_SIZE
-			}
-		);
-
-		return {
-			title,
-			links: { internal, external },
-			images
-		};
+		await page.waitForTimeout(2000);
+		const html = await page.content();
+		return parsePage(html, page.url());
 	} finally {
 		await browser.close();
 	}
 }
 
-/**
- * Fetches and parses a page, trying simple fetch first, falling back to Playwright for blocked sites
- * @param url - The URL to fetch and parse
- * @returns Parsed page data
- */
+// --- Public API ---
+
 export async function fetchPage(url: string): Promise<ParsedPage> {
+	let fetchUrl = url;
+
+	if (isWaybackUrl(url)) {
+		await waybackDelay();
+		fetchUrl = await resolveWaybackUrl(url);
+	}
+
 	try {
-		return await fetchAndParseSimple(url);
+		return await fetchAndParseSimple(fetchUrl);
 	} catch (error) {
-		// Fall back to Playwright if blocked (403) or page is SPA-routed (404 from bare fetch)
-		if (error instanceof Error && (error.message.includes('403') || error.message.includes('404'))) {
-			console.log(`Fetch blocked for ${url}, trying Playwright...`);
+		// Fall back to Playwright if blocked (403/404) or connection was dropped
+		if (error instanceof Error && (error.message.includes('403') || error.message.includes('404') || error.message.includes('fetch failed'))) {
+			console.log(`Fetch blocked for ${fetchUrl}, trying Playwright...`);
 			try {
-				return await fetchAndParseWithPlaywright(url);
+				return await fetchAndParseWithPlaywright(fetchUrl);
 			} catch (playwrightError) {
-				if (playwrightError instanceof Error) {
-					throw new Error(`Failed to fetch ${url} with Playwright: ${playwrightError.message}`);
-				}
-				throw new Error(`Failed to fetch ${url} with Playwright: Unknown error`);
+				throw new Error(`Failed to fetch ${fetchUrl} with Playwright: ${playwrightError instanceof Error ? playwrightError.message : 'Unknown error'}`);
 			}
 		}
 
-		// Re-throw other errors
-		if (error instanceof Error) {
-			throw new Error(`Failed to fetch ${url}: ${error.message}`);
-		}
-		throw new Error(`Failed to fetch ${url}: Unknown error`);
+		throw new Error(`Failed to fetch ${fetchUrl}: ${error instanceof Error ? error.message : 'Unknown error'}`);
 	}
 }

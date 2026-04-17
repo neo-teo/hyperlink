@@ -5,7 +5,7 @@ export const INTERNAL_LINK_RADIUS = 200;
 export const EXTERNAL_LINK_RADIUS = 300;
 
 // Minimum distance (px) between page positions before a link is hidden
-export const PROXIMITY_THRESHOLD = 150;
+export const PROXIMITY_THRESHOLD = 80;
 
 // Link reveal animation timing (in milliseconds)
 export const REVEAL_BASE_DELAY = 200;

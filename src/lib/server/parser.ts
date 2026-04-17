@@ -94,28 +94,33 @@ export function parsePage(html: string, baseUrl: string): ParsedPage {
     }
 
     // Extract all images in document order
-    const imgElements = Array.from(document.querySelectorAll('img[src]'));
+    const seenImages = new Set<string>();
     const images: string[] = [];
 
-    for (const img of imgElements) {
+    function addImage(src: string | null, context: string) {
+        if (!src || src.startsWith('data:')) return;
         try {
-            const src = img.getAttribute('src');
-            if (!src) continue;
-
-            // Resolve to absolute URL
             const absoluteUrl = new URL(src, baseUrl).href;
-
-            // Skip blocklisted images
-            if (isImageBlocked(absoluteUrl)) continue;
-
-            // Skip small images (< 24px based on URL)
-            if (isSmallImage(absoluteUrl)) continue;
-
+            if (seenImages.has(absoluteUrl)) return;
+            if (isImageBlocked(absoluteUrl)) return;
+            if (isSmallImage(absoluteUrl)) return;
+            seenImages.add(absoluteUrl);
             images.push(absoluteUrl);
         } catch (error) {
-            // Skip malformed image URLs
-            console.warn(`Skipping malformed image URL: ${img.getAttribute('src')}`);
+            console.warn(`Skipping malformed image URL: ${context}`);
         }
+    }
+
+    // img[src] elements
+    for (const img of document.querySelectorAll('img[src]')) {
+        addImage(img.getAttribute('src'), img.getAttribute('src') ?? '');
+    }
+
+    // Elements with inline background-image style
+    for (const el of document.querySelectorAll('[style*="background-image"]')) {
+        const style = el.getAttribute('style') || '';
+        const match = style.match(/background(?:-image)?\s*:[^;]*url\(['"]?([^'")\s]+)['"]?\)/i);
+        if (match) addImage(match[1], match[1]);
     }
 
     return {
