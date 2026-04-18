@@ -6,6 +6,10 @@
 
 	let open = $state(false);
 
+	$effect(() => {
+		if (walk.visits.length === 0) open = false;
+	});
+
 	const iframeUrl = $derived(walk.currentPage?.url ?? walk.visits.at(-1)?.url ?? null);
 </script>
 
@@ -26,14 +30,6 @@
 	}
 	.app-shell.drawer-open :global(.canvas-viewport) {
 		width: calc(100vw - var(--drawer-w));
-	}
-
-	/* Fixed UI elements track the right boundary of the canvas */
-	.app-shell :global(.control-bar) {
-		transition: left 0.3s ease;
-	}
-	.app-shell.drawer-open :global(.control-bar) {
-		left: calc((100vw - var(--drawer-w)) / 2);
 	}
 
 	.app-shell :global(.config-bar),

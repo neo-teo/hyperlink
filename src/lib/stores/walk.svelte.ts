@@ -63,6 +63,11 @@ function resetWalkState() {
     walk.autoWalk.enabled = false;
 }
 
+export function clearWalk() {
+    resetWalkState();
+    camera.centerOn(0, 0, true);
+}
+
 export async function newWalk(url: string) {
     resetWalkState();
     await loadPage(url);

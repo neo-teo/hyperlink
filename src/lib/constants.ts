@@ -15,7 +15,7 @@ export const REVEAL_ANIMATION_DURATION = 500;
 export const AUTO_WALK_STEP_DELAY = 750;
 
 // Drawer panel width as a percentage of the viewport width
-export const DRAWER_WIDTH_VW = 35;
+export const DRAWER_WIDTH_VW = 40;
 
 // Artificial delay added before each page fetch (in milliseconds)
 export const PAGE_LOAD_DELAY = 2000;

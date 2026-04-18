@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { walk, activateVisit, stopAutoWalk } from '$lib/stores/walk.svelte';
+	import { walk, activateVisit, stopAutoWalk, clearWalk } from '$lib/stores/walk.svelte';
 
 	let isExpanded = $state(false);
 	let trailEl = $state<HTMLElement | null>(null);
@@ -43,6 +43,7 @@
 			<button class="step-counter" onclick={toggleTrail}>
 				{stepNumber}
 			</button>
+			<button class="clear-walk" onclick={clearWalk} title="New walk">✕</button>
 		</div>
 
 		{#if isExpanded}
@@ -83,9 +84,11 @@
 	.status-bar {
 		display: flex;
 		align-items: stretch;
+		flex-wrap: nowrap;
 		border: 1px solid var(--fg);
 		flex-shrink: 0;
-		width: 300px;
+		min-width: 300px;
+		max-width: 400px;
 	}
 
 	.walking-label {
@@ -133,12 +136,27 @@
 		color: var(--bg);
 	}
 
+	.clear-walk {
+		background: var(--bg);
+		color: var(--fg);
+		border: none;
+		border-left: 1px solid var(--fg);
+		padding: 4px 8px;
+		font-size: 0.75em;
+		cursor: pointer;
+	}
+
+	.clear-walk:hover {
+		background: var(--fg);
+		color: var(--bg);
+	}
+
 	.breadcrumb-trail {
 		background: var(--pop);
 		color: var(--pop-fg);
 		border: 1px solid var(--fg);
 		border-top: none;
-		width: 300px;
+		width: 100%;
 		overflow-y: auto;
 		max-height: calc(100vh - 32px - 60px);
 		display: flex;

@@ -2,6 +2,7 @@
 	import URLInput from './URLInput.svelte';
 	import LuckyButton from './LuckyButton.svelte';
 	import { refreshSavedWalks } from '$lib/stores/savedWalks.svelte';
+	import { walk } from '$lib/stores/walk.svelte';
 
 	import { onMount } from 'svelte';
 
@@ -10,17 +11,19 @@
 	});
 </script>
 
-<div class="control-bar">
-	<URLInput onwalkstarted={refreshSavedWalks} />
-	<LuckyButton onwalkstarted={refreshSavedWalks} />
-</div>
+{#if walk.visits.length === 0}
+	<div class="control-bar">
+		<URLInput onwalkstarted={refreshSavedWalks} />
+		<LuckyButton onwalkstarted={refreshSavedWalks} />
+	</div>
+{/if}
 
 <style>
 	.control-bar {
 		position: fixed;
-		top: 16px;
+		top: 50%;
 		left: 50%;
-		transform: translateX(-50%);
+		transform: translate(-50%, -50%);
 		z-index: 100;
 		display: flex;
 		flex-direction: row;
