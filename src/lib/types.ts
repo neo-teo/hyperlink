@@ -41,4 +41,5 @@ export type WalkSummary = {
     id: string;
     title: string;
     createdAt: string;
+    steps: number;
 };

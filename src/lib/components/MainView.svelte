@@ -15,60 +15,16 @@
 	import { AnimatedSprite } from '$lib/classes/AnimatedSprite.svelte';
 
 	import frogGif from '$lib/assets/sprites/frog.gif';
+	import { exportTiles } from '$lib/utils/walk-export';
+	import { exportWalk } from '$lib/utils/vertical-export';
 
-	let printing = $state(false);
+	// ── Tile export config ────────────────────────────────────────────────────
+	// Scale multiplier for the exported poster. At 150 DPI (used for large-format):
+	//   scale 3 → a 50-step walk is roughly 60–100" wide. Increase for a bigger poster.
+	const TILE_SCALE = 3;
 
-	function printCanvas() {
-		if (printing || walk.visits.length === 0) return;
-		printing = true;
-
-		const PAD = 400;
-		const HALF_PAGE = 300;
-
-		const xs = walk.visits.map((v) => v.position.x);
-		const ys = walk.visits.map((v) => v.position.y);
-		const minX = Math.min(...xs) - HALF_PAGE - PAD;
-		const maxX = Math.max(...xs) + HALF_PAGE + PAD;
-		const minY = Math.min(...ys) - HALF_PAGE - PAD;
-		const maxY = Math.max(...ys) + HALF_PAGE + PAD;
-		const w = maxX - minX;
-		const h = maxY - minY;
-
-		const viewport = document.querySelector('.canvas-viewport') as HTMLElement | null;
-		const grid = document.querySelector('.grid-background') as HTMLElement | null;
-		const content = document.querySelector('.canvas-content') as HTMLElement | null;
-
-		if (!viewport || !grid || !content) {
-			printing = false;
-			return;
-		}
-
-		const origViewport = viewport.getAttribute('style') ?? '';
-		const origGrid = grid.getAttribute('style') ?? '';
-		const origContent = content.getAttribute('style') ?? '';
-
-		document.documentElement.style.setProperty('--print-w', `${w}px`);
-		document.documentElement.style.setProperty('--print-h', `${h}px`);
-
-		viewport.style.cssText = `position: static !important; overflow: visible !important; width: ${w}px !important; height: ${h}px !important;`;
-		grid.style.cssText = `transform: translate(${-minX}px, ${-minY}px); left: 0; top: 0; width: ${w}px; height: ${h}px;`;
-		content.style.cssText = `transform: translate(${-minX}px, ${-minY}px);`;
-
-		window.addEventListener(
-			'afterprint',
-			() => {
-				viewport.setAttribute('style', origViewport);
-				grid.setAttribute('style', origGrid);
-				content.setAttribute('style', origContent);
-				document.documentElement.style.removeProperty('--print-w');
-				document.documentElement.style.removeProperty('--print-h');
-				printing = false;
-			},
-			{ once: true }
-		);
-
-		window.print();
-	}
+	let tileStatus = $state<string | null>(null);
+	let walkExportStatus = $state<string | null>(null);
 
 	onMount(() => {
 		camera.centerOn(0, 0, true);
@@ -76,7 +32,18 @@
 		function handleKeydown(e: KeyboardEvent) {
 			if (e.key === 'e' && (e.metaKey || e.ctrlKey)) {
 				e.preventDefault();
-				if (!printing && walk.visits.length > 0) printCanvas();
+				if (tileStatus || walk.visits.length === 0) return;
+				exportTiles(walk.visits, walk.pages, (msg) => {
+					tileStatus = msg;
+				}, TILE_SCALE).finally(() => setTimeout(() => (tileStatus = null), 3000));
+			}
+
+			if (e.key === 'l' && (e.metaKey || e.ctrlKey)) {
+				e.preventDefault();
+				if (walkExportStatus || walk.visits.length === 0) return;
+				exportWalk(walk.visits, walk.pages, (msg) => {
+					walkExportStatus = msg;
+				}).finally(() => setTimeout(() => (walkExportStatus = null), 3000));
 			}
 		}
 
@@ -151,8 +118,12 @@
 <WalkStatus />
 <ImageOverlay />
 
-{#if printing}
-	<div class="print-badge text-sm">Preparing print…</div>
+{#if tileStatus}
+	<div class="print-badge text-sm">{tileStatus}</div>
+{/if}
+
+{#if walkExportStatus}
+	<div class="print-badge text-sm">{walkExportStatus}</div>
 {/if}
 
 <style>
@@ -185,24 +156,4 @@
 		pointer-events: none;
 	}
 
-	@media print {
-		:global(.breadcrumb-container),
-		:global(.url-input-container),
-		:global(.image-backdrop),
-		.print-badge {
-			display: none !important;
-		}
-
-		:global(.canvas-viewport) {
-			position: static !important;
-			overflow: visible !important;
-			width: var(--print-w) !important;
-			height: var(--print-h) !important;
-		}
-	}
-
-	@page {
-		size: auto;
-		margin: 0;
-	}
 </style>

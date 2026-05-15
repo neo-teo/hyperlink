@@ -27,7 +27,7 @@
 	<select class="walks-select" bind:value={selectedWalkId} onchange={handleWalkSelect}>
 		<option value="">Past</option>
 		{#each walks as w (w.id)}
-			<option value={w.id}>{formatDate(w.createdAt)} — {w.title}</option>
+			<option value={w.id}>{formatDate(w.createdAt)} — {w.title} ({w.steps})</option>
 		{/each}
 	</select>
 {/if}

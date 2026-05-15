@@ -46,7 +46,7 @@ async function resolveWaybackUrl(url: string): Promise<string> {
 
 // --- Core fetch strategies ---
 
-async function fetchAndParseSimple(url: string): Promise<ParsedPage> {
+async function fetchAndParseSimple(url: string): Promise<{ page: ParsedPage; html: string }> {
 	const response = await fetch(url, {
 		headers: {
 			'User-Agent':
@@ -64,14 +64,34 @@ async function fetchAndParseSimple(url: string): Promise<ParsedPage> {
 	if (contentType.startsWith('image/')) {
 		const filename = new URL(response.url).pathname.split('/').pop() ?? 'image';
 		return {
-			title: filename,
-			links: { internal: [], external: [] },
-			images: [response.url]
+			page: { title: filename, links: { internal: [], external: [] }, images: [response.url] },
+			html: ''
 		};
 	}
 
 	const html = await response.text();
-	return parsePage(html, response.url);
+	return { page: parsePage(html, response.url), html };
+}
+
+function mergePages(pages: ParsedPage[]): ParsedPage {
+	const [first, ...rest] = pages;
+	const seenImages = new Set(first.images);
+	const seenUrls = new Set([...first.links.internal, ...first.links.external].map(l => l.url));
+
+	for (const p of rest) {
+		for (const img of p.images) {
+			if (!seenImages.has(img)) { seenImages.add(img); first.images.push(img); }
+		}
+		for (const link of [...p.links.internal, ...p.links.external]) {
+			if (!seenUrls.has(link.url)) {
+				seenUrls.add(link.url);
+				// Re-categorise relative to the main page's hostname
+				const isSameHost = (() => { try { return new URL(link.url).hostname === new URL(first.links.internal[0]?.url ?? link.url).hostname; } catch { return false; } })();
+				(isSameHost ? first.links.internal : first.links.external).push(link);
+			}
+		}
+	}
+	return first;
 }
 
 async function fetchAndParseWithPlaywright(url: string): Promise<ParsedPage> {
@@ -80,8 +100,18 @@ async function fetchAndParseWithPlaywright(url: string): Promise<ParsedPage> {
 		const page = await browser.newPage();
 		await page.goto(url, { waitUntil: 'load', timeout: 15000 });
 		await page.waitForTimeout(2000);
-		const html = await page.content();
-		return parsePage(html, page.url());
+
+		const results: ParsedPage[] = [];
+		for (const frame of page.frames()) {
+			try {
+				const html = await frame.content();
+				results.push(parsePage(html, frame.url() || url));
+			} catch {
+				// cross-origin frames may be inaccessible
+			}
+		}
+
+		return results.length > 0 ? mergePages(results) : parsePage('', url);
 	} finally {
 		await browser.close();
 	}
@@ -97,8 +127,19 @@ export async function fetchPage(url: string): Promise<ParsedPage> {
 		fetchUrl = await resolveWaybackUrl(url);
 	}
 
+	const needsPlaywright = (page: ParsedPage, html: string) =>
+		/javascript\s+is\s+(disabled|not\s+available)/i.test(page.title ?? '') ||
+		/<i?frame[^>]+src/i.test(html) ||
+		/<img[^>]+src=""\s/i.test(html) || // empty src = client-side hydration
+		/id="(__next|__nuxt|app-root|react-root|root)"/i.test(html); // SPA shell with no SSR content
+
 	try {
-		return await fetchAndParseSimple(fetchUrl);
+		const { page, html } = await fetchAndParseSimple(fetchUrl);
+		if (needsPlaywright(page, html)) {
+			console.log(`Iframe/JS-disabled page detected for ${fetchUrl}, trying Playwright...`);
+			return await fetchAndParseWithPlaywright(fetchUrl);
+		}
+		return page;
 	} catch (error) {
 		// Fall back to Playwright if blocked (403/404) or connection was dropped
 		if (error instanceof Error && (error.message.includes('403') || error.message.includes('404') || error.message.includes('fetch failed'))) {

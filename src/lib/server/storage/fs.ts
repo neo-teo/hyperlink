@@ -38,7 +38,7 @@ export async function listWalkSummaries(): Promise<WalkSummary[]> {
         const sessions = await Promise.all(ids.map(id => loadSession(id)));
         return sessions
             .filter((s): s is WalkSession => s !== null)
-            .map(s => ({ id: s.id, title: s.visits[0]?.title ?? s.visits[0]?.url ?? '', createdAt: s.createdAt }))
+            .map(s => ({ id: s.id, title: s.visits[0]?.title ?? s.visits[0]?.url ?? '', createdAt: s.createdAt, steps: s.visits.length }))
             .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
     } catch {
         return [];

@@ -53,13 +53,16 @@ export async function listWalkSummaries(): Promise<WalkSummary[]> {
     const ids = await redis.smembers<string[]>(INDEX_KEY);
     if (!ids.length) return [];
 
-    const metas = await Promise.all(ids.map(id => redis.get<string>(metaKey(id))));
+    const [metas, counts] = await Promise.all([
+        Promise.all(ids.map(id => redis.get<string>(metaKey(id)))),
+        Promise.all(ids.map(id => redis.llen(visitsKey(id))))
+    ]);
 
     return metas
         .map((raw, i) => {
             if (!raw) return null;
             const m = typeof raw === 'string' ? JSON.parse(raw) : raw;
-            return { id: ids[i], title: m.title ?? '', createdAt: m.createdAt ?? '' } as WalkSummary;
+            return { id: ids[i], title: m.title ?? '', createdAt: m.createdAt ?? '', steps: counts[i] } as WalkSummary;
         })
         .filter((m): m is WalkSummary => m !== null)
         .sort((a, b) => b.createdAt.localeCompare(a.createdAt));

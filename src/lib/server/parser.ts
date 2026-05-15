@@ -28,13 +28,13 @@ export function parsePage(html: string, baseUrl: string): ParsedPage {
     const titleTag = document.querySelector('title');
     const title = h1?.textContent?.trim() || titleTag?.textContent?.trim() || 'Untitled';
 
-    // Extract and process links
-    const allLinks = Array.from(document.querySelectorAll('a[href]'));
+    // Extract and process links (including frame/iframe sources)
+    const allLinks = Array.from(document.querySelectorAll('a[href], frame[src], iframe[src]'));
     const linkMap = new Map<string, Link>();
 
     for (const anchor of allLinks) {
         try {
-            const href = anchor.getAttribute('href');
+            const href = anchor.getAttribute('href') ?? anchor.getAttribute('src');
             if (!href) continue;
 
             // Resolve to absolute URL
@@ -51,7 +51,7 @@ export function parsePage(html: string, baseUrl: string): ParsedPage {
                 continue;
             }
 
-            const label = anchor.textContent?.trim() || cleanUrl;
+            const label = anchor.textContent?.trim() || anchor.getAttribute('title') || cleanUrl;
 
             linkMap.set(cleanUrl, {
                 url: cleanUrl,
@@ -111,9 +111,14 @@ export function parsePage(html: string, baseUrl: string): ParsedPage {
         }
     }
 
-    // img[src] elements
+    // img[src] elements (DOM pass)
     for (const img of document.querySelectorAll('img[src]')) {
         addImage(img.getAttribute('src'), img.getAttribute('src') ?? '');
+    }
+
+    // Regex pass — catches imgs that DOM parsers drop due to nesting (e.g. inside <button>)
+    for (const match of html.matchAll(/<img[^>]+src=["']([^"']+)["']/gi)) {
+        addImage(match[1], match[1]);
     }
 
     // Elements with inline background-image style
