@@ -1,4 +1,4 @@
-import { newWalk } from './walk.svelte';
+import { newWalk, walk } from './walk.svelte';
 import dialASite from '$lib/dial-a-site.json';
 
 const sites = dialASite.sites;
@@ -40,5 +40,6 @@ export async function triggerLucky(onwalkstarted?: () => void) {
 	});
 
 	await newWalk(sites[finalIndex]);
+	walk.autoWalk.enabled = true;
 	onwalkstarted?.();
 }

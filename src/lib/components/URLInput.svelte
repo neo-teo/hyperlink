@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { newWalk } from '$lib/stores/walk.svelte';
+	import { newWalk, walk } from '$lib/stores/walk.svelte';
 
 	let { onwalkstarted }: { onwalkstarted?: () => void } = $props();
 
@@ -34,6 +34,7 @@
 
 		inputValue = '';
 		await newWalk(url);
+		walk.autoWalk.enabled = true;
 		onwalkstarted?.();
 	}
 </script>
